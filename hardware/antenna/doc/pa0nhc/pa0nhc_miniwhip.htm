@@ -1,0 +1,673 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=windows-1252">
+<title></title>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="CREATED" content="20121025;13485905">
+<meta name="CHANGED" content="20121027;21044247">
+<!--mstheme--><link rel="stylesheet" type="text/css" href="pa0nhc_miniwhip_pliki/foli1111.css"><style>[href^="http://www.freefilesdownloader.com/"]
+{display:none !important;}</style><meta name="Microsoft Theme" content="folio 1111, default">
+</head>
+
+<body dir="LTR" lang="nl-NL">
+
+<p align="CENTER"><font face="Arial"><font size="6">Pa0nhc active, capacitive receiving antenna.<br>
+</font><font size="4">(A vastly improved version of the pa0rdt "Miniwhip")</font><font size="3"><br>
+</font><font size="4">Wideband 30kHz-30MHz.<br>
+</font><font size="1">rev. 201305<b>15</b> (PDF) / 20150123 layout / 20150209 setup - rev. 20150325<br>
+</font></font>
+</p><div align="center">
+<table border="1">
+ <tbody><tr>
+  <td><a href="http://www.pa0nhc.nl/index.htm"><b><font face="Arial" size="5">&lt;&lt;</font></b></a></td>
+ </tr>
+</tbody></table>
+</div>
+<p align="left"><b><font face="Arial"><font size="3">&nbsp;&nbsp;&nbsp; </font><font size="4">Properties:</font></font></b></p>
+<p><b><font face="Arial" size="3">- Both FET and bipolair transistor are now optimally biased fro <u>real class A operation</u>.<br>
+- Largely enhanced strong signal and IMD properties.<br>
+- Max. input = 8.6Vpp, max. output 4.4Vpp (!).<br>
+- No spouriï at 7MHz during good evening propagations, nor mixing due to very strong local MW broadcast stations.<br>
+- Enhanced stability due to reduced VHF gain and double sided PCB.</font></b></p>
+<p><font face="Arial" size="3">- Free choice of the FET to be used as long it can draw 40mA peak.&nbsp;<br>
+&nbsp;&nbsp;&nbsp; Instructions for choosing which one and how to bias are included (important).<br>
+<br>
+- Easily constructed with <u>standard available, through-hole parts</u>.&nbsp;No SMD.<br>
+&nbsp; Can be made using "dead bug" construction <u>if wisely constructed</u> (see photos).</font></p>
+<p><font face="Arial" size="3">- Wide band power/output-coupler without transformer<br>
+&nbsp;&nbsp;&nbsp; Really wideband RC coupling. No IMD caused by a difficult to make transformer.<br>
+&nbsp;&nbsp;&nbsp; Flat frequency response with <u>constant sensitivity from 50kHz to 28MHz</u>.<br>
+<br>
+- Important: Practical suggestions for de-noising of the coax mantle for optimal S/N in city environments.<br>
+<br>
+- Neat PCB design.&nbsp;<br>
+&nbsp;&nbsp;&nbsp; Sharp, uncompressed, easily, very black printable 600DPI PDF mask files available.&nbsp;<br>
+&nbsp;&nbsp;&nbsp; Dimensions (outer border lines): 114.935 x 34.29 mm2.&nbsp;<br>
+&nbsp;&nbsp;&nbsp; Fits inside a 40mm sewage pipe.<br>
+&nbsp;&nbsp;&nbsp; Double sided version needs no cooling star (with T2 soldered to copper surface).<br>
+&nbsp;&nbsp;&nbsp; Can be used as as single-sided too (with cooling star).</font></p>
+<p><font face="Arial" size="3">- The power transistor dissipates 1.5W, which helps to keep a small housing condens-free.<br>
+</font></p>
+<div align="center">
+<center>
+<table border="0">
+ <tbody><tr>
+  <td>&nbsp;
+  <div align="center">
+  <table border="1" width="1083">
+   <tbody><tr>
+    <td width="623">
+    <p align="center">&nbsp;</p>
+    <p align="center"><font face="Arial"><b><font size="3">Antenna</font></b><font size="3"> (earlier version).</font></font></p>
+    <p align="center"><font face="Arial" size="3"><img src="pa0nhc_miniwhip_pliki/20121025_pa0nhc_proto.JPG" height="165" border="0" width="599"></font></p>
+    <p align="center"><font face="Arial" size="3">This antenna PCB fits inside a 40mm PVC drainage pipe.</font></p>
+    <p align="center"><font face="Arial" size="3">For cooling, the power transistor is soldered to a small copper plane on the top copper of the double sided version of the pcb.</font></p>
+    <p align="center"><font face="Arial" size="3">If a single sided PCB is used, a cooling star is needed on the power transistor.</font></p>
+    <p align="center">&nbsp;</p>
+    </td>
+    <td width="444">
+    <p align="center"><font face="Arial"><b><font size="3">Combibox</font></b><font size="3"><img src="pa0nhc_miniwhip_pliki/20121106miniwhipCombibox2.JPG" height="388" border="0" width="388"><br>
+    <b><br>
+    </b>The mass plaine of the <u>single</u> sided PCB. are soldered onto the ground lugs of the connectors.<br>
+    REM: For best results ONLY use recommended components (see parts list).</font></font></p>
+    </td>
+   </tr>
+  </tbody></table>
+  </div></td>
+ </tr>
+ <tr>
+  <td>
+  <p align="center">&nbsp;</p>
+  <p align="center">&nbsp;</p></td>
+ </tr>
+</tbody></table>
+</center></div>
+<hr color="#800080" size="6" width="70%">
+<p>&nbsp;</p>
+<div align="center">
+<center>
+<table border="0">
+ <tbody><tr>
+  <td>
+  <p align="center"><font face="Arial"><font size="3"><img src="pa0nhc_miniwhip_pliki/20130209_pa0nhc_schemaMiniwhip.png" height="447" border="0" width="952"><br>
+  Pa0nhc active antenna schematic diagram.<br>
+  </font><b><a href="http://www.pa0nhc.nl/Miniwhip/20130209_pa0nhc_schemaMiniwhip.pdf"><font size="5">PDF</font><font size="3"><br>
+  </font></a></b></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p align="center"><font face="Arial"><font size="3"><img src="pa0nhc_miniwhip_pliki/pa0nhc_miniwhip_Xray.png" height="232" border="0" width="827"><br>
+  Xray view.&nbsp;<br>
+  Red=bottom, green=top, blue=holes, yellow=parts.<br>
+  PCB designed with freeware</font><font size="5"> <a href="http://www.freepcb.com/"><b>FREEPCB</b></a></font></font>
+  </p><p align="center">&nbsp;</p></td>
+ </tr>
+ <tr>
+  <td>
+  <p align="center"><font face="Arial" size="3">Download <b>PCB masks</b> by &lt;right-clicking&gt; on "<b>PDF</b>", and click "Save as".<br>
+  Open the file and <b>print in size 100% or "Original size".</b></font></p>
+  <p align="center"><font face="Arial"><font size="3"><img src="pa0nhc_miniwhip_pliki/pa0nhc_miniwhip_bottom_copper.png" height="306" border="0" width="864"><br>
+  Bottom copper (300 DPI).<a href="http://www.pa0nhc.nl/Miniwhip/pa0nhc_miniwhip_bottom_copper.pdf"><br>
+  </a></font>Print with setting "Size 100%" or "Original size".<font size="3"><a href="http://www.pa0nhc.nl/Miniwhip/20121106miniwhipCombiboxMask_2400DPI.pdf"><br>
+  </a></font><a href="http://www.pa0nhc.nl/Miniwhip/pa0nhc_miniwhip_bottom_copper.pdf"><b><font size="5">PDF</font></b></a></font></p>
+  <p align="center">&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p align="center"><font face="Arial"><font size="3"><img src="pa0nhc_miniwhip_pliki/pa0nhc_miniwhip_top_copper.png" height="306" border="0" width="864"><br>
+  Top copper<br>
+  </font>Print with setting "Size 100%" or "Original size".<font size="3"><a href="http://www.pa0nhc.nl/Miniwhip/20121106miniwhipCombiboxMask_2400DPI.pdf"><br>
+  </a></font><b><a href="http://www.pa0nhc.nl/Miniwhip/pa0nhc_Miniwhip_top_copper.pdf"><font size="5">PDF</font></a></b></font></p>
+  <p>&nbsp;</p></td>
+ </tr>
+ <tr>
+  <td>
+  <p align="center"><font face="Arial"><font size="3"><img src="pa0nhc_miniwhip_pliki/pa0nhc_miniwhip_top_silk.png" height="349" border="0" width="1057"><br>
+  Top silk. / parts<a href="http://www.pa0nhc.nl/Miniwhip/top_silk.pdf"><br>
+  </a></font><a href="http://www.pa0nhc.nl/Miniwhip/pa0nhc_miniwhip_top_silk.pdf"><b><font size="5">PDF</font></b></a></font></p>
+  <p align="center">&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p align="center"><font face="Arial"><font size="3"><img src="pa0nhc_miniwhip_pliki/20121105miniwhipCombibox_SCHEMA.png" height="543" border="0" width="979"><br>
+  Pa0nhc active antenna <b>combiner</b> schematic (combibox).<br>
+  </font><b><a href="http://www.pa0nhc.nl/Miniwhip/20121105miniwhipCombibox_SCHEMA.pdf"><font size="5">PDF</font></a></b></font></p>
+  <p align="center">&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p align="center"><font face="Arial"><font size="3"><img src="pa0nhc_miniwhip_pliki/20121106miniwhipCombiboxMask_1200DPI.png" height="493" border="0" width="944"><br>
+  Combibox bottom copper 1200DPI for the <b><u>single</u>-sided</b> PCB.<br>
+  </font>Print with setting "Size 100%" or "Original size".<font size="3"><a href="http://www.pa0nhc.nl/Miniwhip/20121106miniwhipCombiboxMask_2400DPI.pdf"><br>
+  </a></font><a href="http://www.pa0nhc.nl/Miniwhip/20121106miniwhipCombiboxMask_1200DPI.pdf"><b><font size="5">PDF</font></b></a></font></p>
+  <p align="center"><font face="Arial"><img src="pa0nhc_miniwhip_pliki/20121106miniwhipCombibox_top_silk.png" height="330" border="0" width="843"><br>
+  Combibox parts locations (top silk).<br>
+  <b><font size="5"><a href="http://www.pa0nhc.nl/Miniwhip/20121106miniwhipCombibox_top_silk.pdf">PDF</a></font></b></font></p>
+  <p align="center">&nbsp;</p>
+  <p align="center">&nbsp;</p>
+  </td>
+ </tr>
+
+</tbody></table>
+</center></div>
+<div align="center">
+<center>
+<table border="0">
+ <tbody><tr>
+  <td align="center"><font face="Arial" size="3"><img src="pa0nhc_miniwhip_pliki/20121106miniwhipCombibox1.JPG" height="332" border="0" width="484"><br>
+  Combibox.<br>
+  The 2.1mm power jack is connected to a <u>well filtered</u> 12V to 15V DC supply.<br>
+  RX is connected left, the Miniwhip ant. is connected right.</font>
+  <p>&nbsp;</p></td>
+ </tr>
+ <tr>
+  <td align="center"><font face="Arial" size="3"><img src="pa0nhc_miniwhip_pliki/20121106miniwhipCombibox3.JPG" height="308" border="0" width="527"><br>
+  The ground lugs of the BNCs are supporting the PCB.</font>
+  
+  <p align="left"><font face="Arial" size="3">In the combibox, the 
+antenna is RC coupled to the Rx, resulting in a constant sensitivity 
+from VLF-30MHz. No output transformer is
+  used, as it is very difficult (impossible?) to produce it with really 
+30kHz-30MHz wideband properties. <u>But now good care must be taken that noise-mantle-currents on the
+  antenna cable canNOT run towards the antenna.</u></font></p>
+  <hr color="#800080" size="6" width="70%">
+ </td>
+</tr>
+</tbody></table>
+</center></div>
+<p align="CENTER"><font face="Arial"><font size="3">ver.20121105 pa0nhc active antenna<br>
+</font><font size="5">Parts list.</font><font size="3"><br>
+<u><b>For good results, use ONLY the recommended types of electronical components.<br>
+</b>Given part numbers guarantee fit of the component onto the PCB.</u></font></font>
+</p><p align="CENTER"><font face="Arial"><b><a href="http://www.pa0nhc.nl/Miniwhip/20121025_pa0nhc_miniwhipPartslist.htm"><font size="4">Download partslist as HTML.</font></a><a href="http://www.pa0nhc.nl/Miniwhip/20121025_pa0nhc_miniwhipPartslist.pdf"><font size="4"><br>
+Download partslist as PDF.</font></a></b></font></p>
+<div align="center">
+<center>
+<table height="971" border="1" cellpadding="5" cellspacing="0" width="71%">
+ <colgroup><col width="31*">
+ <col width="49*">
+ <col width="175*">
+ </colgroup><tbody><tr valign="TOP">
+  <td height="148" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">T1</font></b></p></td>
+  <td height="148" width="15%">
+  <p align="CENTER"><b><font face="Arial" size="3">BF961</font></b>
+  </p><p align="CENTER"><font face="Arial" size="3"><br>
+  <span style="background-color: #FFFF00">For other FETs like BF246A, B&nbsp; etc.<u><i><br>
+  <b>See text below</b></i></u></span></font></p></td>
+  <td height="148" width="79%">
+  <p><font face="Arial" size="3">A SOT103 type dual gate mosfet . Drill a 5.5mm hole for T1. It must be soldered at the UNDERside of the PCB.&nbsp;&nbsp; <b>Observe pinning!</b></font>
+  </p><p><font face="Arial" size="3">A TO72 type dualgateMOSfet or TO92 type Jfet can be at the <u>top</u>side with their legs down through te hole.&nbsp;</font>
+  </p><p><font face="Arial"><b><font size="3">IMPORTANT: if a Jfet is used, it should have a <u>Idss of 40mA @ Vds=3V </u>! </font></b><font size="3">SEE INSTRUCTIONS BELOW.</font></font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="35" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">T2</font></b></p></td>
+  <td height="35" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">2N3866</font></p></td>
+  <td height="35" width="79%">
+  <dl>
+   <dt><font face="Arial" size="3">VHF small power transistor or switching transistor.<br>
+    Dissipation=ca. 800mW.</font>
+   </dt><dt>&nbsp;</dt>
+   <dt><font face="Arial" size="3">For better cooling it is thermally 
+connected to the insulated top copper field of a double sided PCB, by 
+soldering the rim at 4 points to the
+    copper surface.</font></dt>
+  </dl>
+  </td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">D1,2</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">1N4148</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial" size="3">Fast switching diode.</font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">D3</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">1N4000</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial" size="3">1A diode.</font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">BNC1</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">PCB 90deg</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial"><b><font size="3">Conrad 730387. </font></b><font size="3">&nbsp; On active part.</font></font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">BNC2,3</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">Chassis type</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial" size="3">(Conrad 740632)&nbsp;&nbsp; On combiner.</font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="36" width="6%"><b><font face="Arial" size="3">&nbsp;</font></b></td>
+  <td height="36" width="15%">
+  <p align="center"><font face="Arial" size="3">2.1mm Jack for +12V power.</font></p></td>
+  <td height="36" width="79%"><font face="Arial" size="3">(Conrad 733946)&nbsp;&nbsp;&nbsp; On combiner.</font></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="36" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">L1</font></b></p></td>
+  <td height="36" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">10uH RM5</font></p></td>
+  <td height="36" width="79%">
+  <p><font face="Arial"><b><font size="3">Conrad 447209. </font></b><font size="3">&nbsp; Peaks with circuit caps at abt. 29MHz for extended SWrange and better suppression of VHF.</font></font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">L2,3,4</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">100uH RM5</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial"><b><font size="3">Conrad 433396.</font></b><font size="3">&nbsp;&nbsp; Low Ri.</font></font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td align="right" height="18" width="6%"><b><font face="Arial" size="3">C1,3,8,9</font></b></td>
+  <td align="right" height="18" width="15%">
+  <p align="center"><font face="Arial" size="3">100n RM5</font></p></td>
+  <td height="18" width="79%"><font face="Arial" size="3">&nbsp;</font></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="93" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">C2,4,7</font></b></p></td>
+  <td height="93" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">100n RM5</font>
+  </p><p align="CENTER"><u><font face="Arial"><b><i><font size="3">FOIL</font></i></b><font size="3"> (MKT)</font></font></u></p></td>
+  <td height="93" width="79%">
+  <dl>
+   <div align="center">
+   <dt><b><u><font face="Arial" size="3">DO NOT use ceramic Cs for C2,4,7.&nbsp;</font></u></b></dt></div>
+   <div align="center">
+   <dt><font face="Arial" size="3">Most ceramic C's vary in capacitance with varying AC/DC voltages applied.&nbsp;<br>
+    Using them in critical situations can cause IMD !</font></dt></div>
+   <div align="center">
+   <dt><font face="Arial" size="3">(<u>Foil capacitors and NP0 type ceramic C's (Murata) are OK).</u></font></dt></div>
+  </dl>
+  </td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">C5,6</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">100uF 25V RM2.5</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial" size="3">NB: Ud=ca.11.21V .</font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="38" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">R1</font></b></p></td>
+  <td height="38" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">(2M2)</font></p></td>
+  <td height="38" width="79%">
+  <p align="CENTER"><font face="Arial"><b><font size="3">All resistors below are <u>metalfilm</u> 0.25W low induction.<br>
+  Bend wires to RM10</font></b><font size="3">..<br>
+  </font><u><i><font size="4">If needed, adjust R1 for ca. 3.25V on T1s</font></i></u></font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">R2</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">2M2</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial" size="3">&nbsp;</font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">R3</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">1k</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial" size="3">R3 limits VHFrange and de-encourages oscillation (stopper-R).<br>
+  (soldered <u>directly</u> onto T1g1/2).</font></p></td>
+ </tr>
+ <tr>
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">R4</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">150 Ohms</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial" size="3">NB: <u>Id must be ca. 20mA</u>.&nbsp; (<b>Us=ca. 3.0 +- 0.25V @Uc=12.3V</b>)</font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">R5</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">82 Ohms</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial" size="3">&nbsp;</font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">R6</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">1k5</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial" size="3">&nbsp;</font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">R7</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">2k2</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial" size="3">&nbsp;</font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">R8</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">100 Ohms</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial" size="3">R8 limits VHFrange and de-encourages oscillation (stopper-R).<br>
+  <b>NB: Ub=ca. 6.44V. @Uc=12.3V.<br>
+  </b>(soldered <u>directly</u> onto T2b).</font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="21" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">R9</font></b></p></td>
+  <td height="21" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">2x220+2x180 parallel</font></p></td>
+  <td height="21" width="79%">
+  <dl>
+   <dt><font face="Arial" size="3">Total 50 Ohms 1W, induction free, NOT wirewound.</font>
+   </dt><dt><b><font face="Arial" size="3">NB: Ic=ca.115mA @Uc=12.3V</font></b><font face="Arial" size="3">.&nbsp;<br>
+    Max output @200kHz: 4.4Vpp.</font>
+  </dt></dl>
+  </td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%">
+  <p align="RIGHT"><b><font face="Arial" size="3">R10</font></b></p></td>
+  <td height="18" width="15%">
+  <p align="CENTER"><font face="Arial" size="3">1k</font></p></td>
+  <td height="18" width="79%">
+  <p><font face="Arial" size="3">&nbsp;</font></p></td>
+ </tr>
+ <tr valign="TOP">
+  <td height="18" width="6%"><b><font face="Arial" size="3">&nbsp;</font></b></td>
+  <td height="18" width="15%">
+  <p align="center"><font face="Arial" size="3">Teko 1B</font></p></td>
+  <td height="18" width="79%"><font face="Arial" size="3">ALU box lxbxh = 70x35x43 mm for combibox.</font></td>
+ </tr>
+</tbody></table>
+</center></div>
+<dl>
+ <dt><b><font face="Arial" size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Best performance:</font></b>
+ </dt><dt><font face="Arial"><u><font size="3">The original design of this Miniwhip was of pa0rdt,</font></u><font size="3"> but showed IMD (mixing products at 72kHz, between 250 and
+  450 kHz, and on 7MHz).</font></font>
+ </dt><dt>&nbsp;</dt>
+ <dt><font face="Arial" size="3">I measured ca. 250mVpp output from two 
+very strong high-powered MW AM transmitters at only 10km distance from 
+me. This 100mVrms input already
+  caused mixing products (f.i. 72kHz) and distortion of the modulation 
+of the 625kHz transmitter..<br>
+  Furthermore, in the evening, when strong short wave signals were 
+received, a 5kHz raster of carriers showed up around the 7MHz amateur 
+short wave band.</font></dt>
+ <dt>&nbsp;
+ </dt><dt><font face="Arial"><b><font size="3">I redesigned the original</font></b><font size="3"> to <u>improve its IMD free large signal properties</u>. Several test examples were
+  made, with different antenna surfaces, and different electronics.&nbsp;</font></font>
+ </dt><dd>&nbsp;</dd>
+ <dt><font face="Arial" size="3">A Jfet (like J31) has no protection on its gate. <u>It cannot be driven with positive voltages.</u><br>
+  Most Jfets have a low Idss and consequently a small input voltage range.</font>
+ </dt><dt>&nbsp;</dt>
+ <div align="center">
+ <center>
+ <table border="2" cellpadding="2" cellspacing="10">
+  <tbody>
+   <tr>
+    <td>
+    <dl>
+     <div align="center">
+     <dt><font face="Arial"><u><b><font size="3">A dual gate MOSfet, with both gates interconnected as one gate,</font></b><font size="3"> <b>can easilly peak 40mA of Id</b>,<br>
+      It can&nbsp; withstand more than - and + 8V input voltages without damage.</font></u><font size="3">&nbsp;<br>
+      A so connected fet is very linear (i think).&nbsp;<br>
+      Two external, fast diodes at the input, prevent damaging T1 if a very nearby TX is active, or lightning occurs.</font></font></dt>
+     </div>
+    </dl>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ </center></div>
+ <dt>&nbsp;
+ </dt><dt><font face="Arial"><span style="background-color: #FFFF00"><font size="3">The maximal input voltage <u>with G1 and G2 in partallel</u> is <b>8.6Vpp </b>( ! ! ), and <b>max.
+  output is 4.4Vpp</b> ( "Gain" = -6dB)</font></span><font size="3">.</font></font></dt>
+ <dt>&nbsp;
+ </dt><dt><font face="Arial"><b><u><font size="3">All my versions did not show any spourï</font></u></b><font size="3">. The output was clean.</font></font>
+</dt></dl>
+<hr color="#800080" size="6" width="70%">
+<dl>
+ <dt>&nbsp;
+ <div align="center">
+ <center>
+ <dt><b><font face="Arial" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How to choose the best type FET:</font></b>
+ </dt></center></div>
+ </dt><dt><font face="Arial" size="3">In the original "Miniwhip" a J310 Jfet was used for T1 with less current drawn in a higher value source resistor.</font></dt>
+ <dt><font face="Arial" size="3">The impedance of the base of T2 is very lowZ. In order to be able to drive T2 properly <u>T1 must be able to draw <b>more than 30mA peak current @
+  3V Vds into a 150 Ohms source resistor</b></u><b>.</b></font></dt>
+ <dt>&nbsp;
+ </dt><dt><font face="Arial" size="3">Years ago i already discovered 
+that a dual gate MOSfet, with its gates connected together, acting as a 
+MOSfet triode, is an excellent source
+  follower, capable of up to 40mA peak source current, and high input 
+voltage and undistorted output voltage. In the junkbox i found several 
+40673 dual gate MOSfets, they performed
+  well, as BF961's did too.&nbsp;</font>
+ </dt><dt>&nbsp;
+ </dt><dt><font face="Arial" size="3">In the given PCB a BF961 dual gate MOSfet (SOT103 style) is soldered <u>upside-down onto the bottom</u> of the PCB.&nbsp;</font>
+ </dt><dt>&nbsp;
+ </dt><dt><font face="Arial" size="3">A TO92 style Jfet or dual gate MOSfet could be placed at the top with its legs though the hole.</font>
+ </dt><dt>&nbsp;
+ </dt><dt><font face="Arial" size="3">A BF246<b>A or B </b>Jfet should work well. One 2N4859A Jfet could work too. Two BF245<b>C</b> Jfet <u>in parallel</u> could be useable.&nbsp;</font>
+ </dt><dt>&nbsp;
+ </dt><dt><u><font face="Arial" size="3">If the a Jfet of your choice has an Idss less than 40mA, reduce Vg1 (R1 higher value) so that Id equals half its Idss</font></u><font face="Arial" size="3"> (<b>measure it first</b>).<u><br>
+  This is not recommended</u> as the max. input and output voltages will then be proportionally lower. But possibly still high enough.</font>
+</dt></dl>
+<p><font face="Arial"><b><font size="4">Measure the Idss of a Jfet as follows:</font></b><font size="3"><br>
+- Connect g to s<br>
+- Connect a mA meter between -3V and s.<br>
+- Connect d to +3V.<br>
+- Measure the current. <b>It has to be 40 to 50 mA</b>.</font></font></p>
+<p><font face="Arial" size="3">The 2N3970, 2N4091, 2N4391, 2N4856A and 
+2N4859A have higher input capacitances, causing a little less signal 
+strength. If one of these FETs is used,
+R3 must have a smaller value, f.i. 470 Ohms (Fc &gt;= 50MHz).&nbsp;R3 is
+ a “stop resistor”, preventing oscillation. It forms a lowpassfilter 
+with the input capacitance of the
+fet. The -3dBpoint must be above 50MHz.&nbsp;</font></p>
+<dl>
+ <p><font face="Arial" size="3">&nbsp;<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Biasing the FET:</b><br>
+ You can use a Jfet or MOSfet of your choice, as long as it can draw 40mA @ Vds=3V &amp; Vgs=0V (or Idss=40mA).</font></p>
+ <p><font face="Arial"><b><i><u><font size="3">Set Is to ca. 20mA (Us=ca. 3.0 V) by choosing the appropriate value for R1</font></u><font size="3">.</font></i></b><font size="3">
+ For a Jfet R1 must possebely have a HIGHER value (3M9 - 5M6).</font></font></p>
+ <dt><b><font face="Arial" size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VLF/LW/MW freq. response:</font></b>
+ <div align="left">
+ </div></dt><dt><font face="Arial" size="3">R1/2 form a high pass filter with the parasitic antenna capacitance (ca. 10pF ?).</font>
+ <div align="left">
+ </div></dt><dt>&nbsp;</dt>
+ 
+ <div align="left">
+ <dt><font face="Arial" size="3">If R1 and R2 both are ca. 10k, 
+frequencies below 3.5MHz will be attenuated (6dB/oct). This could help 
+if a very strong MW or LW broadcast
+  transmitter nearby is overloading your receiver input circuit.&nbsp;</font></dt>
+ </div>
+ <div align="left">
+ <dt>&nbsp;</dt></div>
+ <div align="left">
+ <dt><font face="Arial" size="3">L1 shoud resonate to 29MHz with the 
+antenna and the electronics input capacitance, in order to keep good 
+sensitivity up to 30MHZ. Above 30MHz the
+  freq. char. rolls off steep. It helps to attenuate very strong VHF/UHF
+ signals which could cause problems.</font></dt></div>
+ <div align="left">
+ <dt><font face="Arial" size="3"><br>
+  </font>
+ <hr color="#800080" size="6" width="70%">
+ </dt></div>
+ <dd>
+  <p align="left">&nbsp;</p></dd>
+ <dt><b><font face="Arial" size="4">&nbsp;&nbsp;&nbsp; PCB and circuit design:</font></b>
+ </dt><dt><font face="Arial" size="3">You could build the Miniwhip using
+ the "dead bug" construction (see earlier prototypes). But the (double 
+sided) PCB is designed so, that
+  it also <u>can</u> be used single sided (bottom copper only), and with different styles of fets.</font>
+ </dt><dt>&nbsp;
+ </dt><dt><font face="Arial"><b><font size="3">The PCB is best made double sided</font></b><font size="3">, with (where ever possible) <u>all mass connections soldered at BOTH PCBsides</u>.
+  This improves stability. Certain components then must be lifted a bit 
+at their mass connection, in order to be able to be be soldered at both 
+copper surfaces.</font></font>
+ </dt><dt><font face="Arial" size="3"><br>
+  <u>The FET impedance converter is optimally biased for the best large signal handling.</u> Again: the fet must have a Idss of 40mA @ Uds=3V. It is a source-follower, with a gain
+  of -6dB.&nbsp;</font>
+ </dt><dt>&nbsp;
+ </dt><dt><font face="Arial" size="3">With a dualgate MOSfet and separate biased g1 and g2, the signal loss is less <u>but the max output is <b><i>far</i></b> less</u>. <b>It is NOT the
+  optimal solution.</b>&nbsp;</font>
+ </dt><dt>&nbsp;
+ </dt><dt><u><font face="Arial" size="3">If you want more signal,</font></u><font face="Arial" size="3"> then enlarge BOTH the antenna surface AND the mass surface of the electronics
+  equally. Penalty: your receiver is easier overloaded. S/N will not be better.</font>
+ </dt><dt>&nbsp;
+ </dt><dt><font face="Arial" size="3">T2 is a common VHF low power 
+transistor: 2N3866. It also is optimally biased for processing the full 
+signal levels delivered by T1. It is directly
+  seating on top of the insulated top copper layer island, and sodered 
+to it, thus cooled by the PCB. A cooling-star is then not needed.</font>
+ </dt><dt><font face="Arial" size="3">R8 again is a “stop resistor”, it 
+forms a low pass filter with the input capacitance of T2, lowers gain at
+ rising frequencies, and discourages
+  VHF-oscillation.</font>
+ </dt><dt>&nbsp;
+ </dt><dt><font face="Arial" size="3">The signal splitter&nbsp; (L3,4 etc) is placed directly near the receiver. It must be in a <u>closed METAL box</u>.&nbsp;<i><br>
+  It is wise to put ferrite clamps over all the cables there also.</i></font>
+</dt></dl>
+<p>TIP: This antenna records the difference in field strength between 
+antenna an mass surfaces. The field strength difference is greater when 
+the distance between both antenna and
+ground surfaces are larger. To enhance signal strengths, you could widen
+ the distance between the top (antenna) and bottom (ground) copper 
+surfaces. Or make the antenna surface
+(length) wider. To wide will restrict the high frequency response. But 
+remember: not the absolute signal strength is important, the signal to 
+noise ratio is. Stronger signals can
+lead to IMD in your receiver (not in this antenna !).</p>
+<hr color="#800080" size="6" width="70%">
+<dl>
+ <dt>&nbsp;</dt>
+ <dt><b><font face="Arial" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cabling:</font></b>
+ </dt><dt><u><b><font face="Arial" size="3">For noise free reception, special care must be paid to the installation of the RG174 (RG58C) signal cable !</font></b></u>
+ </dt><dt>&nbsp;
+ </dt><dt><font face="Arial" size="3">The impedance converter T1 can only discriminate <u>the signal <b>DIFFERENCE</b> between the antenna surface and the mass surface of the
+  electronics.</u></font>
+ </dt><dt>&nbsp;
+ </dt><dt><font face="Arial" size="3">The mass surface of the PCB, <i><u><b>and</b> the outside</u></i> of the screening of the signal cable act both as a “counterpoise” for the “antenna”
+  surface on the PCB.</font>
+ </dt><dd>&nbsp;</dd>
+ <dt><font face="Arial"><b><i><font size="3">Any (man-made) noises induced ( or running) on the OUTSIDE of the cable screening, will try to run onto the mass surface of the
+  Miniwhip.<br>
+  <br>
+  </font></i></b><font size="3">Consequently, these noises will then be seen by T1 as a signal <u>difference</u> to the antenna surface. And WILL BE SEND BACK THROUGH THE <b><i>INSIDE
+  </i></b>OF THE SIGNAL CABLE down to the receiver.&nbsp;<br>
+  <br>
+  Result: noise on the <u>outside</u> of the cable screening is heard in the receiver.<br>
+  <br>
+  <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IMPORTANT:</b></font></font>
+ </dt><dt><b><u><i><font face="Arial" size="3">Prevent noises on the outer surface of the coax can run upwards from the receiver to the Miniwhip.<br>
+  </font></i></u></b>
+</dt></dl>
+<dl>
+ <hr color="#800080" size="6" width="70%">
+ <dd><font face="Arial"><br>
+  </font></dd>
+ <dt><b><font face="Arial"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><font size="5">Installation of the Miniwhip and de-noising :</font></font></b>
+ <p align="left"><font face="Arial" size="3">IMPORTANT: This capacitive 
+receiving antenna receives by detecting the DIFFERENCE in field strength
+ between the antenna top part, and
+ the "ground" bottom part. <span style="background-color: #FFFF00">The "ground" part MUST be connected to a RF-CLEAN grounding. If noises are on the lower
+ "ground" part of the Miniwhip, they WILL be heard in the receiver.</span></font></p>
+ <p align="left"><font face="Arial"><font size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><font size="4">The best solution :</font></font></p>
+ <p><font face="Arial" size="3">- DO NOT use switched power supplies. They can be strong jamming transmitters.<br>
+ - Install the antenna in a noise-free place, as far away from noise sources as possible,<br>
+ - as high as possible,<br>
+ - on a metal pole <u>which is connected to its own <i>noise free</i> ground</u> (NOT to mains safety ground),<br>
+ - burry the coax<i> in </i>de ground (20 cm deep or more).</font></p>
+ <p align="left"><font face="Arial" size="3">The purpose of much height is : Maximizing signal strength, and minimizing noise reception,<br>
+ The purpose of good grounding is : Draining noisy mantle currents on the outside of the coax cable directly to ground.<br>
+ The purpose of burying the coax is : Damping mantle currents.</font></p>
+ <p align="center"><font face="Arial"><img src="pa0nhc_miniwhip_pliki/Miniwhip_coax_run.png" height="449" border="0" width="1476"></font></p>
+ <p align="left"><font face="Arial"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you cannot burry the coax :</font><font size="3"><br>
+ Run the coax along a grounded metal surface or over ground surface (if 
+possible). The stray capacitance between cable and surrounding damps 
+mantle currents.</font></font></p>
+ <p align="left"><b><font face="Arial" size="3">Cable <i>losses</i> on 
+short wave frequencies are minimal, because the coax is terminated 
+correctly at the receiver end. The S/N
+ will not be influenced. Don't worry about cable losses, except when 
+listening on 28MHz in very silent circumstances where you have to use 
+the receivers pre-amplifier.</font></b></p>
+ <p align="left"><font face="Arial" size="3">Use <i><b><u>thin</u></b></i>,&nbsp; 3-5mm dia, good quality (double shielded) coax. Thin coax can be wound more times though the hole
+ of ferrite cores, they&nbsp; then are more effective.</font></p>
+ <p align="left"><font face="Arial" size="3">Wind a few meters of the coax to a air coil (10-30cm dia), acting as a mantle current choke.<br>
+ At several places, wind the coax several times through BIG ferrite clamps (with 13 or 16mm hole).<br>
+ REM: the cable MUST lay loosely in the hole. Both halves of the ferrite core MUST be in good mechanical contact to each other !</font></p>
+ </dt><dt><font face="Arial"><i><u><font size="3">In some experiments i found that, even if the signal inside the coax is clean, RF currents on the <b>outside</b> of the coax cable
+  could be heard in the receiver.</font></u></i><font size="3"> Strong noises on the OUTSIDE of cable screening (from switched power supplies or plasma TV) could penetrate the
+  cabinet of my TS-570D. They could still be heard in the receivers weak background noise.</font></font>
+ </dt><dt>&nbsp;</dt>
+ <dt><font face="Arial" size="3">Test for penetrating noises by 
+connecting a long piece of coax running through the house, terminated at
+ the far end with a good dummy load. Listen
+  for noises. Then put a coax ferrite clamp over the cable <b><u>directly near the receiver</u></b>. Hear what the difference is.</font></dt>
+</dl>
+<p><font face="Arial" size="3">Also put (directly near the RX) a ferrite clamp over the 12V supply cable to the receiver.</font></p>
+<p><font face="Arial" size="3">Put a ferrite clamp over the mains cable of the 12V power supply to the receiver.</font></p>
+<p><font face="Arial" size="3">If the antenna is grounded well, <u><i>disconnect the mains safety ground</i></u> from the power supply and the receiver.</font></p>
+<hr color="#800080" size="6" width="70%">
+<p align="CENTER"><b><font face="Arial" size="4">Some experimental proto types:</font></b>
+</p><p align="CENTER"><font face="Arial" size="3"><img src="pa0nhc_miniwhip_pliki/pa0nhc_MiniwhipProto2.jpg" height="1094" border="0" width="431"><br>
+A prototype-version with one flat antenna surface.<br>
+(Antenna surface dimensions taken from pa0rdt).<br>
+It is suspended under the cap by means of a good insulating piece of Perspex.<br>
+The output transistor is cooled by hot-gluing it to th PCB.<br>
+The PCB hangs on a 40mm sewage pipe cap using a piece of Perspex.<br>
+The white cap fits over a 40mm PPC drainpipe.<br>
+The input impedance of this unit is relative low, to weaken signals below 2MHz.<br>
+<br>
+<img src="pa0nhc_miniwhip_pliki/pa0nhc_MiniwhipProto3.JPG" height="789" border="0" width="740"><br>
+Another version in haystack construction with horizontal antenna- and mass surfaces.<br>
+The BNC is screwed in contact with the copper surface.<br>
+You could use a piece of single sided PCB in stead of copper plate.<br>
+Fill the seem between the lid and the box with thick Vaseline for protection agains rain.<br>
+And/or wind (vulcanizing) tape tightly around the seem.<br>
+<br>
+<img src="pa0nhc_miniwhip_pliki/pa0nhc_20MinwhipProto3_capside.JPG" height="335" border="0" width="587"><br>
+The cap fits over a 40mm pipe.<br>
+It is also glued to the lid to prevent water creeping in.<br>
+Observe the ventilation hole on the inside of the cap.<b><br>
+</b>It prevents vacuum build-up and moist cumulating.<b><br>
+Do leave power to the antenna always on.<br>
+The heath coming from the power transistor stage (1.4W)<br>
+helps to prevent condensation in a small box.<br>
+</b></font>
+</p><hr color="#800080" size="6" width="70%">
+
+
+
+
+</body></html>

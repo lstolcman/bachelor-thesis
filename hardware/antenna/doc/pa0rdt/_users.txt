@@ -1,0 +1,13 @@
+http://www.elektroda.pl/rtvforum/topic2647056-270.html#8955774
+
+MariuszC napisa³:
+Hyper44, napisz coœ wiêcej o Twojej antenie (jakieœ zdjêcia?). Sygna³ faktycznie jest mocny.
+
+Antena wygl¹da dok³adnie tak jak na stronie http://yu1lm.qrpradio.com/pa0rdt%20whip.pdf z której zaczerpn¹³em schemat - ostatni z trzech, d³awiki 1 mH, kondensatory blokuj¹ce tylko po 100 nH. Tranzystor 2N3866. "Czêœæ antenowa" ma 3x4,5 cm Smile Opcjonalnie mo¿na j¹ po³¹czyæ z reszt¹ uk³adu przez d³awik rzêdu 10 uH, co powinno ograniczyæ wy¿sze czêstotliwoœci.
+Nas³uch niskich czêstotliwoœci i Spectrum Lab
+Ca³oœæ wystawiona jakieœ 3 metry za okno na wysokoœci 14 piêtra. Bardzo istotne jest maksymalne odsuniêcie miniwhipa od elementów metalowych - sygna³ pojawia siê dopiero metr za oknem, a potem szybko roœnie (vide: http://carc.org.uk/carc_ftp/G3GRO-PA0RDT-Active_Ant.pdf wykres na koñcu artyku³u). Uk³ad zasila³em z akumulatora 12V. Oczywiœcie nie bez znaczenia jest klasa karty dŸwiêkowej. W przysz³oœci planujê instalacjê na 8-metrowej wêdce minimum kilkadziesi¹t metrów do domu Smile
+
+
+
+
+

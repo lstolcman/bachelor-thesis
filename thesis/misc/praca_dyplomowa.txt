@@ -1,0 +1,31 @@
+temat
+dekoder sygna³u wzorce czasu DCF77 z wykorzystaniem radia programowalnego na platformie fpga
+
+cel pracy
+opracowanie platformy sprzêtowej oraz implementacji programowej dekodera sygna³u wzorca czasu
+DCF77 w oparciu o ideê radia progamowalnego
+
+
+zakres pracy
+- projekt platformy sprzêtowej
+- implementacja programowa:
+	filtracja cyfrowa
+	dekodowanie sygna³u DCF77
+
+
+
+
+
+
+
+
+ltc2208 lepszy
+ads5599ipab gorszy
+
+ltc6405 preamp
+
+
+
+
+
+

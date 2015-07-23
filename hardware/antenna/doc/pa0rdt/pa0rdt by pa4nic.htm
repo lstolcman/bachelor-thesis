@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(51)http://www.pa4nic.nl/Mini-Whip/MiniWhip-pagina.html -->
+<!-- saved on: 23.07.2015, 21:13:11 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>PA4NIC </title>
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* het is een goede gewoonte om de instellingen voor margin (marge) en padding (opvulling) van het element body op nul in te stellen en daarmee op de standaardinstellingen van de verschillende browsers */
+	padding: 0;
+	text-align: center; /* hiermee centreert u de container (het hoofdobject) in IE 5
+-browsers Vervolgens wordt de tekst ingesteld op de standaardinstelling van links uitlijnen in de kiezer #container */
+	color: #000000;
+	background-color: #404040;
+}
+ 
+/* Tips voor Elastic-lay-outs 
+1. Aangezien de algehele grootte van de elastic-lay-outs is gebaseerd op de standaard lettertypegrootte van de gebruiker, hebben deze lay-outs een grotere mate van onvoorspelbaarheid. Bij een juist gebruik zijn ze echter wel toegankelijker voor diegenen die een groter lettertype behoeven omdat de lengte van de regel proportioneel blijft.
+2. De grootte van de div-elementen in deze lay-out is gebaseerd op een lettertypegrootte van 100% in het element body. Als u de tekstgrootte algeheel reduceert door middel van font-size: 80% voor het element body of voor #container, dient u niet te vergeten dat de complete lay-out proportioneel kleiner zal worden. Wellicht wilt u de breedtes van de verschillende div-elementen vergroten om dit te compenseren.
+3. Als de lettertypegrootte wordt gewijzigd d.m.v. verschillende waarden voor elk element div in plaats van voor het algehele ontwerp (bijv. #sidebar1 krijgt een lettertypegrootte van 70% en #mainContent krijgt een lettertypegrootte van 85%), leidt dit tot proportionele wijziging van de algehele grootte van elk van de div-elementen. Mogelijk wilt u dit aanpassen op basis van uw uiteindelijke lettertypegrootte.
+*/
+.thrColElsHdr #container {
+	width: 65em;  /* deze breedte maakt een container (hoofdobject) die past een browservenster van 800 pixels, als de tekst wordt gehandhaafd in de standaard lettertypegroottes van de browser */
+	background: #404040;
+	margin: 0 auto; /* de automatische marges (d.m.v. auto), in combinatie met een breedte, centreren de pagina */
+	border: 1px solid #404040;
+	text-align: left; /* hiermee wordt de instelling text-align: center voor het element body genegeerd. */
+	padding-top: 20px;
+} 
+.thrColElsHdr #header {
+	padding: 0 10px;  /* deze instelling voor padding (opvulling) komt overeen met de uitlijning links van de elementen binnen de div-elementen, die volgen op deze padding. Als een afbeelding wordt gebruikt in de #header in plaats van tekst, wilt u wellicht de padding (opvulling) verwijderen. */
+	background-color: #404040;
+} 
+.thrColElsHdr #header h1 {
+	margin: 0; /* door de marge van het laatste element in het element div voor #header op 0 in te stellen voorkomt u het wegvallen van marges – een onverklaarbare ruimte tussen div-elementen. Als om het element div een rand loopt, is dit niet nodig aangezien dit tevens het wegvallen van de marge voorkomt */
+	padding: 10px 0; /* door het gebruik van padding (opvulling) in plaats van een marge (via het element margin) kunt u het element van de randen van het element div vandaan houden */
+}
+ 
+/* Tips voor sidebar1:
+1. Vergeet niet dat als u een waarde voor lettertypegrootte voor dit element div instelt, de algehele breedte van het element div dienovereenkomstig wordt aangepast.
+2. Aangezien we hier werken met em-waarden, verdient het de voorkeur om voor de zijbalk zelf geen padding (opvulling) te gebruiken. Deze wordt dan voor op standaards gebaseerde browsers toegevoegd aan de breedte, waardoor een nog onbekende daadwerkelijke breedte wordt gemaakt. 
+3. De ruimte tussen de zijkant van het element div en de elementen erbinnen kan worden gemaakt door het aanbrengen van een linker- en rechtermarge voor dergelijke elementen, zoals wordt aangetoond door de regel ".thrColElsHdr #sidebar1 p".
+*/
+.thrColElsHdr #sidebar1 {
+	float: left;
+	width: 15em; /* aangezien dit een zwevend element betreft, moet er een breedte worden opgegeven */
+	background: #404040; /* de achtergrondkleur wordt weergegeven over de lengte van de inhoud in de kolom, maar niet verder */
+	padding: 0px 0; /* binnen dit element div maakt de padding (opvulling) aan de onder- en bovenkant de visuele ruimte */
+}
+.thrColElsHdr #sidebar2 {
+	float: right;
+	width: 15em; /* aangezien dit een zwevend element betreft, moet er een breedte worden opgegeven */
+	background: #404040; /* de achtergrondkleur wordt weergegeven over de lengte van de inhoud in de kolom, maar niet verder */
+	padding: 0px 0; /* binnen dit element div maakt de padding (opvulling) aan de onder- en bovenkant de visuele ruimte */
+	border: #000000;
+}
+.thrColElsHdr #sidebar1 h3, .thrColElsHdr #sidebar1 p, .thrColElsHdr #sidebar2 p, .thrColElsHdr #sidebar2 h3 {
+	margin-left: 10px; /* de linker- en rechtermarge moeten aan elk element worden gegeven dat in de kolommen aan de zijkant wordt geplaatst */
+	margin-right: 10px;
+	background: #404040;
+}
+ 
+/* Tips voor mainContent:
+1. Als u dit element div voor #mainContent een andere waarde voor lettergrootte geeft dan het element div voor #sidebar1, worden de marges van het element div voor #mainContent gebaseerd op de lettergrootte ervan, terwijl de breedte van het element div voor #sidebar1 zal zijn gebaseerd op de lettergrootte daarvan. Mogelijk wilt u de waarden van deze div-elementen aanpassen.
+2. De ruimte tussen mainContent en sidebar1 wordt gemaakt met de linkermarge van het element div voor mainContent. De kolomruimte blijft gehandhaafd, ongeacht de hoeveelheid inhoud die het element div voor sidebar1 bevat. U kunt deze linkermarge verwijderen als u de tekst van het element div voor #mainContent de ruimte van #sidebar1 wilt laten opvullen wanneer de inhoud van #sidebar1 eindigt.
+3. Om het wegvallen van het zwevende element te voorkomen, zult u wellicht via uitproberen een schatting van de maximale grootte van de afbeelding of het element moeten bepalen, aangezien deze lay-out is gebaseerd op de lettertypegrootte van de gebruiker in combinatie met de door u ingestelde waarden. Maar als de gebruiker de lettertypegrootte van diens browser echter op kleiner dan normaal heeft ingesteld, is er in het element div voor #mainContent minder ruimte beschikbaar dan u tijdens het uitproberen ziet.
+4. In de onderstaande voorwaardelijke opmerking van Internet Explorer wordt de eigenschap zoom gebruikt om "hasLayout" mee te geven aan mainContent. Hierdoor wordt voorkomen dat zich diverse IE-specifieke bugs voordoen.
+*/
+.thrColElsHdr #mainContent {
+	margin: 0 15em 0 15em; /* de rechtermarge kan worden opgegeven in em- of pixelwaarden. Deze marge maakt de ruimte langs de rechterzijde van de pagina. */
+	background: #404040;
+} 
+.thrColElsHdr #footer {
+	padding: 0 10px; /* deze instelling voor padding (opvulling) komt overeen met de uitlijning links van de elementen binnen de div-elementen, die voorafgaan aan deze padding. */
+	background:#404040;
+} 
+.thrColElsHdr #footer p {
+	margin: 0; /* door de marges van het eerste element in de footer (voettekst) in te stellen op 0 vermijdt u het risico dat de marge wegvalt – een ruimte tussen div-elementen */
+	padding: 10px 0; /* door het gebruik van padding (opvulling) voor dit element maakt u ruimte (op dezelfde manier als door middel van een marge), zonder het probleem van wegvallende marges */
+}
+ 
+/* Verschillende exemplaren van class voor hergebruik */
+.fltrt { /* dit exemplaar van class kan worden gebruikt om een element aan de rechterzijde van uw pagina te laten zweven. Het zwevende element moet voorafgaan aan het element dat, op de pagina, naast het zwevende element moet staan. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* dit exemplaar van class kan worden gebruikt om een element aan de linkerzijde van uw pagina te laten zweven. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* dit exemplaar van class moet op een element div of break zijn geplaatst en dient het laatste element te zijn vóór de afsluiting van een container (hoofdobject) die op zijn beurt een zwevend object volledig dient te bevatten */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+body,td,th {
+	color: #FFFFFF;
+	background: #404040;
+}
+a:link {
+	color: #FFFFFF;
+}
+a:visited {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #FFCC00;
+}
+a:active {
+	color: #FFFFFF;
+	border: #000000;
+}
+h1 {
+	font-size: 60px;
+	color: #000000;
+}
+h2 {
+	font-size: 24px;
+	color: #000000;
+}
+h3 {
+	font-size: 16px;
+	color: #FFFFFF;
+}
+h4 {
+	font-size: 14px;
+	color: #FFFFFF;
+}
+h5 {
+	font-size: 12px;
+	color: #FFFFFF;
+	background: #404040;
+}
+h6 {
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.stijl1 {
+	color: #FFFFFF
+}
+.stijl2 {
+	color: #FF3300
+}
+.stijl4 {color: #FF0000}
+.stijl5 {font-size: 70px}
+.stijl6 {color: #66FF33}
+.stijl8 {	color: #FFFFFF;
+	border-color: #ffffff;
+}
+.stijl9 {color: #00FFFF}
+.stijl10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+--> 
+</style>
+<!--[if IE]>
+<style type="text/css"> 
+/* plaats in deze voorwaardelijke opmerking css-correcties voor alle versies van IE */
+.thrColElsHdr #sidebar1, .thrColElsHdr #sidebar2 { padding-top: 30px; }
+.thrColElsHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* de bovenstaande softwaregebonden eigenschap zoom geeft IE de hasLayout die IE nodig heeft om verschillende bugs te vermijden */
+</style>
+<![endif]-->
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script src="pa0rdt%20by%20pa4nic_pliki/AC_RunActiveContent.htm" type="text/javascript"></script>
+</head>
+ 
+<body class="thrColElsHdr" onload="MM_preloadImages('Paddle in kistje 448 x 336.jpg')">
+ 
+<div id="container">
+  <div id="header">
+    <h6 class="stijl1">&nbsp;    </h6>
+    <h1 class="stijl1"><span class="stijl5">PA4NIC</span>&nbsp; &nbsp;&nbsp;&nbsp;<img src="pa0rdt%20by%20pa4nic_pliki/brug%252026aug10%2520640%252079.jpg" alt="PANORAMA NWE BRUG" height="56" border="1" width="600"><br>
+    </h1>
+    <table width="963">
+      <tbody><tr>
+        <th scope="col" bgcolor="#003366" width="955"><h5 align="center">HAM
+ Radioamateur&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QTH
+ Haarlem 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+CQ-14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ ITU-27 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DXCC-EU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indien
+ QRV -145.525, 3.575 en 3.630 MHz.</h5></th>
+      </tr>
+    </tbody></table>
+    <table width="962">
+      <tbody><tr>
+        <td><h5><span class="stijl4">Zondag's op 3.564 MHz. CW ronde Kennemerland van 20:30 uur tot 21:00 uur</span></h5></td>
+      </tr>
+    </tbody></table>
+    <hr>
+    <hr>
+  </div>
+  <div id="sidebar2">
+    <div align="center">
+      <table height="586" width="207">
+        <tbody><tr>
+          <td width="199"><h4 class="stijl8" align="left">&nbsp;&nbsp;&nbsp;<span class="stijl4">Pagina's op oude site</span></h4>
+              <h6 class="stijl8" align="left"> &nbsp;<span class="stijl6">&nbsp;<span class="stijl9">*</span> <a href="http://www.pa4nic.nl/index%2012%20aug%202010.html" target="_blank">MIJN OUDE STARTPAGINA</a></span><br>
+                  <br>
+                &nbsp;&nbsp;<span class="stijl9">*</span> <a href="mailto:pa4nic@amsat.org">E-MAIL PA4NIC</a> </h6>
+            <h4 class="stijl8" align="left">&nbsp;&nbsp;<span class="stijl4"> Vernieuwde pagina's</span></h4>
+            <h6 class="stijl8" align="left"> &nbsp;&nbsp;- <a href="http://www.pa4nic.nl/index.html">HOME</a> <br>
+                  <br>
+              &nbsp;&nbsp;<span class="stijl1">- <a href="http://www.pa4nic.nl/foto%20eigenbouw.html">ZELFBOUW</a></span> <br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://www.pa4nic.nl/Mini-Whip/Fotografiepagina.html">FOTOGRAFIE</a><br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://www.pa4nic.nl/foto%20apparatuur.html">APPARATUUR</a><br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://www.pa4nic.nl/ik2.html">WIE IS PA4NIC</a><br>
+              <br>
+              &nbsp; - <a href="http://www.pa4nic.nl/Linkenpagina1.html">HANDIGE LINKEN</a><br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://www.pa4nic.nl/Mini-Whip/Radiovrienden.html">RADIOVRIENDEN</a><br>
+              <br>
+              &nbsp;           - <a href="http://www.pa4nic.nl/mastje.html">MAST MET HEFBOOM</a><br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://www.pa4nic.nl/foto%20antenne.html">ANTENNE EXPERIMENTEN</a><br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://www.pa4nic.nl/Mini-Whip/geluidsopnamen.html">GELUIDEN OP KORTEGOLF</a><br>
+              <span class="stijl4">&nbsp;&nbsp;&nbsp;</span></h6>
+            <h4 class="stijl8" align="left"><span class="stijl4">&nbsp;&nbsp;Diverse HAM linken</span><br>
+              </h4>
+            <h6 class="stijl8" align="left">&nbsp;&nbsp;- <a href="http://www.qrz.com/callsign/pa4nic" target="_blank">QRZ</a><br>
+                  <br>
+              &nbsp;&nbsp;- <a href="http://www.rigpix.com/" target="_blank">RIGPIX</a><br>
+              <br>
+              &nbsp; - <a href="http://dxcluster.ham-radio.ch/" target="_blank">DX CLUSTER</a><br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://websdr.ewi.utwente.nl:8901/" target="_blank">ONLINE RADIO</a><br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://www.pa4nic.nl/nabouwen.html" target="_blank">BOUW TIPS OP INTERNET</a><br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://www.tweedehands.nl/zendamateur/zend-ontvangapparatuur" target="_blank">2eHANDS ZENDAMATEUR</a><a href="http://www.pa4nic.nl/geluidsopnamen.html" target="_blank"><br>
+                <br>
+              </a></h6>
+            <h4 class="stijl8" align="left">&nbsp;&nbsp;&nbsp;<span class="stijl4">Diverse gewone linken</span></h4>
+            <h6 class="stijl8" align="left">&nbsp;&nbsp;- <a href="http://www.google.nl/" target="_blank">GOOGLE</a><br>
+                  <br>
+              &nbsp;&nbsp;- <a href="http://members.home.nl/tianwa/noni/journaal/weerindexjournaal.html" target="_blank">METEOTINES</a><br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://www.buienradar.nl/" target="_blank">BUIENRADAR</a><br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://fileindex.buienradar.nl/" target="_blank">FILES OP DE WEGEN?</a><br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://www.nederland.fm/radio/radio1nieuws/radio-1-laatste-nieuws.html" target="_blank">RADIO 1 NOS NIEUWS</a> <br>
+              <br>
+              &nbsp;&nbsp;- <a href="http://player.omroep.nl/?aflID=4329874" target="_blank">TV LAATSTE NOS NIEUWS</a></h6></td>
+        </tr>
+      </tbody></table>
+      <br>
+    </div>
+    <h5 class="stijl4" align="center">&nbsp;</h5>
+    <p class="stijl1" align="left">&nbsp;</p>
+    <p class="stijl1" align="left">&nbsp;</p>
+    <p class="stijl1" align="left">&nbsp;</p>
+    <p class="stijl1" align="left">&nbsp;</p>
+    <p class="stijl1" align="left">&nbsp;</p>
+  </div>
+  
+    
+      <h5 align="center">" Mini Whip "</h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10 stijl11" align="center"> Hang hem in een boom of zet hem op je schuur in ieder geval weg van huis, lees in de Electron waarom!</h5>
+        <h5 class="stijl10" align="center"><img src="pa0rdt%20by%20pa4nic_pliki/40%2520mm%2520mini%2520whip%2520klaar%2520voor%2520gebruik.JPG" height="560" border="1" width="749"></h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">Schema Electron Mei 2006 blz.199.... succes met de nabouw!</h5>
+        <h5 class="stijl10" align="center"><img src="pa0rdt%20by%20pa4nic_pliki/PA0RDT%2520Mini%2520Whip.JPG" height="564" border="1" width="748"></h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">Onder gedompeld in kaarsvet, onderdeel van het experiment.<p>* spelfout (mHz moet MHz zijn)</p></h5>
+        <h5 class="stijl10" align="center"><img src="pa0rdt%20by%20pa4nic_pliki/Whip%25201.JPG" height="554" border="1" width="746"></h5>
+        <h5 class="stijl10" align="center"><a href="http://www.pa4nic.nl/Mini-Whip/MiniWhip-pagina.html">MENU</a></h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">Deze uitvoering past in een 5/8 electrabuis.</h5>
+        <h5 class="stijl10" align="center"><img src="pa0rdt%20by%20pa4nic_pliki/Whip12.JPG" height="559" border="1" width="748"></h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">De "Fantoom voeding" (9/12 volt voeding via de antennekabel). </h5>
+        <h5 class="stijl10" align="center"><img src="pa0rdt%20by%20pa4nic_pliki/Voeding%2520binnen.JPG" height="561" border="1" width="747"></h5>
+        <h5 class="stijl10" align="center"><a href="http://www.pa4nic.nl/Mini-Whip/MiniWhip-pagina.html">MENU</a></h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">Netjes afwerken.<p>* spelfout (Electrom moet Electron zijn) </p></h5>
+        <h5 class="stijl10" align="center"><img src="pa0rdt%20by%20pa4nic_pliki/Voeding%2520buiten.JPG" height="559" border="1" width="744"></h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">De werkelijke atenne is het stukje met tekst, deze past in 40 mm pvc buis.</h5>
+        <h5 class="stijl10" align="center"><img src="pa0rdt%20by%20pa4nic_pliki/40%2520mm%2520mini%2520whip%2520printje.JPG" height="549" border="1" width="746"></h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center"><a href="http://www.pa4nic.nl/Mini-Whip/MiniWhip-pagina.html">MENU</a></h5>
+        <h5 class="stijl10" align="center">Vergeet niet dat er condens kan ontstaan en dat moet je afvoeren of laten ademen.</h5>
+        <h5 class="stijl10" align="center"><img src="pa0rdt%20by%20pa4nic_pliki/40%2520mm%2520nini%2520whip%2520binnenzijde.JPG" height="547" border="1" width="745"></h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">Een chassisdeel drooghouden doe je zo. ook kan je hem zo op een mastje plaatsen.</h5>
+        <h5 class="stijl10" align="center"><img src="pa0rdt%20by%20pa4nic_pliki/40%2520mm%2520mini%2520whip%2520onderzijde.JPG" height="543" border="1" width="742"></h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center"><a href="http://www.pa4nic.nl/Mini-Whip/MiniWhip-pagina.html">MENU</a></h5>
+        <h5 class="stijl10" align="center">Je gelooft je ogen niet he....</h5>
+        <h5 class="stijl10" align="center"><img src="pa0rdt%20by%20pa4nic_pliki/MiniWhip%2520kompleet.JPG" height="552" border="1" width="745"></h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">&nbsp;</h5>
+        <h5 class="stijl10" align="center">Juist toen ik de antenne heel hoog probeerde (is NIET nodig) was er veel bliksem hier in de buurt.</h5>
+        <h5 class="stijl10" align="center"><img src="pa0rdt%20by%20pa4nic_pliki/MiniWhip%2520zwart.JPG" height="547" border="1" width="745"></h5>
+        <h5 align="center"><span class="stijl10"><a href="http://www.pa4nic.nl/index.html">HOME</a></span></h5>
+      
+    
+  
+  <p>&nbsp;</p>
+  <div id="footer">
+    <h6><span class="stijl1">Ziet u een spelfout of een dode link laat u het me dan even weten... alvast bedankt</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:pa4nic@amsat.org" target="_blank" class="stijl2">e-mail</a></h6>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+
+
+
+<style>#header + #content > #left > #rlblock_left,
+[href^="http://www.google.com/aclk?"]
+{display:none !important;}</style></body></html>

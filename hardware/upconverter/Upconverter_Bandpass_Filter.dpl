@@ -1,0 +1,33 @@
+<Qucs Schematic 0.0.16>
+<Properties>
+  <View=0,-40,1007,1084,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=Upconverter_Bandpass_Filter.dat>
+  <DataDisplay=Upconverter_Bandpass_Filter.sch>
+  <OpenDisplay=1>
+  <Script=Upconverter_Bandpass_Filter.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Upconverter Bandpass Filter>
+  <FrameText1=Drawn By: mw @ Opendous Inc.>
+  <FrameText2=Date: 2012-10-04>
+  <FrameText3=Revision: 1.0>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 90 541 680 561 3 #c0c0c0 1 00 0 7e+07 1e+07 2e+08 0 -66 3 3 1 -1 0.2 1 315 0 225 "Frequency (Hz)" "" "">
+	<"Return_Loss_dBS11" #0000ff 0 3 0 0 0>
+	<"Gain_dBS21" #ff0000 2 3 0 0 0>
+	  <Mkr 1.0025e+08 194 -503 3 0 0>
+	  <Mkr 1.712e+08 275 -438 3 0 0>
+	  <Mkr 8.555e+07 33 -157 3 0 0>
+	  <Mkr 1.9845e+08 490 -274 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

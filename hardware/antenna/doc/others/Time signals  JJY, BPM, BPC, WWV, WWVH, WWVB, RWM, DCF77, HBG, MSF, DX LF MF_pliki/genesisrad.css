@@ -1,0 +1,16 @@
+a:link, a:focus
+{
+color:#663300;
+text-decoration:underline;
+}
+ 
+ a:visited
+ {
+ color:#666666;
+ text-decoration:underline;
+ }
+ 
+ a:hover
+{
+text-decoration:none;
+}

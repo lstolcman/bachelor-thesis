@@ -1,0 +1,90 @@
+Tematy prac dyplomowych dla studentów studiów I stopnia Rok 2015
+
+
+
+Tematy prac dyplomowych prof. dr hab. in¿. Aleksandr Cariow,
+    (Katedra Architektury Komputerów i Telekomunikacji)
+
+    Opracowanie algorytmu oraz struktury dedykowanego uk³adu procesorowego do mno¿enia dwóch macierzy na podstawie metody S. Winograda.
+
+    Opracowanie algorytmu oraz struktury dedykowanego uk³adu procesorowego do mno¿enia dwóch macierzy na podstawie metody A. Waksmana.
+
+    Opracowanie algorytmu oraz struktury dedykowanego uk³adu procesorowego do mno¿enia dwóch macierzy na podstawie metody V. Strassena.
+
+    Opracowanie modeli symulacyjnych zracjonalizowanych algorytmów przetwarzania danych (w œrodowisku Matlab/Simulink).
+
+    Programowanie i symulacja przekszta³ceñ wektorowo-macierzowych w œrodowisku Matlab/Simulink.
+
+    Opracowanie uk³adu wyznaczania dyskretnej transformacji Falkowej na podstawie pamiêci ROM.
+
+    Opracowanie zracjonalizowanego algorytmu wyznaczania iloczynu wektorowo-macierzowego dla zadanej macierzy.
+
+    Opracowanie zracjonalizowanego algorytmu realizacji transformacji Hirschmana.
+
+    Analiza i testowanie zracjonalizowanych algorytmów mno¿enia liczb hiperzespolonych.
+
+    Opracowanie boji inteligentnej do monitoringu akwenów wodnych.
+
+    Opracowanie amatorskiego modelu rakiety z transmisj¹ obrazu zadanego obszaru powierzchni ziemi.
+
+
+
+Tematy prac dyplomowych dr Galina Cariowa,
+    (Katedra Systemów Multimedialnych)
+
+    Opracowanie zracjonalizowanego algorytmu i programu mno¿enia liczb hiperzespolonych.
+
+    Analiza, programowa realizacja oraz badanie efektywnoœci techniki skramblowania obrazów za pomoc¹ transformacji liniowej.
+
+
+
+Tematy prac dyplomowych dr in¿. M. £azoryszczak,
+    (Katedra Architektury Komputerów i Telekomunikacji)
+
+    Transkrypcja jednog³osowej œcie¿ki dŸwiêkowej.
+
+    Modu³ komunikacji w sprzêtowym syntezatorze dŸwiêku.
+
+    Projekt i implementacja autonomicznego interfejsu u¿ytkownika w sprzêtowym syntezatorze dŸwiêku.
+
+    Rozproszony system sterowania syntezatorami sprzêtowymi.
+
+
+
+Tematy prac dyplomowych dr in¿. T. M¹ka,
+    (Katedra Architektury Komputerów i Telekomunikacji)
+
+    Estymacja grupy wiekowej mówcy na podstawie zbioru wypowiedzi.
+
+    Mechanizmy lokalizacji pojedynczego Ÿród³a dŸwiêku.
+
+
+
+Tematy prac dyplomowych dr M. Pelczar,
+    (Katedra Architektury Komputerów i Telekomunikacji)
+
+    Internet / Intranet
+
+    Projekt systemuekspertowego wyboru opcji dostêpu do sieci Internet
+    Projekt sieci Intranetdla firmy
+    Usprawnienieinformatycznego systemu zarz¹dzania poprzez wykorzystanie us³uginternetowych
+    Aplikacja internetowado …
+
+    Systemy informatyczne
+
+    Projekt systemuinformatycznego w zakresie infrastruktury sieciowej
+    Zastosowanie modelisymulacyjnych w systemach wspomagania decyzji
+    Zastosowanie modelioptymalizacyjnych w systemach wspomagania decyzji
+
+    Technika cyfrowa
+
+    Symulacja dzia³aniauk³adów cyfrowych w programie NI Multisim11.0
+    Opracowanieanalizatora uk³adów cyfrowych w œrodowisku National Instruments
+
+
+
+Tematy prac dyplomowych dr D. Majorkowska-Mech,
+    (Katedra Architektury Komputerów i Telekomunikacji)
+
+    Analiza, symulacja i testowanie szybkiego algorytmu dyskretnej frakcjonalnej transformacji Hadamarda.
+    Weryfikacja symulacja i testowanie szybkiego algorytmu dyskretnej frakcjonalnej transformacji Fouriera.

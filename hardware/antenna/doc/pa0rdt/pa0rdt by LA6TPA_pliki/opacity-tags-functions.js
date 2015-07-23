@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){var otags_a=$("#opacity-tags-list a"),otags_number=otags_a.length,otags_increment=1/otags_number,otags_opacity="";$(otags_a.get().reverse()).each(function(i,el){el.id=i+1;otags_opacity=el.id/otags_number-otags_increment;$(this).css({opacity:otags_opacity})})});

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<!-- saved from url=(55)http://wwwhome.cs.utwente.nl/~ptdeboer/ham/tn/tn07.html -->
+<!-- saved on: 23.07.2015, 21:14:29 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Fundamentals of the MiniWhip antenna</title>
+<style type="text/css">
+h2 { clear:both }
+img { float:right; border-style:solid; border-width:1px; border-color:grey }
+</style></head>
+
+
+
+<body><h1>Fundamentals of the MiniWhip antenna</h1>
+<em>Pieter-Tjerk de Boer, PA3FWM <a href="mailto:pa3fwm@amsat.org">pa3fwm@amsat.org</a></em>
+<p>
+(This is an adapted version of an article that I wrote for the Dutch
+amateur radio magazine <em>Electron</em>, January 2014.)
+
+
+</p><p>
+A well-known active antenna for the LF, MF and HF bands is the "MiniWhip" designed by PA0RDT; see [1].
+Many ideas and misunderstandings have been voiced about how this antenna works.
+In this article, I hope to shed some light on this, by using some elementary theory.
+
+</p><h2>The MiniWhip</h2>
+
+<img src="Fundamentals%20of%20the%20MiniWhip%20antenna_pliki/tn07fig1.png" alt="[typical MiniWhip setup]">
+The figure shows a sketch of a typical MiniWhip setup.
+It consists of a mast of a few meters high, ideally in the open field, with on top of it a small metal
+plate and an amplifier, together in a plastic enclosure (the actual MiniWhip).
+A coaxial cable runs from the MiniWhip down along the mast to a receiver.
+For now we assume the mast is conductive and grounded, but we will later see what happens
+if this is not the case.
+The amplifier is a voltage follower with a very high input impedance in order not to load the
+metal plate, and a low output impedance to be able to deliver sufficient power to the
+50 ohm coaxial cable; see [1,2,3].
+The idea is that the metal plate "measures" the electrical field at its location,
+and sends the result via the coax to the receiver.
+
+<h2>Principle and electric field</h2>
+
+Let's make the following assumptions: the mast's height is small compared to the wavelength,
+and the signal to be received is vertically polarized.
+These are reasonable assumptions: the MiniWhip is often touted as an antenna for LF and MF (so
+with wavelengths of hundreds of meters), and those signals are predominantly vertically
+polarized (due to the influence of the relatively nearby conducting earth).
+At higher HF frequencies, these assumptions become less realistic, depending on the mast's height.
+<p>
+
+Such a vertically polarized radio signal produces vertical fieldlines in the area around the antenna,
+and as a consquence the so-called equipotential surfaces (surfaces on which the potential, i.e.
+the voltage w.r.t. ground, is the same everywhere).
+The metal plate in the MiniWhip will be at the same potential as the equipotential surface
+crossing it.
+</p><p>
+
+However, the amplifer in the MiniWhip is not just connected to the metal plate, but also to the grouned mast.
+To be more precise: the amplifier measurs the potential <i>difference</i> between the plate and the mast,
+buffers this, and applies this same potential difference between the shield and the center conductor
+of the coaxial cable. 
+This is crucial: the signal that ends up in the receiver, is the potential <i>difference</i> between
+the plate and the mast.
+</p><p>
+
+How large is this potential difference?
+The simplest reasoning says that the plate has the same potential as the field a few meters above
+the ground (the height of the mast), and the mast itself is at ground potential (because its lower
+end is grounded).
+However, this is a simplification.
+If the entire mast is at ground potential, the higher equipotential surfaces cannot cross it, and thus
+must be distorted.
+</p><p>
+
+<img src="Fundamentals%20of%20the%20MiniWhip%20antenna_pliki/tn07fig2.png" alt="[equipotential surfaces around a mast]">
+This figure shows what the distorted surfaces look like (calculated by having my computer solve the relevant Maxwell equation).
+The black line at the bottom denotes the earth.
+On it, there is a (rather thick, cylindrical) mast, and a metal block floats above it, both also 
+shown in black.
+The metal block is the MiniWhip's metal plate.
+The red lines are the equipotential surfaces, or rather, cuts through them.
+Each of these lines corresponds to a potential, expressed in volts: the voltage of this equipotential
+surface w.r.t. ground.
+The earth and the mast itself are at ground potential, say 0 volts.
+The lowest red line could then e.g. be at 1 μV, the next at 2 μV, and so on.
+</p><p>
+
+Far away from the mast, the equipotential lines/surfaces are almost horizontal, as one would expect
+for a vertically polarized electric field.
+Around the mast, they are distorted, because the entire mast is at ground potential.
+And also around the metal block above it, the lines are distorted, because the potential on a conductor is the same everywhere.
+But actually, the distortion is not too bad; at the metal block the potential is
+hardly different than far away from the mast at the same height.
+Further calculations show that the distortion decreases as the mast becomes thinner.
+
+</p><h2>Isolated mast</h2>
+
+What if the mast is not conductive?
+The amplifier will still measure the potential difference between the 
+plate and the "ground"
+of the amplifier circuit.
+If the mast is not conductive, then the only thing connected to the 
+circuit ground is the shield of
+the coaxial cable.
+In that case, the potential difference will be measured between the 
+plate and whatever that cable shield goes to.
+If the cable shield is solidly connected to ground somewhere further on,
+ it will work just as well as with a grounded mast.
+But if the shield is not grounded, goes into the shack and connects 
+there to a "dirty" ground
+(e.g., the mains safety ground), well, then all noise on that dirty 
+ground will contribute to the potential difference at the amplifier 
+input, and thus end up in the receiver.
+Hence the importance of good grounding.
+<p>
+
+It might be an idea to replace the coaxial cable by a glass fiber.
+That would eliminate all noise coming into the amplifier via the coaxial cable.
+But without any conductive connection to the outside, the entire circuit will be at the same potential,
+so the received signal will not cause a potential difference that can be passed on to the receiver.
+As a consequence, nothing will be received.
+PA0RDT recently tried this in practice and reported about it on the RSGB-LF mailing list:
+indeed, he received nothing.
+
+</p><h2>Polarization</h2>
+
+Another interesting experiment by PA0RDT was to not put the antenna on top of a vertical pole in the garden,
+but on a <i>horizontal</i> pole out of a window, with the coaxial cable also attached to that horizontal
+pole.
+He did this in such a way that the metal plate in either case ended up at the same spot, and noticed that
+the reception of a vertically polarized MF signal was equally strong.
+At first sight, this suggests that the antenna is not polarized: the reception is the same, even though
+the entire setup has been rotated from vertical to horizontal.
+<p>
+
+However, this conclusion is not correct.
+The amplifier still measures the potential difference between the plate 
+and the pole (if conductive and grounded) or the coax shield (which 
+presumably is grounded somewhere, possibly via the mains).
+So, the potential difference is still measured between the plate (which 
+is again at the same spot)
+and the ground (which also has not changed), so it is to be expected 
+that the resulting signal is the same.
+Whether the ground connection goes down vertically, or takes a partially
+ horizontal detour, does not matter,
+as long as the detour is short compared to the wavelength.
+
+</p><h2>Plate or whip</h2>
+
+Most active electric field antennas do not, like the MiniWhip, use a metal plate, but a whip of
+about a meter long.
+This makes no essential difference for the operation.
+Such a whip will, if it is short compared to the wavelength, assume the average potential of its
+surroundings, in this case the potential about half a meter above the top of the mast.
+This half meter extra height will hardly affect the potential difference to ground.
+<p>
+
+However, there is another important difference, namely the capacitance of the plate or whip.
+A whip has a capacitance of almost 10 pF per meter of length, slightly dependent on it thickness.
+A circular metal plate has a capacitance of about 0.35 pF per cm diameter (proportional to the
+diameter, not to the area, as one might expect).
+I haven't found a formula for a rectangular plate, but the shape should not matter too much,
+so a typical MiniWhip has about 2 pF of plate capacitance.
+That capacitance is important, because together with the amplifier input capacitance it forms
+a capacitive voltage divider.
+If the plate or whip's capacitance is smaller, less voltage remains when the amplifier is connected.
+
+</p><h2>Directivity</h2>
+
+<img src="Fundamentals%20of%20the%20MiniWhip%20antenna_pliki/tn07fig3.png" alt="[field lines and Poynting vector]">
+Before we can say anything about the directivity of an antenna, it's good to have a closer look
+at what is or determines the "direction" of a radio signal.
+The figure shows a vertically polarized transmitting antenna, and the electric and magnetic field
+lines produced by this antenna at a large distance (the so-called far field).
+We see that the electric fieldlines are vertical, not surprisingly since the electric field
+is caused by e.g. the top half of the dipole being charged positively and the bottom half
+negatively (or the other way around, half a period later).
+We also see that the magnetic field lines are horizontal, forming a large circle around the antenna;
+this is also to be expected, since we know that magnetic field lines form circles around a current-carrying
+wire.
+<p>
+
+The figure also shows the so-called Poynting vector.
+It is named after the English physicist J.H. Poynting, and points in the direction in which the
+wave propagates.
+Mathematically it is given by the so-called outer product of the electric and magnetic field vectors.
+Its direction can be determined by turning one's <i>left</i> hand such that it catches the magnetic
+field lines into its palm, and the fingers are aligned with the electric fieldlines;
+then the thumb indicates the direction of the Poynting vector.
+</p><p>
+
+How can an antenna be more sensitive to signals from one direction than from another?
+If the antenna could directly sense the Poynting vector, it would be easy, since this vector
+indicates directly the propagation direction.
+Unfortunately however, antennas do not respond to the Poynting vector but only to the electric
+and/or magnetic field.
+</p><p>
+
+The first way in which an antenna can have directional sensitivity, is by measuring the 
+electric or magnatic field <i>at several places</i> and "comparing" the phase of the
+signal at those places.
+This happens e.g. in a Yagi antenna: a signal that arrives from straight ahead,
+reaches the first director earlier than the dipole.
+However, for small antennas this principle doesn't work: if the antenna is small compared to
+the wavelength, the signal arrives almost simultaneously everywhere in the antenna, and thus
+does not give a significant phase difference.
+
+</p><h2>Directivity of small antennas</h2>
+
+For a small antenna to be directionally sensitive, the only possibility is to use the direction of
+the electric and magnetic field lines themselves.
+Unfortunately, they do not always reveal the direction from which the signal is coming.
+<p>
+
+Consider the vertically polarized field in the previous figure.
+The electrical field lines at the place of the receiver are vertical, regardless
+of whether the transmitter is left or right, front or rear.
+Thus we cannot conclude from the electric field from which direction the signal is coming.
+(Well, we can conclude that the signal is coming in horizontally rather than steeply
+from up in the sky. But usually that's not so interesting.)
+</p><p>
+
+In contrast, the magnetic field lines do say something about the direction.
+If e.g. the transmitter is west of us, then the magnetic field lines are in a north-south
+direction.
+If the transmitter is north of us, the magnetic field lines run east/west.
+But this is not unambiguous: if the transmitter would be south of us, the magnetic field
+lines would also be east/west.
+In other words: in case of a vertically polarized signal, the magnetic field lines tell
+us from which direction the signal is coming, albeit with a 180 degree uncertainty.
+And this is of course well known from portable mediumwave radios with a built-in ferrite rod
+antenna: such an antenna is directionally sensitive, but if one rotates it by 180 degrees, reception
+doesn't change.
+</p><p>
+
+Fox hunters / ARDF participants on 80 meters also use ferrite antennas that respond to the
+direction of the magnetic field lines.
+To resolve the 180 degree ambiguity, these receivers often have an additional "sense antenna":
+a whip that responds to the electric field.
+As noted before, that field says nothing about the direction of the signal, but it can resolve
+the 180-degree ambiguity of the magnetic fieldlines: depending on the direction, the electric
+signal is in phase or 180 degrees out of phase with the magnetic signal.
+</p><p>
+
+A nice application of these principles is DF6NM's directional longwave receiver [4].
+He uses two magnetic antennas under 90 degree angles to determine the direction of the signal,
+and an electric antenna to resolve the 180-degree ambiguity.
+He uses this data to produce a waterfall diagram in which the color indicates the direction.
+</p><p>
+
+All considerations so far were about vertically polarized signals.
+For horizontally polarized signals the situation is reversed: the electric field lines run
+horizontal and reveal the direction, while the magnetic field is vertical and says nothing
+about the direction.
+
+</p><h2>Directivity of the MiniWhip</h2>
+
+And what about the MiniWhip?
+We have already seen that it responds to the electric component of a vertically polarized signal,
+and that it is small compared to the wavelength.
+Then only one conclusion is possible: it is not directionally sensitive.
+<p>
+
+However, the MiniWhip does have a dip straight up: it will not respond to signals coming from straight above.
+Such signals have both their electric and magnetic field lines horizontal, and then there is nothing
+left for this antenna to respond to.
+This is quite noticeable with my WebSDR at the University of Twente.
+Occasionally Dutch users complain that its antenna is bad because they cannot hear Dutch stations
+on 80 m too well; but those signals bounce off the ionosphere almost vertically.
+</p><p>
+
+Some people have suggested that in order to receive signals coming from straight above,
+one should mount a horizontal plate on top of the MiniWhip's vertical plate.
+This is not going to work: the MiniWhip would still measure the potential difference between
+the plate and the ground, and for signals from straight up that difference is 0.
+
+</p><h2>Conclusions</h2>
+
+What can we conclude from all of this theory?
+<ul>
+<li> The MiniWhip is vertically polarized.
+</li><li> Grounding is important: if the antenna is only grounded in the shack, via the coax cable,
+  much noise can be picked up. B.t.w., that grounding does not need to be galvanic: a large piece
+  of metal, even if not connected directly to the earth, may have enough capacity to serve as ground.
+</li><li> The strength of the received signal is directly proportional to the height of the antenna above
+  ground, as long as this is small w.r.t. the wavelength.
+</li><li> Whether the mast is conductive or not hardly matters for the reception. However, if the mast
+  is conductive, the antenna's plate must of course not be mounted besides but above the mast.
+</li><li> The antenna is omni-directional, except for a dip straight up.
+</li><li> The orientation or shape of the metal plate do not matter; b.t.w., this is also true for the
+  whip in case of whip-based active antennas.
+</li></ul>
+
+<h2>Potential measurement demonstration</h2>
+
+The entire consideration about equipotential surfaces so far was purely theory.
+However, we can actually measure them, as I demonstrated at the 2013 "Dag voor de Radio-Amateur" (a Dutch
+amateur radio convention) using the following setup:
+<br>
+
+<img style="float:none" src="Fundamentals%20of%20the%20MiniWhip%20antenna_pliki/tn07fig5.png" alt="[potential measurement setup]">
+<p>
+
+The setup for this is sketched here.
+We see two large conductive plates between which an AC voltage is applied.
+Thus, between the plates there is an electric field that resembles the field from a far-away
+vertically polarized transmitter.
+We can put e.g. a pile of metal cans on the lower plate to simulate a mast.
+With the "probe" we can measure the potential anywhere; or more precisely, we can measure
+the potential difference w.r.t. ground, in this case the lower plate.
+</p><p>
+
+The probe itself consists of a piece of metal followed by an amplifier with a very high input
+impedance.
+In fact, this amplifier does the same thing as the amplifier in the MiniWhip.
+It does not measure the potential at the probe's location, but the potential difference to ground,
+with the ground reference arriving via the shield of the flexible shielded cable between the probe
+and the meter.
+</p><p>
+
+The input impedance of this meter (based on [5]) has been made extra high by using "bootstrapping":
+the two blue capacitors ensure that the potential on the other side of the components that are connected
+to the input (i.e., the FET and the 10M resistor) varies along with the input's potential.
+Thus, the parasitic capacitance of these components has no influence anymore.
+On my circuit, I measured a resulting input capacitance of 0.5 pF.
+The capacitance of the piece of metal is about 2 pF in my case, so indeed, it won't be loaded too much
+by the buffer circuit.
+
+</p><h2>Non-polarized antennas?</h2>
+
+As noted above, it is not true that the MiniWhip would be non-polarized.
+However, this is true much more generally: it is theoretically <i>impossible</i> to build an antenna
+which is not polarized, i.e., receives horizontal, vertical, circular and elliptic polarizations
+all equally well. This is demonstrated by the following "Gedankenexperiment".
+<p>
+
+Let us assume that we indeed have an antenna which is not polarized.
+Apply first a horizontally polarized signal field to this antenna, and then an equally strong
+vertically polarized field.
+Because of the antenna's claimed non-polarization, the output must be equally strong in both cases.
+Next, apply both signals simultaneously.
+The antenna's output signal must now be the sum of the two separate signals.
+Finally, change the phase of one of the two signals such that the two signals at the output are in
+opposite phase: then they will cancel each other, because they were equally large.
+Thus, we are now applying a signal to the antenna which has a polarization which is some mixture of
+horizontal and vertical polarization, with some phase difference: that is an elliptically polarized
+signal, and the antenna does not respond to it. This means the original claim that the antenna
+was equally sensitive to all polarizations, must be wrong!
+
+</p><h2>References</h2>
+
+[1] De pa0rdt-Mini-Whip, een actieve ontvangantenne voor 10 kHz tot 20 MHz, PA0RDT, Electron 5/2006.
+<br>
+[2] <a href="http://pi4utr.nl/wp-content/uploads/download/pa0rdt_whip.pdf">http://pi4utr.nl/wp-content/uploads/download/pa0rdt_whip.pdf</a>
+<br>
+[3] Technische notities van PA3FWM, Electron 3/2010.
+<br>
+[4] <a href="http://df6nm.de/ColourDF/ColourDF.htm">http://df6nm.de/ColourDF/ColourDF.htm</a>
+<br>
+[5] <a href="http://www.ti.com/lit/pdf/snoa620">AN-32 FET Circuit Applications</a>, Texas Instruments.
+<br>
+[6] Active Reception Antennas, Observations, Calculations and 
+Experiments; Detlef Burchard, VHF Communications 2/96 (and UKW-Berichte 
+4/94).
+
+
+<hr>
+<font size="-1">
+Text and pictures on this page are copyright 2013, P.T. de Boer, pa3fwm@amsat.org .
+<br>
+Republication is only allowed with my explicit permission.
+</font>
+
+
+
+
+</body></html>

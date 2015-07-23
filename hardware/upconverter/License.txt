@@ -1,0 +1,39 @@
+All design files associated with this Upconverter project
+are hereby deeded into the Public Domain by Opendous Inc.
+under the Creative Commons CC0 Public Domain Dedication:
+http://creativecommons.org/publicdomain/zero/1.0/
+
+The Public Domain Files are:
+Upconverter-100MHz-ADE.pro
+Upconverter-100MHz-ADE.sch
+Upconverter-100MHz-ADE.brd
+Upconverter-100MHz-ADE.cmp
+Upconverter-100MHz-ADE.net
+Upconverter-100MHz-ADE.stf
+Upconverter-100MHz-ADE-cache.lib
+Upconverter-100MHz-ADE_Assembly_Instructions.svg
+Upconverter-100MHz-ADE_BillOfMaterials.txt
+Upconverter_Diagram.svg
+Upconverter_Bandpass_Filter.dpl
+Upconverter_Bandpass_Filter.sch
+Upconverter_LO_Filter.sch
+Upconverter_LO_Filter.dpl
+Upconverter_Lowpass_Filter.dpl
+Upconverter_Lowpass_Filter.sch
+Upconverter-100MHz-ADE_Gerbers.zip
+|--readme.txt
+|--Upconverter-100MHz-ADE-Back.gbl
+|--Upconverter-100MHz-ADE.drl
+|--Upconverter-100MHz-ADE-Front.gtl
+|--Upconverter-100MHz-ADE-Mask_Back.gbs
+|--Upconverter-100MHz-ADE-Mask_Front.gts
+|--Upconverter-100MHz-ADE-PCB_Edges.gbr
+|--Upconverter-100MHz-ADE-SilkS_Front.gto
+|--Upconverter-100MHz-ADE-SoldP_Front.gtp
+
+
+All other files such as the pictures and testing data associated
+with this Upconverter project are distributed under the
+Creative Commons Attribution License:
+http://creativecommons.org/licenses/by/3.0/
+

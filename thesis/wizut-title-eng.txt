@@ -1,0 +1,40 @@
+\makeatletter
+\renewcommand{\maketitle}
+{
+	\begin{titlepage}
+		\begin{center}
+			\vspace*{1cm}
+			\fontsize{16}{16}\selectfont
+				\textsc{Zachodniopomorski Uniwersytet Technologiczny\\w Szczecinie}\\
+				\vspace*{0.5cm}
+				\textsc{\textbf{Wydział Informatyki}}\\
+				\vspace*{1.5cm}
+				\begin{figure}[h]
+					\centering
+					\includegraphics[width=2.2cm]{images/logoWI.jpg}
+				\end{figure}
+				\vspace*{3cm}
+				\@author\\
+				\vspace*{0.2cm}
+			\fontsize{12}{12}\selectfont
+				Kierunek Informatyka\\
+				\vspace*{0.5cm}
+			\fontsize{18}{18}\selectfont
+				\textbf{\@title}\\
+			\fontsize{12}{12}\selectfont
+				\vspace*{4.3cm}
+				\begin{flushright}
+					\begin{minipage}{7cm}
+						Praca dyplomowa inżynierska\\
+						napisana pod kierunkiem\\
+						\textbf{stopień. PROMOTOR}\\
+						w Katedrze XXX
+					\end{minipage}
+				\end{flushright}
+			\fontsize{16}{16}\selectfont
+				\vspace*{2cm}
+				Szczecin 2016\\
+		\end{center}
+	\end{titlepage}
+}
+\makeatother

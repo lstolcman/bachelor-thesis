@@ -1,0 +1,18 @@
+Zawartoœæ archiwum:
+
+KursKiCAD.pdf - 40 stronicowy kurs obs³ugi programu KiCAD jaki zamieœci³em
+na mojej p³ycie CD z tym programem - tutaj wy³¹cznie w postaci  pliku PDF.
+Na p³ycie CD dostêpny jest  ponadto w postaci  prezentacji multimedialnych
+MS Power Point i  OpenOffice.org Impress 2 i  oczywiœcie pliku PDF,  który
+zosta³ tak¿e do³¹czony do instalatora KiCADa. Myœlê ¿e kurs ten pomo¿e po-
+cz¹ktuj¹cym elektronikom korzystaj¹cym z tego programu i przyczyni  siê do
+rozpowszechnienia KiCADa.
+Natomiast katalog pl zawiera aktualne t³umacznie menu KiCADa do kompilacji
+ze stycznia 2007 roku.  Nale¿y je skopiowaæ do  nastêpuj¹cej  lokalizacji:
+C:\KiCAD\internat\pl  zastêpuj¹c znajduj¹ce siê tam pliki i katalog pl lub
+skopiowaæ pliki kicad.mo i kicad.po z katalogu pl tego archiwum  zamienia-
+j¹c oryginalne pliki KiCADa.
+
+Krzysiek
+
+kaawa@wp.pl

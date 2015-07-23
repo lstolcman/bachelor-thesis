@@ -1,0 +1,1048 @@
+
+body {
+	background: #112435;
+	color: #5286b8;
+	text-align: center;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+	
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	font-size: 100%;
+}
+
+a {
+	color: #0e4270;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #228ae7;
+	text-decoration: none;
+}
+
+.mainwrap {
+	text-align:left;
+	margin: 0 auto;
+	font-size: .8em;
+	width: 960px;
+}
+
+#header {
+	background: #000000 url(../../../images/thecure/style/header_bg.jpg) 0 0 repeat-x;
+	height: 300px;
+}
+
+#header .header_main {
+	background: #000000 url(../../../images/thecure/style/header_main.jpg) 0 0 repeat-x;
+	height: 126px;
+	width: 960px;
+}
+
+#header .header_left {
+	height: 126px;
+}
+
+#header .header_right {
+	background: url(../../../images/thecure/style/header_right.jpg) 100% 0 no-repeat;
+	color: #dfdfdf;
+	height: 150px;
+}
+
+#header .top_bar {
+	height: 10px;
+}
+
+#header .top_bar ul {
+	float:right;
+	padding: 9px 18px 0 0;
+	margin: 0;
+	list-style:none;
+}
+
+#header .top_bar ul li {
+	float:right;
+	margin: 0 6px;
+	background: url(../../../images/thecure/style/top_bar_tab.jpg) 0 0 no-repeat;
+	padding: 0;
+	=width: 110px;
+}
+
+#header .top_bar ul li a {
+	float:right;
+	margin: 0;
+	padding: 0;
+	padding: 0 0 0 26px;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+#header .top_bar ul li a:hover {
+	text-decoration:underline;
+}
+
+#header .top_bar ul li a.top_bar_ucp {
+	background: url(../../../images/thecure/style/top_bar_links.gif) 5px -70px no-repeat;
+}
+
+#header .top_bar ul li a.top_bar_mcp {
+background: url(../../../images/thecure/style/top_bar_links.gif) 5px -46px no-repeat
+}
+
+#header .top_bar ul li a.top_bar_acp {
+background: url(../../../images/thecure/style/top_bar_links.gif) 5px 4px no-repeat
+}
+
+#header .top_bar ul li a.top_bar_lout {
+background: url(../../../images/thecure/style/top_bar_links.gif) 5px -21px no-repeat
+}
+
+#header .top_bar ul li a span {
+	float:left;
+	display:block;
+	background: url(../../../images/thecure/style/top_bar_tab.jpg) 100% 0 no-repeat;
+	padding:4px 15px 3px 3px;
+}
+
+#header .header_side {
+	color: #dfdfdf;
+	float: left;
+	padding: 35px;
+}
+
+div.header_side a {
+   color: #FFCC00
+}
+
+#header .logo {
+	float: left;
+color: #FFFFFF;
+}
+
+#header .guest_links {
+	float: right;
+	padding: 40px 30px 0 0;
+}
+
+#header .guest_links ul {
+margin: 0;padding:0;list-style:none;background:url(../../../images/thecure/style/guest_links.gif) 0 -50px no-repeat;width: 320px;height:50px
+}
+
+#header .guest_links ul li {
+margin:0;padding:0;float:left
+}
+
+#header .guest_links ul li.guest_or {
+width: 52px; height: 50px;display:block
+}
+
+#header .guest_links a {
+	display: block;
+}
+
+#header .guest_links a.register_button {
+width:162px;height:50px;background:url(../../../images/thecure/style/guest_links.gif) 0 0 no-repeat;
+}
+
+#header .guest_links a.login_button {
+	background: url(../../../images/thecure/style/guest_links.gif) -214px 0 no-repeat;
+	width: 100px;
+	height: 50px;
+}
+
+#header .guest_links a:hover.register_button, #header .guest_links a:hover.login_button {
+background: 0
+}
+
+#panel {
+	background: url(../../../images/thecure/style/panel_main.jpg) 0 0 no-repeat;
+	width: 266px;
+	height: 68px;
+	float: right;
+}
+
+#panel .panel_wrap {
+	padding: 6px 6px 2px 80px;
+	font-size: .9em;
+	color: #FFFFFF;
+}
+
+#navbar {
+	background: #0e1c2a url(../../../images/thecure/style/nav_main.jpg) 0 0 no-repeat;
+	width: 960px;
+	color: #FFFFFF;
+	height: 50px;
+}
+
+#navbar ul#nav {
+	width: 600px;
+	color: #ffffff;
+	padding: 0 10px;
+	margin: 0;
+	list-style: none;
+	float: left;
+	display: block;
+}
+
+#navbar #search {
+	padding: 8px 14px 0 0;
+	float:right;
+	width: 310px;
+}
+
+#navbar #search .search_input_wrap {
+	background: url(../../../images/thecure/style/nav_search_input.jpg) 0 0 no-repeat;
+	width: 238px;
+	height: 30px;
+	float: left;
+}
+
+#navbar #search .nav_search_input {
+	background: transparent;
+	width: 200px;
+	padding: 4px;
+	border: 0;
+	margin: 3px 3px 3px 30px;
+	display: block;
+}
+
+#navbar #search .nav_search_button {
+	background: transparent url(../../../images/thecure/style/nav_search_go.jpg)  0 0 no-repeat;
+	width: 62px;
+	height: 30px;
+	float: right;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	cursor: pointer;
+}
+
+#navbar ul#nav li {
+	margin: 0;
+	padding: 18px 12px 0 10px;
+	float:left;
+}
+
+#navbar ul#nav li a {
+	color: #999999;
+	font-family: Tahoma, Sans-Serif;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+#navbar ul#nav li a:hover {
+color: #228ae7
+}
+
+#container {
+	background: #E3E3E3 url(../../../images/thecure/style/main_bg.jpg) 0 0 repeat-x;
+	padding: 0 0 16px 0;
+}
+
+#container .container_wrap {
+background: url(../../../images/thecure/style/container_wrap.jpg) 50% 0 no-repeat
+}
+
+#container .subnav {
+	background: #000000 url(../../../images/thecure/style/subnav_main.jpg) 0 0 repeat-x;
+	border: 0px solid #c9dff1;
+	border-bottom: 0px solid #94c2e8;
+	padding: 16px;
+	color: #999999;
+	font-size: .9em;
+}
+
+#container .subnav a {
+	color: #FFCC00;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#container .subnav a:hover {
+	color: #146db5;
+	border-bottom: 1px dotted #112a41;
+}
+
+#content {
+	background: #f0f0f0;
+	padding: 10px;
+}
+
+table {
+	color: #303030;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	font-size: 13px;
+}
+
+.tborder {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.thead_main {
+	background: #ffffff url(../../../images/thecure/style/thead_main.jpg) 0 0 repeat-x;
+	height: 46px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.thead_left {
+	background: url(../../../images/thecure/style/thead_left.jpg) 0 0 no-repeat;
+	height: 46px;
+}
+
+.thead_right {
+	background: url(../../../images/thecure/style/thead_right.jpg) 100% 0 no-repeat;
+	height: 46px;
+}
+
+.thead_text {
+	color: #ffffff;
+	padding: 15px 12px;
+	text-shadow: #031b31 1px 1px 0;
+	line-height: 11px;
+}
+
+.thead {
+	background: #6E6E6E;
+	color: #dfdfdf;
+	text-shadow: #000000 1px 1px 0;
+}
+
+.thead a, .thead_text a {
+	color: #FFCC00;
+	text-decoration: none;
+}
+
+.thead a:hover, .thead_text a:hover {
+	color: #daf1ff;
+	border-bottom: 1px dotted #daf1ff;
+}
+
+.thead_main .expcolimage {
+	float: right;
+	margin-top: -5px;
+}
+
+.thead_main .expcolimage img {
+display:block
+}
+
+.tcat, .tcat_main {
+	background: #b5d7f3 url(../../../images/thecure/style/tcat_main.jpg) 0 0 repeat-x;
+	color: #6E6E6E;
+	text-shadow: #ffffff 1px 1px 0;
+	border-bottom: 0px solid #6E6E6E;
+	
+	font-size: 12px;
+}
+
+.tcat_main {
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	border: 1px solid #6E6E6E;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.tcat_left {
+	border-left: 1px solid #dfdfdf;
+	-webkit-border-bottom-left-radius: 1px;
+	-moz-border-radius-bottomleft: 1px;
+	border-bottom-left-radius: 1px;
+}
+
+.tcat_right {
+	border-right: 1px solid #dfdfdf;
+	-webkit-border-bottom-right-radius: 1px;
+	-moz-border-radius-bottomright: 1px;
+	border-bottom-right-radius: 1px;
+}
+
+.tcat_top {
+	border-top: 1px solid #94c2e8;
+}
+
+.tcat a, .tcat_main a {
+	color: #114879;
+}
+
+.tcat a:hover, .tcat_main a:hover {
+	color: #114879;
+	border-bottom: 1px dotted #114879;
+}
+
+.trow1 {
+	background: #f0f0f0;
+}
+
+.trow2 {
+	background: #f0f0f0;
+}
+
+.trow_shaded {
+	background: #ffdde0;
+}
+
+.trow_selected td {
+	background: #FFFBD9;
+}
+
+.trow_sep {
+	background: #e5e5e5;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.tfoot_main {
+	background: url(../../../images/thecure/style/tfoot_main.jpg) 0 0 repeat-x;
+	height: 9px;
+}
+
+.tfoot_left {
+	background: url(../../../images/thecure/style/tfoot_left.jpg) 0 0 no-repeat;
+	height: 9px;
+}
+
+.tfoot_right {
+	background: url(../../../images/thecure/style/tfoot_right.jpg) 100% 0 no-repeat;
+	height: 9px;
+}
+
+.tfoot {
+	color: #565656;
+	border-top: 1px solid #cbd3de;
+}
+
+.tfoot a {
+	color: #565656;
+	text-decoration: none;
+}
+
+.tfoot a:hover {
+	color: #228AE8;
+	text-decoration: underline;
+}
+
+#container .footer_main {
+	background: url(../../../images/thecure/style/footer_main.jpg) 0 0 no-repeat;
+	height: 18px;
+	width: 960px;
+	line-height: 1px;
+}
+
+#footer {
+	background: #000000;
+	color: #6E6E6E;
+	border-top: 1px solid #30475c;
+	padding: 14px 0 20px;
+}
+
+#footer .footer_menu {
+	width: 250px;
+	float: left;
+}
+
+#footer .footer_menu ul {
+	margin: 0;
+	padding: 0 0 10px 0;
+	list-style: none;
+}
+
+#footer .footer_menu ul li {
+	margin: 6px 14px 0 0;
+	padding: 0;
+	float: left;
+	clear: both;
+	width:232px;
+}
+
+#footer .footer_menu ul li a {
+	background: #0a1620;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px 6px 4px 32px;
+	display: block;
+	color: #8fb0cd;
+}
+
+#footer .footer_menu ul li a:hover {
+color:#228ae7
+}
+
+#footer .footer_menu ul li a.bot_home {
+	background: #000000 url(../../../images/thecure/style/footer_links.gif) 3px -39px no-repeat;
+}
+
+#footer .footer_menu ul li a.bot_contact {
+	background: #000000 url(../../../images/thecure/style/footer_links.gif) 3px -1px no-repeat;
+}
+
+#footer .footer_menu ul li a.bot_archive {
+	background: #000000 url(../../../images/thecure/style/footer_links.gif) 3px -75px no-repeat;
+}
+
+#footer .footer_menu ul li a.bot_rss {
+	background: #000000 url(../../../images/thecure/style/footer_links.gif) 3px -111px no-repeat;
+}
+
+#footer .footer_content {
+	background: url(../../../images/thecure/style/footer_logo.jpg) 100% 20% no-repeat;
+	width: 690px;
+	float: right;
+	padding: 0px 0 20px 0;
+}
+
+#footer .footer_content a {
+color: #FFFFFF
+}
+
+#footer .footer_content a:hover {
+color: #228ae7
+}
+
+.navigation {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.navigation a:link {
+	text-decoration: none;
+}
+
+.navigation a:visited {
+	text-decoration: none;
+}
+
+.navigation a:hover, .navigation a:active {
+	text-decoration: none;
+}
+
+.navigation .active {
+	color: #000000;
+	font-size: small;
+	font-weight: bold;
+}
+
+.smalltext {
+	font-size: 11px;
+}
+
+.largetext {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+input.textbox {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #cccccc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 1px;
+}
+
+textarea {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #0f5c8e;
+	padding: 2px;
+	font-family: Verdana, Arial, Sans-Serif;
+	line-height: 1.4;
+	font-size: 13px;
+}
+
+select {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #cccccc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 3px;
+}
+
+.editor {
+	background: #f1f1f1;
+	border: 1px solid #ccc;
+}
+
+.editor_control_bar {
+	background: #fff;
+	border: 1px solid #0f5c8e;
+}
+
+.autocomplete {
+	background: #fff;
+	border: 1px solid #000;
+	color: black;
+}
+
+.autocomplete_selected {
+	background: #adcee7;
+	color: #000;
+}
+
+.popup_menu {
+	background: #ccc;
+	border: 1px solid #000;
+}
+
+.popup_menu .popup_item {
+	background: #fff;
+	color: #000;
+}
+
+.popup_menu .popup_item:hover {
+	background: #C7DBEE;
+	color: #000;
+}
+
+.trow_reputation_positive {
+	background: #ccffcc;
+}
+
+.trow_reputation_negative {
+	background: #ffcccc;
+}
+
+.reputation_positive {
+	color: green;
+}
+
+.reputation_neutral {
+	color: #444;
+}
+
+.reputation_negative {
+	color: red;
+}
+
+.invalid_field {
+	border: 1px solid #f30;
+	color: #f30;
+}
+
+.valid_field {
+	border: 1px solid #0c0;
+}
+
+.validation_error {
+	background: url(../../../images/invalid.gif) no-repeat center left;
+	color: #f30;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 22px;
+}
+
+.validation_success {
+	background: url(../../../images/valid.gif) no-repeat center left;
+	color: #00b200;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 22px;
+}
+
+.validation_loading {
+	background: url(../../../images/spinner.gif) no-repeat center left;
+	color: #555;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 22px;
+}
+
+/* Additional CSS (Master) */
+img {
+	border: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+	float: none;
+	width: 1%;
+}
+
+.hiddenrow {
+	display: none;
+}
+
+.selectall {
+	background-color: #FFFBD9;
+	font-weight: bold;
+	text-align: center;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.expcolimage {
+	float: right;
+	width: auto;
+	vertical-align: middle;
+	margin-top: 3px;
+}
+
+img.attachment {
+	border: 1px solid #E9E5D7;
+	padding: 2px;
+}
+
+hr {
+	background-color: #DBDBDB;
+	color: #DBDBDB;
+	height: 1px;
+	border: 0px;
+}
+
+#copyright {
+	font: 11px Verdana, Arial, Sans-Serif;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+#debug {
+	float: right;
+	text-align: right;
+	margin-top: 0;
+}
+
+blockquote {
+	border: 1px solid #ccc;
+	margin: 0;
+	background: #fff;
+	padding: 4px;
+}
+
+blockquote cite {
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	font-style: normal;
+	display: block;
+	margin: 4px 0;
+}
+
+blockquote cite span {
+	float: right;
+	font-weight: normal;
+}
+
+blockquote cite span.highlight {
+	float: none;
+	font-weight: bold;
+	padding-bottom: 0;
+}
+
+.codeblock {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+
+.codeblock .title {
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	margin: 4px 0;
+}
+
+.codeblock code {
+	overflow: auto;
+	height: auto;
+	max-height: 200px;
+	display: block;
+	font-family: Monaco, Consolas, Courier, monospace;
+	font-size: 13px;
+}
+
+.subforumicon {
+	border: 0;
+	vertical-align: middle;
+}
+
+.separator {
+	margin: 5px;
+	padding: 0;
+	height: 0px;
+	font-size: 1px;
+	list-style-type: none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+.popup_menu .popup_item_container {
+	margin: 1px;
+	text-align: left;
+}
+
+.popup_menu .popup_item {
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.popup_menu a.popup_item:hover {
+	text-decoration: none;
+}
+
+.autocomplete {
+	text-align: left;
+}
+
+.subject_new {
+	font-weight: bold;
+}
+
+.highlight {
+	background: #FFFFCC;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.pm_alert {
+	background: #FFF6BF;
+	border: 1px solid #FFD324;
+	text-align: center;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+	font-size: 11px;
+}
+
+.red_alert {
+	background: #FBE3E4;
+	border: 1px solid #A5161A;
+	color: #A5161A;
+	text-align: center;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+	font-size: 11px;
+}
+
+.high_warning {
+	color: #CC0000;
+}
+
+.moderate_warning {
+	color: #F3611B;
+}
+
+.low_warning {
+	color: #AE5700;
+}
+
+div.error {
+	padding: 5px 10px;
+	border-top: 2px solid #FFD324;
+	border-bottom: 2px solid #FFD324;
+	background: #FFF6BF;
+	font-size: 12px;
+}
+
+div.error p {
+	margin: 0;
+	color: #000;
+	font-weight: normal;
+}
+
+div.error p em {
+	font-style: normal;
+	font-weight: bold;
+	padding-left: 24px;
+	display: block;
+	color: #C00;
+	background: url(../../../images/error.gif) no-repeat 0;
+}
+
+div.error.ul {
+	margin-left: 24px;
+}
+
+.online {
+	color: #15A018;
+}
+
+.offline {
+	color: #C7C7C7;
+}
+
+.pagination {
+	font-size: 11px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+.tfoot .pagination, .tcat .pagination {
+	padding-top: 0;
+}
+
+.pagination .pages {
+	font-weight: bold;
+}
+
+.pagination .pagination_current, .pagination a {
+	padding: 2px 6px;
+	margin-bottom: 3px;
+}
+
+.pagination a {
+	border: 1px solid #81A2C4;
+}
+
+.pagination .pagination_current {
+	background: #F5F5F5;
+	border: 1px solid #81A2C4;
+	font-weight: bold;
+	color: #000;
+}
+
+.pagination a:hover {
+	background: #F5F5F5;
+	text-decoration: none;
+}
+
+.thread_legend, .thread_legend dd {
+	margin: 0;
+	padding: 0;
+}
+
+.thread_legend dd {
+	padding-bottom: 4px;
+	margin-right: 15px;
+}
+
+.thread_legend img {
+	margin-right: 4px;
+	vertical-align: bottom;
+}
+
+.forum_legend, .forum_legend dt, .forum_legend dd {
+	margin: 0;
+	padding: 0;
+}
+
+.forum_legend dd {
+	float: left;
+	margin-right: 10px;
+}
+
+.forum_legend dt {
+	margin-right: 10px;
+	float: left;
+}
+
+.success_message {
+	color: #00b200;
+	font-weight: bold;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+.error_message {
+	color: #C00;
+	font-weight: bold;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+.post_body {
+	padding: 8px;
+}
+
+.post_content {
+	background: #FFFFFF;
+	padding: 5px 10px;
+	border: 1px solid #dbdbdb;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.quick_jump {
+	background: url(../../../images/jump.gif) no-repeat 0;
+	width: 13px;
+	height: 13px;
+	padding-left: 13px; /* amount of padding needed for image to fully show */
+	vertical-align: middle;
+	border: none;
+}
+
+.repbox {
+	font-size:16px;
+	font-weight: bold;
+	padding:5px 7px 5px 7px;
+}
+
+._neutral {
+	background-color:#FAFAFA;
+	color: #999999;
+	border:1px solid #CCCCCC;
+}
+
+._minus {
+	background-color: #FDD2D1;
+	color: #CB0200;
+	border:1px solid #980201;
+}
+
+._plus {
+	background-color:#E8FCDC;
+	color: #008800;
+	border:1px solid #008800;
+}
+
+.pagination_breadcrumb {
+	background-color: #f5f5f5;
+	border: 1px solid #fff;
+	outline: 1px solid #ccc;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: normal;
+}
+
+.pagination_breadcrumb_link {
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+a.content_icon {
+display: block; float: right; background: url(../../../images/thecure/style/misc_icons.gif) 0 -184px no-repeat;padding: 2px 2px 2px 18px;margin: 8px 6px 0 6px;font-weight: bold
+}
+
+a.top_icon {
+display: block; float: right; background: url(../../../images/thecure/style/misc_icons.gif) 0 -140px no-repeat;padding: 2px 2px 2px 18px;margin: 8px 6px 0 6px; font-weight: bold
+}
+
+.stats_icon {
+background: url(../../../images/thecure/style/misc_icons.gif) 0 -49px no-repeat;padding: 2px 2px 2px 18px;font-weight: bold
+}
+
+.birthdays_icon {
+background: url(../../../images/thecure/style/misc_icons.gif) 0 3px no-repeat;padding: 2px 2px 2px 18px;font-weight: bold
+}
+
+.wol_icon {
+background: url(../../../images/thecure/style/misc_icons.gif) 0 -93px no-repeat;padding: 2px 2px 2px 18px;font-weight: bold
+}
+

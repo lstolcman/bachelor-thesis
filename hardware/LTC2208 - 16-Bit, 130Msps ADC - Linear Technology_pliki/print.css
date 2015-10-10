@@ -1,0 +1,25 @@
+﻿/*******************************************************************************
+
+	CSS on Sails Framework
+	Print stylesheet
+	Author: XHTMLized (http://www.xhtmlized.com/)
+
+*******************************************************************************/
+
+body { 
+	font: normal normal 12pt/1.5em "Times New Roman", Times, serif; 
+}
+
+a[href]:after { 
+	content: " (" attr(href) ") "; 
+	font-size: 90%; 
+}
+
+a[href^="/"]:after { 
+	content: " (http://domain.com" attr(href) ") "; 
+}
+
+ol#accessibility-nav, 
+.hide { 
+	display: none !important; 
+}

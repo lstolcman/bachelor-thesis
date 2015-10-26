@@ -1,8 +1,12 @@
+w pcbsupergroup, a drugie chyba w naturepcb.
+
+
 Ogolnie:
 http://www.elektroda.pl/rtvforum/topic1579983-330.html
 http://www.forbot.pl/forum/topics23/jak-zamowic-darmowe-plytki-drukowane-z-chin-vt11500.htm
 http://forum.atnel.pl/topic1108.html
 
+Marek4
 
 Chinscy:
 http://smart-prototyping.com/Prototyping-Services/Electronic-Prototyping/PCB-Prototyping.html

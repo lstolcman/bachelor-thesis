@@ -1,0 +1,256 @@
+\documentclass [a4paper, fleqn, 12pt] {mwrep}
+
+\usepackage [OT4] {fontenc}
+\usepackage [utf8] {inputenc}
+\usepackage {polski}
+
+\include {titlepage}
+
+\include {setups}
+
+
+
+
+
+\begin {document}
+\pagenumbering{gobble}
+\maketitle
+\pagenumbering{arabic}
+\newpage
+\tableofcontents
+
+\newpage
+
+\chapter{Wstęp}
+\thispagestyle{empty}
+\section {Polskie ogonki}
+\input {t1}
+	\subsection {Podsekcja 1}
+	\input {t2}
+		\paragraph {Paragraf 1}
+		\input {t3}
+		\paragraph {Paragraf 2}
+		\input {t3}
+	\subsection {Podsekcja 2}
+	\input {t3}
+		\paragraph {Paragraf 1}
+		\input {t4}
+		\paragraph {Paragraf 2}
+		\input {t4}
+
+
+\section {Proponowane otoczenia}
+\input {t5}
+	\subsection {Lista --- otoczenie pierwsze}
+		\begin {enumerate}
+			\item {Najlepszy punkt 1}
+			\item {Najlepszy punkt 2}
+			\item {Najlepszy punkt 3}
+		\end {enumerate}
+
+
+	\subsection {,,Opisy'' pogrubione}
+		\begin {description}
+		\item [Ten] {punkt jest najważniejszy, bo pierwszy.}
+		\item [Następny] {punkt jest drugim w kolejności}
+		\item [Ostatni] {z punktów w tej liście}
+		\end {description}
+	
+	\subsection {Wyśrodkowanie tekstu}
+		\begin {center}
+		Litwo, Ojczyzno moja! ty jesteś jak zdrowie; \\
+		Ile cię trzeba cenić, ten tylko się dowie, \\
+		Kto cię stracił. Dziś piękność twą w całej ozdobie \\
+		Widzę i opisuję, bo tęsknię po tobie. \\
+		\end {center}
+
+	\subsection {Cytat}
+		Przykładem najpopularniejszej książki w Polsce jest
+		,,Pan Tadeusz'' \textit{Adama Mickiewicza}.
+		Dzieło zaczyna się słynnymi słowami inwokacji:
+		\begin {quote}
+		Litwo, Ojczyzno moja! ty jesteś jak zdrowie; \\
+		Ile cię trzeba cenić, ten tylko się dowie, \\
+		Kto cię stracił. Dziś piękność twą w całej ozdobie \\
+		Widzę i opisuję, bo tęsknię po tobie. \\
+		\end {quote}
+		Jest to udowodnione naukowo przez rosyjskich naukowców.
+
+	\subsection {Maszynopis -- piąte otoczenie}
+		Rozważmy przykład poważnego kodu źródłowego w języku C.
+		Jest to fragment kodu kernela systemu operacyjnego Windows 8,
+		który odpowiada za przydział pamięci dla nowych procesów:
+		\begin {verbatim}
+		/* 
+		 * File:   main.c
+		 * Author: lstolcman
+		 *
+		 * Created on 5 kwiecień 2013, 08:52
+		 */
+
+		#include <stdio.h>
+		#include <stdlib.h>
+
+		/*
+		 * 
+		 */
+		int main(int argc, char** argv)
+		{
+			char tab[8] = "ALA OLA";
+			printf("%s", tab+3);
+
+			printf("\n");
+			//
+
+			char tab1[4] = "ALA";
+			char tab2[4] = "ALA";
+			if (tab1 == tab2)
+				printf("eq");
+			else
+				printf("ne");
+
+			printf("\n");
+			return (EXIT_SUCCESS);
+		}
+		\end {verbatim}
+
+\section {Sekcja Matematyczna}
+	\subsection {Tryb wystawiony}
+		DFT przekształca skończony ciąg próbek sygnału
+		$(a_0, a_1, a_2, \dots, a_{N-1})$
+		w ciąg harmonicznych
+		$(A_{0}, A_{1}, A_{2},\dots, A_{N-1})$
+		zgodnie ze wzorem:
+		\begin {equation}
+		A_{k}=\sum_{n=0}^{N-1}{a_{n}w_{N}^{-kn}}
+		\end {equation}
+		\begin {equation}
+		w_{N}=e^{i\frac{2\pi}{N}}
+		\end {equation}
+	\subsection {Podsekcja 2}
+		\begin {math}
+			\left[
+				\begin{array}{c|c}
+					a_{411}	&	a_{412}	\\  \hline
+					a_{413}	&	a_{414}	
+				\end{array}
+			\right]
+			\times
+			\left[
+				\begin{array}{c|c}
+					b_{411}	&	b_{412}	\\  \hline
+					b_{413}	&	b_{414}	
+				\end{array}
+			\right]
+			=
+			\left[
+				\begin{array}{c|c}
+					c_{411}	&	c_{412}	\\  \hline
+					c_{413}	&	c_{414}	
+				\end{array}
+			\right]
+			\\ \\
+			\end {math}
+
+	\subsection {Podsekcja 3}
+		Wzór na pole koła: $\Delta = b^2 - 4ac$
+	\subsection {Podsekcja 4}
+	Funkcje trygonometryczne można też wprowadzić za pomocą
+	iloczynów nieskończonych: \\
+	\begin {equation}
+    	\sin x = x \prod_{n = 1}^\infty\left(1 - \tfrac{x^2}{\pi^2 n^2}\right)
+	\end {equation}
+		\\
+	\begin {equation}
+		\cos x = \prod_{n = 1}^\infty\left(1 - \tfrac{x^2}{\pi^2(n - \frac{1}{2})^2}\right)
+	\end {equation}
+
+	\subsection {Okresowość}
+	Funkcje trygonometryczne są funkcjami okresowymi.
+	Okresem podstawowym sinusa i~cosinusa jest liczba $2\pi$
+	\\
+    \begin{math}
+	\sin x = \sin(x + 2k\pi)
+	\\
+	\cos x = \cos(x + 2k\pi)
+	\end{math} 
+
+\section {Ilustracje}
+	\subsection {Ważni ludzie na świecie}
+	Według mnie najważniejszą osobą jest Linus Torvalds\index{Linus Torvalds}
+	(rys. \ref{fig:bill}), który napisał system operacyjny Linux\index{Linux},
+		a~obecnie działa w \textit{The Linux Foundation} \cite{ldd}.
+		\begin {figure}
+			\begin {center}
+			\includegraphics [scale=0.5] {images/bill_gates.jpg}
+			\end {center}
+			\caption {Linux Torvalds}
+			\label {fig:bill}
+		\end {figure}
+
+	\subsection {Bardzo ładne wektory}
+	Całego zła\index{zło} na świecie nie można wyrazić za pomocą słów.
+		Pomóc nam w~tym może rys. \ref{fig:islam1}.
+		\begin {figure}
+			\begin {center}
+			\includegraphics [scale=10] {images/islam1.eps}
+			\end {center}
+			\caption {Allah akbar}
+			\label {fig:islam1}
+		\end {figure}
+
+	
+\section {Elementy różne}
+	\subsection {Tabela}
+		Ceny paliw na świecie ilustruje tabela \ref{tab:fuel}.
+		Zawarto w niej trzy największe gospodarki naszej
+		galaktyki\index{Droga Mleczna}.
+		\begin {table}
+			\begin {center}
+			\begin {tabular} {c|c|c}
+			\bf {Państwo} & \bf {Cena za litr w PLN} & \bf{Ilość litrów za 100PLN}  \\ \hline
+			Rumunia & $4,70$ & $21,26$ \\ \hline
+			Turcja & $6,57$ & $15,21$ \\ \hline
+			Polska & $4,50$ & $22,21$
+			\end {tabular}
+			\caption {Ceny paliw na świecie}
+			\label {tab:fuel}
+			\end {center}
+		\end {table}
+	\subsection {Podsekcja 2}
+	\input {t3}
+		\paragraph {Paragraf 1}
+		\input {t4}
+		\paragraph {Paragraf 2}
+		\input {t4}
+
+
+\newpage
+\appendix \input {zalacznik}
+
+\newpage
+\listoffigures
+
+\newpage
+\listoftables
+
+\newpage
+\printindex
+
+
+
+\newpage
+
+\begin{thebibliography}{1}
+ 
+\bibitem {ldd}
+  Jonathan Corbet, Greg Kroah-Hartman, Alessandro Rubini,
+  \emph {Linux Device Drivers}
+  O'Reilly,
+  3rd Edition,
+  2005.
+ 
+\end {thebibliography}
+
+\end {document}
+

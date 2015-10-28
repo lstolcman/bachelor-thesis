@@ -289,6 +289,20 @@ http://www.linear.com/docs/38722</description>
 <rectangle x1="-0.575" y1="1.525" x2="-0.075" y2="2.6" layer="29" rot="R180"/>
 <rectangle x1="-1.225" y1="1.525" x2="-0.725" y2="2.6" layer="29" rot="R180"/>
 </package>
+<package name="SOD323">
+<description>&lt;b&gt;Small Outline Diode&lt;/b&gt;</description>
+<wire x1="-0.8" y1="0.575" x2="0.8" y2="0.575" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="0.575" x2="0.8" y2="-0.575" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="-0.575" x2="-0.8" y2="-0.575" width="0.2032" layer="51"/>
+<wire x1="-0.8" y1="-0.575" x2="-0.8" y2="0.575" width="0.2032" layer="51"/>
+<smd name="1" x="-1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<smd name="2" x="1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.78" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.9" y="-1.805" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
+<rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
+<rectangle x1="-0.75" y1="-0.575" x2="-0.375" y2="0.575" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LTC2208_FLAT">
@@ -413,24 +427,6 @@ http://www.linear.com/docs/38722</description>
 <pin name="GPIO_030" x="-22.86" y="-15.24" length="middle" swaplevel="1"/>
 <pin name="GPIO_032" x="-22.86" y="-17.78" length="middle" swaplevel="1"/>
 </symbol>
-<symbol name="PESD1CAN">
-<text x="-10.16" y="-5.715" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-5.715" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="-7.62" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="3" x="-5.08" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="2" x="-2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0.635" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="-1.27" x2="-8.89" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="-1.27" x2="-7.62" y2="0.635" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0.635" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="0.635" x2="-6.35" y2="0.635" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-</symbol>
 <symbol name="LTC2208_BOX">
 <wire x1="30.48" y1="-33.02" x2="30.48" y2="33.02" width="0.254" layer="94"/>
 <pin name="SENSE" x="-38.1" y="20.32" length="middle"/>
@@ -504,6 +500,49 @@ http://www.linear.com/docs/38722</description>
 <pin name="GND14" x="-38.1" y="-15.24" length="middle" direction="pwr"/>
 </symbol>
 <symbol name="MSOP8">
+</symbol>
+<symbol name="CDSOD323-T03C">
+<wire x1="-0.762" y1="1.27" x2="1.016" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.016" y1="2.54" x2="-0.762" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="3.81" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.143" y1="3.81" x2="1.143" y2="1.27" width="0.254" layer="94"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="3" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-10.16" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="-2.286" y1="-3.81" x2="-4.064" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="-2.54" x2="-2.286" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-1.27" x2="-2.286" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-4.191" y1="-1.27" x2="-4.191" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-1.27" x2="1.016" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-2.54" x2="-0.762" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-3.81" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.143" y1="-3.81" x2="1.143" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="3.81" x2="-4.064" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="2.54" x2="-2.286" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="1.27" x2="-2.286" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-4.191" y1="1.27" x2="-4.191" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<circle x="5.08" y="0" radius="0.359209375" width="0" layer="94"/>
+<wire x1="-4.191" y1="1.27" x2="-4.699" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-4.191" y1="3.81" x2="-3.683" y2="4.318" width="0.254" layer="94"/>
+<wire x1="1.143" y1="-1.27" x2="0.635" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="1.143" y1="-3.81" x2="1.651" y2="-4.318" width="0.254" layer="94"/>
+<circle x="-7.62" y="0" radius="0.359209375" width="0" layer="94"/>
+</symbol>
+<symbol name="DIODE">
+<wire x1="-1.016" y1="-1.27" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.27" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.27" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.54" y="0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -648,25 +687,6 @@ http://www.linear.com/docs/38722</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LIMITER" prefix="D">
-<description>&lt;b&gt;CAN bus ESD protection diode&lt;/b&gt;&lt;p&gt;
-Source: http://www.nxp.com/documents/data_sheet/PESD1CAN.pdf</description>
-<gates>
-<gate name="G$1" symbol="PESD1CAN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LTC2208_BOX" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LTC2208_BOX" x="0" y="0"/>
@@ -738,6 +758,22 @@ Source: http://www.nxp.com/documents/data_sheet/PESD1CAN.pdf</description>
 <connect gate="G$1" pin="VDD17" pad="17"/>
 <connect gate="G$1" pin="VDD5" pad="5"/>
 <connect gate="G$1" pin="VDD6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CDSOD232" prefix="D">
+<gates>
+<gate name="G$1" symbol="CDSOD323-T03C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="G$1" pin="3" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

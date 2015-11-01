@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -13064,68 +13064,6 @@ Distributor Buerklin, 11G810</description>
 </library>
 <library name="lstolcman_thesis">
 <packages>
-<package name="2X20">
-<wire x1="-1.9" y1="-3.32" x2="-1.9" y2="-4.03" width="0.2032" layer="21"/>
-<wire x1="1.9" y1="-3.32" x2="1.9" y2="-4.03" width="0.2032" layer="21"/>
-<wire x1="-26.55" y1="-1.97" x2="-25.85" y2="-3.04" width="0.4064" layer="21"/>
-<wire x1="-25.85" y1="-3.04" x2="-25.15" y2="-1.97" width="0.4064" layer="21"/>
-<wire x1="-25.15" y1="-1.97" x2="-26.55" y2="-1.97" width="0.4064" layer="21"/>
-<wire x1="-29.26" y1="-4.1" x2="-29.26" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="-29.26" y1="-4.1" x2="29.26" y2="-4.1" width="0.2032" layer="21"/>
-<wire x1="29.26" y1="-4.1" x2="29.26" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="29.26" y1="4.1" x2="-29.26" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="-28.46" y1="-3.3" x2="-28.46" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="-28.46" y1="3.3" x2="28.46" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="28.46" y1="3.3" x2="28.46" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="28.46" y1="-3.3" x2="1.9" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="-1.9" y1="-3.3" x2="-28.46" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="-29.26" y1="4.1" x2="-28.46" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="-29.26" y1="-4.1" x2="-28.46" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="29.26" y1="4.1" x2="28.46" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="28.46" y1="-3.3" x2="29.26" y2="-4.1" width="0.2032" layer="21"/>
-<pad name="1" x="-24.13" y="-1.27" drill="1" shape="octagon"/>
-<pad name="2" x="-24.13" y="1.27" drill="1" shape="octagon"/>
-<pad name="3" x="-21.59" y="-1.27" drill="1" shape="octagon"/>
-<pad name="4" x="-21.59" y="1.27" drill="1" shape="octagon"/>
-<pad name="5" x="-19.05" y="-1.27" drill="1" shape="octagon"/>
-<pad name="6" x="-19.05" y="1.27" drill="1" shape="octagon"/>
-<pad name="7" x="-16.51" y="-1.27" drill="1" shape="octagon"/>
-<pad name="8" x="-16.51" y="1.27" drill="1" shape="octagon"/>
-<pad name="9" x="-13.97" y="-1.27" drill="1" shape="octagon"/>
-<pad name="10" x="-13.97" y="1.27" drill="1" shape="octagon"/>
-<pad name="11" x="-11.43" y="-1.27" drill="1" shape="octagon"/>
-<pad name="12" x="-11.43" y="1.27" drill="1" shape="octagon"/>
-<pad name="13" x="-8.89" y="-1.27" drill="1" shape="octagon"/>
-<pad name="14" x="-8.89" y="1.27" drill="1" shape="octagon"/>
-<pad name="15" x="-6.35" y="-1.27" drill="1" shape="octagon"/>
-<pad name="16" x="-6.35" y="1.27" drill="1" shape="octagon"/>
-<pad name="17" x="-3.81" y="-1.27" drill="1" shape="octagon"/>
-<pad name="18" x="-3.81" y="1.27" drill="1" shape="octagon"/>
-<pad name="19" x="-1.27" y="-1.27" drill="1" shape="octagon"/>
-<pad name="20" x="-1.27" y="1.27" drill="1" shape="octagon"/>
-<pad name="21" x="1.27" y="-1.27" drill="1" shape="octagon"/>
-<pad name="22" x="1.27" y="1.27" drill="1" shape="octagon"/>
-<pad name="23" x="3.81" y="-1.27" drill="1" shape="octagon"/>
-<pad name="24" x="3.81" y="1.27" drill="1" shape="octagon"/>
-<pad name="25" x="6.35" y="-1.27" drill="1" shape="octagon"/>
-<pad name="26" x="6.35" y="1.27" drill="1" shape="octagon"/>
-<pad name="27" x="8.89" y="-1.27" drill="1" shape="octagon"/>
-<pad name="28" x="8.89" y="1.27" drill="1" shape="octagon"/>
-<pad name="29" x="11.43" y="-1.27" drill="1" shape="octagon"/>
-<pad name="30" x="11.43" y="1.27" drill="1" shape="octagon"/>
-<pad name="31" x="13.97" y="-1.27" drill="1" shape="octagon"/>
-<pad name="32" x="13.97" y="1.27" drill="1" shape="octagon"/>
-<pad name="33" x="16.51" y="-1.27" drill="1" shape="octagon"/>
-<pad name="34" x="16.51" y="1.27" drill="1" shape="octagon"/>
-<pad name="35" x="19.05" y="-1.27" drill="1" shape="octagon"/>
-<pad name="36" x="19.05" y="1.27" drill="1" shape="octagon"/>
-<pad name="37" x="21.59" y="-1.27" drill="1" shape="octagon"/>
-<pad name="38" x="21.59" y="1.27" drill="1" shape="octagon"/>
-<pad name="39" x="24.13" y="-1.27" drill="1" shape="octagon"/>
-<pad name="40" x="24.13" y="1.27" drill="1" shape="octagon"/>
-<text x="-24.11" y="-6.88" size="1.778" layer="25">&gt;NAME</text>
-<text x="-24.86" y="4.55" size="1.778" layer="27">&gt;VALUE</text>
-</package>
 <package name="MSOP8_TH">
 <description>&lt;b&gt;MS8E Package&lt;/b&gt;
 &lt;p&gt;
@@ -13258,55 +13196,70 @@ http://www.linear.com/docs/38765</description>
 <rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
 <rectangle x1="-0.75" y1="-0.575" x2="-0.375" y2="0.575" layer="51"/>
 </package>
+<package name="2X20">
+<wire x1="-1.9" y1="-3.32" x2="-1.9" y2="-4.03" width="0.2032" layer="21"/>
+<wire x1="1.9" y1="-3.32" x2="1.9" y2="-4.03" width="0.2032" layer="21"/>
+<wire x1="-26.55" y1="-1.97" x2="-25.85" y2="-3.04" width="0.4064" layer="21"/>
+<wire x1="-25.85" y1="-3.04" x2="-25.15" y2="-1.97" width="0.4064" layer="21"/>
+<wire x1="-25.15" y1="-1.97" x2="-26.55" y2="-1.97" width="0.4064" layer="21"/>
+<wire x1="-29.26" y1="-4.1" x2="-29.26" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="-29.26" y1="-4.1" x2="29.26" y2="-4.1" width="0.2032" layer="21"/>
+<wire x1="29.26" y1="-4.1" x2="29.26" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="29.26" y1="4.1" x2="-29.26" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="-28.46" y1="-3.3" x2="-28.46" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-28.46" y1="3.3" x2="28.46" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="28.46" y1="3.3" x2="28.46" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="28.46" y1="-3.3" x2="1.9" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-1.9" y1="-3.3" x2="-28.46" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-29.26" y1="4.1" x2="-28.46" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-29.26" y1="-4.1" x2="-28.46" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="29.26" y1="4.1" x2="28.46" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="28.46" y1="-3.3" x2="29.26" y2="-4.1" width="0.2032" layer="21"/>
+<pad name="1" x="-24.13" y="-1.27" drill="1" shape="octagon"/>
+<pad name="2" x="-24.13" y="1.27" drill="1" shape="octagon"/>
+<pad name="3" x="-21.59" y="-1.27" drill="1" shape="octagon"/>
+<pad name="4" x="-21.59" y="1.27" drill="1" shape="octagon"/>
+<pad name="5" x="-19.05" y="-1.27" drill="1" shape="octagon"/>
+<pad name="6" x="-19.05" y="1.27" drill="1" shape="octagon"/>
+<pad name="7" x="-16.51" y="-1.27" drill="1" shape="octagon"/>
+<pad name="8" x="-16.51" y="1.27" drill="1" shape="octagon"/>
+<pad name="9" x="-13.97" y="-1.27" drill="1" shape="octagon"/>
+<pad name="10" x="-13.97" y="1.27" drill="1" shape="octagon"/>
+<pad name="11" x="-11.43" y="-1.27" drill="1" shape="octagon"/>
+<pad name="12" x="-11.43" y="1.27" drill="1" shape="octagon"/>
+<pad name="13" x="-8.89" y="-1.27" drill="1" shape="octagon"/>
+<pad name="14" x="-8.89" y="1.27" drill="1" shape="octagon"/>
+<pad name="15" x="-6.35" y="-1.27" drill="1" shape="octagon"/>
+<pad name="16" x="-6.35" y="1.27" drill="1" shape="octagon"/>
+<pad name="17" x="-3.81" y="-1.27" drill="1" shape="octagon"/>
+<pad name="18" x="-3.81" y="1.27" drill="1" shape="octagon"/>
+<pad name="19" x="-1.27" y="-1.27" drill="1" shape="octagon"/>
+<pad name="20" x="-1.27" y="1.27" drill="1" shape="octagon"/>
+<pad name="21" x="1.27" y="-1.27" drill="1" shape="octagon"/>
+<pad name="22" x="1.27" y="1.27" drill="1" shape="octagon"/>
+<pad name="23" x="3.81" y="-1.27" drill="1" shape="octagon"/>
+<pad name="24" x="3.81" y="1.27" drill="1" shape="octagon"/>
+<pad name="25" x="6.35" y="-1.27" drill="1" shape="octagon"/>
+<pad name="26" x="6.35" y="1.27" drill="1" shape="octagon"/>
+<pad name="27" x="8.89" y="-1.27" drill="1" shape="octagon"/>
+<pad name="28" x="8.89" y="1.27" drill="1" shape="octagon"/>
+<pad name="29" x="11.43" y="-1.27" drill="1" shape="octagon"/>
+<pad name="30" x="11.43" y="1.27" drill="1" shape="octagon"/>
+<pad name="31" x="13.97" y="-1.27" drill="1" shape="octagon"/>
+<pad name="32" x="13.97" y="1.27" drill="1" shape="octagon"/>
+<pad name="33" x="16.51" y="-1.27" drill="1" shape="octagon"/>
+<pad name="34" x="16.51" y="1.27" drill="1" shape="octagon"/>
+<pad name="35" x="19.05" y="-1.27" drill="1" shape="octagon"/>
+<pad name="36" x="19.05" y="1.27" drill="1" shape="octagon"/>
+<pad name="37" x="21.59" y="-1.27" drill="1" shape="octagon"/>
+<pad name="38" x="21.59" y="1.27" drill="1" shape="octagon"/>
+<pad name="39" x="24.13" y="-1.27" drill="1" shape="octagon"/>
+<pad name="40" x="24.13" y="1.27" drill="1" shape="octagon"/>
+<text x="-24.11" y="-6.88" size="1.778" layer="25">&gt;NAME</text>
+<text x="-24.86" y="4.55" size="1.778" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
-<symbol name="DE0NANO-PINHEAD">
-<wire x1="17.78" y1="-20.32" x2="-17.78" y2="-20.32" width="0.4064" layer="94"/>
-<wire x1="-17.78" y1="27.94" x2="-17.78" y2="-20.32" width="0.4064" layer="94"/>
-<wire x1="17.78" y1="-20.32" x2="17.78" y2="27.94" width="0.4064" layer="94"/>
-<wire x1="-17.78" y1="27.94" x2="17.78" y2="27.94" width="0.4064" layer="94"/>
-<text x="-15.24" y="-24.13" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-15.24" y="29.972" size="1.778" layer="95">&gt;NAME</text>
-<pin name="GPIO_0_IN0" x="-22.86" y="25.4" length="middle" direction="in" swaplevel="1"/>
-<pin name="GPIO_0_IN1" x="-22.86" y="22.86" length="middle" direction="in" swaplevel="1"/>
-<pin name="GPIO_02" x="-22.86" y="20.32" length="middle" swaplevel="1"/>
-<pin name="GPIO_00" x="22.86" y="25.4" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_01" x="22.86" y="22.86" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_03" x="22.86" y="20.32" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_04" x="-22.86" y="17.78" length="middle" swaplevel="1"/>
-<pin name="GPIO_06" x="-22.86" y="15.24" length="middle" swaplevel="1"/>
-<pin name="GPIO_05" x="22.86" y="17.78" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_07" x="22.86" y="15.24" length="middle" swaplevel="1" rot="R180"/>
-<pin name="VCC_SYS" x="-2.54" y="-25.4" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
-<pin name="GPIO_08" x="-22.86" y="12.7" length="middle" swaplevel="1"/>
-<pin name="GPIO_010" x="-22.86" y="10.16" length="middle" swaplevel="1"/>
-<pin name="GND" x="2.54" y="-25.4" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
-<pin name="GPIO_09" x="22.86" y="12.7" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_011" x="22.86" y="10.16" visible="pin" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_012" x="-22.86" y="7.62" length="middle" swaplevel="1"/>
-<pin name="GPIO_014" x="-22.86" y="5.08" length="middle" swaplevel="1"/>
-<pin name="GPIO_013" x="22.86" y="7.62" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_015" x="22.86" y="5.08" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_016" x="-22.86" y="2.54" length="middle" swaplevel="1"/>
-<pin name="GPIO_018" x="-22.86" y="0" length="middle" swaplevel="1"/>
-<pin name="GPIO_020" x="-22.86" y="-2.54" length="middle" swaplevel="1"/>
-<pin name="GPIO_017" x="22.86" y="2.54" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_019" x="22.86" y="0" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_021" x="22.86" y="-2.54" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_022" x="-22.86" y="-5.08" length="middle" swaplevel="1"/>
-<pin name="VCC3P3" x="0" y="-25.4" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
-<pin name="GPIO_023" x="22.86" y="-5.08" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_024" x="-22.86" y="-7.62" length="middle" swaplevel="1"/>
-<pin name="GPIO_026" x="-22.86" y="-10.16" length="middle" swaplevel="1"/>
-<pin name="GPIO_025" x="22.86" y="-7.62" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_027" x="22.86" y="-10.16" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_029" x="22.86" y="-12.7" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_031" x="22.86" y="-15.24" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_033" x="22.86" y="-17.78" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_028" x="-22.86" y="-12.7" length="middle" swaplevel="1"/>
-<pin name="GPIO_030" x="-22.86" y="-15.24" length="middle" swaplevel="1"/>
-<pin name="GPIO_032" x="-22.86" y="-17.78" length="middle" swaplevel="1"/>
-</symbol>
 <symbol name="LTC6405">
 <wire x1="-5.08" y1="15.24" x2="-5.08" y2="-15.24" width="0.4064" layer="94"/>
 <text x="7.62" y="9.525" size="1.778" layer="95">&gt;NAME</text>
@@ -13426,61 +13379,55 @@ http://www.linear.com/docs/38765</description>
 <wire x1="1.143" y1="-3.81" x2="1.651" y2="-4.318" width="0.254" layer="94"/>
 <circle x="-7.62" y="0" radius="0.359209375" width="0" layer="94"/>
 </symbol>
+<symbol name="DE0NANO-PINHEAD">
+<wire x1="17.78" y1="-20.32" x2="-17.78" y2="-20.32" width="0.4064" layer="94"/>
+<wire x1="-17.78" y1="27.94" x2="-17.78" y2="-20.32" width="0.4064" layer="94"/>
+<wire x1="17.78" y1="-20.32" x2="17.78" y2="27.94" width="0.4064" layer="94"/>
+<wire x1="-17.78" y1="27.94" x2="17.78" y2="27.94" width="0.4064" layer="94"/>
+<text x="-15.24" y="-24.13" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-15.24" y="29.972" size="1.778" layer="95">&gt;NAME</text>
+<pin name="GPIO_0_IN0" x="-22.86" y="25.4" length="middle" direction="in" swaplevel="1"/>
+<pin name="GPIO_0_IN1" x="-22.86" y="22.86" length="middle" direction="in" swaplevel="1"/>
+<pin name="GPIO_02" x="-22.86" y="20.32" length="middle" swaplevel="1"/>
+<pin name="GPIO_00" x="22.86" y="25.4" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_01" x="22.86" y="22.86" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_03" x="22.86" y="20.32" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_04" x="-22.86" y="17.78" length="middle" swaplevel="1"/>
+<pin name="GPIO_06" x="-22.86" y="15.24" length="middle" swaplevel="1"/>
+<pin name="GPIO_05" x="22.86" y="17.78" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_07" x="22.86" y="15.24" length="middle" swaplevel="1" rot="R180"/>
+<pin name="VCC_SYS" x="-2.54" y="-25.4" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
+<pin name="GPIO_08" x="-22.86" y="12.7" length="middle" swaplevel="1"/>
+<pin name="GPIO_010" x="-22.86" y="10.16" length="middle" swaplevel="1"/>
+<pin name="GND" x="2.54" y="-25.4" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
+<pin name="GPIO_09" x="22.86" y="12.7" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_011" x="22.86" y="10.16" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_012" x="-22.86" y="7.62" length="middle" swaplevel="1"/>
+<pin name="GPIO_014" x="-22.86" y="5.08" length="middle" swaplevel="1"/>
+<pin name="GPIO_013" x="22.86" y="7.62" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_015" x="22.86" y="5.08" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_016" x="-22.86" y="2.54" length="middle" swaplevel="1"/>
+<pin name="GPIO_018" x="-22.86" y="0" length="middle" swaplevel="1"/>
+<pin name="GPIO_020" x="-22.86" y="-2.54" length="middle" swaplevel="1"/>
+<pin name="GPIO_017" x="22.86" y="2.54" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_019" x="22.86" y="0" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_021" x="22.86" y="-2.54" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_022" x="-22.86" y="-5.08" length="middle" swaplevel="1"/>
+<pin name="VCC3P3" x="0" y="-25.4" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
+<pin name="GPIO_023" x="22.86" y="-5.08" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_024" x="-22.86" y="-7.62" length="middle" swaplevel="1"/>
+<pin name="GPIO_026" x="-22.86" y="-10.16" length="middle" swaplevel="1"/>
+<pin name="GPIO_025" x="22.86" y="-7.62" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_027" x="22.86" y="-10.16" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_029" x="22.86" y="-12.7" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_031" x="22.86" y="-15.24" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_033" x="22.86" y="-17.78" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_028" x="-22.86" y="-12.7" length="middle" swaplevel="1"/>
+<pin name="GPIO_030" x="-22.86" y="-15.24" length="middle" swaplevel="1"/>
+<pin name="GPIO_032" x="-22.86" y="-17.78" length="middle" swaplevel="1"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHEADER" prefix="SV" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="DE0NANO-PINHEAD" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="2X20">
-<connects>
-<connect gate="G$1" pin="GND" pad="12 30"/>
-<connect gate="G$1" pin="GPIO_00" pad="2"/>
-<connect gate="G$1" pin="GPIO_01" pad="4"/>
-<connect gate="G$1" pin="GPIO_010" pad="15"/>
-<connect gate="G$1" pin="GPIO_011" pad="16"/>
-<connect gate="G$1" pin="GPIO_012" pad="17"/>
-<connect gate="G$1" pin="GPIO_013" pad="18"/>
-<connect gate="G$1" pin="GPIO_014" pad="19"/>
-<connect gate="G$1" pin="GPIO_015" pad="20"/>
-<connect gate="G$1" pin="GPIO_016" pad="21"/>
-<connect gate="G$1" pin="GPIO_017" pad="22"/>
-<connect gate="G$1" pin="GPIO_018" pad="23"/>
-<connect gate="G$1" pin="GPIO_019" pad="24"/>
-<connect gate="G$1" pin="GPIO_02" pad="5"/>
-<connect gate="G$1" pin="GPIO_020" pad="25"/>
-<connect gate="G$1" pin="GPIO_021" pad="26"/>
-<connect gate="G$1" pin="GPIO_022" pad="27"/>
-<connect gate="G$1" pin="GPIO_023" pad="28"/>
-<connect gate="G$1" pin="GPIO_024" pad="31"/>
-<connect gate="G$1" pin="GPIO_025" pad="32"/>
-<connect gate="G$1" pin="GPIO_026" pad="33"/>
-<connect gate="G$1" pin="GPIO_027" pad="34"/>
-<connect gate="G$1" pin="GPIO_028" pad="35"/>
-<connect gate="G$1" pin="GPIO_029" pad="36"/>
-<connect gate="G$1" pin="GPIO_03" pad="6"/>
-<connect gate="G$1" pin="GPIO_030" pad="37"/>
-<connect gate="G$1" pin="GPIO_031" pad="38"/>
-<connect gate="G$1" pin="GPIO_032" pad="39"/>
-<connect gate="G$1" pin="GPIO_033" pad="40"/>
-<connect gate="G$1" pin="GPIO_04" pad="7"/>
-<connect gate="G$1" pin="GPIO_05" pad="8"/>
-<connect gate="G$1" pin="GPIO_06" pad="9"/>
-<connect gate="G$1" pin="GPIO_07" pad="10"/>
-<connect gate="G$1" pin="GPIO_08" pad="13"/>
-<connect gate="G$1" pin="GPIO_09" pad="14"/>
-<connect gate="G$1" pin="GPIO_0_IN0" pad="1"/>
-<connect gate="G$1" pin="GPIO_0_IN1" pad="3"/>
-<connect gate="G$1" pin="VCC3P3" pad="29"/>
-<connect gate="G$1" pin="VCC_SYS" pad="11"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LTC6405" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LTC6405" x="0" y="0"/>
@@ -13590,6 +13537,59 @@ http://www.linear.com/docs/38765</description>
 <connects>
 <connect gate="G$1" pin="2" pad="1"/>
 <connect gate="G$1" pin="3" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHEADER" prefix="SV" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="DE0NANO-PINHEAD" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="2X20">
+<connects>
+<connect gate="G$1" pin="GND" pad="12 30"/>
+<connect gate="G$1" pin="GPIO_00" pad="2"/>
+<connect gate="G$1" pin="GPIO_01" pad="4"/>
+<connect gate="G$1" pin="GPIO_010" pad="15"/>
+<connect gate="G$1" pin="GPIO_011" pad="16"/>
+<connect gate="G$1" pin="GPIO_012" pad="17"/>
+<connect gate="G$1" pin="GPIO_013" pad="18"/>
+<connect gate="G$1" pin="GPIO_014" pad="19"/>
+<connect gate="G$1" pin="GPIO_015" pad="20"/>
+<connect gate="G$1" pin="GPIO_016" pad="21"/>
+<connect gate="G$1" pin="GPIO_017" pad="22"/>
+<connect gate="G$1" pin="GPIO_018" pad="23"/>
+<connect gate="G$1" pin="GPIO_019" pad="24"/>
+<connect gate="G$1" pin="GPIO_02" pad="5"/>
+<connect gate="G$1" pin="GPIO_020" pad="25"/>
+<connect gate="G$1" pin="GPIO_021" pad="26"/>
+<connect gate="G$1" pin="GPIO_022" pad="27"/>
+<connect gate="G$1" pin="GPIO_023" pad="28"/>
+<connect gate="G$1" pin="GPIO_024" pad="31"/>
+<connect gate="G$1" pin="GPIO_025" pad="32"/>
+<connect gate="G$1" pin="GPIO_026" pad="33"/>
+<connect gate="G$1" pin="GPIO_027" pad="34"/>
+<connect gate="G$1" pin="GPIO_028" pad="35"/>
+<connect gate="G$1" pin="GPIO_029" pad="36"/>
+<connect gate="G$1" pin="GPIO_03" pad="6"/>
+<connect gate="G$1" pin="GPIO_030" pad="37"/>
+<connect gate="G$1" pin="GPIO_031" pad="38"/>
+<connect gate="G$1" pin="GPIO_032" pad="39"/>
+<connect gate="G$1" pin="GPIO_033" pad="40"/>
+<connect gate="G$1" pin="GPIO_04" pad="7"/>
+<connect gate="G$1" pin="GPIO_05" pad="8"/>
+<connect gate="G$1" pin="GPIO_06" pad="9"/>
+<connect gate="G$1" pin="GPIO_07" pad="10"/>
+<connect gate="G$1" pin="GPIO_08" pad="13"/>
+<connect gate="G$1" pin="GPIO_09" pad="14"/>
+<connect gate="G$1" pin="GPIO_0_IN0" pad="1"/>
+<connect gate="G$1" pin="GPIO_0_IN1" pad="3"/>
+<connect gate="G$1" pin="VCC3P3" pad="29"/>
+<connect gate="G$1" pin="VCC_SYS" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14284,7 +14284,6 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="SV1" library="lstolcman_thesis" deviceset="PINHEADER" device=""/>
 <part name="IC2" library="lstolcman_thesis" deviceset="LTC6405" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="2,2u"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -14339,6 +14338,7 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="SV1" library="lstolcman_thesis" deviceset="PINHEADER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14369,7 +14369,6 @@ stopband attenuation - 47dB</text>
 <instance part="GND4" gate="1" x="78.74" y="17.78"/>
 <instance part="P+2" gate="1" x="78.74" y="63.5"/>
 <instance part="P+3" gate="1" x="121.92" y="99.06"/>
-<instance part="SV1" gate="G$1" x="294.64" y="33.02"/>
 <instance part="IC2" gate="G$1" x="81.28" y="40.64"/>
 <instance part="C2" gate="G$1" x="121.92" y="91.44"/>
 <instance part="GND5" gate="1" x="121.92" y="81.28"/>
@@ -14424,6 +14423,7 @@ stopband attenuation - 47dB</text>
 <instance part="GND16" gate="1" x="38.1" y="99.06"/>
 <instance part="GND17" gate="1" x="83.82" y="99.06"/>
 <instance part="GND18" gate="1" x="50.8" y="99.06"/>
+<instance part="SV1" gate="G$1" x="294.64" y="33.02"/>
 </instances>
 <busses>
 </busses>
@@ -14451,9 +14451,9 @@ stopband attenuation - 47dB</text>
 <wire x1="78.74" y1="20.32" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="GND"/>
 <wire x1="297.18" y1="7.62" x2="297.18" y2="5.08" width="0.1524" layer="91"/>
 <label x="297.18" y="5.08" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="SV1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -14657,28 +14657,6 @@ stopband attenuation - 47dB</text>
 <wire x1="91.44" y1="10.16" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
 <junction x="101.6" y="10.16"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="OGND31"/>
-<wire x1="210.82" y1="0" x2="210.82" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="-2.54" x2="241.3" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="-2.54" x2="241.3" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="OGND50"/>
-<wire x1="241.3" y1="78.74" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="78.74" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="OVDD49"/>
-<wire x1="213.36" y1="76.2" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="81.28" x2="243.84" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="81.28" x2="243.84" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="OVDD32"/>
-<wire x1="243.84" y1="-5.08" x2="213.36" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="-5.08" x2="213.36" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">

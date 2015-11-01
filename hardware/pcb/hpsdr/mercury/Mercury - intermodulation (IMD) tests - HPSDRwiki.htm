@@ -1,0 +1,2711 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(79)http://openhpsdr.org/wiki/index.php?title=Mercury_-_intermodulation_(IMD)_tests -->
+<!-- saved on: 30.10.2015, 13:57:12 -->
+<html dir="ltr" lang="en"><head>
+<title>Mercury - intermodulation (IMD) tests - HPSDRwiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="MediaWiki 1.16.5">
+<link rel="shortcut icon" href="http://openhpsdr.org/img/hpsdr5.ico"><style>#content > #right > .dose > .dosesingle,
+#content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+<link rel="search" type="application/opensearchdescription+xml" href="http://openhpsdr.org/wiki/opensearch_desc.php" title="HPSDRwiki (en)">
+<link rel="alternate" type="application/atom+xml" title="HPSDRwiki Atom feed" href="http://openhpsdr.org/wiki/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="stylesheet" href="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/shared.css" media="screen">
+<link rel="stylesheet" href="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/commonPrint.css" media="print">
+<link rel="stylesheet" href="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/main.css" media="screen">
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/wiki/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/wiki/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/wiki/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/wiki/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/index_002.css">
+<link rel="stylesheet" href="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/index_003.css" media="print">
+<link rel="stylesheet" href="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/index_004.css">
+<link rel="stylesheet" href="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/index.css">
+<script>
+var skin="monobook",
+stylepath="/wiki/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/wiki/index.php?title=$1",
+wgScriptPath="/wiki",
+wgScriptExtension=".php",
+wgScript="/wiki/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://openhpsdr.org",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="Mercury_-_intermodulation_(IMD)_tests",
+wgTitle="Mercury - intermodulation (IMD) tests",
+wgAction="view",
+wgArticleId=328,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="en",
+wgContentLanguage="en",
+wgBreakFrames=false,
+wgCurRevisionId=2984,
+wgVersion="1.16.5",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Main Page",
+wgFormattedNamespaces={"-2": "Media", "-1": "Special", "0": "", "1": "Talk", "2": "User", "3": "User talk", "4": "HPSDRwiki", "5": "HPSDRwiki talk", "6": "File", "7": "File talk", "8": "MediaWiki", "9": "MediaWiki talk", "10": "Template", "11": "Template talk", "12": "Help", "13": "Help talk", "14": "Category", "15": "Category talk"},
+wgNamespaceIds={"media": -2, "special": -1, "": 0, "talk": 1, "user": 2, "user_talk": 3, "hpsdrwiki": 4, "hpsdrwiki_talk": 5, "file": 6, "file_talk": 7, "mediawiki": 8, "mediawiki_talk": 9, "template": 10, "template_talk": 11, "help": 12, "help_talk": 13, "category": 14, "category_talk": 15, "image": 6, "image_talk": 7},
+wgSiteName="HPSDRwiki",
+wgCategories=["Mercury"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/wikibits.js"></script>
+<script src="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/ajax.js"></script>
+<script src="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/index.php"></script>
+
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-Mercury_-_intermodulation_IMD_tests skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content">
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">Mercury - intermodulation (IMD) tests</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">From HPSDRwiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>
+		<!-- start content -->
+<p>The use by Amateurs of receivers that use Digital Down Conversion 
+(DDC), where the antenna is effectively connected directly to an 
+Analogue to Digital Converter (ADC), is relatively new.
+</p><p>DDC based receivers perform differently to conventional analogue 
+receiver particularly when intermodulation (IMD) testing is performed.  
+Unlike an analogue receiver the IMD varies with the level of input 
+signals. This renders the value of conventional 3rd order intercept 
+(IP3) meaningless.
+</p><p>The reason for the variation of IP3 with signal level is that for
+ small input signals only a small number of the available ADC bits are 
+actually used. Also since these are near the origin of the ADC transfer 
+curve there are often imperfections that degrade the IP3 performance.
+</p><p>We can reduce the effect of the limited number of bits and ADC 
+non-linearity by deliberately adding additional signal(s) into the input
+ of the ADC such that our low level signals are added to the (larger) 
+additional signal(s). In effect the larger signal sweeps our small 
+signal over a wider portion of the ADC transfer curve. This means that 
+our combined signal spends less time over any non-linear portions and 
+also uses more ADC bits.
+</p><p>You can perhaps think of the additional signal giving the small signal a ‘piggy back ride’ across the ADC transfer curve.
+</p><p>As long as the instantaneous sum of the additional signal(s) and 
+our wanted signal does not overload our ADC then the overall effect is 
+beneficial.
+</p><p>So here is a significant difference between our existing analogue
+ receivers and a DDC based receiver. In the former case we go to a lot 
+of trouble to keep large out of band signals out of the input of the 
+receiver. In the latter case, up to a certain level, they actually are 
+an advantage!
+</p><p>The additional signal(s) can come from a number of sources. The LT2208 ADC that is used in <a href="http://openhpsdr.org/wiki/index.php?title=MERCURY" title="MERCURY">Mercury</a>
+ has the facility to inject pseudo random noise into its input.  This 
+noise can then be subtracted at the output. This technique is known as 
+‘dithering’.
+</p><p>By subtracting the noise at the output of the ADC we only degrade
+ the overall signal to noise ratio of the ADC by a few dB. 
+Alternatively, we could inject an out-of-band signal into the antenna 
+socket and use this as a source of dithering. Or perhaps there are 
+enough strong signals already present at the input of the ADC to perform
+ the dithering function so there is no need to either inject random 
+noise or a specific out of band signal.
+</p><p>So is the effect of poor IMD performance at low signal levels a 
+real life issue  or just something we see in the non real world of lab 
+testing? So far the poor IMD at low signal levels does not seem to be a 
+major issue amongst users of DDC based receivers. I am sure we would 
+have heard by now it this wasn’t the case!
+</p><p>So exactly what is happening when we expose a DDC to a band full 
+of strong and weak signals and how should we make use of the dither 
+facility of the
+LT2208?
+</p>
+<table id="toc" class="toc"><tbody><tr><td><div id="toctitle"><h2>Contents</h2> <span class="toctoggle">[<a href="javascript:toggleToc()" class="internal" id="togglelink">hide</a>]</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Test_Introduction"><span class="tocnumber">1</span> <span class="toctext">Test Introduction</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Test_Setup"><span class="tocnumber">2</span> <span class="toctext">Test Setup</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#MERCURY_3rd_Order_Intermodulation_Free_Dynamic_Range_IM3DR"><span class="tocnumber">3</span> <span class="toctext">MERCURY 3<sup>rd</sup> Order Intermodulation Free Dynamic Range IM3DR</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Effect_of_.22Dither.22_and_.22Random.22"><span class="tocnumber">4</span> <span class="toctext">Effect of "Dither" and "Random"</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#MERCURY_IM3DR_with_a_third_signal_present"><span class="tocnumber">5</span> <span class="toctext">MERCURY IM3DR with a third signal present</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#CONCLUSION"><span class="tocnumber">6</span> <span class="toctext">CONCLUSION</span></a></li>
+</ul>
+</td></tr></tbody></table><script>if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="Test_Introduction"> Test Introduction </span></h2>
+<p>What follows is an excellent evaluation of this effect by HB9AJG and 
+is quite possibly the first time such comprehensive measurements have 
+been made on an Amateur DDC receiver.
+</p><p>There is an additional test that HB9AJG has done which is as 
+follows. The LT2208 is a very small chip with one side of the device 
+accepting uV signals (i.e. the input) and the other producing  3.3v 
+digital signals (i.e. the digitally converted output). Stray capacitance
+ across the chip + PCB, etc will mean that some of these digital signals
+ will find their way to the input.
+</p><p>This has the effect of raising the noise floor of the receiver 
+and also introducing spurs at certain frequencies as the receiver is 
+tuned.
+</p><p>The way that the LT2208 overcomes this problem is to  scramble 
+the digital output so the energy is dispersed over a wider band.  This 
+is what the 'Random’ control in PowerSDR does.  The ADC output is first 
+descrambled in the Mercury FPGA before processing further.
+</p><p>I would have expected that the scrambler would have little effect
+ on the IMD performance of Mercury. As we can see from the results this 
+is not the
+case.
+</p><p>I’d like to congratulate HP9AJG on an excellent series of 
+measurements that go a long way to increasing our understanding as to 
+how our new DDC receivers perform with real-world signals.
+</p><p>Phil Harman, <a href="http://openhpsdr.org/wiki/index.php?title=User:VK6APH" title="User:VK6APH">VK6APH</a>, 1 September 2009
+</p>
+<h2> <span class="mw-headline" id="Test_Setup">Test Setup</span></h2>
+<p><br>
+<a href="http://openhpsdr.org/wiki/index.php?title=File:MERCURY_IM3DR_1.gif" class="image"><img alt="MERCURY IM3DR 1.gif" src="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/MERCURY_IM3DR_1.gif" height="100" width="526"></a>
+</p><p>Attenuation between generators: 74.8dB (terminated with 50 Ohms)<br>
+Attenuation from HP8640B to output: 36.2dB<br>
+Attenuation from HP8657A to output: 16.2dB
+</p><p>This test setup was verified with an EK070 RX by Rohde+Schwarz from 80m to 10m, CW, 600Hz bandwidth:
+</p>
+<dl><dd>with it's 20dB input attenuator enabled, MDS was -114dBm
+<dl><dd><i>at -13dBm input (each signal) no IM was audible, i.e IM3DR &gt; 101dB</i>
+</dd></dl>
+</dd><dd>without attenuator, MDS was -134dBm
+<dl><dd><i>at -25dBm input (each signal) IM was audible, i.e IM3DR = 109dB (on 80m, 40m 15m, 10m)</i>
+</dd><dd><i>at -30dBm input (each signal) IM was audible, i.e IM3DR = 104dB (on 20m)</i>
+</dd></dl>
+</dd></dl>
+<p>So the test setup has an IM3DR of &gt;101dB with inputs up to -13dBm,
+ and an IM3DR of 104dBm at -30dBm for 20m, and an IM3DR of 109dBm at 
+-25dBm for 80m, 40m, 15m, 10m.
+</p>
+<h2> <span class="mw-headline" id="MERCURY_3rd_Order_Intermodulation_Free_Dynamic_Range_IM3DR"> MERCURY 3<sup>rd</sup> Order Intermodulation Free Dynamic Range IM3DR </span></h2>
+<p>May/June 2009/HB9AJG
+</p><p>Configuration:
+</p>
+<dl><dd>Mercury v2.6, Ozy v1.2, Penny v1.1
+</dd><dd><i><b>Dither &amp; Random enabled</b> (RX sensitivity reduced by 4dB)</i>
+</dd><dd>Clocks from Penelope
+</dd><dd>PowerSDR v1.10.4+BaseSVN 2025
+</dd><dd>PowerSDR RX-Meter calibrated to HP8657A
+</dd><dd>Bandwidth 48kHz, Buffer size 2048Bits
+</dd><dd>CWL, 500Hz
+</dd></dl>
+<p>Lower frequency = HP8657A<br>
+Upper frequency = HP8640B<br>
+All dBm readings as displayed on the RX-Meter of PowerSDR (rounded to the next dB)<br>
+Signals 3dB above the Noise Floor are considered MDS.<br>
+Maximum input signals possible with this Test Setup: -13dBm
+</p>
+<dl><dd>* = Artifacts from the ADC (very nonlinearly dependent on the input signals)
+</dd><dd>** = ADC Overload @ -20dBm
+</dd></dl>
+<table>
+
+<tbody><tr>
+<td style="background:#f0f0f0;" align="left"><b>80m:  3680kHz + 3700kHz</b>
+</td></tr>
+
+<tr>
+<td> Preamp OFF:    Noise Floor = -115dBm
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -110
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -112*
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -113
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -113*
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom"> 96.5
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> 52.5
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td> Preamp ON:    Noise Floor = -134dBm
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -25
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -35
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td><td align="center" valign="bottom" width="47"> -80
+</td><td align="center" valign="bottom" width="47"> -90
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom"> -108
+</td><td align="center" valign="bottom"> -125
+</td><td align="center" valign="bottom"> -125
+</td><td align="center" valign="bottom"> -131
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -134*
+</td><td align="center" valign="bottom"> -132*
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom"> -108
+</td><td align="center" valign="bottom"> -128
+</td><td align="center" valign="bottom"> -126
+</td><td align="center" valign="bottom"> -132
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -134*
+</td><td align="center" valign="bottom"> -132*
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom"> 88
+</td><td align="center" valign="bottom"> 101.5
+</td><td align="center" valign="bottom"> 95.5
+</td><td style="font-weight:bold" align="center" valign="bottom"> 96.5
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> 64
+</td><td align="center" valign="bottom"> 52
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td style="background:#f0f0f0;" align="left"><b>40m:  7000kHz + 7020kHz</b>
+</td></tr>
+
+<tr>
+<td> Preamp OFF:    Noise Floor = -115dBm
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -109
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -114*
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -112
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -114*
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom"> 95.5
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> 54
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td> Preamp ON:    Noise Floor = -134dBm
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -25
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -35
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td><td align="center" valign="bottom" width="47"> -80
+</td><td align="center" valign="bottom" width="47"> -90
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom"> -111
+</td><td align="center" valign="bottom"> -127
+</td><td align="center" valign="bottom"> -123
+</td><td align="center" valign="bottom"> -130
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom"> -109
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -126
+</td><td align="center" valign="bottom"> -133
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom"> 90
+</td><td align="center" valign="bottom"> 102
+</td><td align="center" valign="bottom"> 94.5
+</td><td style="font-weight:bold" align="center" valign="bottom"> 96.5
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td style="background:#f0f0f0;" align="left"><b>20m:  14080kHz + 14100kHz</b>
+</td></tr>
+
+<tr>
+<td> Preamp OFF:    Noise Floor = -114dBm
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -113
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom"> 98.5
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td> Preamp ON:    Noise Floor = -134dBm
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47"> -21**
+</td><td align="center" valign="bottom" width="47"> -25
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -35
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td><td align="center" valign="bottom" width="47"> -80
+</td><td align="center" valign="bottom" width="47"> -90
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom"> -116
+</td><td align="center" valign="bottom"> -125
+</td><td align="center" valign="bottom"> -126
+</td><td align="center" valign="bottom"> -131
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom"> -112
+</td><td align="center" valign="bottom"> -125
+</td><td align="center" valign="bottom"> -123
+</td><td align="center" valign="bottom"> -134
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom"> 93
+</td><td align="center" valign="bottom"> 100
+</td><td align="center" valign="bottom"> 94.5
+</td><td style="font-weight:bold" align="center" valign="bottom"> 97.5
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td style="background:#f0f0f0;" align="left"><b>15m:  21080kHz + 21100kHz</b>
+</td></tr>
+
+<tr>
+<td> Preamp OFF:    Noise Floor = -114dBm
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -107
+</td><td align="center" valign="bottom"> -113*
+</td><td align="center" valign="bottom"> -114*
+</td><td align="center" valign="bottom"> -113*
+</td><td align="center" valign="bottom"> -113*
+</td><td align="center" valign="bottom"> -112*
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -106
+</td><td align="center" valign="bottom"> -114*
+</td><td align="center" valign="bottom"> -114*
+</td><td align="center" valign="bottom"> -114*
+</td><td align="center" valign="bottom"> -113*
+</td><td align="center" valign="bottom"> -112*
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom"> 91.5
+</td><td align="center" valign="bottom"> 93.5
+</td><td align="center" valign="bottom"> 84
+</td><td align="center" valign="bottom"> 73.5
+</td><td align="center" valign="bottom"> 63
+</td><td align="center" valign="bottom"> 52
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td> Preamp ON:    Noise Floor = -133dBm
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47"> -21**
+</td><td align="center" valign="bottom" width="47"> -25
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -35
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td><td align="center" valign="bottom" width="47"> -80
+</td><td align="center" valign="bottom" width="47"> -90
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom">
+</td><td align="center" valign="bottom"> -104
+</td><td align="center" valign="bottom"> -115
+</td><td align="center" valign="bottom"> -122
+</td><td align="center" valign="bottom"> -129
+</td><td align="center" valign="bottom"> -133*
+</td><td align="center" valign="bottom"> -133*
+</td><td align="center" valign="bottom"> -132*
+</td><td align="center" valign="bottom"> -132*
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom"> -103
+</td><td align="center" valign="bottom"> -116
+</td><td align="center" valign="bottom"> -120
+</td><td align="center" valign="bottom"> -130
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -132*
+</td><td align="center" valign="bottom"> -131*
+</td><td align="center" valign="bottom"> -131*
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom"> 82.5
+</td><td align="center" valign="bottom"> 90.5
+</td><td align="center" valign="bottom"> 91
+</td><td style="font-weight:bold" align="center" valign="bottom"> 94.5
+</td><td align="center" valign="bottom"> -93
+</td><td align="center" valign="bottom"> 82.5
+</td><td align="center" valign="bottom"> 71.5
+</td><td align="center" valign="bottom"> 61.5
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td style="background:#f0f0f0;" align="left"><b>10m:  28080kHz + 28100kHz</b>
+</td></tr>
+
+<tr>
+<td> Preamp OFF:    Noise Floor = -113dBm
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -107
+</td><td align="center" valign="bottom"> -113*
+</td><td align="center" valign="bottom"> -113*
+</td><td align="center" valign="bottom"> -113*
+</td><td align="center" valign="bottom"> -111*
+</td><td align="center" valign="bottom"> -110*
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -107
+</td><td align="center" valign="bottom"> -113*
+</td><td align="center" valign="bottom"> -113*
+</td><td align="center" valign="bottom"> -112*
+</td><td align="center" valign="bottom"> -111*
+</td><td align="center" valign="bottom"> -110*
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom"> 92
+</td><td align="center" valign="bottom"> 93
+</td><td align="center" valign="bottom"> 83
+</td><td align="center" valign="bottom"> 72.5
+</td><td align="center" valign="bottom"> 61
+</td><td style="font-weight:bold" align="center" valign="bottom"> 50
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td> Preamp ON:    Noise Floor = -134dBm
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47"> -21**
+</td><td align="center" valign="bottom" width="47"> -25
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -35
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td><td align="center" valign="bottom" width="47"> -80
+</td><td align="center" valign="bottom" width="47"> -90
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom">
+</td><td align="center" valign="bottom"> -96
+</td><td align="center" valign="bottom"> -108
+</td><td align="center" valign="bottom"> -120
+</td><td align="center" valign="bottom"> -131
+</td><td align="center" valign="bottom"> -131*
+</td><td align="center" valign="bottom"> -128*
+</td><td align="center" valign="bottom"> -128*
+</td><td align="center" valign="bottom"> -128*
+</td><td align="center" valign="bottom"> -128*
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom"> -95
+</td><td align="center" valign="bottom"> -107
+</td><td align="center" valign="bottom"> -120
+</td><td align="center" valign="bottom"> -134
+</td><td align="center" valign="bottom"> -134*
+</td><td align="center" valign="bottom"> -131*
+</td><td align="center" valign="bottom"> -131*
+</td><td align="center" valign="bottom"> -129*
+</td><td align="center" valign="bottom"> -129*
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom"> 74.5
+</td><td align="center" valign="bottom"> 82.5
+</td><td align="center" valign="bottom"> 90
+</td><td style="font-weight:bold" align="center" valign="bottom"> 97.5
+</td><td align="center" valign="bottom"> 92.5
+</td><td align="center" valign="bottom"> 79.5
+</td><td align="center" valign="bottom"> 69.5
+</td><td align="center" valign="bottom"> 58.5
+</td><td style="font-weight:bold" align="center" valign="bottom"> 48.5
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td style="background:#f0f0f0;" align="left"><b>6m:  49080kHz + 49100kHz</b>
+</td></tr>
+
+<tr>
+<td> Preamp OFF:    Noise Floor = -113dBm
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -97
+</td><td align="center" valign="bottom"> -111
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -95
+</td><td align="center" valign="bottom"> -107
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> 81
+</td><td style="font-weight:bold" align="center" valign="bottom"> 89
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td> Preamp ON:    Noise Floor = -133dBm
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47"> -21**
+</td><td align="center" valign="bottom" width="47"> -25
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -35
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td><td align="center" valign="bottom" width="47"> -80
+</td><td align="center" valign="bottom" width="47"> -90
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom">
+</td><td align="center" valign="bottom"> -76
+</td><td align="center" valign="bottom"> -89
+</td><td align="center" valign="bottom"> -104
+</td><td align="center" valign="bottom"> -120
+</td><td align="center" valign="bottom"> -131
+</td><td align="center" valign="bottom"> -130*
+</td><td align="center" valign="bottom"> -132*
+</td><td align="center" valign="bottom"> -132*
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom"> -75
+</td><td align="center" valign="bottom"> -88
+</td><td align="center" valign="bottom"> -103
+</td><td align="center" valign="bottom"> -118
+</td><td align="center" valign="bottom"> -127
+</td><td align="center" valign="bottom"> -130*
+</td><td align="center" valign="bottom"> -132*
+</td><td align="center" valign="bottom"> -132*
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom"> 54.5
+</td><td align="center" valign="bottom"> 63.5
+</td><td align="center" valign="bottom"> 73.5
+</td><td align="center" valign="bottom"> 84
+</td><td style="font-weight:bold" align="center" valign="bottom"> 89
+</td><td align="center" valign="bottom"> 80
+</td><td align="center" valign="bottom"> 72
+</td><td align="center" valign="bottom"> 62
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom">
+</td><td style="font-weight:bold" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<h2> <span class="mw-headline" id="Effect_of_.22Dither.22_and_.22Random.22"> Effect of "Dither" and "Random" </span></h2>
+<p>(August 2009 / HB9AJG)
+</p><p>Even slight imperfections of the ADC transfer curve will result in unwanted signals. The <b>Dither</b>
+ signal random­izes the location of the input signal on the ADC transfer
+ curve, resulting in an improved IMD perform­ance. Part of the Dither 
+signal will leak through to the output, causing a rise of the noise 
+floor.
+</p><p>Due to the small size of the ADC, and depending on the PCB layout, coupling from the output to the input may occur. The <b>Random</b>
+ signal is to prevent such interferences from appearing as regular 
+spectral lines. So it would not be expected to have much effect on the 
+IMD performance. 
+</p><p><b>The tests below show that both signals are required to achieve the best IM3DR.</b>
+</p><p>IM3 signals 3db above the noise floor are considered MDS.
+</p>
+<table>
+
+<tbody><tr>
+<td style="background:#f0f0f0;" align="left"><b>80m:  3680kHz + 3700kHz, Preamp OFF</b>
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td style="font-weight:bold" height="13" valign="bottom"> Dither enabled,
+</td><td style="font-weight:bold" valign="bottom"> Random enabled:
+</td><td valign="bottom"> Noise Floor = -115dBm
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -110
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -112
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -112
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -112
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom"> 96
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> 52
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td style="font-weight:bold" height="13" valign="bottom"> Dither enabled,
+</td><td style="font-style:Italic" valign="bottom"> Random disabled:
+</td><td valign="bottom"> Noise Floor = -115dBm
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -102
+</td><td align="center" valign="bottom"> -102
+</td><td align="center" valign="bottom"> -99
+</td><td align="center" valign="bottom"> -99
+</td><td align="center" valign="bottom"> -98
+</td><td align="center" valign="bottom"> -98
+</td><td align="center" valign="bottom"> -110
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -103
+</td><td align="center" valign="bottom"> -104
+</td><td align="center" valign="bottom"> -99
+</td><td align="center" valign="bottom"> -100
+</td><td align="center" valign="bottom"> -98
+</td><td align="center" valign="bottom"> -97
+</td><td align="center" valign="bottom"> -110
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> 87.5
+</td><td align="center" valign="bottom"> 83
+</td><td align="center" valign="bottom"> 69
+</td><td align="center" valign="bottom"> 59.5
+</td><td align="center" valign="bottom"> 48
+</td><td align="center" valign="bottom"> 37.5
+</td><td style="font-weight:bold" align="center" valign="bottom"> 40
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td style="font-style:Italic" height="13" valign="bottom"> Dither disabled,
+</td><td style="font-weight:bold" valign="bottom"> Random enabled:
+</td><td valign="bottom"> Noise Floor = -118dBm
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -106
+</td><td align="center" valign="bottom"> -110
+</td><td align="center" valign="bottom"> -98
+</td><td align="center" valign="bottom"> -102
+</td><td align="center" valign="bottom"> -112
+</td><td align="center" valign="bottom"> -113
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -110
+</td><td align="center" valign="bottom"> -107
+</td><td align="center" valign="bottom"> -98
+</td><td align="center" valign="bottom"> -102
+</td><td align="center" valign="bottom"> -110
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> 93
+</td><td align="center" valign="bottom"> 88.5
+</td><td align="center" valign="bottom"> 68
+</td><td align="center" valign="bottom"> 62
+</td><td align="center" valign="bottom"> 61
+</td><td style="font-weight:bold" align="center" valign="bottom"> 53.5
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td style="font-style:Italic" height="13" valign="bottom"> Dither disabled,
+</td><td style="font-style:Italic" valign="bottom"> Random disabled:
+</td><td valign="bottom"> Noise Floor = -118dBm
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -101
+</td><td align="center" valign="bottom"> -105
+</td><td align="center" valign="bottom"> -94
+</td><td align="center" valign="bottom"> -97
+</td><td align="center" valign="bottom"> -100
+</td><td align="center" valign="bottom"> -113
+</td><td align="center" valign="bottom"> -116
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -104
+</td><td align="center" valign="bottom"> -106
+</td><td align="center" valign="bottom"> -95
+</td><td align="center" valign="bottom"> -97
+</td><td align="center" valign="bottom"> -101
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -116
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> 87.5
+</td><td align="center" valign="bottom"> 85.5
+</td><td align="center" valign="bottom"> 64.5
+</td><td align="center" valign="bottom"> 57
+</td><td align="center" valign="bottom"> 50.5
+</td><td style="font-weight:bold" align="center" valign="bottom"> 53.5
+</td><td align="center" valign="bottom"> 46
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td style="background:#f0f0f0;" align="left"><b>20m:  14080kHz + 14100kHz, Preamp OFF</b>
+</td></tr>
+
+<tr>
+<td>
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td style="font-weight:bold" height="13" valign="bottom"> Dither enabled,
+</td><td style="font-weight:bold" valign="bottom"> Random enabled:
+</td><td valign="bottom"> Noise Floor = -114dBm
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -113
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -112
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -113
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom"> 98.5
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> 52.5
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td style="font-weight:bold" height="13" valign="bottom"> Dither enabled,
+</td><td style="font-style:Italic" valign="bottom"> Random disabled:
+</td><td valign="bottom"> Noise Floor = -115dBm
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -96
+</td><td align="center" valign="bottom"> -96
+</td><td align="center" valign="bottom"> -92
+</td><td align="center" valign="bottom"> -90
+</td><td align="center" valign="bottom"> -92
+</td><td align="center" valign="bottom"> -99
+</td><td align="center" valign="bottom"> -114
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -98
+</td><td align="center" valign="bottom"> -97
+</td><td align="center" valign="bottom"> -95
+</td><td align="center" valign="bottom"> -92
+</td><td align="center" valign="bottom"> -93
+</td><td align="center" valign="bottom"> -100
+</td><td align="center" valign="bottom"> -114
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> 82
+</td><td align="center" valign="bottom"> 76.5
+</td><td align="center" valign="bottom"> 63.5
+</td><td align="center" valign="bottom"> 51
+</td><td align="center" valign="bottom"> 42.5
+</td><td style="font-weight:bold" align="center" valign="bottom"> 39.5
+</td><td align="center" valign="bottom"> 44
+</td></tr>
+
+<tr>
+<td style="font-size:11pt" height="14" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td style="font-style:Italic" height="13" valign="bottom"> Dither disabled,
+</td><td style="font-weight:bold" valign="bottom"> Random enabled:
+</td><td valign="bottom"> Noise Floor = -117dBm
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -105
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -96
+</td><td align="center" valign="bottom"> -100
+</td><td align="center" valign="bottom"> -111
+</td><td align="center" valign="bottom"> -115
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -108
+</td><td align="center" valign="bottom"> -111
+</td><td align="center" valign="bottom"> -97
+</td><td align="center" valign="bottom"> -99
+</td><td align="center" valign="bottom"> -110
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> 91.5
+</td><td align="center" valign="bottom"> 92.5
+</td><td align="center" valign="bottom"> 66.5
+</td><td align="center" valign="bottom"> 59.5
+</td><td style="font-weight:bold" align="center" valign="bottom"> 60.5
+</td><td align="center" valign="bottom"> 54.5
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td style="font-size:11pt" height="14" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td style="font-style:Italic" height="13" valign="bottom"> Dither disabled,
+</td><td style="font-style:Italic" valign="bottom"> Random disabled:
+</td><td valign="bottom"> Noise Floor = -118dBm
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -97
+</td><td align="center" valign="bottom"> -94
+</td><td align="center" valign="bottom"> -91
+</td><td align="center" valign="bottom"> -91
+</td><td align="center" valign="bottom"> -95
+</td><td align="center" valign="bottom"> -100
+</td><td align="center" valign="bottom"> -116
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -96
+</td><td align="center" valign="bottom"> -98
+</td><td align="center" valign="bottom"> -94
+</td><td align="center" valign="bottom"> -92
+</td><td align="center" valign="bottom"> -95
+</td><td align="center" valign="bottom"> -100
+</td><td align="center" valign="bottom"> -116
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> 81.5
+</td><td align="center" valign="bottom"> 76
+</td><td align="center" valign="bottom"> 62.5
+</td><td align="center" valign="bottom"> 51.5
+</td><td align="center" valign="bottom"> 45
+</td><td style="font-weight:bold" align="center" valign="bottom"> 40
+</td><td align="center" valign="bottom"> 46
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom">
+</td><td style="font-weight:bold" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<h2> <span class="mw-headline" id="MERCURY_IM3DR_with_a_third_signal_present"> MERCURY IM3DR with a third signal present </span></h2>
+<p>(May/June 2009/ HB9AJG)
+</p><p>In his presentation on the design of MERCURY at the ARRL/TAPR 
+Conference on Digital Communications 2008 Phil Harman explains that 
+other strong signals have the same effect as "Dither enabled". To verify
+ this, a second coupler and a third signal generator were added to the 
+Test Setup:
+</p><p><a href="http://openhpsdr.org/wiki/index.php?title=File:MERCURY_IM3DR_2.gif" class="image"><img alt="MERCURY IM3DR 2.gif" src="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/MERCURY_IM3DR_2.gif" height="137" width="597"></a>
+</p><p><i>"Dither" and "Random" were disabled</i>, and the measurements on <b>20m</b> were repeated:
+</p>
+<table>
+
+<tbody><tr>
+<td style="background:#f0f0f0;" align="left"><b>20m:  14080kHz + 14100kHz</b>
+</td></tr>
+
+<tr>
+<td style="font-style:Italic" valign="bottom"> Random disabled and Dither disabled
+</td></tr>
+
+<tr>
+<td> Preamp OFF:    Noise Floor = -118dBm
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td valign="bottom" width="47">
+</td><td valign="bottom" width="47">
+</td><td valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+
+
+<tr>
+<td style="font-weight:bold" height="6" valign="bottom">
+</td><td style="font-weight:bold" valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+</tbody></table>
+<table>
+
+<tbody><tr>
+<td style="font-weight:bold" height="13" valign="bottom"> No third signal
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> IM @ - ∆f
+</td><td valign="bottom" width="57"> dBm
+</td><td valign="bottom" width="35">
+</td><td valign="bottom" width="47">
+</td><td valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -97
+</td><td align="center" valign="bottom" width="47"> -94
+</td><td align="center" valign="bottom" width="47"> -91
+</td><td align="center" valign="bottom" width="47"> -91
+</td><td align="center" valign="bottom" width="47"> -95
+</td><td align="center" valign="bottom" width="47"> -100
+</td><td align="center" valign="bottom" width="47"> -116
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom"> -96
+</td><td align="center" valign="bottom"> -98
+</td><td align="center" valign="bottom"> -94
+</td><td align="center" valign="bottom"> -92
+</td><td align="center" valign="bottom"> -95
+</td><td align="center" valign="bottom"> -100
+</td><td align="center" valign="bottom"> -116
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom"> 40
+</td><td align="center" valign="bottom"> 46
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="6" valign="bottom">
+</td><td style="font-weight:bold" valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> Third signal
+</td><td style="font-weight:bold" valign="bottom"> -52dBm*
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -94
+</td><td align="center" valign="bottom"> -91
+</td><td align="center" valign="bottom"> -92
+</td><td align="center" valign="bottom"> -100
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -98
+</td><td align="center" valign="bottom"> -94
+</td><td align="center" valign="bottom"> -92
+</td><td align="center" valign="bottom"> -100
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom"> 50
+</td><td align="center" valign="bottom"> 54
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr style="font-size:6pt">
+<td style="font-weight:bold" height="8" valign="bottom">
+</td><td style="font-weight:bold" valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> Third signal
+</td><td style="font-weight:bold" valign="bottom"> -47dBm*
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -94
+</td><td align="center" valign="bottom"> -92
+</td><td align="center" valign="bottom"> -93
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -98
+</td><td align="center" valign="bottom"> -93
+</td><td align="center" valign="bottom"> -94
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom"> 53
+</td><td align="center" valign="bottom"> 64
+</td><td style="font-weight:bold" align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="6" valign="bottom">
+</td><td style="font-weight:bold" valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> Third signal
+</td><td style="font-weight:bold" valign="bottom"> -14dBm*
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -112
+</td><td align="center" valign="bottom"> -112
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -112
+</td><td align="center" valign="bottom"> -112
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom"> 82
+</td><td align="center" valign="bottom"> 74
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<p><br>
+<b>Frequency of the third signal:</b> anywhere between 1 and 30MHz (except harmonics and IMs)
+</p><p><b>*Approximate signal level, the limit is fuzzy: at levels up to about 10dB higher IM signals vary between nil and MDS</b>
+</p><p><br>
+With very strong third signals (S9+60dB), an improvement of the IM3DR of approximately 30db is achieved. 
+</p><p>However, this is not as much as with "Dither" <i>and</i> "Random" enabled (copy from above):
+</p>
+<table>
+
+<tbody><tr>
+<td style="background:#f0f0f0;" align="left"><b>20m:  14080kHz + 14100kHz</b>
+</td></tr>
+
+<tr>
+<td style="font-style:Italic" valign="bottom"> Random enabled and Dither enabled
+</td></tr>
+
+<tr>
+<td> Preamp OFF:    Noise Floor = -114dBm
+</td></tr></tbody></table>
+<table>
+
+
+
+<tbody><tr>
+<td height="13" valign="bottom" width="77"> Inputs each
+</td><td valign="bottom" width="47"> dBm
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47">
+</td><td align="center" valign="bottom" width="47"> -15
+</td><td align="center" valign="bottom" width="47"> -20
+</td><td align="center" valign="bottom" width="47"> -30
+</td><td align="center" valign="bottom" width="47"> -40
+</td><td align="center" valign="bottom" width="47"> -50
+</td><td align="center" valign="bottom" width="47"> -60
+</td><td align="center" valign="bottom" width="47"> -70
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ - ∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -113
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom"> IM @ +∆f
+</td><td valign="bottom"> dBm
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom"> -114
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td><td align="center" valign="bottom"> -
+</td></tr>
+
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom"> IM3DR
+</td><td style="font-weight:bold" valign="bottom"> dB
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td style="font-weight:bold" align="center" valign="bottom"> 98.5
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr>
+
+<tr>
+<td height="13" valign="bottom">
+</td><td valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td><td align="center" valign="bottom">
+</td></tr></tbody></table>
+<p><br>
+<b>Now, of course, the next step was to connect my DX-88 8-band trap vertical instead of the third signal generator </b>(no filters between antenna and Mercury):
+</p>
+<table>
+<tbody><tr>
+<td style="font-style:Italic" valign="bottom"> Random disabled and Dither disabled
+</td></tr></tbody></table>
+<table>
+
+<tbody><tr style="background:#f0f0f0" align="center" valign="top">
+<td height="24" width="42"> Band
+</td><td width="53"> Preamp
+</td><td width="64"> Noise floor
+</td><td width="42"> UTC
+</td><td width="85"> max gen level<br>for IM3 &lt; MDS
+</td><td width="146"> Comment
+</td><td width="47"> IM3DR
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13"> 20m
+</td><td> OFF
+</td><td> -114dBm
+</td><td> 15:30
+</td><td> -50 dBm
+</td><td> varies slightly with time
+</td><td> 64dB
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13">
+</td><td> ON
+</td><td> -115dBm
+</td><td>
+</td><td> -41dBm
+</td><td> (fading effects?)
+</td><td> 74dB
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13">
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13"> 40m
+</td><td> OFF
+</td><td> -108dBm
+</td><td> 16:0
+</td><td> -40 dBm
+</td><td> varies slightly
+</td><td> 68dB
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13">
+</td><td> ON
+</td><td> -108dBm
+</td><td>
+</td><td> -24dBm
+</td><td>
+</td><td> 84dB
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13">
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13"> 80m
+</td><td> OFF
+</td><td> -97dBm
+</td><td> 16:10
+</td><td> -34 dBm
+</td><td> varies slightly
+</td><td> 63dB
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13">
+</td><td> ON
+</td><td> -97dBm
+</td><td>
+</td><td> -22dBm
+</td><td> just before ADC Overload!
+</td><td> 75dB
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13">
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13"> 15m
+</td><td> OFF
+</td><td> -114dBm
+</td><td> 16:20
+</td><td> -46 dBm
+</td><td> varies by several dB
+</td><td> 68dB
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13">
+</td><td> ON
+</td><td> -116dBm
+</td><td>
+</td><td> -40dBm
+</td><td>
+</td><td> 76dB
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13">
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13"> 10m
+</td><td> OFF
+</td><td> -116dBm
+</td><td> 16:30
+</td><td> -47 dBm
+</td><td> varies by several dB
+</td><td> 69dB
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13">
+</td><td> ON
+</td><td> -123dBm
+</td><td>
+</td><td> -45dBm
+</td><td>
+</td><td> 78dB
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13">
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13">  6m
+</td><td> OFF
+</td><td> -118dBm
+</td><td> 16:40
+</td><td> -46 dBm
+</td><td> varies slightly
+</td><td> 72dB
+</td></tr>
+<tr align="center" valign="bottom">
+<td height="13">
+</td><td> ON
+</td><td> -136dBm
+</td><td>
+</td><td> -50dBm
+</td><td>
+</td><td> 86dB
+</td></tr>
+<tr>
+<td style="font-weight:bold" height="13" valign="bottom">
+</td><td style="font-weight:bold" valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td><td valign="bottom">
+</td></tr></tbody></table>
+<h2> <span class="mw-headline" id="CONCLUSION">CONCLUSION</span></h2>
+<p>The antenna has about the same effect as a third signal generator. 
+Enabling "Dither" and "Random" results in a much higher IM3DR, however. 
+Therefore, I think if a band is heavily congest­ed, it is preferable to 
+enable "Dither" and "Random" and to accept the degradation of 
+sensitivity of 4dB.
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 208/1000000
+Post-expand include size: 950/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key hpsdrwiki_db-wiki_:pcache:idhash:328-0!1!0!!en!2!edit=0 and timestamp 20151030124906 -->
+<div class="printfooter">
+Retrieved from "<a href="http://openhpsdr.org/wiki/index.php?title=Mercury_-_intermodulation_%28IMD%29_tests">http://openhpsdr.org/wiki/index.php?title=Mercury_-_intermodulation_(IMD)_tests</a>"</div>
+		<div id="catlinks" class="catlinks"><div id="mw-normal-catlinks"><a href="http://openhpsdr.org/wiki/index.php?title=Special:Categories" title="Special:Categories">Category</a>: <span dir="ltr"><a href="http://openhpsdr.org/wiki/index.php?title=Category:Mercury" title="Category:Mercury">Mercury</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="http://openhpsdr.org/wiki/index.php?title=Mercury_-_intermodulation_%28IMD%29_tests" title="View the content page [alt-shift-c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk" class="new"><a href="http://openhpsdr.org/wiki/index.php?title=Talk:Mercury_-_intermodulation_%28IMD%29_tests&amp;action=edit&amp;redlink=1" title="Discussion about the content page [alt-shift-t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="http://openhpsdr.org/wiki/index.php?title=Mercury_-_intermodulation_%28IMD%29_tests&amp;action=edit" title="This page is protected.
+You can view its source [alt-shift-e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="http://openhpsdr.org/wiki/index.php?title=Mercury_-_intermodulation_%28IMD%29_tests&amp;action=history" title="Past revisions of this page [alt-shift-h]" accesskey="h">History</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="http://openhpsdr.org/wiki/index.php?title=Special:UserLogin&amp;returnto=Mercury_-_intermodulation_%28IMD%29_tests" title="You are encouraged to log in; however, it is not mandatory [alt-shift-o]" accesskey="o">Log in</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(../img/hpsdr5-w.png);" href="http://openhpsdr.org/wiki/index.php?title=Main_Page" title="Visit the main page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class="generated-sidebar portlet" id="p-navigation">
+		<h5>Navigation</h5>
+		<div class="pBody">
+			<ul>
+				<li id="n-HPSDR-webpage"><a href="http://openhpsdr.org/">HPSDR webpage</a></li>
+				<li id="n-mainpage-description"><a href="http://openhpsdr.org/wiki/index.php?title=Main_Page" title="Visit the main page [alt-shift-z]" accesskey="z">Main page</a></li>
+				<li id="n-portal"><a href="http://openhpsdr.org/wiki/index.php?title=HPSDRwiki:Community_Portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+				<li id="n-currentevents"><a href="http://openhpsdr.org/wiki/index.php?title=HPSDRwiki:Current_events" title="Find background information on current events">Current events</a></li>
+				<li id="n-recentchanges"><a href="http://openhpsdr.org/wiki/index.php?title=Special:RecentChanges" title="The list of recent changes in the wiki [alt-shift-r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="http://openhpsdr.org/wiki/index.php?title=Special:Random" title="Load a random page [alt-shift-x]" accesskey="x">Random page</a></li>
+				<li id="n-help"><a href="http://openhpsdr.org/wiki/index.php?title=Help:Contents" title="The place to find out">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/wiki/index.php" id="searchform">
+				<input name="title" value="Special:Search" type="hidden">
+				<input id="searchInput" title="Search HPSDRwiki" accesskey="f" name="search" type="search">
+				<input name="go" class="searchButton" id="searchGoButton" value="Go" title="Go to a page with this exact name if exists" type="submit">&nbsp;
+				<input name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" type="submit">
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="http://openhpsdr.org/wiki/index.php?title=Special:WhatLinksHere/Mercury_-_intermodulation_%28IMD%29_tests" title="List of all wiki pages that link here [alt-shift-j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="http://openhpsdr.org/wiki/index.php?title=Special:RecentChangesLinked/Mercury_-_intermodulation_%28IMD%29_tests" title="Recent changes in pages linked from this page [alt-shift-k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="http://openhpsdr.org/wiki/index.php?title=Special:SpecialPages" title="List of all special pages [alt-shift-q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="http://openhpsdr.org/wiki/index.php?title=Mercury_-_intermodulation_%28IMD%29_tests&amp;printable=yes" rel="alternate" title="Printable version of this page [alt-shift-p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="http://openhpsdr.org/wiki/index.php?title=Mercury_-_intermodulation_%28IMD%29_tests&amp;oldid=2984" title="Permanent link to this revision of the page">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="Mercury%20-%20intermodulation%20%28IMD%29%20tests%20-%20HPSDRwiki_pliki/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" height="31" width="88"></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> This page was last modified on 25 January 2010, at 18:45.</li>
+		<li id="viewcount">This page has been accessed 17,015 times.</li>
+		<li id="privacy"><a href="http://openhpsdr.org/wiki/index.php?title=HPSDRwiki:Privacy_policy" title="HPSDRwiki:Privacy policy">Privacy policy</a></li>
+		<li id="about"><a href="http://openhpsdr.org/wiki/index.php?title=HPSDRwiki:About" title="HPSDRwiki:About">About HPSDRwiki</a></li>
+		<li id="disclaimer"><a href="http://openhpsdr.org/wiki/index.php?title=HPSDRwiki:General_disclaimer" title="HPSDRwiki:General disclaimer">Disclaimers</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 2.991 secs. -->
+</body></html>

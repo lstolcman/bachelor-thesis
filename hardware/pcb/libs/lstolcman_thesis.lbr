@@ -311,51 +311,51 @@ http://www.linear.com/docs/38722</description>
 <pin name="GND" x="-27.94" y="-12.7" length="middle" direction="pwr"/>
 <pin name="VCM" x="-27.94" y="15.24" length="middle" direction="pwr"/>
 <pin name="VDD" x="-27.94" y="-10.16" length="middle" direction="pwr"/>
-<pin name="AIN_P" x="-27.94" y="5.08" length="middle"/>
-<pin name="AIN_N" x="-27.94" y="2.54" length="middle"/>
+<pin name="AIN_P" x="-27.94" y="2.54" length="middle"/>
+<pin name="AIN_N" x="-27.94" y="5.08" length="middle"/>
 <pin name="ENC_P" x="-27.94" y="-2.54" length="middle"/>
 <pin name="ENC_N" x="-27.94" y="-5.08" length="middle"/>
 <pin name="SHDN" x="-27.94" y="10.16" length="middle"/>
-<pin name="D0_N/DB0" x="25.4" y="43.18" length="middle" rot="R180"/>
-<pin name="D0_P/DB1" x="25.4" y="40.64" length="middle" rot="R180"/>
-<pin name="D1_N/DB2" x="25.4" y="38.1" length="middle" rot="R180"/>
-<pin name="D1_P/DB3" x="25.4" y="35.56" length="middle" rot="R180"/>
-<pin name="D2_N/DB4" x="25.4" y="33.02" length="middle" rot="R180"/>
-<pin name="D2_P/DB5" x="25.4" y="30.48" length="middle" rot="R180"/>
-<pin name="D3_N/DB6" x="25.4" y="27.94" length="middle" rot="R180"/>
-<pin name="D3_P/DB7" x="25.4" y="25.4" length="middle" rot="R180"/>
-<pin name="D4_N/DB8" x="25.4" y="22.86" length="middle" rot="R180"/>
-<pin name="D4_P/DB9" x="25.4" y="20.32" length="middle" rot="R180"/>
+<pin name="D0_N/DB0" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="D0_P/DB1" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="D1_N/DB2" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="D1_P/DB3" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="D2_N/DB4" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="D2_P/DB5" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="D3_N/DB6" x="25.4" y="-20.32" length="middle" rot="R180"/>
+<pin name="D3_P/DB7" x="25.4" y="-22.86" length="middle" rot="R180"/>
+<pin name="D4_N/DB8" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="D4_P/DB9" x="25.4" y="-27.94" length="middle" rot="R180"/>
 <pin name="OGND" x="-27.94" y="-20.32" length="middle" direction="pwr"/>
 <pin name="OVDD" x="-27.94" y="-17.78" length="middle" direction="pwr"/>
-<pin name="D5_N/DB10" x="25.4" y="17.78" length="middle" rot="R180"/>
-<pin name="D5_P/DB11" x="25.4" y="15.24" length="middle" rot="R180"/>
-<pin name="D6_N/DB12" x="25.4" y="12.7" length="middle" rot="R180"/>
-<pin name="D6_P/DB13" x="25.4" y="10.16" length="middle" rot="R180"/>
-<pin name="D7_N/DB14" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="D7_P/DB15" x="25.4" y="5.08" length="middle" rot="R180"/>
-<pin name="CLKOUT_P/CLKOUTB" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="D8_P/DA0" x="25.4" y="-5.08" length="middle" rot="R180"/>
-<pin name="D9_N/DA1" x="25.4" y="-7.62" length="middle" rot="R180"/>
-<pin name="D10_N/DA3" x="25.4" y="-12.7" length="middle" rot="R180"/>
-<pin name="D10_P/DA4" x="25.4" y="-15.24" length="middle" rot="R180"/>
-<pin name="D11_N/DA5" x="25.4" y="-17.78" length="middle" rot="R180"/>
-<pin name="D9_P/DA2" x="25.4" y="-10.16" length="middle" rot="R180"/>
-<pin name="D8_N/CLKOUTA" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="CLKOUT_N/OFB" x="25.4" y="2.54" length="middle" rot="R180"/>
-<pin name="D11_P/DA6" x="25.4" y="-20.32" length="middle" rot="R180"/>
-<pin name="D12_P/DA8" x="25.4" y="-25.4" length="middle" rot="R180"/>
-<pin name="D13_N/DA9" x="25.4" y="-27.94" length="middle" rot="R180"/>
-<pin name="D13_P/DA10" x="25.4" y="-30.48" length="middle" rot="R180"/>
-<pin name="D12_N/DA7" x="25.4" y="-22.86" length="middle" rot="R180"/>
-<pin name="D14_N/DA11" x="25.4" y="-33.02" length="middle" rot="R180"/>
-<pin name="D14_P/DA12" x="25.4" y="-35.56" length="middle" rot="R180"/>
-<pin name="D15_N/DA13" x="25.4" y="-38.1" length="middle" rot="R180"/>
-<pin name="OF_N/DA15" x="25.4" y="-43.18" length="middle" rot="R180"/>
-<pin name="OF_P/OFA" x="25.4" y="-45.72" length="middle" rot="R180"/>
+<pin name="D5_N/DB10" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="D5_P/DB11" x="25.4" y="-33.02" length="middle" rot="R180"/>
+<pin name="D6_N/DB12" x="25.4" y="-35.56" length="middle" rot="R180"/>
+<pin name="D6_P/DB13" x="25.4" y="-38.1" length="middle" rot="R180"/>
+<pin name="D7_N/DB14" x="25.4" y="-40.64" length="middle" rot="R180"/>
+<pin name="D7_P/DB15" x="25.4" y="-43.18" length="middle" rot="R180"/>
+<pin name="CLKOUT_P/CLKOUTB" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="D8_P/DA0" x="25.4" y="43.18" length="middle" rot="R180"/>
+<pin name="D9_N/DA1" x="25.4" y="40.64" length="middle" rot="R180"/>
+<pin name="D10_N/DA3" x="25.4" y="35.56" length="middle" rot="R180"/>
+<pin name="D10_P/DA4" x="25.4" y="33.02" length="middle" rot="R180"/>
+<pin name="D11_N/DA5" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="D9_P/DA2" x="25.4" y="38.1" length="middle" rot="R180"/>
+<pin name="D8_N/CLKOUTA" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="CLKOUT_N/OFB" x="25.4" y="-45.72" length="middle" rot="R180"/>
+<pin name="D11_P/DA6" x="25.4" y="27.94" length="middle" rot="R180"/>
+<pin name="D12_P/DA8" x="25.4" y="22.86" length="middle" rot="R180"/>
+<pin name="D13_N/DA9" x="25.4" y="20.32" length="middle" rot="R180"/>
+<pin name="D13_P/DA10" x="25.4" y="17.78" length="middle" rot="R180"/>
+<pin name="D12_N/DA7" x="25.4" y="25.4" length="middle" rot="R180"/>
+<pin name="D14_N/DA11" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="D14_P/DA12" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="D15_N/DA13" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="OF_N/DA15" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="OF_P/OFA" x="25.4" y="2.54" length="middle" rot="R180"/>
 <pin name="LVDS" x="-27.94" y="12.7" length="middle"/>
 <pin name="MODE" x="-27.94" y="20.32" length="middle"/>
-<pin name="D15_P/DA14" x="25.4" y="-40.64" length="middle" rot="R180"/>
+<pin name="D15_P/DA14" x="25.4" y="7.62" length="middle" rot="R180"/>
 <pin name="RAND" x="-27.94" y="25.4" length="middle"/>
 <pin name="PGA" x="-27.94" y="22.86" length="middle"/>
 <wire x1="20.32" y1="45.72" x2="-22.86" y2="45.72" width="0.254" layer="94"/>
@@ -402,7 +402,7 @@ http://www.linear.com/docs/38722</description>
 <pin name="GPIO_010" x="-22.86" y="10.16" length="middle" swaplevel="1"/>
 <pin name="GND" x="2.54" y="-25.4" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
 <pin name="GPIO_09" x="22.86" y="12.7" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_011" x="22.86" y="10.16" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_011" x="22.86" y="10.16" length="middle" swaplevel="1" rot="R180"/>
 <pin name="GPIO_012" x="-22.86" y="7.62" length="middle" swaplevel="1"/>
 <pin name="GPIO_014" x="-22.86" y="5.08" length="middle" swaplevel="1"/>
 <pin name="GPIO_013" x="22.86" y="7.62" length="middle" swaplevel="1" rot="R180"/>

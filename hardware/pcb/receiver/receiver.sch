@@ -14237,65 +14237,6 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="inductors">
-<description>&lt;b&gt;Inductors and Filters&lt;/b&gt;&lt;p&gt;
-Based on the previous library ind-a.lbr&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="0402">
-<description>&lt;b&gt;EMIFIL (R) Chip Ferrite Bead for GHz Noise&lt;/b&gt;&lt;p&gt;
-Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-</packages>
-<symbols>
-<symbol name="L">
-<text x="-3.81" y="1.3716" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.54" y1="-0.889" x2="2.54" y2="0.889" layer="94"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BLM15H" prefix="L">
-<description>&lt;b&gt;EMIFIL (R) Chip Ferrite Bead for GHz Noise&lt;/b&gt;&lt;p&gt;
-Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="B121SN1"/>
-<technology name="B221SN1"/>
-<technology name="D102SN1"/>
-<technology name="D182SN1"/>
-<technology name="D601SN1"/>
-<technology name="G102SN1"/>
-<technology name="G601SN1"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="pinhead">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -14456,6 +14397,39 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="supply2">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+Please keep in mind, that these devices are necessary for the
+automatic wiring of the supply signals.&lt;p&gt;
+The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="VDD">
+<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
+<text x="-1.905" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VDD" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VDD" prefix="SUPPLY">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="VDD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14539,8 +14513,6 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <part name="C24" library="rcl" deviceset="C-EU" device="C0805" value="0,1u"/>
 <part name="C25" library="rcl" deviceset="C-EU" device="C0805" value="0,1u"/>
 <part name="C26" library="rcl" deviceset="C-EU" device="C0805" value="0,1u"/>
-<part name="L4" library="inductors" deviceset="BLM15H" device="" technology="B121SN1"/>
-<part name="L5" library="inductors" deviceset="BLM15H" device="" technology="B121SN1"/>
 <part name="C27" library="rcl" deviceset="C-EU" device="C0805" value="0,1u"/>
 <part name="C28" library="rcl" deviceset="C-EU" device="C0805" value="0,1u"/>
 <part name="C29" library="rcl" deviceset="C-EU" device="C0805" value="0,1u"/>
@@ -14550,20 +14522,28 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
-<part name="L6" library="inductors" deviceset="BLM15H" device="" technology="B121SN1"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="M1206" value="10k"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="M1206" value="10k"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="M1206" value="10k"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X4" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
+<part name="C32" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="L7" library="inductor-neosid" deviceset="SM-NE29" device="" value="ferrite bead"/>
+<part name="L8" library="inductor-neosid" deviceset="SM-NE29" device="" value="ferrite bead"/>
+<part name="L9" library="inductor-neosid" deviceset="SM-NE29" device="" value="ferrite bead"/>
+<part name="C33" library="rcl" deviceset="C-EU" device="C0805" value="100p"/>
+<part name="C34" library="rcl" deviceset="C-EU" device="C0805" value="2,2u"/>
+<part name="GND20" library="supply1" deviceset="GND" device=""/>
+<part name="GND22" library="supply1" deviceset="GND" device=""/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="supply2" deviceset="VDD" device=""/>
+<part name="SUPPLY2" library="supply2" deviceset="VDD" device=""/>
+<part name="GND24" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="109.22" y="66.04" size="1.27" layer="97">2Vp-p diff output
-level-shifted to 1,25V (Vocm)</text>
-<wire x1="109.22" y1="66.04" x2="101.6" y2="55.88" width="0.0508" layer="97"/>
 <text x="38.1" y="50.8" size="1.778" layer="97">4:1 balun</text>
 <wire x1="-76.2" y1="63.5" x2="-76.2" y2="10.16" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-76.2" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="97" style="shortdash"/>
@@ -14572,7 +14552,6 @@ level-shifted to 1,25V (Vocm)</text>
 <text x="-73.66" y="12.7" size="1.778" layer="97">Elliptic (Cauer) lowpass filter
 corner - 60MHz
 stopband attenuation - 47dB</text>
-<text x="269.24" y="137.16" size="1.778" layer="97">ferrite beads</text>
 <text x="248.92" y="144.78" size="1.778" layer="97">digital vcc fitlering</text>
 <wire x1="241.3" y1="149.86" x2="317.5" y2="149.86" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="317.5" y1="149.86" x2="317.5" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
@@ -14589,6 +14568,12 @@ stopband attenuation - 47dB</text>
 <wire x1="398.78" y1="162.56" x2="398.78" y2="96.52" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="398.78" y1="96.52" x2="345.44" y2="96.52" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="345.44" y1="96.52" x2="345.44" y2="162.56" width="0.1524" layer="97" style="shortdash"/>
+<text x="243.84" y="33.02" size="1.27" layer="97">clkout differential to fpga as clk?</text>
+<text x="-116.84" y="63.5" size="1.27" layer="97">cap between sma and diode?</text>
+<text x="332.74" y="50.8" size="1.778" layer="91">enc is lvpecl!!!!</text>
+<text x="332.74" y="45.72" size="1.778" layer="91">use mc100lvelt22!</text>
+<text x="132.08" y="25.4" size="1.778" layer="97">optional cap
+for RC/LC filter</text>
 </plain>
 <instances>
 <instance part="X1" gate="G1" x="-116.84" y="45.72"/>
@@ -14599,8 +14584,8 @@ stopband attenuation - 47dB</text>
 <instance part="J2" gate="G$1" x="-109.22" y="104.14"/>
 <instance part="P+1" gate="VCC" x="-76.2" y="119.38"/>
 <instance part="S1" gate="1" x="-96.52" y="109.22" rot="R270"/>
-<instance part="R1" gate="G$1" x="109.22" y="38.1"/>
-<instance part="R2" gate="G$1" x="114.3" y="43.18"/>
+<instance part="R1" gate="G$1" x="121.92" y="33.02"/>
+<instance part="R2" gate="G$1" x="121.92" y="45.72"/>
 <instance part="GND4" gate="1" x="78.74" y="17.78"/>
 <instance part="P+2" gate="1" x="78.74" y="63.5"/>
 <instance part="P+3" gate="1" x="127" y="139.7"/>
@@ -14664,8 +14649,6 @@ stopband attenuation - 47dB</text>
 <instance part="C24" gate="G$1" x="152.4" y="124.46" rot="R180"/>
 <instance part="C25" gate="G$1" x="190.5" y="124.46" rot="R180"/>
 <instance part="C26" gate="G$1" x="144.78" y="124.46" rot="R180"/>
-<instance part="L4" gate="G$1" x="269.24" y="132.08" rot="R180"/>
-<instance part="L5" gate="G$1" x="289.56" y="132.08"/>
 <instance part="C27" gate="G$1" x="251.46" y="116.84" rot="R180"/>
 <instance part="C28" gate="G$1" x="271.78" y="116.84" rot="R180"/>
 <instance part="C29" gate="G$1" x="279.4" y="116.84" rot="R180"/>
@@ -14675,21 +14658,32 @@ stopband attenuation - 47dB</text>
 <instance part="+3V4" gate="G$1" x="251.46" y="139.7"/>
 <instance part="GND21" gate="1" x="279.4" y="106.68"/>
 <instance part="P+8" gate="1" x="109.22" y="139.7"/>
-<instance part="L6" gate="G$1" x="109.22" y="129.54" rot="R270"/>
 <instance part="+3V5" gate="G$1" x="353.06" y="157.48"/>
 <instance part="R7" gate="G$1" x="353.06" y="144.78" rot="R90"/>
 <instance part="R8" gate="G$1" x="353.06" y="129.54" rot="R90"/>
 <instance part="R9" gate="G$1" x="353.06" y="114.3" rot="R90"/>
 <instance part="JP1" gate="A" x="375.92" y="132.08"/>
 <instance part="GND19" gate="1" x="353.06" y="101.6"/>
+<instance part="C32" gate="G$1" x="-109.22" y="50.8" rot="R90"/>
+<instance part="L7" gate="G$1" x="109.22" y="129.54" rot="R90"/>
+<instance part="L8" gate="G$1" x="261.62" y="132.08" rot="R180"/>
+<instance part="L9" gate="G$1" x="297.18" y="132.08" rot="R180"/>
+<instance part="C33" gate="G$1" x="137.16" y="40.64"/>
+<instance part="C34" gate="G$1" x="132.08" y="66.04"/>
+<instance part="GND20" gate="1" x="170.18" y="7.62"/>
+<instance part="GND22" gate="1" x="144.78" y="63.5"/>
+<instance part="GND23" gate="1" x="167.64" y="45.72"/>
+<instance part="SUPPLY1" gate="G$1" x="160.02" y="12.7" rot="R180"/>
+<instance part="SUPPLY2" gate="G$1" x="279.4" y="137.16"/>
+<instance part="GND24" gate="1" x="297.18" y="0"/>
 </instances>
 <busses>
 <bus name="DA[0..15]">
 <segment>
 <wire x1="236.22" y1="43.18" x2="236.22" y2="83.82" width="0.762" layer="92"/>
 <wire x1="236.22" y1="83.82" x2="238.76" y2="86.36" width="0.762" layer="92"/>
-<wire x1="238.76" y1="86.36" x2="243.84" y2="86.36" width="0.762" layer="92"/>
-<label x="246.38" y="86.36" size="1.778" layer="95"/>
+<wire x1="238.76" y1="86.36" x2="254" y2="86.36" width="0.762" layer="92"/>
+<label x="243.84" y="87.63" size="1.778" layer="95"/>
 </segment>
 </bus>
 </busses>
@@ -14711,11 +14705,6 @@ stopband attenuation - 47dB</text>
 <wire x1="-104.14" y1="104.14" x2="-101.6" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="104.14" x2="-101.6" y2="101.6" width="0.1524" layer="91"/>
 <junction x="-101.6" y="101.6"/>
-</segment>
-<segment>
-<wire x1="297.18" y1="7.62" x2="297.18" y2="5.08" width="0.1524" layer="91"/>
-<label x="297.18" y="5.08" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="SV1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -14831,24 +14820,14 @@ stopband attenuation - 47dB</text>
 <wire x1="83.82" y1="101.6" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="GND"/>
-<wire x1="175.26" y1="22.86" x2="170.18" y2="22.86" width="0.1524" layer="91"/>
-<label x="170.18" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="LVDS"/>
 <wire x1="175.26" y1="48.26" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="SHDN"/>
 <wire x1="175.26" y1="45.72" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="45.72" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="48.26" x2="170.18" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="48.26" x2="167.64" y2="48.26" width="0.1524" layer="91"/>
 <junction x="172.72" y="48.26"/>
-<label x="170.18" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OGND"/>
-<wire x1="175.26" y1="15.24" x2="170.18" y2="15.24" width="0.1524" layer="91"/>
-<label x="170.18" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="1"/>
@@ -14886,6 +14865,28 @@ stopband attenuation - 47dB</text>
 <wire x1="353.06" y1="106.68" x2="353.06" y2="104.14" width="0.1524" layer="91"/>
 <junction x="353.06" y="106.68"/>
 <pinref part="GND19" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="175.26" y1="15.24" x2="170.18" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="15.24" x2="170.18" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="OGND"/>
+<pinref part="IC5" gate="G$1" pin="GND"/>
+<wire x1="175.26" y1="22.86" x2="170.18" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="22.86" x2="170.18" y2="15.24" width="0.1524" layer="91"/>
+<junction x="170.18" y="15.24"/>
+</segment>
+<segment>
+<pinref part="C34" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="68.58" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+<wire x1="132.08" y1="71.12" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="71.12" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GND"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="297.18" y1="2.54" x2="297.18" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -14953,8 +14954,8 @@ stopband attenuation - 47dB</text>
 <pinref part="P+7" gate="1" pin="+5V"/>
 </segment>
 <segment>
+<pinref part="L7" gate="G$1" pin="2"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
-<pinref part="L6" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="134.62" x2="109.22" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14962,7 +14963,9 @@ stopband attenuation - 47dB</text>
 <segment>
 <pinref part="IC2" gate="G$1" pin="-OUT"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="33.02" x2="109.22" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="33.02" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="2.54" x2="101.6" y2="2.54" width="0.1524" layer="91"/>
@@ -15017,19 +15020,19 @@ stopband attenuation - 47dB</text>
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="121.92" x2="251.46" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<pinref part="L4" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="132.08" x2="251.46" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="132.08" x2="251.46" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="132.08" x2="251.46" y2="132.08" width="0.1524" layer="91"/>
 <junction x="251.46" y="132.08"/>
+<pinref part="L8" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="L5" gate="G$1" pin="2"/>
-<wire x1="294.64" y1="132.08" x2="307.34" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="132.08" x2="307.34" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="132.08" x2="307.34" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="307.34" y1="132.08" x2="307.34" y2="137.16" width="0.1524" layer="91"/>
 <junction x="307.34" y="132.08"/>
+<pinref part="L9" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
@@ -15047,13 +15050,14 @@ stopband attenuation - 47dB</text>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VOCM"/>
 <wire x1="83.82" y1="55.88" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
-<label x="86.36" y="58.42" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
+<wire x1="83.82" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="58.42" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="VCM"/>
-<wire x1="175.26" y1="50.8" x2="170.18" y2="50.8" width="0.1524" layer="91"/>
-<label x="170.18" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="C34" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="58.42" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
+<junction x="132.08" y="58.42"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -15079,6 +15083,8 @@ stopband attenuation - 47dB</text>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="IC2" gate="G$1" pin="+OUT"/>
 <pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="45.72" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="45.72" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="43.18" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
@@ -15243,17 +15249,27 @@ stopband attenuation - 47dB</text>
 <net name="IN_P" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="AIN_N"/>
-<wire x1="121.92" y1="40.64" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="40.64" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="40.64" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="40.64" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="127" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="C33" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="43.18" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
+<junction x="137.16" y="45.72"/>
 </segment>
 </net>
 <net name="IN_N" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="AIN_P"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="38.1" x2="147.32" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="C33" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="35.56" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
+<junction x="137.16" y="33.02"/>
 </segment>
 </net>
 <net name="DA0" class="0">
@@ -15449,30 +15465,6 @@ stopband attenuation - 47dB</text>
 <pinref part="SV1" gate="G$1" pin="GPIO_01"/>
 <wire x1="317.5" y1="55.88" x2="320.04" y2="55.88" width="0.1524" layer="91"/>
 <label x="320.04" y="55.88" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="OVDD" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="OVDD"/>
-<wire x1="175.26" y1="17.78" x2="170.18" y2="17.78" width="0.1524" layer="91"/>
-<label x="170.18" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="C28" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="121.92" x2="271.78" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="124.46" x2="279.4" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C29" gate="G$1" pin="2"/>
-<wire x1="279.4" y1="124.46" x2="279.4" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="287.02" y1="121.92" x2="287.02" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="124.46" x2="279.4" y2="124.46" width="0.1524" layer="91"/>
-<junction x="279.4" y="124.46"/>
-<wire x1="279.4" y1="132.08" x2="279.4" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="L5" gate="G$1" pin="1"/>
-<wire x1="274.32" y1="132.08" x2="279.4" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="132.08" x2="284.48" y2="132.08" width="0.1524" layer="91"/>
-<junction x="279.4" y="132.08"/>
-<pinref part="L4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -15693,10 +15685,10 @@ stopband attenuation - 47dB</text>
 <label x="170.18" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="L6" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="124.46" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
 <label x="111.76" y="119.38" size="1.27" layer="95" xref="yes"/>
+<pinref part="L7" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="119.38" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="SENSE"/>
@@ -15728,6 +15720,34 @@ stopband attenuation - 47dB</text>
 <pinref part="JP1" gate="A" pin="5"/>
 <wire x1="373.38" y1="132.08" x2="360.68" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="132.08" x2="360.68" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="C29" gate="G$1" pin="2"/>
+<wire x1="279.4" y1="132.08" x2="279.4" y2="121.92" width="0.1524" layer="91"/>
+<junction x="279.4" y="132.08"/>
+<wire x1="266.7" y1="132.08" x2="271.78" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="132.08" x2="279.4" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="132.08" x2="287.02" y2="132.08" width="0.1524" layer="91"/>
+<junction x="279.4" y="132.08"/>
+<pinref part="L8" gate="G$1" pin="1"/>
+<pinref part="L9" gate="G$1" pin="2"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VDD"/>
+<wire x1="287.02" y1="132.08" x2="292.1" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="134.62" x2="279.4" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="2"/>
+<wire x1="271.78" y1="121.92" x2="271.78" y2="132.08" width="0.1524" layer="91"/>
+<junction x="271.78" y="132.08"/>
+<pinref part="C30" gate="G$1" pin="2"/>
+<wire x1="287.02" y1="121.92" x2="287.02" y2="132.08" width="0.1524" layer="91"/>
+<junction x="287.02" y="132.08"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="OVDD"/>
+<pinref part="SUPPLY1" gate="G$1" pin="VDD"/>
+<wire x1="175.26" y1="17.78" x2="160.02" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="17.78" x2="160.02" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

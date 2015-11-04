@@ -308,9 +308,9 @@ http://www.linear.com/docs/38722</description>
 <symbol name="LTC2208_FLAT">
 <wire x1="20.32" y1="-48.26" x2="20.32" y2="45.72" width="0.254" layer="94"/>
 <pin name="SENSE" x="-27.94" y="33.02" length="middle"/>
-<pin name="GND" x="-27.94" y="-35.56" length="middle" direction="pwr"/>
+<pin name="GND" x="-27.94" y="-30.48" length="middle" direction="pwr"/>
 <pin name="VCM" x="-27.94" y="12.7" length="middle" direction="pwr"/>
-<pin name="VDD" x="-27.94" y="-33.02" length="middle" direction="pwr"/>
+<pin name="VDD" x="-27.94" y="-27.94" length="middle" direction="pwr"/>
 <pin name="AIN_P" x="-27.94" y="2.54" length="middle"/>
 <pin name="AIN_N" x="-27.94" y="5.08" length="middle"/>
 <pin name="ENC_P" x="-27.94" y="-17.78" length="middle"/>
@@ -326,8 +326,8 @@ http://www.linear.com/docs/38722</description>
 <pin name="D3_P/DB7" x="25.4" y="-22.86" length="middle" rot="R180"/>
 <pin name="D4_N/DB8" x="25.4" y="-25.4" length="middle" rot="R180"/>
 <pin name="D4_P/DB9" x="25.4" y="-27.94" length="middle" rot="R180"/>
-<pin name="OGND" x="-27.94" y="-43.18" length="middle" direction="pwr"/>
-<pin name="OVDD" x="-27.94" y="-40.64" length="middle" direction="pwr"/>
+<pin name="OGND" x="-27.94" y="-38.1" length="middle" direction="pwr"/>
+<pin name="OVDD" x="-27.94" y="-35.56" length="middle" direction="pwr"/>
 <pin name="D5_N/DB10" x="25.4" y="-30.48" length="middle" rot="R180"/>
 <pin name="D5_P/DB11" x="25.4" y="-33.02" length="middle" rot="R180"/>
 <pin name="D6_N/DB12" x="25.4" y="-35.56" length="middle" rot="R180"/>
@@ -508,30 +508,30 @@ http://www.linear.com/docs/38722</description>
 <wire x1="1.143" y1="3.81" x2="1.143" y2="1.27" width="0.254" layer="94"/>
 <text x="-10.16" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="-10.16" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="-2.286" y1="-3.81" x2="-4.064" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-4.064" y1="-2.54" x2="-2.286" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="-1.27" x2="-2.286" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-4.191" y1="-1.27" x2="-4.191" y2="-3.81" width="0.254" layer="94"/>
+<pin name="3" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="-2.032" y1="-3.81" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-2.032" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-1.27" x2="-2.032" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-3.937" y1="-1.27" x2="-3.937" y2="-3.81" width="0.254" layer="94"/>
 <wire x1="-0.762" y1="-1.27" x2="1.016" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="1.016" y1="-2.54" x2="-0.762" y2="-3.81" width="0.254" layer="94"/>
 <wire x1="-0.762" y1="-3.81" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.143" y1="-3.81" x2="1.143" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="3.81" x2="-4.064" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-4.064" y1="2.54" x2="-2.286" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="1.27" x2="-2.286" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-4.191" y1="1.27" x2="-4.191" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<circle x="5.08" y="0" radius="0.359209375" width="0" layer="94"/>
-<wire x1="-4.191" y1="1.27" x2="-4.699" y2="0.762" width="0.254" layer="94"/>
-<wire x1="-4.191" y1="3.81" x2="-3.683" y2="4.318" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="3.81" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-2.032" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-3.937" y1="1.27" x2="-3.937" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<circle x="2.54" y="0" radius="0.359209375" width="0" layer="94"/>
+<wire x1="-3.937" y1="1.27" x2="-4.445" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-3.937" y1="3.81" x2="-3.429" y2="4.318" width="0.254" layer="94"/>
 <wire x1="1.143" y1="-1.27" x2="0.635" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="1.143" y1="-3.81" x2="1.651" y2="-4.318" width="0.254" layer="94"/>
-<circle x="-7.62" y="0" radius="0.359209375" width="0" layer="94"/>
+<circle x="-5.08" y="0" radius="0.359209375" width="0" layer="94"/>
 </symbol>
 <symbol name="DIODE">
 <wire x1="-1.016" y1="-1.27" x2="1.016" y2="0" width="0.254" layer="94"/>
@@ -811,9 +811,9 @@ http://www.linear.com/docs/38722</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CDSOD232" prefix="D">
+<deviceset name="CDSOD232" prefix="D" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CDSOD323-T03C" x="0" y="0"/>
+<gate name="G$1" symbol="CDSOD323-T03C" x="2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOD323">

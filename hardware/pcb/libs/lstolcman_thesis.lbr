@@ -559,10 +559,10 @@ http://www.linear.com/docs/38722</description>
 <pin name="!Q0" x="15.24" y="2.54" length="middle" rot="R180"/>
 <pin name="Q1" x="15.24" y="-2.54" length="middle" rot="R180"/>
 <pin name="!Q1" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="VCC" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="VCC" x="-15.24" y="-10.16" length="middle"/>
 <pin name="D0" x="-15.24" y="5.08" length="middle"/>
 <pin name="D1" x="-15.24" y="-2.54" length="middle"/>
-<pin name="GND" x="-15.24" y="-10.16" length="middle"/>
+<pin name="GND" x="15.24" y="-10.16" length="middle" rot="R180"/>
 <text x="2.54" y="-15.24" size="1.27" layer="95" rot="MR0">&gt;NAME</text>
 <text x="3.81" y="8.89" size="1.27" layer="96" rot="MR0">&gt;VALUE</text>
 <circle x="0.508" y="2.54" radius="0.381" width="0.2032" layer="94"/>

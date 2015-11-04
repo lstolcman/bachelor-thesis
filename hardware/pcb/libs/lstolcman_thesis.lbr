@@ -309,10 +309,10 @@ http://www.linear.com/docs/38722</description>
 <wire x1="20.32" y1="-48.26" x2="20.32" y2="45.72" width="0.254" layer="94"/>
 <pin name="SENSE" x="-27.94" y="33.02" length="middle"/>
 <pin name="GND" x="-27.94" y="-30.48" length="middle" direction="pwr"/>
-<pin name="VCM" x="-27.94" y="12.7" length="middle" direction="pwr"/>
+<pin name="VCM" x="-27.94" y="17.78" length="middle" direction="pwr"/>
 <pin name="VDD" x="-27.94" y="-27.94" length="middle" direction="pwr"/>
-<pin name="AIN_P" x="-27.94" y="2.54" length="middle"/>
-<pin name="AIN_N" x="-27.94" y="5.08" length="middle"/>
+<pin name="AIN_P" x="-27.94" y="7.62" length="middle"/>
+<pin name="AIN_N" x="-27.94" y="10.16" length="middle"/>
 <pin name="ENC_P" x="-27.94" y="-17.78" length="middle"/>
 <pin name="ENC_N" x="-27.94" y="-20.32" length="middle"/>
 <pin name="SHDN" x="-27.94" y="27.94" length="middle"/>

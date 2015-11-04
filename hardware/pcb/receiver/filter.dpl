@@ -1,0 +1,28 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-94,0,1482,944,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=filter.dat>
+  <DataDisplay=filter.sch>
+  <OpenDisplay=1>
+  <Script=filter.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect -9 801 1439 777 3 #c0c0c0 1 00 1 0 1e+07 2e+08 1 -163.089 10 14.8263 1 -1 0.2 1 315 0 225 "" "" "">
+	<"dBS21" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

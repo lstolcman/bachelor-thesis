@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.02" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -133,17 +133,21 @@ http://www.linear.com/docs/38765</description>
 <wire x1="4.4" y1="-4.4" x2="4.4" y2="4.4" width="0.127" layer="51"/>
 <wire x1="4.4" y1="4.4" x2="-4.4" y2="4.4" width="0.127" layer="51"/>
 <wire x1="-4.4" y1="4.4" x2="-4.4" y2="-4.4" width="0.127" layer="51"/>
-<text x="-4.1275" y="5.207" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.3655" y="5.461" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.4925" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-4.826" y1="4.318" x2="-4.318" y2="4.826" width="0.2032" layer="21"/>
 <wire x1="4.699" y1="4.318" x2="4.699" y2="4.699" width="0.2032" layer="21"/>
 <wire x1="4.699" y1="4.699" x2="4.318" y2="4.699" width="0.2032" layer="21"/>
 <wire x1="4.699" y1="-4.318" x2="4.699" y2="-4.699" width="0.2032" layer="21"/>
 <wire x1="4.699" y1="-4.699" x2="4.318" y2="-4.699" width="0.2032" layer="21"/>
 <wire x1="-4.699" y1="-4.318" x2="-4.699" y2="-4.699" width="0.2032" layer="21"/>
 <wire x1="-4.699" y1="-4.699" x2="-4.318" y2="-4.699" width="0.2032" layer="21"/>
-<circle x="-5.08" y="5.08" radius="0.2032" width="0.508" layer="21"/>
+<circle x="-5.334" y="5.334" radius="0.2032" width="0.508" layer="21"/>
 <smd name="65" x="0" y="0" dx="7.15" dy="7.15" layer="1"/>
+<wire x1="-5.08" y1="4.064" x2="-4.064" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-4.064" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="4.064" width="0.127" layer="21"/>
 </package>
 <package name="MSOP8_TH">
 <description>&lt;b&gt;MS8E Package&lt;/b&gt;
@@ -161,19 +165,12 @@ http://www.linear.com/docs/38722</description>
 <smd name="4" x="0.9753625" y="-2.11328125" dx="0.889" dy="0.4191" layer="1" rot="R270"/>
 <smd name="2" x="-0.325121875" y="-2.11328125" dx="0.889" dy="0.4191" layer="1" rot="R270"/>
 <smd name="1" x="-0.9753625" y="-2.11328125" dx="0.889" dy="0.4191" layer="1" rot="R270"/>
-<circle x="-2.438" y="-2.438" radius="0.254" width="0.508" layer="21"/>
+<circle x="-2.184" y="-2.184" radius="0.254" width="0.508" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
 <smd name="9" x="0" y="0" dx="1.68" dy="1.88" layer="1" rot="R90"/>
-<wire x1="-1.778" y1="1.524" x2="-1.778" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="1.778" x2="-1.524" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="1.778" x2="1.778" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="1.778" x2="1.778" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="-1.524" x2="1.778" y2="-1.778" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="-1.778" x2="1.524" y2="-1.778" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-1.778" x2="-1.778" y2="-1.524" width="0.1524" layer="21"/>
 </package>
 <package name="2X20">
 <wire x1="-1.9" y1="-3.32" x2="-1.9" y2="-4.03" width="0.2032" layer="21"/>
@@ -302,6 +299,12 @@ http://www.linear.com/docs/38722</description>
 <rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
 <rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
 <rectangle x1="-0.75" y1="-0.575" x2="-0.375" y2="0.575" layer="51"/>
+<wire x1="-1.016" y1="0.762" x2="-2.032" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="0.762" x2="-2.032" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-0.762" x2="-1.016" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="1.016" y1="0.762" x2="2.032" y2="0.762" width="0.127" layer="21"/>
+<wire x1="2.032" y1="0.762" x2="2.032" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-0.762" x2="1.016" y2="-0.762" width="0.127" layer="21"/>
 </package>
 <package name="SOT223-6">
 <wire x1="-3.35" y1="0.53" x2="-3.35" y2="-3.07" width="0.254" layer="51"/>
@@ -340,6 +343,12 @@ http://www.linear.com/docs/38722</description>
 <rectangle x1="1.4" y1="-1.55" x2="2.35" y2="1.55" layer="51" rot="R180"/>
 <smd name="P$1" x="-2.615" y="0" dx="1.78" dy="3.5" layer="1" rot="R180"/>
 <smd name="P$2" x="2.615" y="0" dx="1.78" dy="3.5" layer="1" rot="R180"/>
+<wire x1="-2.032" y1="2.286" x2="-4.064" y2="2.286" width="0.127" layer="21"/>
+<wire x1="-4.064" y1="2.286" x2="-4.064" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="-4.064" y1="-2.286" x2="-2.032" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-2.286" x2="4.064" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="4.064" y1="-2.286" x2="4.064" y2="2.286" width="0.127" layer="21"/>
+<wire x1="4.064" y1="2.286" x2="2.032" y2="2.286" width="0.127" layer="21"/>
 </package>
 <package name="2X04_SMD">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -353,10 +362,10 @@ http://www.linear.com/docs/38722</description>
 <smd name="4" x="2.7305" y="1.27" dx="1.27" dy="3.175" layer="1" rot="R90"/>
 <smd name="1" x="-2.7305" y="3.81" dx="1.27" dy="3.175" layer="1" rot="R90"/>
 <smd name="2" x="2.7305" y="3.81" dx="1.27" dy="3.175" layer="1" rot="R90"/>
-<wire x1="-5.08" y1="-5.715" x2="-5.08" y2="5.715" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="5.715" x2="5.08" y2="5.715" width="0.127" layer="21"/>
-<wire x1="5.08" y1="5.715" x2="5.08" y2="-5.715" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-5.715" x2="-5.08" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-4.826" y1="-4.953" x2="-4.826" y2="4.953" width="0.127" layer="21"/>
+<wire x1="-4.826" y1="4.953" x2="4.826" y2="4.953" width="0.127" layer="21"/>
+<wire x1="4.826" y1="4.953" x2="4.826" y2="-4.953" width="0.127" layer="21"/>
+<wire x1="4.826" y1="-4.953" x2="-4.826" y2="-4.953" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

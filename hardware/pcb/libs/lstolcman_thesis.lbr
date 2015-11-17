@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.02" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -352,20 +352,36 @@ http://www.linear.com/docs/38722</description>
 </package>
 <package name="2X04_SMD">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<text x="1.905" y="7.62" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
-<text x="-3.81" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="7" x="-2.7305" y="-3.81" dx="1.27" dy="3.175" layer="1" rot="R90"/>
-<smd name="8" x="2.7305" y="-3.81" dx="1.27" dy="3.175" layer="1" rot="R90"/>
-<smd name="5" x="-2.7305" y="-1.27" dx="1.27" dy="3.175" layer="1" rot="R90"/>
-<smd name="6" x="2.7305" y="-1.27" dx="1.27" dy="3.175" layer="1" rot="R90"/>
-<smd name="3" x="-2.7305" y="1.27" dx="1.27" dy="3.175" layer="1" rot="R90"/>
-<smd name="4" x="2.7305" y="1.27" dx="1.27" dy="3.175" layer="1" rot="R90"/>
-<smd name="1" x="-2.7305" y="3.81" dx="1.27" dy="3.175" layer="1" rot="R90"/>
-<smd name="2" x="2.7305" y="3.81" dx="1.27" dy="3.175" layer="1" rot="R90"/>
-<wire x1="-4.826" y1="-4.953" x2="-4.826" y2="4.953" width="0.127" layer="21"/>
-<wire x1="-4.826" y1="4.953" x2="4.826" y2="4.953" width="0.127" layer="21"/>
-<wire x1="4.826" y1="4.953" x2="4.826" y2="-4.953" width="0.127" layer="21"/>
-<wire x1="4.826" y1="-4.953" x2="-4.826" y2="-4.953" width="0.127" layer="21"/>
+<text x="-2.8575" y="3.175" size="1.27" layer="25" ratio="10" rot="R270">&gt;NAME</text>
+<text x="6.6675" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<smd name="2" x="0" y="1.95" dx="2.4" dy="0.76" layer="1" rot="R90"/>
+<smd name="1" x="0" y="-1.95" dx="2.4" dy="0.76" layer="1" rot="R90"/>
+<smd name="4" x="1.27" y="1.95" dx="2.4" dy="0.76" layer="1" rot="R90"/>
+<smd name="6" x="2.54" y="1.95" dx="2.4" dy="0.76" layer="1" rot="R90"/>
+<smd name="3" x="1.27" y="-1.95" dx="2.4" dy="0.76" layer="1" rot="R90"/>
+<smd name="5" x="2.54" y="-1.95" dx="2.4" dy="0.76" layer="1" rot="R90"/>
+<smd name="7" x="3.81" y="-1.95" dx="2.4" dy="0.76" layer="1" rot="R90"/>
+<smd name="8" x="3.81" y="1.95" dx="2.4" dy="0.76" layer="1" rot="R90"/>
+<wire x1="-0.9525" y1="3.81" x2="4.7625" y2="3.81" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="3.81" x2="4.7625" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="-3.81" x2="-0.9525" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="-3.81" x2="-0.9525" y2="3.81" width="0.127" layer="21"/>
+</package>
+<package name="ETC1-1T-2TR">
+<description>SMD &lt;B&gt;INDUCTOR&lt;/B&gt;, &lt;B&gt;CHOKE&lt;/B&gt;, &lt;B&gt;TRANSFORMER&lt;/B&gt;</description>
+<text x="3.062" y="2.326" size="1.016" layer="25" rot="R180">&gt;NAME</text>
+<text x="3.316" y="-3.358" size="1.016" layer="27" rot="R180">&gt;VALUE</text>
+<smd name="3" x="0" y="0" dx="1.397" dy="0.762" layer="1" rot="R90"/>
+<smd name="4" x="0" y="-2.032" dx="1.397" dy="0.762" layer="1" rot="R90"/>
+<smd name="2" x="1.27" y="0" dx="1.397" dy="0.762" layer="1" rot="R90"/>
+<smd name="1" x="2.54" y="0" dx="1.397" dy="0.762" layer="1" rot="R90"/>
+<smd name="5" x="2.54" y="-2.032" dx="1.397" dy="0.762" layer="1" rot="R90"/>
+<wire x1="-0.762" y1="1.016" x2="-0.762" y2="-3.048" width="0.127" layer="21"/>
+<wire x1="-0.762" y1="-3.048" x2="3.302" y2="-3.048" width="0.127" layer="21"/>
+<wire x1="3.302" y1="-3.048" x2="3.302" y2="1.016" width="0.127" layer="21"/>
+<wire x1="3.302" y1="1.016" x2="-0.762" y2="1.016" width="0.127" layer="21"/>
+<circle x="-1.524" y="-2.54" radius="0.127" width="0.762" layer="21"/>
+<circle x="-1.524" y="0.508" radius="0.127" width="0.762" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -692,6 +708,37 @@ http://www.linear.com/docs/38722</description>
 <pin name="7" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="8" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
+<symbol name="SM-T4-2">
+<wire x1="-1.143" y1="-2.032" x2="-1.143" y2="-1.27" width="0.1016" layer="94"/>
+<wire x1="-1.143" y1="-0.508" x2="-1.143" y2="0.254" width="0.1016" layer="94"/>
+<wire x1="-1.143" y1="1.016" x2="-1.143" y2="1.778" width="0.1016" layer="94"/>
+<wire x1="-1.143" y1="2.54" x2="-1.143" y2="3.356" width="0.1016" layer="94"/>
+<wire x1="0.254" y1="5.08" x2="0.254" y2="3.3866" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="0.254" y1="3.3866" x2="0.254" y2="1.6932" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="0.254" y1="1.6934" x2="0.254" y2="0" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-1.6934" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="0.254" y1="-1.6934" x2="0.254" y2="-3.3866" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="0.254" y1="-3.3866" x2="0.254" y2="-5.08" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-1.143" y1="-3.556" x2="-1.143" y2="-2.794" width="0.1016" layer="94"/>
+<wire x1="-1.143" y1="-5.08" x2="-1.143" y2="-4.318" width="0.1016" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-0.8466" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-2.54" y1="-0.8466" x2="-2.54" y2="0.8466" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-2.54" y1="0.8466" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="4.2334" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-2.54" y1="-4.2334" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="4.318" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-4.318" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-1.143" y1="4.064" x2="-1.143" y2="4.88" width="0.1016" layer="94"/>
+<text x="-4.572" y="6.096" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.572" y="-7.874" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="3" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<pin name="1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<pin name="4" x="-5.08" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="5" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<circle x="-3.81" y="3.81" radius="0.127" width="0.762" layer="94"/>
+<circle x="1.27" y="3.81" radius="0.127" width="0.762" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LTC6405" prefix="IC" uservalue="yes">
@@ -1003,6 +1050,27 @@ http://www.linear.com/docs/38722</description>
 <connect gate="A" pin="6" pad="6"/>
 <connect gate="A" pin="7" pad="7"/>
 <connect gate="A" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ETC1-1T-2TR" prefix="TR">
+<description>&lt;b&gt;TRANSFORMER&lt;/b&gt;&lt;p&gt;
+SMD transformer acc. to customer specification</description>
+<gates>
+<gate name="G$1" symbol="SM-T4-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ETC1-1T-2TR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>

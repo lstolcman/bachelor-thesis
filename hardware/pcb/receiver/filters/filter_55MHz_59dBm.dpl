@@ -1,0 +1,29 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-157,0,1599,1033,1,157,0>
+  <Grid=10,10,0>
+  <DataSet=filter_55MHz_59dBm.dat>
+  <DataDisplay=filter_55MHz_59dBm.sch>
+  <OpenDisplay=1>
+  <Script=filter_55MHz_59dBm.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 60 842 1472 812 3 #c0c0c0 1 00 1 0 5e+06 1.8e+08 1 -120 10 13.7066 1 -1 0.2 1 315 0 225 "" "" "">
+	<"dBS21" #0000ff 0 3 0 0 0>
+	<"dBS11" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

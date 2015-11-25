@@ -43,7 +43,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -480,6 +480,36 @@ http://www.linear.com/docs/38722</description>
 <rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
 <rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
 </package>
+<package name="5-1634506-1">
+<description>&lt;b&gt;BNC CONNECTOR&lt;/b&gt;&lt;p&gt;
+M/A COM&lt;p&gt;
+www.macom.com</description>
+<wire x1="-1.5" y1="0.5" x2="1.5" y2="0.5" width="0.3048" layer="51" curve="-143.130102"/>
+<wire x1="-1.69" y1="-5.135" x2="1.84" y2="-5.135" width="0.3048" layer="51" curve="50"/>
+<pad name="1" x="0" y="0" drill="1.6"/>
+<pad name="2" x="3.43" y="3.43" drill="2.8"/>
+<pad name="3" x="-3.43" y="3.43" drill="2.8"/>
+<pad name="4" x="-3.43" y="-3.43" drill="2.8"/>
+<pad name="5" x="3.43" y="-3.43" drill="2.8"/>
+<text x="-2.74" y="6.45" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.74" y="-7.72" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="5.135" y1="-1.69" x2="5.135" y2="1.84" width="0.3048" layer="51" curve="50"/>
+<wire x1="-5.135" y1="1.69" x2="-5.135" y2="-1.84" width="0.3048" layer="51" curve="50"/>
+<wire x1="1.69" y1="5.135" x2="-1.84" y2="5.135" width="0.3048" layer="51" curve="50"/>
+<wire x1="1.5" y1="-0.5" x2="-1.5" y2="-0.5" width="0.3048" layer="51" curve="-143.130102"/>
+</package>
+<package name="5-1634506-1_HORIZ">
+<description>&lt;b&gt;BNC CONNECTOR&lt;/b&gt;&lt;p&gt;
+M/A COM&lt;p&gt;
+www.macom.com</description>
+<text x="-1.47" y="5.18" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.47" y="-6.45" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="P$3" x="0" y="-3.43" dx="2.6" dy="3.5" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="3.43" dx="2.6" dy="3.5" layer="1" rot="R90"/>
+<smd name="P$1" x="0" y="0" dx="1.5" dy="3.5" layer="1" rot="R90"/>
+<smd name="P$5" x="0" y="3.43" dx="2.6" dy="3.5" layer="16" rot="R90"/>
+<smd name="P$6" x="0" y="-3.43" dx="2.6" dy="3.5" layer="16" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LTC2208_FLAT">
@@ -847,6 +877,19 @@ http://www.linear.com/docs/38722</description>
 <pin name="VOUT" x="12.7" y="0" length="middle" direction="out" rot="R180"/>
 <pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
 </symbol>
+<symbol name="BU-BNC">
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.254" x2="-0.762" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.254" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.254" x2="-2.54" y2="-0.254" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LTC6405" prefix="IC" uservalue="yes">
@@ -1198,6 +1241,34 @@ SMD transformer acc. to customer specification</description>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="VIN" pad="3"/>
 <connect gate="G$1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5-1634506-1" prefix="X">
+<description>&lt;b&gt;BNC CONNECTOR&lt;/b&gt;&lt;p&gt;
+M/A COM&lt;p&gt;
+www.macom.com</description>
+<gates>
+<gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5-1634506-1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<technologies>
+<technology name="H"/>
+</technologies>
+</device>
+<device name="H" package="5-1634506-1_HORIZ">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2 P$3 P$5 P$6"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -1,11 +1,11 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=186,266,1071,693,1.86022,0,0>
+  <View=206,246,1071,713,1.83237,0,0>
   <Grid=10,10,1>
-  <DataSet=lowpass_77.5kHz_1.dat>
-  <DataDisplay=lowpass_77.5kHz_1.dpl>
+  <DataSet=bandpass_77.5kHz_1.dat>
+  <DataDisplay=bandpass_77.5kHz_1.dpl>
   <OpenDisplay=1>
-  <Script=lowpass_77.5kHz_1.m>
+  <Script=bandpass_77.5kHz_1.m>
   <RunScript=0>
   <showFrame=0>
   <FrameText0=Title>
@@ -31,7 +31,7 @@
   <GND * 1 830 440 0 0 0 0>
   <Pac P2 1 940 410 18 -26 0 1 "2" 1 "50 Ohm" 1 "0 dBm" 0 "1 GHz" 0 "26.85" 0>
   <GND * 1 940 440 0 0 0 0>
-  <.SP SP1 1 310 510 0 67 0 0 "log" 1 "40kHz" 1 "130kHz" 1 "201" 1 "no" 0 "1" 0 "2" 0 "no" 0 "no" 0>
+  <.SP SP1 1 310 510 0 67 0 0 "log" 1 "10kHz" 1 "450kHz" 1 "2000" 1 "no" 0 "1" 0 "2" 0 "no" 0 "no" 0>
   <Eqn Eqn1 1 530 520 -28 15 0 0 "dBS21=dB(S[2,1])" 1 "dBS11=dB(S[1,1])" 1 "yes" 0>
   <C C1 1 380 410 -8 46 0 1 "36nF" 1 "" 0 "neutral" 0>
   <C C7 1 800 410 -8 46 0 1 "36nF" 1 "" 0 "neutral" 0>

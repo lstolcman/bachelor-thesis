@@ -1,0 +1,28 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-75,-20,1534,929,0.911486,0,0>
+  <Grid=10,10,0>
+  <DataSet=lowpass_60MHz_butterworth.dat>
+  <DataDisplay=lowpass_60MHz_butterworth.sch>
+  <OpenDisplay=1>
+  <Script=lowpass_60MHz_butterworth.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 30 833 1457 813 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"dBS21" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

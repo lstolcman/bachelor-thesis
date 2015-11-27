@@ -1,11 +1,11 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=-151,-322,1681,740,1,151,0>
+  <View=-25,-10,1575,927,0.923159,0,0>
   <Grid=10,10,0>
-  <DataSet=lowpass_77.5kHz.dat>
-  <DataDisplay=lowpass_77.5kHz.sch>
+  <DataSet=lowpass_1MHz_104dBm.dat>
+  <DataDisplay=lowpass_1MHz_104dBm.sch>
   <OpenDisplay=1>
-  <Script=lowpass_77.5kHz.m>
+  <Script=lowpass_1MHz_104dBm.m>
   <RunScript=0>
   <showFrame=0>
   <FrameText0=Title>
@@ -20,7 +20,7 @@
 <Wires>
 </Wires>
 <Diagrams>
-  <Rect 72 479 1456 773 3 #c0c0c0 1 00 1 0 100000 565000 1 -66.6487 50 6.05845 1 -1 1 1 315 0 225 "" "" "">
+  <Rect 80 831 1448 801 3 #c0c0c0 1 00 1 0 2e+06 1e+07 1 -158.554 100 14.414 1 -1 1 1 315 0 225 "" "" "">
 	<"dBS21" #0000ff 0 3 0 0 0>
   </Rect>
 </Diagrams>

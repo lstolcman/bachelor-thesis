@@ -12707,68 +12707,6 @@ http://www.linear.com/docs/38765</description>
 <wire x1="2.032" y1="0.762" x2="2.032" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="2.032" y1="-0.762" x2="1.016" y2="-0.762" width="0.127" layer="21"/>
 </package>
-<package name="2X20">
-<wire x1="-1.9" y1="-3.32" x2="-1.9" y2="-4.03" width="0.2032" layer="21"/>
-<wire x1="1.9" y1="-3.32" x2="1.9" y2="-4.03" width="0.2032" layer="21"/>
-<wire x1="-26.55" y1="-1.97" x2="-25.85" y2="-3.04" width="0.4064" layer="21"/>
-<wire x1="-25.85" y1="-3.04" x2="-25.15" y2="-1.97" width="0.4064" layer="21"/>
-<wire x1="-25.15" y1="-1.97" x2="-26.55" y2="-1.97" width="0.4064" layer="21"/>
-<wire x1="-29.26" y1="-4.1" x2="-29.26" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="-29.26" y1="-4.1" x2="29.26" y2="-4.1" width="0.2032" layer="21"/>
-<wire x1="29.26" y1="-4.1" x2="29.26" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="29.26" y1="4.1" x2="-29.26" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="-28.46" y1="-3.3" x2="-28.46" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="-28.46" y1="3.3" x2="28.46" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="28.46" y1="3.3" x2="28.46" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="28.46" y1="-3.3" x2="1.9" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="-1.9" y1="-3.3" x2="-28.46" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="-29.26" y1="4.1" x2="-28.46" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="-29.26" y1="-4.1" x2="-28.46" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="29.26" y1="4.1" x2="28.46" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="28.46" y1="-3.3" x2="29.26" y2="-4.1" width="0.2032" layer="21"/>
-<pad name="1" x="-24.13" y="-1.27" drill="1" shape="octagon"/>
-<pad name="2" x="-24.13" y="1.27" drill="1" shape="octagon"/>
-<pad name="3" x="-21.59" y="-1.27" drill="1" shape="octagon"/>
-<pad name="4" x="-21.59" y="1.27" drill="1" shape="octagon"/>
-<pad name="5" x="-19.05" y="-1.27" drill="1" shape="octagon"/>
-<pad name="6" x="-19.05" y="1.27" drill="1" shape="octagon"/>
-<pad name="7" x="-16.51" y="-1.27" drill="1" shape="octagon"/>
-<pad name="8" x="-16.51" y="1.27" drill="1" shape="octagon"/>
-<pad name="9" x="-13.97" y="-1.27" drill="1" shape="octagon"/>
-<pad name="10" x="-13.97" y="1.27" drill="1" shape="octagon"/>
-<pad name="11" x="-11.43" y="-1.27" drill="1" shape="octagon"/>
-<pad name="12" x="-11.43" y="1.27" drill="1" shape="octagon"/>
-<pad name="13" x="-8.89" y="-1.27" drill="1" shape="octagon"/>
-<pad name="14" x="-8.89" y="1.27" drill="1" shape="octagon"/>
-<pad name="15" x="-6.35" y="-1.27" drill="1" shape="octagon"/>
-<pad name="16" x="-6.35" y="1.27" drill="1" shape="octagon"/>
-<pad name="17" x="-3.81" y="-1.27" drill="1" shape="octagon"/>
-<pad name="18" x="-3.81" y="1.27" drill="1" shape="octagon"/>
-<pad name="19" x="-1.27" y="-1.27" drill="1" shape="octagon"/>
-<pad name="20" x="-1.27" y="1.27" drill="1" shape="octagon"/>
-<pad name="21" x="1.27" y="-1.27" drill="1" shape="octagon"/>
-<pad name="22" x="1.27" y="1.27" drill="1" shape="octagon"/>
-<pad name="23" x="3.81" y="-1.27" drill="1" shape="octagon"/>
-<pad name="24" x="3.81" y="1.27" drill="1" shape="octagon"/>
-<pad name="25" x="6.35" y="-1.27" drill="1" shape="octagon"/>
-<pad name="26" x="6.35" y="1.27" drill="1" shape="octagon"/>
-<pad name="27" x="8.89" y="-1.27" drill="1" shape="octagon"/>
-<pad name="28" x="8.89" y="1.27" drill="1" shape="octagon"/>
-<pad name="29" x="11.43" y="-1.27" drill="1" shape="octagon"/>
-<pad name="30" x="11.43" y="1.27" drill="1" shape="octagon"/>
-<pad name="31" x="13.97" y="-1.27" drill="1" shape="octagon"/>
-<pad name="32" x="13.97" y="1.27" drill="1" shape="octagon"/>
-<pad name="33" x="16.51" y="-1.27" drill="1" shape="octagon"/>
-<pad name="34" x="16.51" y="1.27" drill="1" shape="octagon"/>
-<pad name="35" x="19.05" y="-1.27" drill="1" shape="octagon"/>
-<pad name="36" x="19.05" y="1.27" drill="1" shape="octagon"/>
-<pad name="37" x="21.59" y="-1.27" drill="1" shape="octagon"/>
-<pad name="38" x="21.59" y="1.27" drill="1" shape="octagon"/>
-<pad name="39" x="24.13" y="-1.27" drill="1" shape="octagon"/>
-<pad name="40" x="24.13" y="1.27" drill="1" shape="octagon"/>
-<text x="-24.11" y="-6.88" size="1.778" layer="25">&gt;NAME</text>
-<text x="-24.86" y="4.55" size="1.778" layer="27">&gt;VALUE</text>
-</package>
 <package name="SOIC8">
 <wire x1="-2.54" y1="-1.6002" x2="2.54" y2="-1.6002" width="0.0508" layer="21"/>
 <wire x1="-2.54" y1="1.778" x2="-2.286" y2="2.032" width="0.1524" layer="21" curve="-90"/>
@@ -12929,6 +12867,68 @@ www.macom.com</description>
 <smd name="P$5" x="0" y="3.43" dx="2.6" dy="3.5" layer="16" rot="R90"/>
 <smd name="P$6" x="0" y="-3.43" dx="2.6" dy="3.5" layer="16" rot="R90"/>
 </package>
+<package name="2X20">
+<wire x1="-1.9" y1="-3.32" x2="-1.9" y2="-4.03" width="0.2032" layer="21"/>
+<wire x1="1.9" y1="-3.32" x2="1.9" y2="-4.03" width="0.2032" layer="21"/>
+<wire x1="-26.55" y1="-1.97" x2="-25.85" y2="-3.04" width="0.4064" layer="21"/>
+<wire x1="-25.85" y1="-3.04" x2="-25.15" y2="-1.97" width="0.4064" layer="21"/>
+<wire x1="-25.15" y1="-1.97" x2="-26.55" y2="-1.97" width="0.4064" layer="21"/>
+<wire x1="-29.26" y1="-4.1" x2="-29.26" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="-29.26" y1="-4.1" x2="29.26" y2="-4.1" width="0.2032" layer="21"/>
+<wire x1="29.26" y1="-4.1" x2="29.26" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="29.26" y1="4.1" x2="-29.26" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="-28.46" y1="-3.3" x2="-28.46" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-28.46" y1="3.3" x2="28.46" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="28.46" y1="3.3" x2="28.46" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="28.46" y1="-3.3" x2="1.9" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-1.9" y1="-3.3" x2="-28.46" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-29.26" y1="4.1" x2="-28.46" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-29.26" y1="-4.1" x2="-28.46" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="29.26" y1="4.1" x2="28.46" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="28.46" y1="-3.3" x2="29.26" y2="-4.1" width="0.2032" layer="21"/>
+<pad name="1" x="-24.13" y="-1.27" drill="1" shape="octagon"/>
+<pad name="2" x="-24.13" y="1.27" drill="1" shape="octagon"/>
+<pad name="3" x="-21.59" y="-1.27" drill="1" shape="octagon"/>
+<pad name="4" x="-21.59" y="1.27" drill="1" shape="octagon"/>
+<pad name="5" x="-19.05" y="-1.27" drill="1" shape="octagon"/>
+<pad name="6" x="-19.05" y="1.27" drill="1" shape="octagon"/>
+<pad name="7" x="-16.51" y="-1.27" drill="1" shape="octagon"/>
+<pad name="8" x="-16.51" y="1.27" drill="1" shape="octagon"/>
+<pad name="9" x="-13.97" y="-1.27" drill="1" shape="octagon"/>
+<pad name="10" x="-13.97" y="1.27" drill="1" shape="octagon"/>
+<pad name="11" x="-11.43" y="-1.27" drill="1" shape="octagon"/>
+<pad name="12" x="-11.43" y="1.27" drill="1" shape="octagon"/>
+<pad name="13" x="-8.89" y="-1.27" drill="1" shape="octagon"/>
+<pad name="14" x="-8.89" y="1.27" drill="1" shape="octagon"/>
+<pad name="15" x="-6.35" y="-1.27" drill="1" shape="octagon"/>
+<pad name="16" x="-6.35" y="1.27" drill="1" shape="octagon"/>
+<pad name="17" x="-3.81" y="-1.27" drill="1" shape="octagon"/>
+<pad name="18" x="-3.81" y="1.27" drill="1" shape="octagon"/>
+<pad name="19" x="-1.27" y="-1.27" drill="1" shape="octagon"/>
+<pad name="20" x="-1.27" y="1.27" drill="1" shape="octagon"/>
+<pad name="21" x="1.27" y="-1.27" drill="1" shape="octagon"/>
+<pad name="22" x="1.27" y="1.27" drill="1" shape="octagon"/>
+<pad name="23" x="3.81" y="-1.27" drill="1" shape="octagon"/>
+<pad name="24" x="3.81" y="1.27" drill="1" shape="octagon"/>
+<pad name="25" x="6.35" y="-1.27" drill="1" shape="octagon"/>
+<pad name="26" x="6.35" y="1.27" drill="1" shape="octagon"/>
+<pad name="27" x="8.89" y="-1.27" drill="1" shape="octagon"/>
+<pad name="28" x="8.89" y="1.27" drill="1" shape="octagon"/>
+<pad name="29" x="11.43" y="-1.27" drill="1" shape="octagon"/>
+<pad name="30" x="11.43" y="1.27" drill="1" shape="octagon"/>
+<pad name="31" x="13.97" y="-1.27" drill="1" shape="octagon"/>
+<pad name="32" x="13.97" y="1.27" drill="1" shape="octagon"/>
+<pad name="33" x="16.51" y="-1.27" drill="1" shape="octagon"/>
+<pad name="34" x="16.51" y="1.27" drill="1" shape="octagon"/>
+<pad name="35" x="19.05" y="-1.27" drill="1" shape="octagon"/>
+<pad name="36" x="19.05" y="1.27" drill="1" shape="octagon"/>
+<pad name="37" x="21.59" y="-1.27" drill="1" shape="octagon"/>
+<pad name="38" x="21.59" y="1.27" drill="1" shape="octagon"/>
+<pad name="39" x="24.13" y="-1.27" drill="1" shape="octagon"/>
+<pad name="40" x="24.13" y="1.27" drill="1" shape="octagon"/>
+<text x="-24.11" y="-6.88" size="1.778" layer="25">&gt;NAME</text>
+<text x="-24.86" y="4.55" size="1.778" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LTC6405">
@@ -12977,53 +12977,6 @@ www.macom.com</description>
 <wire x1="1.143" y1="-1.27" x2="0.635" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="1.143" y1="-3.81" x2="1.651" y2="-4.318" width="0.254" layer="94"/>
 <circle x="-5.08" y="0" radius="0.359209375" width="0" layer="94"/>
-</symbol>
-<symbol name="DE0NANO-PINHEAD">
-<wire x1="-17.78" y1="27.94" x2="17.78" y2="27.94" width="0.4064" layer="94"/>
-<wire x1="17.78" y1="-20.32" x2="17.78" y2="27.94" width="0.4064" layer="94"/>
-<wire x1="-17.78" y1="27.94" x2="-17.78" y2="-20.32" width="0.4064" layer="94"/>
-<wire x1="17.78" y1="-20.32" x2="-17.78" y2="-20.32" width="0.4064" layer="94"/>
-<text x="15.24" y="31.75" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
-<text x="15.24" y="-22.352" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<pin name="GPIO_0_IN0" x="22.86" y="-17.78" length="middle" direction="in" swaplevel="1" rot="R180"/>
-<pin name="GPIO_0_IN1" x="22.86" y="-15.24" length="middle" direction="in" swaplevel="1" rot="R180"/>
-<pin name="GPIO_02" x="22.86" y="-12.7" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_00" x="-22.86" y="-17.78" length="middle" swaplevel="1"/>
-<pin name="GPIO_01" x="-22.86" y="-15.24" length="middle" swaplevel="1"/>
-<pin name="GPIO_03" x="-22.86" y="-12.7" length="middle" swaplevel="1"/>
-<pin name="GPIO_04" x="22.86" y="-10.16" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_06" x="22.86" y="-7.62" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_05" x="-22.86" y="-10.16" length="middle" swaplevel="1"/>
-<pin name="GPIO_07" x="-22.86" y="-7.62" length="middle" swaplevel="1"/>
-<pin name="VCC_SYS" x="0" y="-25.4" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
-<pin name="GPIO_08" x="22.86" y="-5.08" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_010" x="22.86" y="-2.54" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GND" x="-5.08" y="-25.4" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
-<pin name="GPIO_09" x="-22.86" y="-5.08" length="middle" swaplevel="1"/>
-<pin name="GPIO_011" x="-22.86" y="-2.54" length="middle" swaplevel="1"/>
-<pin name="GPIO_012" x="22.86" y="0" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_014" x="22.86" y="2.54" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_013" x="-22.86" y="0" length="middle" swaplevel="1"/>
-<pin name="GPIO_015" x="-22.86" y="2.54" length="middle" swaplevel="1"/>
-<pin name="GPIO_016" x="22.86" y="5.08" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_018" x="22.86" y="7.62" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_020" x="22.86" y="10.16" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_017" x="-22.86" y="5.08" length="middle" swaplevel="1"/>
-<pin name="GPIO_019" x="-22.86" y="7.62" length="middle" swaplevel="1"/>
-<pin name="GPIO_021" x="-22.86" y="10.16" length="middle" swaplevel="1"/>
-<pin name="GPIO_022" x="22.86" y="12.7" length="middle" swaplevel="1" rot="R180"/>
-<pin name="VCC3P3" x="-2.54" y="-25.4" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
-<pin name="GPIO_023" x="-22.86" y="12.7" length="middle" swaplevel="1"/>
-<pin name="GPIO_024" x="22.86" y="15.24" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_026" x="22.86" y="17.78" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_025" x="-22.86" y="15.24" length="middle" swaplevel="1"/>
-<pin name="GPIO_027" x="-22.86" y="17.78" length="middle" swaplevel="1"/>
-<pin name="GPIO_029" x="-22.86" y="20.32" length="middle" swaplevel="1"/>
-<pin name="GPIO_031" x="-22.86" y="22.86" length="middle" swaplevel="1"/>
-<pin name="GPIO_033" x="-22.86" y="25.4" length="middle" swaplevel="1"/>
-<pin name="GPIO_028" x="22.86" y="20.32" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_030" x="22.86" y="22.86" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO_032" x="22.86" y="25.4" length="middle" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="LTC2208_FLAT">
 <wire x1="20.32" y1="-48.26" x2="20.32" y2="45.72" width="0.254" layer="94"/>
@@ -13224,6 +13177,54 @@ www.macom.com</description>
 <pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="DE0NANO-PINHEAD">
+<wire x1="-17.78" y1="30.48" x2="17.78" y2="30.48" width="0.4064" layer="94"/>
+<wire x1="17.78" y1="-22.86" x2="17.78" y2="30.48" width="0.4064" layer="94"/>
+<wire x1="-17.78" y1="30.48" x2="-17.78" y2="-22.86" width="0.4064" layer="94"/>
+<wire x1="17.78" y1="-22.86" x2="-17.78" y2="-22.86" width="0.4064" layer="94"/>
+<text x="15.24" y="34.29" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
+<text x="15.24" y="-24.892" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<pin name="GPIO_0_IN0" x="22.86" y="-20.32" length="middle" direction="in" swaplevel="1" rot="R180"/>
+<pin name="GPIO_0_IN1" x="22.86" y="-17.78" length="middle" direction="in" swaplevel="1" rot="R180"/>
+<pin name="GPIO_02" x="22.86" y="-15.24" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_00" x="-22.86" y="-20.32" length="middle" swaplevel="1"/>
+<pin name="GPIO_01" x="-22.86" y="-17.78" length="middle" swaplevel="1"/>
+<pin name="GPIO_03" x="-22.86" y="-15.24" length="middle" swaplevel="1"/>
+<pin name="GPIO_04" x="22.86" y="-12.7" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_06" x="22.86" y="-10.16" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_05" x="-22.86" y="-12.7" length="middle" swaplevel="1"/>
+<pin name="GPIO_07" x="-22.86" y="-10.16" length="middle" swaplevel="1"/>
+<pin name="VCC_SYS" x="22.86" y="-7.62" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="GPIO_08" x="22.86" y="-5.08" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_010" x="22.86" y="-2.54" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GND2" x="-22.86" y="-7.62" length="middle" direction="pwr" swaplevel="1"/>
+<pin name="GPIO_09" x="-22.86" y="-5.08" length="middle" swaplevel="1"/>
+<pin name="GPIO_011" x="-22.86" y="-2.54" length="middle" swaplevel="1"/>
+<pin name="GPIO_012" x="22.86" y="0" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_014" x="22.86" y="2.54" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_013" x="-22.86" y="0" length="middle" swaplevel="1"/>
+<pin name="GPIO_015" x="-22.86" y="2.54" length="middle" swaplevel="1"/>
+<pin name="GPIO_016" x="22.86" y="5.08" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_018" x="22.86" y="7.62" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_020" x="22.86" y="10.16" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_017" x="-22.86" y="5.08" length="middle" swaplevel="1"/>
+<pin name="GPIO_019" x="-22.86" y="7.62" length="middle" swaplevel="1"/>
+<pin name="GPIO_021" x="-22.86" y="10.16" length="middle" swaplevel="1"/>
+<pin name="GPIO_022" x="22.86" y="12.7" length="middle" swaplevel="1" rot="R180"/>
+<pin name="VCC3P3" x="22.86" y="15.24" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="GPIO_023" x="-22.86" y="12.7" length="middle" swaplevel="1"/>
+<pin name="GPIO_024" x="22.86" y="17.78" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_026" x="22.86" y="20.32" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_025" x="-22.86" y="17.78" length="middle" swaplevel="1"/>
+<pin name="GPIO_027" x="-22.86" y="20.32" length="middle" swaplevel="1"/>
+<pin name="GPIO_029" x="-22.86" y="22.86" length="middle" swaplevel="1"/>
+<pin name="GPIO_031" x="-22.86" y="25.4" length="middle" swaplevel="1"/>
+<pin name="GPIO_033" x="-22.86" y="27.94" length="middle" swaplevel="1"/>
+<pin name="GPIO_028" x="22.86" y="22.86" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_030" x="22.86" y="25.4" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO_032" x="22.86" y="27.94" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GND1" x="-22.86" y="15.24" length="middle" direction="pwr" swaplevel="1"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LTC6405" prefix="IC" uservalue="yes">
@@ -13257,59 +13258,6 @@ www.macom.com</description>
 <connects>
 <connect gate="G$1" pin="2" pad="1"/>
 <connect gate="G$1" pin="3" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PINHEADER" prefix="SV" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="DE0NANO-PINHEAD" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="2X20">
-<connects>
-<connect gate="G$1" pin="GND" pad="12 30"/>
-<connect gate="G$1" pin="GPIO_00" pad="2"/>
-<connect gate="G$1" pin="GPIO_01" pad="4"/>
-<connect gate="G$1" pin="GPIO_010" pad="15"/>
-<connect gate="G$1" pin="GPIO_011" pad="16"/>
-<connect gate="G$1" pin="GPIO_012" pad="17"/>
-<connect gate="G$1" pin="GPIO_013" pad="18"/>
-<connect gate="G$1" pin="GPIO_014" pad="19"/>
-<connect gate="G$1" pin="GPIO_015" pad="20"/>
-<connect gate="G$1" pin="GPIO_016" pad="21"/>
-<connect gate="G$1" pin="GPIO_017" pad="22"/>
-<connect gate="G$1" pin="GPIO_018" pad="23"/>
-<connect gate="G$1" pin="GPIO_019" pad="24"/>
-<connect gate="G$1" pin="GPIO_02" pad="5"/>
-<connect gate="G$1" pin="GPIO_020" pad="25"/>
-<connect gate="G$1" pin="GPIO_021" pad="26"/>
-<connect gate="G$1" pin="GPIO_022" pad="27"/>
-<connect gate="G$1" pin="GPIO_023" pad="28"/>
-<connect gate="G$1" pin="GPIO_024" pad="31"/>
-<connect gate="G$1" pin="GPIO_025" pad="32"/>
-<connect gate="G$1" pin="GPIO_026" pad="33"/>
-<connect gate="G$1" pin="GPIO_027" pad="34"/>
-<connect gate="G$1" pin="GPIO_028" pad="35"/>
-<connect gate="G$1" pin="GPIO_029" pad="36"/>
-<connect gate="G$1" pin="GPIO_03" pad="6"/>
-<connect gate="G$1" pin="GPIO_030" pad="37"/>
-<connect gate="G$1" pin="GPIO_031" pad="38"/>
-<connect gate="G$1" pin="GPIO_032" pad="39"/>
-<connect gate="G$1" pin="GPIO_033" pad="40"/>
-<connect gate="G$1" pin="GPIO_04" pad="7"/>
-<connect gate="G$1" pin="GPIO_05" pad="8"/>
-<connect gate="G$1" pin="GPIO_06" pad="9"/>
-<connect gate="G$1" pin="GPIO_07" pad="10"/>
-<connect gate="G$1" pin="GPIO_08" pad="13"/>
-<connect gate="G$1" pin="GPIO_09" pad="14"/>
-<connect gate="G$1" pin="GPIO_0_IN0" pad="1"/>
-<connect gate="G$1" pin="GPIO_0_IN1" pad="3"/>
-<connect gate="G$1" pin="VCC3P3" pad="29"/>
-<connect gate="G$1" pin="VCC_SYS" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13525,6 +13473,60 @@ www.macom.com</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2 P$3 P$5 P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHEADER" prefix="SV" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="DE0NANO-PINHEAD" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="2X20">
+<connects>
+<connect gate="G$1" pin="GND1" pad="12"/>
+<connect gate="G$1" pin="GND2" pad="30"/>
+<connect gate="G$1" pin="GPIO_00" pad="2"/>
+<connect gate="G$1" pin="GPIO_01" pad="4"/>
+<connect gate="G$1" pin="GPIO_010" pad="15"/>
+<connect gate="G$1" pin="GPIO_011" pad="16"/>
+<connect gate="G$1" pin="GPIO_012" pad="17"/>
+<connect gate="G$1" pin="GPIO_013" pad="18"/>
+<connect gate="G$1" pin="GPIO_014" pad="19"/>
+<connect gate="G$1" pin="GPIO_015" pad="20"/>
+<connect gate="G$1" pin="GPIO_016" pad="21"/>
+<connect gate="G$1" pin="GPIO_017" pad="22"/>
+<connect gate="G$1" pin="GPIO_018" pad="23"/>
+<connect gate="G$1" pin="GPIO_019" pad="24"/>
+<connect gate="G$1" pin="GPIO_02" pad="5"/>
+<connect gate="G$1" pin="GPIO_020" pad="25"/>
+<connect gate="G$1" pin="GPIO_021" pad="26"/>
+<connect gate="G$1" pin="GPIO_022" pad="27"/>
+<connect gate="G$1" pin="GPIO_023" pad="28"/>
+<connect gate="G$1" pin="GPIO_024" pad="31"/>
+<connect gate="G$1" pin="GPIO_025" pad="32"/>
+<connect gate="G$1" pin="GPIO_026" pad="33"/>
+<connect gate="G$1" pin="GPIO_027" pad="34"/>
+<connect gate="G$1" pin="GPIO_028" pad="35"/>
+<connect gate="G$1" pin="GPIO_029" pad="36"/>
+<connect gate="G$1" pin="GPIO_03" pad="6"/>
+<connect gate="G$1" pin="GPIO_030" pad="37"/>
+<connect gate="G$1" pin="GPIO_031" pad="38"/>
+<connect gate="G$1" pin="GPIO_032" pad="39"/>
+<connect gate="G$1" pin="GPIO_033" pad="40"/>
+<connect gate="G$1" pin="GPIO_04" pad="7"/>
+<connect gate="G$1" pin="GPIO_05" pad="8"/>
+<connect gate="G$1" pin="GPIO_06" pad="9"/>
+<connect gate="G$1" pin="GPIO_07" pad="10"/>
+<connect gate="G$1" pin="GPIO_08" pad="13"/>
+<connect gate="G$1" pin="GPIO_09" pad="14"/>
+<connect gate="G$1" pin="GPIO_0_IN0" pad="1"/>
+<connect gate="G$1" pin="GPIO_0_IN1" pad="3"/>
+<connect gate="G$1" pin="VCC3P3" pad="29"/>
+<connect gate="G$1" pin="VCC_SYS" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17490,9 +17492,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="SV1" library="lstolcman_thesis" deviceset="PINHEADER" device="">
-<attribute name="MFR" value="929975-01-20"/>
-</part>
 <part name="IC5" library="lstolcman_thesis" deviceset="LTC2208_FLAT" device="">
 <attribute name="MFR" value="LTC2208CUP"/>
 </part>
@@ -17686,6 +17685,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
 <part name="SUPPLY3" library="supply2" deviceset="VDD" device=""/>
+<part name="SV1" library="lstolcman_thesis" deviceset="PINHEADER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17771,9 +17771,6 @@ M50-2000005</text>
 <instance part="GND16" gate="1" x="-101.6" y="264.16"/>
 <instance part="GND17" gate="1" x="-25.4" y="264.16"/>
 <instance part="GND18" gate="1" x="-86.36" y="264.16"/>
-<instance part="SV1" gate="G$1" x="284.48" y="50.8">
-<attribute name="MFR" x="284.48" y="50.8" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="IC5" gate="G$1" x="203.2" y="35.56">
 <attribute name="MFR" x="203.2" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
@@ -17796,7 +17793,7 @@ M50-2000005</text>
 <instance part="GND23" gate="1" x="167.64" y="58.42"/>
 <instance part="SUPPLY1" gate="G$1" x="160.02" y="-5.08" rot="R180"/>
 <instance part="SUPPLY2" gate="G$1" x="-86.36" y="228.6"/>
-<instance part="GND24" gate="1" x="279.4" y="17.78"/>
+<instance part="GND24" gate="1" x="251.46" y="38.1"/>
 <instance part="GND26" gate="1" x="-35.56" y="264.16"/>
 <instance part="R10" gate="G$1" x="-320.04" y="55.88" rot="R90">
 <attribute name="MFR" x="-320.04" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
@@ -17967,6 +17964,7 @@ M50-2000005</text>
 <instance part="H3" gate="G$1" x="-340.36" y="-5.08"/>
 <instance part="H4" gate="G$1" x="-340.36" y="-12.7"/>
 <instance part="SUPPLY3" gate="G$1" x="73.66" y="-2.54"/>
+<instance part="SV1" gate="G$1" x="284.48" y="50.8"/>
 </instances>
 <busses>
 <bus name="DA[0..15]">
@@ -17976,11 +17974,11 @@ M50-2000005</text>
 <wire x1="238.76" y1="86.36" x2="254" y2="86.36" width="0.762" layer="92"/>
 <label x="241.3" y="87.63" size="1.778" layer="95"/>
 <wire x1="254" y1="86.36" x2="256.54" y2="83.82" width="0.762" layer="92"/>
-<wire x1="256.54" y1="83.82" x2="256.54" y2="53.34" width="0.762" layer="92"/>
+<wire x1="256.54" y1="83.82" x2="256.54" y2="48.26" width="0.762" layer="92"/>
 <wire x1="256.54" y1="83.82" x2="259.08" y2="86.36" width="0.762" layer="92"/>
 <wire x1="259.08" y1="86.36" x2="309.88" y2="86.36" width="0.762" layer="92"/>
 <wire x1="309.88" y1="86.36" x2="312.42" y2="83.82" width="0.762" layer="92"/>
-<wire x1="312.42" y1="83.82" x2="312.42" y2="60.96" width="0.762" layer="92"/>
+<wire x1="312.42" y1="83.82" x2="312.42" y2="48.26" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -18184,9 +18182,14 @@ M50-2000005</text>
 <pinref part="C22" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="GND"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="279.4" y1="20.32" x2="279.4" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="GND1"/>
+<wire x1="261.62" y1="66.04" x2="251.46" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="66.04" x2="251.46" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="GND2"/>
+<wire x1="251.46" y1="43.18" x2="251.46" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="43.18" x2="251.46" y2="43.18" width="0.1524" layer="91"/>
+<junction x="251.46" y="43.18"/>
 </segment>
 <segment>
 <pinref part="GND26" gate="1" pin="GND"/>
@@ -18531,12 +18534,22 @@ M50-2000005</text>
 <pinref part="IC5" gate="G$1" pin="D8_P/DA0"/>
 <wire x1="233.68" y1="78.74" x2="228.6" y2="78.74" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_08"/>
+<wire x1="309.88" y1="45.72" x2="307.34" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="48.26" x2="309.88" y2="45.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DA1" class="0">
 <segment>
 <wire x1="236.22" y1="78.74" x2="233.68" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="D9_N/DA1"/>
 <wire x1="233.68" y1="76.2" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_09"/>
+<wire x1="261.62" y1="45.72" x2="259.08" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="48.26" x2="259.08" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DA2" class="0">
@@ -18545,12 +18558,22 @@ M50-2000005</text>
 <pinref part="IC5" gate="G$1" pin="D9_P/DA2"/>
 <wire x1="233.68" y1="73.66" x2="228.6" y2="73.66" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_010"/>
+<wire x1="309.88" y1="48.26" x2="307.34" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="50.8" x2="309.88" y2="48.26" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DA3" class="0">
 <segment>
 <wire x1="236.22" y1="73.66" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="D10_N/DA3"/>
 <wire x1="233.68" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_011"/>
+<wire x1="261.62" y1="48.26" x2="259.08" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="50.8" x2="259.08" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DA4" class="0">
@@ -18559,12 +18582,22 @@ M50-2000005</text>
 <pinref part="IC5" gate="G$1" pin="D10_P/DA4"/>
 <wire x1="233.68" y1="68.58" x2="228.6" y2="68.58" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_012"/>
+<wire x1="309.88" y1="50.8" x2="307.34" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="53.34" x2="309.88" y2="50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DA5" class="0">
 <segment>
 <wire x1="236.22" y1="68.58" x2="233.68" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="D11_N/DA5"/>
 <wire x1="233.68" y1="66.04" x2="228.6" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_013"/>
+<wire x1="261.62" y1="50.8" x2="259.08" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="53.34" x2="259.08" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DA6" class="0">
@@ -18573,12 +18606,22 @@ M50-2000005</text>
 <pinref part="IC5" gate="G$1" pin="D11_P/DA6"/>
 <wire x1="233.68" y1="63.5" x2="228.6" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_014"/>
+<wire x1="309.88" y1="53.34" x2="307.34" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="55.88" x2="309.88" y2="53.34" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DA7" class="0">
 <segment>
 <wire x1="236.22" y1="63.5" x2="233.68" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="D12_N/DA7"/>
 <wire x1="233.68" y1="60.96" x2="228.6" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_015"/>
+<wire x1="259.08" y1="53.34" x2="261.62" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="55.88" x2="259.08" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DA8" class="0">
@@ -18587,12 +18630,22 @@ M50-2000005</text>
 <pinref part="IC5" gate="G$1" pin="D12_P/DA8"/>
 <wire x1="233.68" y1="58.42" x2="228.6" y2="58.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_016"/>
+<wire x1="309.88" y1="55.88" x2="307.34" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="58.42" x2="309.88" y2="55.88" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DA9" class="0">
 <segment>
 <wire x1="236.22" y1="58.42" x2="233.68" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="D13_N/DA9"/>
 <wire x1="233.68" y1="55.88" x2="228.6" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_017"/>
+<wire x1="259.08" y1="55.88" x2="261.62" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="58.42" x2="259.08" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DA10" class="0">
@@ -18601,12 +18654,22 @@ M50-2000005</text>
 <pinref part="IC5" gate="G$1" pin="D13_P/DA10"/>
 <wire x1="233.68" y1="53.34" x2="228.6" y2="53.34" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_018"/>
+<wire x1="309.88" y1="58.42" x2="307.34" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="60.96" x2="309.88" y2="58.42" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DA11" class="0">
 <segment>
 <wire x1="236.22" y1="53.34" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="D14_N/DA11"/>
 <wire x1="233.68" y1="50.8" x2="228.6" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_019"/>
+<wire x1="259.08" y1="58.42" x2="261.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="60.96" x2="259.08" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DA12" class="0">
@@ -18615,12 +18678,22 @@ M50-2000005</text>
 <pinref part="IC5" gate="G$1" pin="D14_P/DA12"/>
 <wire x1="233.68" y1="48.26" x2="228.6" y2="48.26" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_020"/>
+<wire x1="309.88" y1="60.96" x2="307.34" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="63.5" x2="309.88" y2="60.96" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DA13" class="0">
 <segment>
 <wire x1="236.22" y1="48.26" x2="233.68" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="D15_N/DA13"/>
 <wire x1="233.68" y1="45.72" x2="228.6" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_021"/>
+<wire x1="259.08" y1="60.96" x2="261.62" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="63.5" x2="259.08" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DA14" class="0">
@@ -18629,6 +18702,11 @@ M50-2000005</text>
 <pinref part="IC5" gate="G$1" pin="D15_P/DA14"/>
 <wire x1="233.68" y1="43.18" x2="228.6" y2="43.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_022"/>
+<wire x1="307.34" y1="63.5" x2="309.88" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="66.04" x2="309.88" y2="63.5" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DA15" class="0">
 <segment>
@@ -18636,12 +18714,22 @@ M50-2000005</text>
 <pinref part="IC5" gate="G$1" pin="OF_N/DA15"/>
 <wire x1="233.68" y1="40.64" x2="228.6" y2="40.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_023"/>
+<wire x1="259.08" y1="63.5" x2="261.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="66.04" x2="259.08" y2="63.5" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="OFA" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="OF_P/OFA"/>
 <wire x1="228.6" y1="38.1" x2="231.14" y2="38.1" width="0.1524" layer="91"/>
 <label x="231.14" y="38.1" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_025"/>
+<wire x1="261.62" y1="68.58" x2="254" y2="68.58" width="0.1524" layer="91"/>
+<label x="254" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MODE" class="0">
@@ -18671,6 +18759,11 @@ M50-2000005</text>
 <wire x1="175.26" y1="73.66" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
 <label x="170.18" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_027"/>
+<wire x1="261.62" y1="71.12" x2="254" y2="71.12" width="0.1524" layer="91"/>
+<label x="254" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RAND" class="0">
 <segment>
@@ -18678,12 +18771,22 @@ M50-2000005</text>
 <wire x1="175.26" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
 <label x="170.18" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_024"/>
+<label x="314.96" y="68.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="314.96" y1="68.58" x2="307.34" y2="68.58" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DITH" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="DITH"/>
 <wire x1="175.26" y1="78.74" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
 <label x="170.18" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="259.08" y1="33.02" x2="261.62" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="GPIO_01"/>
+<label x="259.08" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3A_ADC" class="0">
@@ -18848,21 +18951,15 @@ M50-2000005</text>
 <label x="76.2" y="7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
+<wire x1="259.08" y1="30.48" x2="261.62" y2="30.48" width="0.1524" layer="91"/>
+<label x="259.08" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="SV1" gate="G$1" pin="GPIO_00"/>
-<wire x1="259.08" y1="33.02" x2="261.62" y2="33.02" width="0.1524" layer="91"/>
-<label x="259.08" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="GPIO_03"/>
-<wire x1="259.08" y1="38.1" x2="261.62" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="SV1" gate="G$1" pin="GPIO_01"/>
 <wire x1="259.08" y1="35.56" x2="261.62" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="GPIO_03"/>
 </segment>
 </net>
 <net name="ENC_P" class="0">
@@ -18996,9 +19093,9 @@ M50-2000005</text>
 <label x="231.14" y="35.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
+<wire x1="307.34" y1="33.02" x2="309.88" y2="33.02" width="0.1524" layer="91"/>
+<label x="309.88" y="33.02" size="1.27" layer="95" xref="yes"/>
 <pinref part="SV1" gate="G$1" pin="GPIO_0_IN1"/>
-<wire x1="307.34" y1="35.56" x2="309.88" y2="35.56" width="0.1524" layer="91"/>
-<label x="309.88" y="35.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CLKOUT_N" class="0">
@@ -19008,9 +19105,69 @@ M50-2000005</text>
 <label x="231.14" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
+<wire x1="307.34" y1="30.48" x2="309.88" y2="30.48" width="0.1524" layer="91"/>
+<label x="309.88" y="30.48" size="1.27" layer="95" xref="yes"/>
 <pinref part="SV1" gate="G$1" pin="GPIO_0_IN0"/>
-<wire x1="307.34" y1="33.02" x2="309.88" y2="33.02" width="0.1524" layer="91"/>
-<label x="309.88" y="33.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_029"/>
+<wire x1="259.08" y1="73.66" x2="261.62" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_031"/>
+<wire x1="259.08" y1="76.2" x2="261.62" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_033"/>
+<wire x1="259.08" y1="78.74" x2="261.62" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_032"/>
+<wire x1="307.34" y1="78.74" x2="309.88" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_030"/>
+<wire x1="307.34" y1="76.2" x2="309.88" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_028"/>
+<wire x1="307.34" y1="73.66" x2="309.88" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_026"/>
+<wire x1="307.34" y1="71.12" x2="309.88" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="VCC3P3"/>
+<wire x1="307.34" y1="66.04" x2="309.88" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$52" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="GPIO_02"/>
+<wire x1="309.88" y1="35.56" x2="307.34" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$58" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="VCC_SYS"/>
+<wire x1="309.88" y1="43.18" x2="307.34" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -19079,7 +19079,7 @@ M50-2000005</text>
 <pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="12-18V" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="J2" gate="G$1" pin="3"/>

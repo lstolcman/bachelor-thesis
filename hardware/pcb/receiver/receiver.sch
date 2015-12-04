@@ -17428,6 +17428,80 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-amp">
+<description>&lt;b&gt;AMP Connectors&lt;/b&gt;&lt;p&gt;
+RJ45 Jack connectors&lt;br&gt;
+ Based on the previous libraris:
+ &lt;ul&gt;
+ &lt;li&gt;amp.lbr
+ &lt;li&gt;amp-j.lbr
+ &lt;li&gt;amp-mta.lbr
+ &lt;li&gt;amp-nlok.lbr
+ &lt;li&gt;amp-sim.lbr
+ &lt;li&gt;amp-micro-match.lbr
+ &lt;/ul&gt;
+ Sources :
+ &lt;ul&gt;
+ &lt;li&gt;Catalog 82066 Revised 11-95 
+ &lt;li&gt;Product Guide 296785 Rev. 8-99
+ &lt;li&gt;Product Guide CD-ROM 1999
+ &lt;li&gt;www.amp.com
+ &lt;/ul&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="10X02MTA">
+<description>&lt;b&gt;AMP MTA connector&lt;/b&gt;&lt;p&gt;
+Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="1.27" width="0.1524" layer="21"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-2.6162" y="-3.2512" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5461" y="2.1509" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="21"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MTA-1_2">
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="0.635" width="0.254" layer="94"/>
+<text x="5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="-1.27" size="1.27" layer="95">1</text>
+<pin name="1" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MTA02-100" prefix="J" uservalue="yes">
+<description>&lt;b&gt;AMP connector&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MTA-1_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10X02MTA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17686,6 +17760,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
 <part name="SUPPLY3" library="supply2" deviceset="VDD" device=""/>
 <part name="SV1" library="lstolcman_thesis" deviceset="PINHEADER" device=""/>
+<part name="J1" library="con-amp" deviceset="MTA02-100" device="">
+<attribute name="MFR" value="640454-2"/>
+<attribute name="SUP" value="tme"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -17722,7 +17800,7 @@ M50-2000005</text>
 <instance part="C1" gate="G$1" x="-297.18" y="63.5" rot="R90">
 <attribute name="MFR" x="-297.18" y="63.5" size="2.54" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="GND3" gate="1" x="-269.24" y="269.24"/>
+<instance part="GND3" gate="1" x="-266.7" y="261.62"/>
 <instance part="J2" gate="G$1" x="-276.86" y="279.4">
 <attribute name="MFR" x="-276.86" y="279.4" size="1.778" layer="96" display="off"/>
 <attribute name="SUP" x="-276.86" y="279.4" size="1.27" layer="96" display="off"/>
@@ -17965,6 +18043,10 @@ M50-2000005</text>
 <instance part="H4" gate="G$1" x="-340.36" y="-12.7"/>
 <instance part="SUPPLY3" gate="G$1" x="73.66" y="-2.54"/>
 <instance part="SV1" gate="G$1" x="284.48" y="50.8"/>
+<instance part="J1" gate="G$1" x="-276.86" y="266.7" rot="R90">
+<attribute name="MFR" x="-276.86" y="266.7" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SUP" x="-276.86" y="266.7" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 <bus name="DA[0..15]">
@@ -17989,16 +18071,6 @@ M50-2000005</text>
 <wire x1="-327.66" y1="60.96" x2="-327.66" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="X1" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="-269.24" y1="276.86" x2="-269.24" y2="271.78" width="0.1524" layer="91"/>
-<wire x1="-271.78" y1="276.86" x2="-269.24" y2="276.86" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="-271.78" y1="279.4" x2="-269.24" y2="279.4" width="0.1524" layer="91"/>
-<wire x1="-269.24" y1="279.4" x2="-269.24" y2="276.86" width="0.1524" layer="91"/>
-<junction x="-269.24" y="276.86"/>
 </segment>
 <segment>
 <wire x1="-208.28" y1="223.52" x2="-208.28" y2="220.98" width="0.1524" layer="91"/>
@@ -18249,6 +18321,20 @@ M50-2000005</text>
 <pinref part="C42" gate="G$1" pin="1"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="73.66" y1="-20.32" x2="73.66" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="-271.78" y1="276.86" x2="-266.7" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="-266.7" y1="276.86" x2="-266.7" y2="279.4" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="-266.7" y1="279.4" x2="-271.78" y2="279.4" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="-266.7" y1="276.86" x2="-266.7" y2="266.7" width="0.1524" layer="91"/>
+<junction x="-266.7" y="276.86"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="-266.7" y1="266.7" x2="-266.7" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="-274.32" y1="266.7" x2="-266.7" y2="266.7" width="0.1524" layer="91"/>
+<junction x="-266.7" y="266.7"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -19083,7 +19169,12 @@ M50-2000005</text>
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="-264.16" y1="281.94" x2="-271.78" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="-264.16" y1="281.94" x2="-269.24" y2="281.94" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="-269.24" y1="281.94" x2="-271.78" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="-274.32" y1="269.24" x2="-269.24" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="-269.24" y1="269.24" x2="-269.24" y2="281.94" width="0.1524" layer="91"/>
+<junction x="-269.24" y="281.94"/>
 </segment>
 </net>
 <net name="CLKOUT_P" class="0">

@@ -17795,6 +17795,16 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <attribute name="MFR" value="640454-2"/>
 <attribute name="SUP" value="tme"/>
 </part>
+<part name="J3" library="con-amp" deviceset="MTA02-100" device="">
+<attribute name="MFR" value="640454-2"/>
+<attribute name="SUP" value="tme"/>
+</part>
+<part name="J4" library="con-amp" deviceset="MTA02-100" device="">
+<attribute name="MFR" value="640454-2"/>
+<attribute name="SUP" value="tme"/>
+</part>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="GND33" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18081,6 +18091,16 @@ M50-2000005</text>
 <attribute name="MFR" x="-276.86" y="266.7" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SUP" x="-276.86" y="266.7" size="1.27" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="J3" gate="G$1" x="-139.7" y="271.78" rot="R90">
+<attribute name="MFR" x="-139.7" y="271.78" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SUP" x="-139.7" y="271.78" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="J4" gate="G$1" x="-12.7" y="274.32" rot="R90">
+<attribute name="MFR" x="-12.7" y="274.32" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SUP" x="-12.7" y="274.32" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="GND5" gate="1" x="-7.62" y="264.16"/>
+<instance part="GND33" gate="1" x="-134.62" y="264.16"/>
 </instances>
 <busses>
 <bus name="DA[0..15]">
@@ -18370,6 +18390,18 @@ M50-2000005</text>
 <wire x1="-274.32" y1="266.7" x2="-266.7" y2="266.7" width="0.1524" layer="91"/>
 <junction x="-266.7" y="266.7"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="274.32" x2="-7.62" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="274.32" x2="-7.62" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="-137.16" y1="271.78" x2="-134.62" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="271.78" x2="-134.62" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -18422,6 +18454,10 @@ M50-2000005</text>
 <pinref part="IC3" gate="G$1" pin="OUT"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="-25.4" y1="281.94" x2="-7.62" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="281.94" x2="-7.62" y2="276.86" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="-7.62" y1="276.86" x2="-10.16" y2="276.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-48.26" y1="223.52" x2="-43.18" y2="223.52" width="0.1524" layer="91"/>
@@ -19144,7 +19180,8 @@ M50-2000005</text>
 <wire x1="-96.52" y1="279.4" x2="-96.52" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="281.94" x2="-152.4" y2="281.94" width="0.1524" layer="91"/>
 <junction x="-172.72" y="281.94"/>
-<wire x1="-152.4" y1="281.94" x2="-106.68" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="281.94" x2="-134.62" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="281.94" x2="-106.68" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="281.94" x2="-172.72" y2="289.56" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
@@ -19165,6 +19202,10 @@ M50-2000005</text>
 <pinref part="C20" gate="G$1" pin="1"/>
 <pinref part="C18" gate="G$1" pin="2"/>
 <pinref part="C30" gate="G$1" pin="2"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="-137.16" y1="274.32" x2="-134.62" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="274.32" x2="-134.62" y2="281.94" width="0.1524" layer="91"/>
+<junction x="-134.62" y="281.94"/>
 </segment>
 <segment>
 <wire x1="-264.16" y1="5.08" x2="-264.16" y2="15.24" width="0.1524" layer="91"/>

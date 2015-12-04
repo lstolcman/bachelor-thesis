@@ -12831,7 +12831,7 @@ http://www.linear.com/docs/38765</description>
 <text x="2.705" y="-3.82" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
 <text x="3.28" y="4.85" size="1.27" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
 <rectangle x1="3.6" y1="1.5" x2="8.5" y2="2.7" layer="51"/>
-<rectangle x1="3.6" y1="-2.7" x2="8.5" y2="-1.5" layer="21"/>
+<rectangle x1="3.6" y1="-2.7" x2="8.5" y2="-1.5" layer="51"/>
 <wire x1="-3.5" y1="3.25" x2="3.5" y2="3.25" width="0.127" layer="21"/>
 <wire x1="3.5" y1="3.25" x2="3.5" y2="-3.25" width="0.127" layer="21"/>
 <wire x1="3.5" y1="-3.25" x2="-3.5" y2="-3.25" width="0.127" layer="21"/>
@@ -17759,7 +17759,10 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
 <part name="SUPPLY3" library="supply2" deviceset="VDD" device=""/>
-<part name="SV1" library="lstolcman_thesis" deviceset="PINHEADER" device=""/>
+<part name="SV1" library="lstolcman_thesis" deviceset="PINHEADER" device="">
+<attribute name="MFR" value="ZL262-40DG"/>
+<attribute name="SUP" value="tme"/>
+</part>
 <part name="J1" library="con-amp" deviceset="MTA02-100" device="">
 <attribute name="MFR" value="640454-2"/>
 <attribute name="SUP" value="tme"/>
@@ -18042,7 +18045,10 @@ M50-2000005</text>
 <instance part="H3" gate="G$1" x="-340.36" y="-5.08"/>
 <instance part="H4" gate="G$1" x="-340.36" y="-12.7"/>
 <instance part="SUPPLY3" gate="G$1" x="73.66" y="-2.54"/>
-<instance part="SV1" gate="G$1" x="284.48" y="50.8"/>
+<instance part="SV1" gate="G$1" x="284.48" y="50.8">
+<attribute name="SUP" x="284.48" y="50.8" size="1.27" layer="96" display="off"/>
+<attribute name="MFR" x="284.48" y="50.8" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="J1" gate="G$1" x="-276.86" y="266.7" rot="R90">
 <attribute name="MFR" x="-276.86" y="266.7" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SUP" x="-276.86" y="266.7" size="1.27" layer="96" rot="R90" display="off"/>

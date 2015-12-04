@@ -1,0 +1,306 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-2">
+<meta http-equiv="Reply-to" content="meeck@mail.phs.pl">
+<meta http-equiv="Content-Language" content="pl">
+<meta name="Author" content="Marek Feszczuk">
+</head>
+<body>
+<br>
+
+<b><i><font size="+1">Płytki drukowane - zasady projektowania i wykonanie w warunkach amatorskich.</font></i></b><br><br>
+<font size="2">
+<b><div align="CENTER">Autor: Marek Feszczuk <br></div></b>
+
+
+<b><i><p>Wielu elektroników spotyka się z problemem wykonania obwodu 
+drukowanego. Zlecenie wykonania w profesjonalnym zakładzie pojedynczych 
+płytek jest związane z wysokimi kosztami, często przewyższającymi cenę 
+pozostałych elementów. Pozostaje więc samodzielne wykonanie płytki.</p></i></b>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Aby uniknąć sytuacji w której układ działa 
+poprawnie jedynie w próbnej wersji na płycie montażowej, a po wykonaniu 
+płytki drukowanej uruchomienie jest bardzo kłopotliwe, należy w czasie 
+projektowania druku przestrzegać pewnych reguł. Jeżeli układ ma 
+pracować w zakresie małych częstotliwości, podstawowymi parametrami 
+obwodów drukowanych będą : </p>
+<ul><li>rezystancja ścieżek<br>
+</li><li>dopuszczalna obciążalność prądowa ścieżek<br>
+</li><li>odporność izolacji na przebicie. <br>
+</li></ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;W układach analogowych, szczególnie 
+małosygnałowych, rezystancja ścieżek może mieć istotny wpływ na pracę 
+całego układu. Zależność rezystancji 1 cm ścieżki przewodzącej od jej 
+szerokości dla trzech różnych temperatur przedstawiono na rysunku 1.</p><br>
+<div align="CENTER"><img src="fotolakiery_pliki/flak01.gif" alt="Rys 1. Rezystancja ścieżki" align="MIDDLE" border="0" height="378" width="471"><br><br><font size="-1">Rys 1. Rezystancja ścieżki w zależności od jej szerokości dla trzech temperatur.</font></div>
+<br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Z rezystancją ścieżki jest ściśle związana 
+jej obciążalność prądowa. Większość połączeń na płytkach przewodzi 
+bardzo małe prądy, dlatego o szerokości ścieżek decydują głównie 
+możliwości ich wykonania. Jednak w układach zasilających lub stopniach 
+mocy prądy mogą osiągać znaczne wartości. W celu uniknięcia nagrzewania 
+połączeń należy przyjąć, że obciążalność prądowa ścieżki o szerokości 1 
+mm wynosi 3A. Mimo takiego założenia, ścieżki należy prowadzić 
+maksymalnie szerokie.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Trzecim istotnym parametrem jest wytrzymałość
+ na przebicie. Układy elektroniczne zwykle są zasilane niewielkimi 
+napięciami. Dlatego odległości między ścieżkami wynikają raczej ze 
+względów technologicznych niż z wytrzymałości na przebicie. Typowo, dla 
+napięć nie przekraczających 50V odległość powinna być większa od 0.5 mm.
+ Jednak często zachodzi potrzeba prowadzenia ścieżek będących pod 
+bezpośrednim napięciem sieci energetycznej 220V. W takim przypadku 
+ścieżki muszą być rozdzielone przerwą przynajmniej 3 mm.
+W urządzeniach pracujących przy wyższych częstotliwościach sytuacja 
+nieco komplikuje się. Połączenia między elementami o długości 
+porównywalnej z długościami fal tworzących widmo sygnału należy 
+traktować jako linie przesyłowe o określonych parametrach. Przy 
+projektowaniu urządzenia cyfrowego TTL trzeba pamiętać, że czasy 
+propagacji bramek wynoszą około 3 ns i należy się liczyć z opóźnieniami 
+wprowadzanymi przez długie ścieżki. Opóźnienia te można obliczyć z 
+zależności :</p><br>
+  <div align="CENTER"><img src="fotolakiery_pliki/flak_w1.gif" alt="wzor na opóźnienia" border="0" height="35" width="102"></div>
+ 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Dla laminatu epoksydowo-szklanego o grubości 
+1,5 mm czasy propagacji ścieżek wynoszą około 60 ps/cm, czyli ścieżka o 
+długości 20 cm wprowadzi opóźnienie 1,2ns! Dla małych odległości  można 
+przyjąć, że połączenie przedstawia skupioną pojemność obciążającą 
+źródło. Traktując ścieżkę jak kondensator płaski, jej pojemność w 
+pikofaradach wyniesie: </p> <br>
+  <div align="CENTER"><img src="fotolakiery_pliki/flak_w2.gif" alt="wzor na pojemność" border="0" height="59" width="214"></div>
+gdzie : er - stała dielektryczna (dla laminatu epoksydowo-szklanego wynosi około 5)
+s - szerokość ścieżki, g - grubość warstwy izolacyjnej.<br> 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Przykładowo dla ścieżki o szerokości 1 mm i 
+grubości płytki 1,5 mm otrzymujemy C=0.6 pF/cm. W praktyce pojemność 
+będzie nieznacznie różnić się od obliczonej gdyż powyższy wzór nie 
+uwzględnia efektów brzegowych. Podobnie jak pojemność, można wyliczyć 
+indukcyjność ścieżki z zależności określającej indukcyjność przewodu nad
+ płaszczyzną masy.</p> <br><div align="CENTER"><img src="fotolakiery_pliki/flak_w3.gif" alt="wzor na indukcyjność" border="0" height="54" width="266"></div>
+gdzie: s - szerokość ścieżki, w - grubość pokrycia miedzianego, g - grubość warstwy izolacyjnej.<br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Wzory są prawdziwe dla płytek dwustronnych w 
+których jedna ze stron stanowi masę. Jest to stosowane w układach dla 
+większych częstotliwości, gdzie istotne jest zachowanie jednorodności 
+parametrów linii przesyłowych. Uwzględniając powyższe rozważania 
+połączenia należy prowadzić możliwie krótkie i o odpowiednio dużej 
+szerokości. 
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Szczególną uwagę trzeba zwracać przy 
+projektowaniu ścieżek stanowiących masę w układach małosygnałowych. W 
+urządzeniach, w których występują zarówno sygnały analogowe jak i 
+cyfrowe, rozdzielenie  przepływu prądów powrotnych jest koniecznością. 
+Czułe wejścia układów analogowych mogą zostać zakłócone przez prądy 
+płynące w przewodach masy. Na przykład przepływ prądu 100 mA przez 
+przewód masy o rezystancji 0,1 W wywoła spadek 10 mV. Jeżeli w 
+urządzeniu zastosowano 12 bitowy przetwornik A/C w którym bit najmniej 
+znaczący odpowiada 2,5 mV , z powodu złego prowadzenia mas rzeczywista 
+rozdzielczość przetwornika zostanie zredukowana do 10 bitów. Na rysunku 2
+ przedstawiono prawidłowy sposób prowadzenia masy w takim przypadku.</p><br>
+<div align="CENTER"><img src="fotolakiery_pliki/flak02.gif" alt="prowadzenie mas" border="0" height="257" width="525"><br><br><font size="-1">Rys 2. Sposób prowadzenia mas w układach analogowo-cyfrowych.</font></div>
+ 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;W układach analogowych o dużej czułości 
+należy dbać o rozdzielenie mas wejściowych i wyjściowych. Niewłaściwe 
+prowadzenie ścieżek może być przyczyną powstawania niedokładności lub 
+wzbudzeń. W celu eliminacji tych zjawisk należy prześledzić drogi 
+przepływu prądów w urządzeniu. Rysunek 3 przedstawia model wzmacniacza z
+ niewłaściwie poprowadzoną ścieżką masy.</p><br>
+<div align="CENTER"><img src="fotolakiery_pliki/flak03.gif" alt="Niewłaściwy projekt wzmacniacza" border="0" height="216" width="483"><br><font size="-1">Rys 3. Niewłaściwie poprowadzona ścieżka masy.</font></div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; Prąd obciążenia płynący przez RL musi 
+powrócić do zasilacza przez ścieżkę zasilania. Na odcinku ścieżki 
+pomiędzy wejściem nieodwracającym wzmacniacza a miejscem dołączenia 
+źródła sygnału wywoła spadek napięcia DU. Napięcie to wpłynie na różnicę
+ potencjałów między wejściami wzmacniacza wprowadzając zakłócenie. 
+Przykładowo przy maksymalnym napięciu wyjściowym wzmacniacza rzędu 20V, 
+przez obciążenie RL =100 W popłynie prąd 200 mA. Zakładając wzmocnienie 
+układu 60dB (1000 V/V), napięcie potrzebne do pełnego wysterowania 
+wzmacniacza będzie równe 2 mV. Rezystancja pięciocentymetrowej ścieżki o
+ szerokości 1.5 mm wyniesie 8.5 mW, więc DU = 1.7 mV, czyli wartość 
+napięcia sygnału zakłócającego jest porównywalna z sygnałem sterującym. 
+Rysunek 4 przedstawia sposób unikania powyższych problemów. W 
+rzeczywistości problem jest znacznie bardziej złożony gdyż źródło 
+sterujące również wprowadza pewne spadki napięcia , jednak nie mające 
+tak dużego wpływu na pracę układu.</p><br>
+<div align="CENTER"><img src="fotolakiery_pliki/flak04.gif" alt="prawidłowo prowadzone masy" border="0" height="184" width="483"><br><font size="-1"><br>Rys 4. Pawidłowy poprojekt ścieżek mas.</font></div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;W urządzeniach o szczególnie małych prądach 
+wejściowych (rzędu nA i mniej) nabiera znaczenia rezystancja dielektryka
+  płytki drukowanej. Również zanieczyszczenia typu kurz, tłuszcz itp. 
+znajdujące się na płytce  mogą niekorzystnie wpływać na pracę układu. 
+Dotyczy to szczególnie wzmacniaczy z wejściami typu FET i MOSFET. W 
+takiej sytuacji należy zastosować dodatkową pętlę ekranującą wejścia 
+wzmacniacza tzw. "guard". Przedstawiono to na rysunku 5.</p>
+<div align="CENTER"><img src="fotolakiery_pliki/flak05a.gif" alt="guard" border="0" height="179" width="380"><br><img src="fotolakiery_pliki/flak05b.gif" alt="guard" border="0" height="219" width="346"><br><font size="-1"><br>Rys 5. Sposób eliminacji upływów metodą pętli ekranującej "guard".</font>
+</div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Ponieważ różnica potencjałów między wejściami
+ wzmacniacza a masą jest bliska zeru więc wartość szkodliwych prądów 
+jakie mogą popłynąć zwykle są pomijalne. Natomiast prądy upływu 
+pochodzące od punktów zasilania oraz wyjścia zostaną odprowadzone do 
+masy.</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Oprócz problemów związanych z prawidłowym 
+działaniem układu elektronicznego, w trakcie projektowania należy 
+uwzględnić także odpowiednie rozmieszczenie elementów. Każda płytka musi
+ być dostosowana do warunków jakie panują w danym urządzeniu, w 
+szczególności do możliwości jej naprawy. Nie można na przykład 
+umieszczać rezystorów nad układem scalonym gdyż w przypadku jego 
+uszkodzenia, wymiana będzie bardzo utrudniona. Elementy należy 
+rozmieszczać na płytce tak by były one równoległe do krawędzi płytki i 
+nie pokrywały się wzajemnie. Projektując płytkę drukowaną dwustronną bez
+ metalizacji otworów trzeba także pamiętać, że nie będzie można lutować 
+punktów pod niektórymi podzespołami np. kondensatorami do pionowego 
+montażu, czy pod podstawkami układów scalonych. Liczbę przelotek należy 
+także ograniczać do minimum, pozostawiając tylko te naprawdę konieczne. </p><br>
+<div align="CENTER"><img src="fotolakiery_pliki/flak06.gif" alt="ścieżki i przelotki" border="0" height="362" width="220"><br><font size="-1"><br>Rys 6. Eliminacja nadmiaru przelotek.</font></div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Każdy projekt trzeba pod tym względem 
+dokładnie sprawdzić. Płytki generowane przez programy komputerowe na 
+podstawie listy połączeń są szczególnie często obarczone tego typu 
+niedogodnościami.</p> 
+
+<br>
+<b><i>Amatorskie metody wykonywania płytek drukowanych.</i></b>
+<br>
+<br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Najpopularniejszym sposobem na uzyskanie 
+niezłej jakości płytki drukowanej jest namalowanie mozaiki ścieżek 
+flamastrem kwasoodpornym lub np. lakierem do paznokci na laminacie 
+pokrytym warstwą miedzi. Jest to praca dość trudna i wymagająca pewnej 
+wprawy, lecz należy zdać sobie sprawę, że nie ma łatwego sposobu na 
+wykonanie płytki drukowanej.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Pierwszą czynnością po przygotowaniu projektu
+ jest wycięcie płytki o odpowiednim kształcie i oszlifowanie jej 
+krawędzi. Następnie należy nakleić kopię (np. xero) projektu na płytkę 
+za pomocą przeźroczystej taśmy klejącej i zaznaczyć punktakiem miejsca w
+ których będą znajdowały się otworki. Trzeba pilnować żeby nie przeoczyć
+ żadnego punktu. Wiercenie najlepiej przeprowadzić specjalną wiertarką 
+do płytek drukowanych lecz nie jest to konieczne. W ostateczności 
+wystarczy zwykła wiertarka elektryczna na statywie zaopatrzona w wiertło
+ o średnicy 0.8 do 1 mm. W przypadku trudności z zamocowaniem cienkiego 
+wiertełka można je okręcić miedzianym drutem F 0.5 - 0.8 mm . Płytkę z 
+otworami należy dokładnie oczyścić papierem ściernym o numerze 200, 
+pilnując aby zniknęły wszystkie "kołnierze" wokół otworków a płytka 
+stała się błyszcząca, pozbawiona tlenków. Przed malowaniem powierzchnię 
+płytki należy odtłuścić np. płynem do mycia naczyń. Na tak przygotowaną 
+płytkę można nanieść lakier. Przed malowaniem ścieżek można wykonać 
+punkty lutownicze za pomocą zaostrzonej zapałki lub wykałaczki. Ścieżki 
+malujemy cieniutkim pędzelkiem lub stalówką. Ważne jest aby lakier miał 
+odpowiednią gęstość. Nie może pozostawiać "nitek" i nie może też być 
+zbyt rzadki gdyż nie wytrzyma agresji środka trawiącego. Po namalowaniu 
+wszystkich ścieżek i wysuszeniu płytki  można przystąpić do trawienia. </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Do rozpuszczania wolnych od lakieru części 
+płytki najczęściej stosowany jest trójchlorek żelaza (FeCl3*6H20). Do 
+kuwety fotograficznej lub innego płaskiego naczynia należy nalać ciepłej
+ wody, następnie wsypać kryształki chlorku i mieszając doprowadzić do 
+ich całkowitego rozpuszczenia. Typowa koncentracja - 200 g trójchlorku 
+na 1 litr wody. W tak przygotowanym roztworze należy zanurzyć płytkę na 
+około 5 minut delikatnie poruszając.</p>
+ Do trawienia można także zastosować następującą mieszankę :<br>
+	<ul><li>200 ml stężonego kwasu solnego (HCl)<br>
+	</li><li>200 ml perhydrolu technicznego (H-2O-2)<br>
+	</li><li>600 ml wody <br></li></ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Podczas przygotowywania roztworu należy 
+zwrócić szczególną uwagę na ręce i oczy. Plamy powstałe w wyniku  
+rozlania  kwasu lub chlorku są praktycznie nieusuwalne. Kwas trzeba 
+wlewać powoli do wody i perhydrolu. Po zmieszaniu roztwór nie jest już 
+tak niebezpieczny dla rąk jak każdy z odczynników osobno. Do poruszania i
+ wyjmowania płytki nie można stosować przedmiotów metalowych gdyż ulegną
+ zniszczeniu i osłabią roztwór. Podczas trawienia w kwasie wydziela się 
+dużo trujących gazów m.in chlor dlatego proces należy przeprowadzać w 
+dobrze przewietrzanym miejscu. Czas potrzebny do całkowitego wytrawienia
+ płytki jest zależny od stężenia roztworu , wielkości płytki itp. i 
+powinien wynosić najwyżej 15 minut. Dłuższe czasy trawienia świadczą o 
+zużyciu wytrawiacza. Proces trawienia nie może jednak przebiegać zbyt 
+gwałtownie gdyż grozi to podtrawianiem ścieżek. Roztwór chlorku można w 
+pewnym stopniu zregenerować przez dolanie odrobiny wrzącej wody. Gdy 
+płytka jest całkowicie wytrawiona, należy ją wypłukać w wodzie i 
+wysuszyć. Do usunięcia lakieru można użyć rozpuszczalnika NITRO. Na 
+koniec zostaje opis płytki tuszem i pokrycie całości kalafonią 
+rozpuszczoną w spirytusie, w celu zabezpieczenia ścieżek przed 
+utlenianiem . Można także zastosować FLUX 10 lub cynowanie jako środek 
+chroniący przed skutkami korozji. Po wyschnięciu powłoki ochronnej można
+ przystąpić do montażu elementów.</p>
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;Powyższa metoda wykonywania obwodów 
+drukowanych nadaje się do wykonywania jednostkowych, stosunkowo prostych
+ płytek. Aby wykonać kilka identycznych płytek trzeba czynność malowania
+ powtórzyć wielokrotnie. Uzyskanie cienkich i równych ścieżek jest 
+bardzo trudne. Nawet posługując się pisakiem kwasoodpornym 
+przeprowadzenie połączenia między nogami układu scalonego jest prawie 
+niemożliwe, a o elementach SMD należy zapomnieć. Powyższe problemy nie 
+występują przy zastosowaniu fotolakierów. Jednym z nich jest produkt 
+firmy KONTAKT CHEME - POSITIV 20. Przy użyciu tego lakieru płytka 
+naświetlana jest z pozytywu ( bez użycia negatywu) . Umożliwia to 
+wykorzystywanie projektów płytek publikowanych w różnych czasopismach 
+elektronicznych np. w RE. Również wydruki z programów do projektowania 
+obwodów  nadają się do bezpośredniego zastosowania. Dzięki metodzie 
+naświetlania można uzyskać ostre krawędzie, cienkie ścieżki i możliwość 
+łatwego powielania płytek.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Przed przystąpieniem do nałożenia emulsji 
+światłoczułej należy płytkę dokładnie oczyścić. Jeżeli powierzchnia 
+laminatu jest bardzo zanieczyszczona należy wyszlifować ją delikatnie 
+papierem ściernym o numerze 320 "na mokro". Następnie, aby zapewnić 
+absolutną czystość należy umyć płytkę wykorzystując jakiś detergent (np.
+ VIM, ATA ) aż miedziana powłoka rozjaśni się, usunięte zostaną 
+wszystkie tlenki i powierzchnia stanie się błyszcząca. Po całkowitym 
+spłukaniu , trzeba płytkę wysuszyć między arkuszami absorbującego 
+papieru, unikając przy tym dotykania palcami jej powierzchni. Nie należy
+ używać do czyszczenia rozpuszczalników.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Następnie można przystąpić do nakładania 
+fotolakieru. Do tego celu nie jest wymagane zupełnie ciemne 
+pomieszczenie. Jednak należy to robić przy osłabionym oświetleniu, tzn. 
+bez bezpośredniego działania słońca lub innych jasnych źródeł światła. 
+Pożądane jest także  pomieszczenie wolne od kurzu. Płytkę należy położyć
+ w pozycji poziomej i skierować na nią "spray" z odległości ok. 30 cm. 
+Aby warstwa była równa, należy przesuwać strumień fotolakieru liniami 
+serpentynowymi. Jest to ważne gdyż nierówna warstwa będzie dawać taki 
+rezultat, że grubsze miejsca będą miały dłuższy czas naświetlania. 
+Pojemnik należy trzymać nieznacznie pochylony. Od momentu nałożenia 
+fotolakieru płytki nie można wystawiać na bezpośrednie działanie 
+światła.</p> 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Suszenie należy przeprowadzać w zupełnej 
+ciemności. Lakier może być suszony w pokojowej temperaturze przez 
+conajmniej 24 godziny. Bezpieczniej jednak jest przyspieszyć ten proces 
+wykorzystując suszarkę z termostatem. Temperaturę należy podnosić powoli
+ do max. 70°C i pozostawić płytkę na około 20 minut. UWAGA: 
+Przekroczenie 70°C spowoduje uszkodzenie nałożonego fotolakieru.</p> 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Oryginalny układ musi być przygotowany jako 
+kopia przedstawiająca rysunek pozytywowy w skali 1:1.Najlepiej jeśli 
+rysunek zostanie przeniesiony na folię. Większość drukarek laserowych 
+umożliwia wydruk bezpośrednio na folii. Istotną sprawą jest aby była to 
+wysokiej jakości folia i niezatłuszczona. W przeciwnym razie 
+zaczernienie ścieżek jest niewystarczające. Również wykonanie kserokopii
+ oryginału z drukarki igłowej na folii daje zadowalające rezultaty. W 
+przypadku prostych płytek można mozaikę ścieżek namalować tuszem lub 
+pisakiem na kalce technicznej. KONTAKT-CHEME produkuje również  preparat
+ o nazwie TRANSPARENT 21. Zwilżając nim obydwie strony papieru z 
+wydrukiem ścieżek poprawie ulega przeźroczystość papieru dla zakresu UV.
+ Należy odczekać około 15 minut aż emulsja wyschnie i projekt będzie 
+podobny do zatłuszczonego papieru. Wykonany projekt należy położyć na 
+płytce pokrytej fotolakierem, tak aby w miarę dokładnie do niej 
+przylegał. Wskazane jest dociśnięcie szybą przepuszczającą ultrafiolet 
+lub cienką plexi.<br></p>
+<div align="CENTER"><img src="fotolakiery_pliki/flak07.gif" alt="naświetlanie płytki" border="0" height="396" width="602"><br><font size="-1"><br>Rys 7. Sposób naświetlania płytki.</font><br></div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Lampę UV należy ustawić w odległości 50 cm. 
+Czas potrzebny do naświetlenia fotolakieru zależy od grubości warstwy 
+oraz od intensywności i odległości źródła światła. Przy takim dystansie 
+będzie wynosił 30 do 120 sekund. UWAGA: trzeba także uwzględnić czas 
+potrzebny na rozgrzewanie się lampy. Ponieważ Positiv 20 PLUS jest czuły
+ na promieniowanie UV, do naświetlania można więc użyć np. lampy do 
+opalania , lampy typu LRR lub świetlówki stosowanej w kasownikach 
+EPROM'ów i testerach banknotów. Gdy lampa UV nie jest dostępna można 
+użyć każdego innego źródła światła emitującego promienie ultrafioletowe,
+ w ostateczności słońca lub zwykłej żarówki. W takim przypadku należy 
+skorygować czas naświetlania, wykonując kilka doświadczeń. Długość fali 
+świetlnej powinna zawierać się w zakresie 360 - 410 nm.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Kolejnym krokiem jest wywołanie. Musi być 
+także przeprowadzone przy osłabionym świetle. Do tego celu można 
+wykorzystać specjalne wywoływacze do fotolakierów dostępne w handlu ( 
+np. SENO 4007 ) lub wykonać odpowiedni roztwór samodzielnie. Do 
+zrobienia wywoływacza potrzebne będzie 7 g sody kaustycznej (NaOH) na 
+jeden litr chłodnej wody. Soda kaustyczna jest powszechnie dostępna w 
+sklepach z chemikaliami. Sodę należy odważyć bardzo starannie zachowując
+ niezbędne środki ostrożności (soda kaustyczna jest silnie żrąca!). 
+Naświetlone płytki należy zanurzyć w roztworze i delikatnie poruszać. 
+Można także delikatnie pocierać szmatką lub gąbką. Po max 2 minutach 
+obraz ścieżek będzie w pełni wywołany. Po wywołaniu płytkę należy 
+natychmiast wypłukać w wodzie gdyż fotoemulsja nie jest odporna na 
+długotrwałe działanie sody kaustycznej. Proces trawienia jest identyczny
+ jak w przypadku płytek malowanych pędzelkiem. Fotolakiery są odporne na
+ działanie zarówno chlorku jak i kwasu. Po wytrawieniu należy jeszcze 
+wywiercić otworki na nóżki elementów oraz otwory mocujące, opisać płytkę
+ i zabezpieczyć przed utlenianiem.</p>
+</font>
+
+</body></html>

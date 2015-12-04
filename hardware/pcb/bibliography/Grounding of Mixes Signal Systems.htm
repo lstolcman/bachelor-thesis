@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <meta name="Author" content="Henry Ott">
+  <meta name="GENERATOR" content="Mozilla/4.7 [en] (Win98; I) [Netscape]">
+  <title>Grounding of Mixes Signal Systems</title>
+</head>
+<body alink="#ff00ff" bgcolor="#ffffc0" link="#0000ff" text="#000000" vlink="#800080">
+<h1>
+<a name="top"></a><u><font color="#3333ff">Henry Ott Consultants</font></u></h1>
+<b>Electromagnetic Compatibility Consulting and Training</b>
+<br>
+<hr noshade="noshade" size="5" width="100%">
+<center>
+<h2><b><u><font color="#cc0000"><font size="+3">Grounding of Mixed
+Signal PCBs</font></font></u></b></h2>
+</center>
+<p><br>
+A question that I hear often is:&nbsp; How do I prevent digital
+logic ground currents from contaminating my low level analog
+circuitry?&nbsp;
+This is a good question without a simple answer.&nbsp; Most A/D
+converter
+manufacturer's data books and application notes provide little if any
+useful
+information on the subject.&nbsp; If they do provide information, it is
+usually only applicable to a simple system containing only one A/D
+converter.
+</p>
+<p>Some people suggest splitting the ground plane in order to isolate
+the
+digital ground currents from the analog ground currents.&nbsp; Although
+the split plane approach can be made to work, it has many potential
+problems
+especially in large complicated systems.&nbsp; Can you list some of
+these
+problems?&nbsp; One of the major ones is that you can not route a trace
+over the split in the plane (see Tech Tip <b><a href="http://www.hottconsultants.com/techtips/tips-slots.html">Slots
+in Ground Planes</a></b>).&nbsp; It is always better to have only a
+single
+reference plane for a system.
+</p>
+<p>If you do split the ground plane and run traces across the split
+(left
+hand figure below), there will be no return path near the trace and the
+current will have to flow in a big loop.&nbsp; Current flowing in big
+loops
+produce radiation and high ground&nbsp; inductance.&nbsp;&nbsp;&nbsp;
+If
+you must split the ground plane and run traces across the split,&nbsp;
+you should do it as shown in the right hand figure below.&nbsp; By
+connecting
+the planes together at one point (a bridge) and routing all the traces
+so that they cross at this bridge point, you will have provided a
+return
+path for the current directly underneath each of the traces (hence a
+very
+small loop area).
+</p>
+<p><img src="Grounding%20of%20Mixes%20Signal%20Systems_pliki/split_plane.gif" align="left" border="3" height="332" hspace="10" vspace="10" width="460">High
+frequency digital ground return currents want to return directly
+underneath
+the signal trace.&nbsp; This is the lowest impedance (lowest
+inductance)
+path.&nbsp; The digital ground currents have no desire to flow through
+the analog portion of the ground plane and corrupt your analog
+signal.&nbsp;
+Why then do we need to split the ground to prevent the digital current
+from doing something that it does not want to do anyhow?&nbsp;
+Therefore,
+I prefer the approach of using only one ground plane and <b><u>partitioning</u></b>
+the PCB into digital and analog routing sections.&nbsp; Analog signals
+can then&nbsp; be routed only in the analog section of the board (on
+any
+layer), and digital signals can&nbsp; be routed only in the digital
+section
+of the board (on any layer).&nbsp; What causes problems is when a
+digital
+signal is routed in the analog section of the board, or visa versa.
+</p>
+<p>A PCB with a <b><u>single ground plane,</u></b> <b><u>partitioned
+into
+analog and digital sections,</u></b> and <b><u>discipline in routing</u></b>
+the signals can usually solve an otherwise difficult layout problem,
+without
+creating the additional problems caused by&nbsp; a split ground
+plane.&nbsp;
+If the layout is done properly, the digital ground currents will remain
+in the digital section of the board and will not interfere with the
+analog
+signals.&nbsp; The routing, however, must be checked carefully to
+assure
+that the above mentioned routing restrictions are adhered to <b><u>one
+hundred percent!</u></b>&nbsp;&nbsp; The key to a successful mixed
+signal
+PCB layout, therefore, is <b>proper partitioning</b> and <b>routing
+discipline</b>,
+not a split ground plane.
+</p>
+<p>Many A/D converter manufacturers, while suggesting the use of split
+ground planes, state the following in their data sheets or application
+notes:&nbsp; "The AGND and DGND pins must be connected together
+externally
+to the same low impedance ground plane with minimum lead length.&nbsp;
+Any extra external impedance in the DGND connection will couple more
+digital
+noise into the analog circuit through the stray capacitance internal to
+the IC."&nbsp; Their recommendation is to connect both the AGND and the
+DGND pins of the A/D converter to the analog ground plane.&nbsp; This
+approach
+has the potential of creating a number of additional problems.&nbsp;
+Can
+you list some of these problems?&nbsp; What do you connect the ground
+side
+of the digital power decoupling capacitor to?&nbsp; The analog plane or
+the digital plane?
+</p>
+<p>A much better way to satisfy the requirement of connecting AGND and
+DGND pins together through a low impedance, and not create additional
+problems
+in the process, is to use only one ground plane to begin with.
+</p>
+<p>The key to determining the optimum board layout is to think, <b>how
+and where do the return currents flow?</b>
+</p>
+<p>If you are still skeptical about using a single ground plane on your
+mixed signal boards I suggest you do the following experiment.&nbsp;
+Layout
+the board with a split ground plane, but provide means for connecting
+the
+two planes together every 1/2 inch with jumpers or zero ohm
+resistors.&nbsp;
+Route the board properly, with no digital traces (on any layer) over
+the
+analog plane and no analog traces (on any layer) over the digital
+plane.
+Build the board and test it's&nbsp; functionality and EMC
+performance.&nbsp;
+Connect the planes together and test the board again for functionality
+and EMC performance.&nbsp; I think that you will find that in almost
+all
+cases, both the functional performance and the EMC performance of the
+board
+will be better with the single ground plane.&nbsp; If you do the
+experiment&nbsp;
+send me an e-mail letting me know of your results.
+</p>
+<p><font size="+1">It is almost always better to have only a single
+reference
+plane for a system!</font>
+</p>
+<p>Analog ground plane noise voltages should be kept smaller than the
+minimum&nbsp;
+analog signal level of concern.&nbsp; In the case of an A/D (or D/A)
+converter
+the smallest resolvable signal voltage level [least significant bit
+(LSB)]
+is a function of the number of the bits and the full scale reference
+voltage
+of the A/D converter. The smaller the reference voltage and the larger
+the number of bits, the smaller the minimum resolvable signal voltage
+will
+be. The following table shows the resolution versus the number of bits
+for an A/D converter using a one volt reference.&nbsp; These resolution
+levels can be scaled for other reference voltages by multiplying the
+resolution
+by the appropriate factor.&nbsp; For example, if the converter uses a 5
+volt reference then multiply the resolution numbers in the table by
+five.
+<br>
+&nbsp;
+<br>
+&nbsp;
+</p>
+<center>
+<table cols="2" bgcolor="#33ff33" border="3" width="55%">
+  <tbody>
+    <tr align="center">
+      <td><b>Number of Bits</b></td>
+      <td><b>Resolution (LSB)</b></td>
+    </tr>
+    <tr align="center">
+      <td>8</td>
+      <td>4 mV</td>
+    </tr>
+    <tr align="center">
+      <td>10</td>
+      <td>1 mV</td>
+    </tr>
+    <tr align="center">
+      <td>12</td>
+      <td>240 uV</td>
+    </tr>
+    <tr align="center">
+      <td>14</td>
+      <td>60 uV</td>
+    </tr>
+    <tr align="center">
+      <td>16</td>
+      <td>15 uV</td>
+    </tr>
+    <tr>
+      <td align="center">20</td>
+      <td align="center">1 uV</td>
+    </tr>
+    <tr>
+      <td>
+      <center>24</center>
+      </td>
+      <td>
+      <center>0.06 uV (60 nV)</center>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</center>
+<br>
+&nbsp;
+<p><img src="Grounding%20of%20Mixes%20Signal%20Systems_pliki/a-d%2520gnd%2520plane.gif" align="right" border="5" height="359" hspace="10" vspace="10" width="468"></p>
+<p>The use of a single solid ground plane&nbsp; properly partitioned
+and
+routed (as discussed above) is usually adequate for most low to
+moderate
+resolution A/D converters (8, 10, or 12 bit).&nbsp; For higher
+resolution
+systems (14 bits and up) even more ground noise voltage isolation may
+be
+required for adequate performance.&nbsp; These converters have
+resolution
+voltages in the tens of microvolts, or less, level.&nbsp; In this case
+you might want to divide your board into separate isolated analog and
+digital
+ground plane regions, each solidly connected to the digital ground
+plane
+under each of the A/D converters as shown in the figure. This approach
+will provide additional ground noise isolation for the high resolution
+A/D converters while still maintaining a single ground plane for the
+system.
+</p>
+<p>Notice that even in this case, the ground plane is not split
+--&nbsp;
+it is all connected together.&nbsp; Also remember that no traces, on
+any
+layer, can cross over the isolating slots in the ground plane.
+<br>
+&nbsp;
+<br>
+&nbsp;
+<br>
+&nbsp;
+</p>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <h2><b><u><font color="#cc0000">Summary</font></u></b></h2>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+<ul>
+  <li>
+    <b><u>Partition</u></b> your PCB with separate analog and digital
+sections.</li>
+  <li>
+    <b><u>Do not </u></b>split the ground plane.&nbsp; Use one solid
+ground
+plane under both analog and digital sections of the board.</li>
+  <li>
+Route digital signals only in the digital section of the board.&nbsp;
+This
+applies to all layers.</li>
+  <li>
+Route analog signals only in the analog section of the board.&nbsp;
+This
+applies to all layers.</li>
+  <li>
+The key to a successful PCB layout is the use of <b><u>routing
+discipline</u></b>.</li>
+  <li>
+    <br>
+  </li>
+</ul>
+<b>© 2000/2003 Henry W.
+Ott&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Henry
+ Ott Consultants,&nbsp; 48 Baker Road&nbsp; Livingston,&nbsp;
+NJ&nbsp;
+07039&nbsp; (973) 992-1793</b>
+<br>
+<hr noshade="noshade" size="5" width="100%">
+<h2><b><u><font color="#cc0000">Bibliography</font></u></b></h2>
+Ott, H. W., <b><font color="#3333ff"><a href="http://www.hottconsultants.com/pdf_files/june2001pcd_mixedsignal.pdf">Partitioning
+and Layout of a Mixed Signal PCB</a></font></b>, Printed Circuit
+Design,
+June 2001.
+<p></p>
+<hr noshade="noshade" size="5" width="100%">
+<h2><u><font color="#cc0000">Correspondence</font></u></h2>
+<ul>
+  <li>
+Thank you, this article will assist me in a proposal I made earlier
+this
+week in a design review on how to properly layout and partition a PCB
+with
+analog and digital signals.&nbsp; As you can probably imagine I was met
+with major opposition when I proposed utilizing a bridge to connect the
+analog and digital sections.&nbsp; I have used this technique on other
+PCB's (different Business Unit) and had no problems although I never
+had
+the opportunity to conduct the experiment and analyze the data as you
+mention
+in your article, thank you very much. [e-mail from an engineer in
+Michigan]</li>
+  <li>
+I am in the process of laying out a mixed-signal board myself and your
+article has provided some useful information.&nbsp; Thinking of the
+issue
+in terms of return current flow makes a lot of sense. [e-mail from a RF
+Engineer in California]</li>
+  <li>
+Your tech tip "Grounding of Mixed Signal PCBs" was the most clear and
+concise
+presentation of the material that I found.&nbsp; Everyone else suggest
+separate planes connected at a single point but neglect to consider
+"big
+loops" as you suggest. Since you so clearly articulated (i.e., helped
+me
+understand the real issue), I am planning on purchasing your <a href="http://www.hottconsultants.com/book.html">book</a>
+to hopefully better understand EMC design issues. [e-mail from an
+engineer
+in Arizona]</li>
+  <li>
+I am busy designing a mixed signal board incorporating two 16-bit DACs
+and a high-speed digital side, and found your website very
+enlightening.&nbsp;
+It's amazing how much info there is out there by supposed "experts"
+that
+is clearly outdated or not very well thought through, and your website
+provided a welcome change.&nbsp; [e-mail from a post-graduate student
+in
+South Africa]</li>
+</ul>
+<hr noshade="noshade" size="4" width="100%">
+<br>
+<b><a href="#top">Return to top of page.</a></b>
+<p><b><a href="http://www.hottconsultants.com/index.html">Return to HOC home page.</a></b>
+</p>
+<p></p>
+<hr noshade="noshade" size="5" width="100%">
+<address>Henry Ott Consultants</address>
+<address>
+48 Baker Road Livingston, NJ 07039</address>
+<address>
+Phone: 973-992-1793,&nbsp;&nbsp; FAX: 973-533-1442</address>
+<br>
+March 25, 2004
+
+
+</body></html>

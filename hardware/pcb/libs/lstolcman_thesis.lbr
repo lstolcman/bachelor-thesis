@@ -43,8 +43,8 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -171,6 +171,13 @@ http://www.linear.com/docs/38722</description>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
 <smd name="9" x="0" y="0" dx="1.68" dy="1.88" layer="1" rot="R90"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="-0.9525" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="-1.27" x2="-1.27" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.9525" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<text x="3.175" y="-2.54" size="1.016" layer="25" rot="R90">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.016" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="2X20">
 <wire x1="-1.9" y1="-3.32" x2="-1.9" y2="-4.03" width="0.2032" layer="21"/>
@@ -485,7 +492,7 @@ http://www.linear.com/docs/38722</description>
 M/A COM&lt;p&gt;
 www.macom.com</description>
 <wire x1="-1.5" y1="0.5" x2="1.5" y2="0.5" width="0.3048" layer="51" curve="-143.130102"/>
-<wire x1="-1.69" y1="-5.135" x2="1.84" y2="-5.135" width="0.3048" layer="51" curve="50"/>
+<wire x1="-1.69" y1="-5.135" x2="1.84" y2="-5.135" width="0.3048" layer="21" curve="50"/>
 <pad name="1" x="0" y="0" drill="1.6"/>
 <pad name="2" x="3.43" y="3.43" drill="2.8"/>
 <pad name="3" x="-3.43" y="3.43" drill="2.8"/>
@@ -493,9 +500,9 @@ www.macom.com</description>
 <pad name="5" x="3.43" y="-3.43" drill="2.8"/>
 <text x="-2.74" y="6.45" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.74" y="-7.72" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="5.135" y1="-1.69" x2="5.135" y2="1.84" width="0.3048" layer="51" curve="50"/>
-<wire x1="-5.135" y1="1.69" x2="-5.135" y2="-1.84" width="0.3048" layer="51" curve="50"/>
-<wire x1="1.69" y1="5.135" x2="-1.84" y2="5.135" width="0.3048" layer="51" curve="50"/>
+<wire x1="5.135" y1="-1.69" x2="5.135" y2="1.84" width="0.3048" layer="21" curve="50"/>
+<wire x1="-5.135" y1="1.69" x2="-5.135" y2="-1.84" width="0.3048" layer="21" curve="50"/>
+<wire x1="1.69" y1="5.135" x2="-1.84" y2="5.135" width="0.3048" layer="21" curve="50"/>
 <wire x1="1.5" y1="-0.5" x2="-1.5" y2="-0.5" width="0.3048" layer="51" curve="-143.130102"/>
 </package>
 <package name="5-1634506-1_HORIZ">

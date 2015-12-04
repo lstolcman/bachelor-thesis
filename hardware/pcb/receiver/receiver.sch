@@ -46,8 +46,8 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
+<layer number="39" name="tKeepout" color="7" fill="11" visible="no" active="no"/>
+<layer number="40" name="bKeepout" color="7" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="no"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
@@ -1321,9 +1321,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 <package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -1334,6 +1332,12 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.127" layer="21"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.127" layer="21"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.127" layer="21"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.127" layer="21"/>
 </package>
 <package name="C1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
@@ -2889,6 +2893,10 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.127" layer="21"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.127" layer="21"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.127" layer="21"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.127" layer="21"/>
 </package>
 <package name="R0805W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt; wave soldering&lt;p&gt;</description>
@@ -3205,7 +3213,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <package name="M0805">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 MELF 0.10 W</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -3218,6 +3225,11 @@ MELF 0.10 W</description>
 <rectangle x1="-1.0414" y1="-0.7112" x2="-0.6858" y2="0.7112" layer="51"/>
 <rectangle x1="0.6858" y1="-0.7112" x2="1.0414" y2="0.7112" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5999" x2="0.1999" y2="0.5999" layer="35"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.127" layer="21"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.127" layer="21"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.127" layer="21"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.127" layer="21"/>
 </package>
 <package name="M1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -3230,11 +3242,15 @@ MELF 0.25 W</description>
 <wire x1="1.143" y1="-0.8382" x2="-1.143" y2="-0.8382" width="0.1524" layer="51"/>
 <smd name="1" x="-1.4" y="0" dx="1.6" dy="2" layer="1"/>
 <smd name="2" x="1.4" y="0" dx="1.6" dy="2" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.7018" y1="-0.9144" x2="-1.1176" y2="0.9144" layer="51"/>
 <rectangle x1="1.1176" y1="-0.9144" x2="1.7018" y2="0.9144" layer="51"/>
 <rectangle x1="-0.3" y1="-0.8001" x2="0.3" y2="0.8001" layer="35"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.127" layer="21"/>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.127" layer="21"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.127" layer="21"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.127" layer="21"/>
 </package>
 <package name="M1406">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -12594,6 +12610,13 @@ http://www.linear.com/docs/38722</description>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
 <smd name="9" x="0" y="0" dx="1.68" dy="1.88" layer="1" rot="R90"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="-0.9525" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="-1.27" x2="-1.27" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.9525" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<text x="3.175" y="-2.54" size="1.016" layer="25" rot="R90">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.016" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="QFN64">
 <description>&lt;b&gt;UP Package&lt;/b&gt;
@@ -12842,7 +12865,7 @@ http://www.linear.com/docs/38765</description>
 M/A COM&lt;p&gt;
 www.macom.com</description>
 <wire x1="-1.5" y1="0.5" x2="1.5" y2="0.5" width="0.3048" layer="51" curve="-143.130102"/>
-<wire x1="-1.69" y1="-5.135" x2="1.84" y2="-5.135" width="0.3048" layer="51" curve="50"/>
+<wire x1="-1.69" y1="-5.135" x2="1.84" y2="-5.135" width="0.3048" layer="21" curve="50"/>
 <pad name="1" x="0" y="0" drill="1.6"/>
 <pad name="2" x="3.43" y="3.43" drill="2.8"/>
 <pad name="3" x="-3.43" y="3.43" drill="2.8"/>
@@ -12850,9 +12873,9 @@ www.macom.com</description>
 <pad name="5" x="3.43" y="-3.43" drill="2.8"/>
 <text x="-2.74" y="6.45" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.74" y="-7.72" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="5.135" y1="-1.69" x2="5.135" y2="1.84" width="0.3048" layer="51" curve="50"/>
-<wire x1="-5.135" y1="1.69" x2="-5.135" y2="-1.84" width="0.3048" layer="51" curve="50"/>
-<wire x1="1.69" y1="5.135" x2="-1.84" y2="5.135" width="0.3048" layer="51" curve="50"/>
+<wire x1="5.135" y1="-1.69" x2="5.135" y2="1.84" width="0.3048" layer="21" curve="50"/>
+<wire x1="-5.135" y1="1.69" x2="-5.135" y2="-1.84" width="0.3048" layer="21" curve="50"/>
+<wire x1="1.69" y1="5.135" x2="-1.84" y2="5.135" width="0.3048" layer="21" curve="50"/>
 <wire x1="1.5" y1="-0.5" x2="-1.5" y2="-0.5" width="0.3048" layer="51" curve="-143.130102"/>
 </package>
 <package name="5-1634506-1_HORIZ">
@@ -13557,8 +13580,12 @@ Based on the following sources:
 <wire x1="1.4" y1="-1.3" x2="-1.4" y2="-1.3" width="0.2032" layer="51"/>
 <smd name="1" x="-1.15" y="0" dx="1" dy="2.54" layer="1"/>
 <smd name="2" x="1.15" y="0" dx="1" dy="2.54" layer="1"/>
-<text x="-1.581" y="1.497" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.581" y="-2.751" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.105" y="2.0685" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5335" y="-3.3225" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.035" y1="-1.7445" x2="-2.035" y2="1.7445" width="0.127" layer="21"/>
+<wire x1="-2.035" y1="1.7445" x2="2.035" y2="1.7445" width="0.127" layer="21"/>
+<wire x1="2.035" y1="-1.7445" x2="-2.035" y2="-1.7445" width="0.127" layer="21"/>
+<wire x1="2.035" y1="1.7445" x2="2.035" y2="-1.7445" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -14626,6 +14653,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <smd name="A" x="1.05" y="0" dx="1.2" dy="1.2" layer="1"/>
 <text x="-1.5" y="1" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.5" y="-2" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-1.8625" y="0.7175" radius="0.125" width="0" layer="21"/>
 </package>
 <package name="SML1206">
 <description>&lt;b&gt;SML10XXKH-TR (HIGH INTENSITY) LED&lt;/b&gt;&lt;p&gt;
@@ -16539,16 +16567,16 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="2.3" y1="1" x2="2.3" y2="-0.95" width="0.254" layer="51"/>
 <wire x1="2.3" y1="-0.95" x2="-2.3" y2="-0.95" width="0.254" layer="51"/>
 <wire x1="-2.3" y1="-0.95" x2="-2.3" y2="1" width="0.254" layer="51"/>
-<wire x1="-0.8" y1="0" x2="0.25" y2="0.75" width="0.254" layer="21"/>
-<wire x1="0.25" y1="0.75" x2="0.25" y2="-0.7" width="0.254" layer="21"/>
-<wire x1="0.25" y1="-0.7" x2="-0.8" y2="0" width="0.254" layer="21"/>
+<wire x1="-0.4825" y1="0" x2="0.5675" y2="0.75" width="0.254" layer="21"/>
+<wire x1="0.5675" y1="0.75" x2="0.5675" y2="-0.7" width="0.254" layer="21"/>
+<wire x1="0.5675" y1="-0.7" x2="-0.4825" y2="0" width="0.254" layer="21"/>
 <smd name="C" x="-2.05" y="0" dx="1.8" dy="1.7" layer="1"/>
 <smd name="A" x="2.05" y="0" dx="1.8" dy="1.7" layer="1"/>
 <text x="-2.64" y="1.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.64" y="-2.556" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.65" y1="-0.7" x2="-2.4" y2="0.65" layer="51"/>
 <rectangle x1="2.4" y1="-0.7" x2="2.65" y2="0.65" layer="51"/>
-<rectangle x1="-1" y1="-1.05" x2="-0.7" y2="1.05" layer="21"/>
+<rectangle x1="-0.6825" y1="-1.05" x2="-0.3825" y2="1.05" layer="21"/>
 </package>
 <package name="DO214BA">
 <description>&lt;b&gt;DIODE&lt;/b&gt;</description>
@@ -17234,11 +17262,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
 <circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="3.048" width="2.54" layer="39"/>
-<circle x="0" y="0" radius="3.048" width="2.54" layer="40"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="2.794" width="2.54" layer="40"/>
+<circle x="0" y="0" radius="2.794" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="2.794" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="2.794" width="2.032" layer="42"/>
 <circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
 <hole x="0" y="0" drill="3.3"/>
 </package>
@@ -17590,7 +17618,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <part name="SUPPLY2" library="supply2" deviceset="VDD" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="M0805" value="1M">
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1M">
 <attribute name="MFR" value="RC0805FR-071ML"/>
 </part>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>

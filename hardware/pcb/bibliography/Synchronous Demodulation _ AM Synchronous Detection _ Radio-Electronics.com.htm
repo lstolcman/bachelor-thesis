@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Synchronous Demodulation | AM Synchronous Detection | Radio-Electronics.com</title>
+<meta name="keywords" content="radio,receiver,superhet,amplitude,modulation,synchronous,demodulation,detection,ian,poole,g3ywx">
+<meta name="description" content="Read the essentials of AM synchronous detection / demodulation: what it is, how it works, how it can be implemented, circuit block diagrams . . . . .">
+
+
+	<meta charset="utf-8">
+	<meta name="revisit-after" content="7">
+	<meta name="Copyright" content="Adrio Communications Ltd">
+	<meta name="Classification" content="Recreation">
+	<meta name="Rating" content="General">
+	<meta name="Distribution" content="Global">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   	<link href="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/bootstrap.css" rel="stylesheet">
+	<link href="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/css.css" rel="stylesheet" type="text/css">
+    <link href="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/theme021.css" rel="stylesheet">
+	<link href="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/font-awesome.css" rel="stylesheet">
+	<link href="http://www.radio-electronics.com/rss.php" rel="alternate" type="application/rss+xml" title="Radio-electronics.com News">
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/analytics.js" async=""></script><script gapi_processed="true" src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/platform.js" async="" type="text/javascript"></script><script src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/widgets.js" id="twitter-wjs"></script><script src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/sdk.js" id="facebook-jssdk"></script><script src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/gpt.js" type="text/javascript" async=""></script><script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"http://www.radio-electronics.com/rec-information/privacy-policy.php","theme":"dark-top"};
+</script>
+
+<script type="text/javascript" src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/cookieconsent.js"></script>
+<!-- End Cookie Consent plugin -->
+
+
+
+<script async="" src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/pubads_impl_76.js"></script><script src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/secureAnonymousFramework"></script><style>.adLeft,
+.advertColumn
+{display:none !important;}</style><style>A[href*="://clk.tradedoubler.com/click?p="],
+[id^="ads_"],
+[id^="pianoMediaBoxInfo"],
+[id^="slot_ad_billboard"],
+[class^="advertisement"],
+a[href*="adnow.com/click"],
+DIV[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"],
+IMG[src^="http://www.reklama.pless.nazwa.pl/public/"],
+SPAN[style="\a   display: inline-block;\a   border-radius: 4px;\a   -webkit-box-shadow: 2px 3px 10px -2px #333;\a   box-shadow: 2px 3px 10px -2px #333;\a   padding: 2px;\a   height: 300px;\a   width: 320px;\a   position: relative;\a   overflow: hidden;\a   box-sizing: border-box;\a   z-index: 9999;\a   -webkit-box-sizing: border-box;\a   -moz-box-sizing: border-box;"],
+div#PS_WIDGET_RADIO,
+div#arevicofancy-content,
+div#arevicofancy-wrap,
+div#articleReadNextPopup,
+div#axcontainer,
+div#axnewsletter,
+div#bottom_slider,
+div#bottomads,
+div#bxRes,
+div#ci-info-box,
+div#cu_popup,
+div#dont-use-adblock-goddammit,
+div#fullscreenPopup,
+div#helion-widget-random-book-2,
+[div^="inpage-popup-banner"],
+div#noticeBox,
+div#opiniac_blk,
+div#pianoMediaBar,
+div#related_popup,
+div#skapiec_ad,
+div#tvcap,
+div#upprev_box,
+div#AdTaily_Widget,
+[class^="ad_adInfo"],
+div.boxBegin,
+div.boxSweetDeal,
+div.gAdsContent,
+div.gmArts,
+div.grid-boxes-container,
+div.m-eska-link2,
+div.p_body.js__p_body,
+div.popup.js__popup,
+div.widget.widget_text.widget-widget_text,
+[id^="iframe#g2385"],
+img.expandBottomHead,
+ul.sharing-tools,
+[id*="reklama"],
+[class*="reklama"],
+[id^="giercowniaAd"],
+[id^="google_ads_iframe_"],
+[id^="div-gpt-ad-"],
+[id^="fancybox-bg"],
+IMG[src^="http://www.audiostereo.pl/banery/"],
+[id$="reklamy"],
+[id^="ceneoaffcontainer"],
+[id^="ad_promocyjni"],
+[id*="dol_srodek"],
+arevicofancy-overlay,
+[id^="ad_box300"],
+[id^="msgLayer"],
+[id^="box300"],
+[id^="commentAd"],
+[id^="ad-box"],
+[id^="sad_"],
+[id^="bbtBubble"],
+[id^="ad_iframe"],
+li.ad,
+IMG[title^="Sponsorowan"],
+[id^="boxRegioPromoTab"],
+IMG[alt="Reklama"],
+[id^="ad-bp-"],
+[class^="sponsorowany"],
+[id^="sponsorowany"],
+A[href$="/reklama"],
+A[href*="/emisja.contentstream.pl/_/ctr/"],
+[src*="/banners/banner"],
+A[href*="beaffiliates.com/processing/clickthrgh.asp"],
+[onclick^="window.open('http://adultfriendfinder.com/search/"],
+a[data-obtrack^="http://paid.outbrain.com/network/redir?"],
+a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"],
+a[href$="/vghd.shtml"],
+a[href*="/adrotate-out.php?"],
+[href^=" http://ads.ad-center.com/"],
+[href^=" http://n47adshostnet.com/"],
+[href^="//adbit.co/?a=Advertise&"],
+[href^="//ads.ad-center.com/"],
+[href^="//go.ad2up.com/"],
+[href^="http://amzn.to/"] > img[src^="data"],
+[href^="http://api.taboola.com/"][href*="/recommendations.notify-click?app.type="],
+[href^="http://games.ucoz.ru/"][target="_blank"],
+[href^="http://taboola-"][href*="/redirect.php?app.type="],
+a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"],
+a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source,
+a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"],
+a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"] + .ob_source,
+a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"],
+a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source,
+a[style="display:block;width:300px;min-height:250px"][href^="http://li.cnet.com/click?"],
+div[id^="MarketGid"],
+div[id^="YFBMSN"],
+div[id^="acm-ad-tag-"],
+div[id^="div-gpt-ad-"],
+div[itemtype="http://schema.org/WPAdBlock"],
+div[itemtype="http://www.schema.org/WPAdBlock"],
+iframe[id^="google_ads_frame"],
+iframe[id^="google_ads_iframe"],
+iframe[src^="http://ad.yieldmanager.com/"],
+iframe[src^="http://cdn1.adexprt.com/"],
+iframe[src^="http://cdn2.adexprt.com/"],
+img[alt^="Fuckbook"],
+input[onclick^="window.open('http://www.FriendlyDuck.com/AF_"],
+input[onclick^="window.open('http://www.friendlyduck.com/AF_"],
+p[id^="div-gpt-ad-"],
+script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content,
+iframe[src^="http://static.mozo.com.au/strips/"],
+td[valign="top"] > .mainmenu[style="padding:10px 0 0 0 !important;"],
+div[id^="mainads"],
+div[id^="zergnet-widget-"],
+A[href="http://goo.gl/jQ9bcz"],
+:not(input)[id*="cookie"],
+:not(input)[id*="Cookie"],
+div[class*="cookie"],
+div[class*="Cookie"],
+iframe[class*="cookie"],
+iframe[class*="Cookie"],
+span[class*="cookie"],
+span[class*="Cookie"],
+nav[class*="cookie"],
+nav[class*="Cookie"],
+aside[class*="cookie"],
+aside[class*="Cookie"],
+div[data-ng-controller="AcceptCookiesController"],
+div[id="sliding-popup"],
+div[class^="pea_cook_wrapper"],
+div[id="eKPC_Container"],
+div[id="ck_dsclr"],
+div[id="ca_banner"],
+*[id="co15ie87a"],
+*[id="inpl_cp_cnt"]
+{display:none !important;}</style><link href="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/dark-top.css" type="text/css" rel="stylesheet"><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow-x:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+<body><div class="cc_banner-wrapper "><div class="cc_banner cc_container cc_container--open"><a href="#null" data-cc-event="click:dismiss" target="_blank" class="cc_btn cc_btn_accept_all">Got it!</a><p class="cc_message">This website uses cookies to ensure you get the best experience on our website <a data-cc-if="options.link" target="_self" class="cc_more_info" href="http://www.radio-electronics.com/rec-information/privacy-policy.php">More info</a></p><a class="cc_logo" target="_blank" href="http://silktide.com/cookieconsent">Cookie Consent plugin for the EU cookie law</a></div></div>
+	<div class="outerContainer">
+	<div class="container">
+
+<!-- Start Google Ad Manager Head Code -->
+
+<script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type="text/javascript">
+googletag.cmd.push(function() {
+googletag.defineSlot('/1898494/REC_RF_Topics_bottom_300x250', [300, 250], 'div-gpt-ad-1413820515333-0').addService(googletag.pubads());
+googletag.defineSlot('/1898494/REC_RF_Topics_bottom_leaderboard_728x90', [728, 90], 'div-gpt-ad-1413820515333-1').addService(googletag.pubads());
+googletag.defineSlot('/1898494/REC_RF_Topics_leaderboard_728x90', [728, 90], 'div-gpt-ad-1413820515333-2').addService(googletag.pubads());
+googletag.defineSlot('/1898494/REC_RF_Topics_MPU_300x250', [300, 250], 'div-gpt-ad-1413820515333-3').addService(googletag.pubads());
+googletag.defineSlot('/1898494/REC_RF_Topics_Skyscraper_160x600', [160, 600], 'div-gpt-ad-1413820515333-4').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+<!-- Start Google Ad Manager Head Code -->
+
+<div class="logoHeader">
+
+	<div style="float:left"><a href="http://www.radio-electronics.com/"><div id="topLogo"> </div></a>
+  	</div>
+	<div class="logoHeaderButtons">
+	
+   		<a href="https://www.linkedin.com/company/radio-electronics-com" class="btn btn-default" role="button" target="_blank"><img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/icon-linkedin.gif" alt="Icon Linkedin" style="margin-right:5px;">LinkedIn</a>
+
+   		<a href="https://www.youtube.com/user/radioelectronicscom" class="btn btn-default" role="button" target="_blank"><img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/youtube.jpg" alt="YouTube" style="margin-right:5px;">YouTube</a>
+
+   		<a href="http://twitter.com/RadioElec" class="btn btn-default" role="button" target="_blank"><img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/icon-twitter.png" alt="Icon Twitter" style="margin-right:5px;">Twitter</a>
+	    
+  		<a href="http://www.radio-electronics.com/rss.php" class="btn btn-default" role="button" target="_blank"><img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/icon-rss.png" alt="Icon RSS" style="margin-right:5px;">News feed</a>
+
+    	<a href="http://www.radio-electronics.com/newsletter/" class="btn btn-default" role="button"><img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/icon-newsletter.png" alt="Icon RSS" style="margin-right:5px;" height="14" width="14">Newsletter</a>
+ 
+    	<a href="https://plus.google.com/102744187429709400446?prsrc=3" class="btn btn-default" role="button" rel="publisher" target="_blank"><img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/gplus-16.png" alt="Google+" style="margin-right:5px;">Google+</a>
+    	</div>
+	<div class="logoHeaderSearch">
+	    <!-- Start Google Search Box -->
+<form action="http://www.radio-electronics.com/site-search.php" id="cse-search-box">
+  <div>
+    <input name="cx" value="partner-pub-2603569892487793:9137966933" type="hidden">
+    <input name="cof" value="FORID:10" type="hidden">
+    <input name="ie" value="UTF-8" type="hidden">
+    <input name="q" size="20" type="text">
+    <input name="sa" value="Search" type="submit">
+  </div>
+</form>
+
+<script type="text/javascript" src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/brand"></script>
+
+
+
+		<!-- END Google Search Box -->  		</div>
+  	</div>
+  	
+  	<div class="row">
+  		<div class="col-lg-12 col-md-12 col-sm-12">
+  			<div class="redLine"></div>
+  		</div>
+  	</div><nav class="navbar navbar-default" role="navigation">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav">
+		<li><a href="http://www.radio-electronics.com/">Home</a></li>
+		<li><a href="http://www.radio-electronics.com/info/antennas/">Antennas &amp; propagation</a></li>
+		<li><a href="http://www.radio-electronics.com/info/cellulartelecomms/">Cellular telecoms</a></li>
+		<li><a href="http://www.radio-electronics.com/info/circuits/">Circuit design</a></li>
+		<li><a href="http://www.radio-electronics.com/info/data/">Components</a></li>
+		<li><a href="http://www.radio-electronics.com/info/power-management/">Power management</a></li>
+		<li><a href="http://www.radio-electronics.com/info/rf-technology-design/">RF technology</a></li>
+		<li><a href="http://www.radio-electronics.com/info/t_and_m/">Test</a></li>
+		<li><a href="http://www.radio-electronics.com/info/wireless/">Wireless</a></li>
+		
+		
+		<li><a href="http://www.radio-electronics.com/news.php">News </a></li>
+		<li><a href="http://www.radio-electronics.com/info/broadcast/">Broadcast </a></li>
+		<li><a href="http://www.radio-electronics.com/info/processing-embedded/">Embedded</a></li>
+		<li><a href="http://www.radio-electronics.com/info/electronics-design/">Design principles</a></li>
+		<li><a href="http://www.radio-electronics.com/info/distribution-supply/">Distribution</a></li>
+		<li><a href="http://www.radio-electronics.com/info/formulae/">Formulae</a></li>
+		<li><a href="http://www.radio-electronics.com/info/manufacture/">Manufacture</a></li>
+		<li><a href="http://www.radio-electronics.com/info/satellite/">Satellites</a></li>
+		<li><a href="http://www.radio-electronics.com/info/telecommunications_networks/">Telecoms &amp; networks</a></li>
+		<li><a href="http://www.radio-electronics.com/electronics-software-jobs/">Jobs </a></li>
+
+      </ul>
+    
+    </div><!-- /.navbar-collapse -->
+
+</nav>  	 <div class="row">
+ 
+    <div class="col-lg-12 col-md-12 col-sm-12 "><!-- Start Leaderboard -->
+<div class="leaderboard">
+	<div class="leaderboardWrap">
+
+<!-- REC_RF_Topics_leaderboard_728x90 -->
+<div id="div-gpt-ad-1413820515333-2" style="width: 728px; height: 90px; display: none ! important;">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1413820515333-2'); });
+</script>
+</div>
+
+
+	</div>
+</div>
+<!-- End Leaderboard -->	
+
+<div class="sectionHead"> 
+<a href="http://www.radio-electronics.com/info/rf-technology-design/">RF Technology &amp; Design</a>
+</div>
+
+
+ 	</div>
+	</div>
+ 
+ <div class="row"> <!-- main row start -->
+ 
+ <div class="col-lg-12 col-md-12 col-sm-12"> <!-- big column start -->
+
+    <div class="col-lg-8 col-md-7 col-sm-6 mainBody"> <!-- Main body start -->
+<div class="mainContentBody">
+
+    
+    <!-- Start Main Content -->
+      
+
+
+
+
+<h1>AM Synchronous Demodulation / Detection</h1>
+<h3> - overview of synchronous demodulation or detection of amplitude 
+modulation, AM, signals with details of methods, operation and 
+advantages.</h3>
+
+
+<!-- in this section start -->
+<div class="inThisSection linksColumn clearfix"> 
+    <h3>AM demodulation tutorial includes</h3>
+<ul class="list-unstyled">
+
+<li><a href="http://www.radio-electronics.com/info/rf-technology-design/am-reception/amplitude-modulation-detection-demodulation.php">AM demodulation overview</a></li><li><a href="http://www.radio-electronics.com/info/rf-technology-design/am-reception/diode-detector-demodulator.php">Diode detector</a></li><li><a href="http://www.radio-electronics.com/info/rf-technology-design/am-reception/synchronous-demodulator-demodulation-detector.php">Synchronous demodulation</a></li>
+</ul>
+
+</div> 
+
+<!-- in this section end -->
+
+<p>Synchronous forms of demodulation have inherent advantages over other
+ forms of demodulation, although the additional levels of complexity 
+mean that they are not always used.</p>
+<p>Synchronous AM demodulation is generally reserved for higher 
+performance radio receivers, although many integrated circuit technology
+ means that it can incorporated into a chip with relative ease.</p>
+
+
+<h2>What is AM synchronous demodulation?</h2>
+<p>the simplest form of detection for an amplitude modulated signal 
+utilises a simple diode rectifier. To achieve improved performance a 
+form of demodulation known as synchronous demodulation can be used.</p>
+<p>When looking at the synchronous demodulation of an AM signal, it is 
+first useful to look at the spectrum of an amplitude modulated signal. 
+It can be seen that it comprises a carrier with the two sidebands 
+carrying he audio or other information spreading out either side. These 
+two sidebands are reflections of each other.</p>
+
+<p> </p><div style="text-align: center;"> <img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/amplitude-modulation-spectrum-01.gif" title="Spectrum of an amplitude modulated signal" alt="Diagram of the spectrum of an amplitude modulated signal showing the sidebands extending above and below the carrier"><br>
+<b>Spectrum of an amplitude modulated, AM signal</b></div><p></p>
+
+<p>The system uses an oscillator signal to mix with the incoming signal 
+to convert it down to the baseband signal. If the local oscillator 
+signal has exactly the same frequency as the carrier within the AM 
+signal, this will appear as a DC component at the output - the DC level 
+will depend on the phase between the carrier and the local oscillator. 
+The sidebands of the AM signal will appear relative to zero frequency, 
+i.e. as the original audio or other modulating signal.</p>
+
+<p></p><div style="text-align: center;"><img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/am-synchronous-detection-concept-01.gif" title="Basics of synchronous demodulation" alt="Diagram showing the basic concept behind synchronous demodulation for an AM signal"><br>
+<b>Synchronous demodulation</b></div><p></p>
+
+
+<h2>Advantages and disadvantages of AM synchronous demodulation</h2>
+<p>There is a balance to be made between utilising a simple diode 
+detector and a synchronous detector. It is not always viable to 
+incorporate an AM synchronous demodulator into a new design. Other 
+formats may be more suitable.</p>
+<p>The advantages and disadvantages of a synchronous AM detector compared to a simple diode detector are tabulated below:</p>
+
+<br>
+<table class="dataTable" width="80%">
+
+<thead>
+<tr>
+  <th colspan="2">Advantages &amp; Disadvantages of AM Synchronous Demodulators</th>
+</tr>
+
+<tr>
+  <th width="50%">Advantages </th>
+  <th width="50%">Disadvantages  </th>
+</tr>
+</thead>
+
+<tbody><tr>
+  <td>
+    <ol>
+      <li>Increased linearity - lower levels of distortion.  </li>
+      <li>Considerably less affected by selective fading experienced on the medium and short wave bands.  </li>
+      <li>Improved sensitivity.  </li>
+      <li>Improved signal to noise ratio.  </li>    </ol>
+  </td>
+
+  <td>
+   <ol>
+     <li>Considerable additional complexity, although this is not such 
+an important consideration if the synchronous detector can be included 
+in an IC.   </li>
+<!--     <li> </li>  -->
+  </ol>  </td>
+</tr>
+
+</tbody></table>
+
+
+<h2>Methods of achieving AM synchronous demodulation</h2>
+<p>There are several ways in which synchronous AM detection can be 
+achieved. They all have their own properties, but all follow the basic 
+principle whereby a signal is injected into a mixer at the same 
+frequency as the carrier to re-constitute the audio or other data.</p>
+
+<ul>
+  <li><b><i>Filter method:</i></b> &nbsp;  The most obvious method to 
+create a local oscillator signal on the same frequency as the carrier is
+ to use a fixed frequency filter that is tuned to remove only the 
+carrier frequency. This can be phase shifted, 90°: and entered into the 
+mixer. The phase shift will ensure the DC component at the output of the
+ mixer is minimised.<br><br>
+  The drawback for this method is that the carrier has to be positioned 
+exactly on the frequency of the filter for it to work. This means that 
+the tuning has to be exact.</li>
+  <li><b><i>Phase locked loop:</i></b> &nbsp;  Phase locked loops 
+provide a convenient method of extracting the carrier. The phase locked 
+loop will lock on to the carrier of the AM signal and the VCO output can
+ be fed into the mixer with a 90°: phase shift as before.</li>
+  <li><b><i>Hard limiting amplifier:</i></b> &nbsp;  Possible the cheapest and easiest option to implement is a hard limiting amplifier approach.<br><br>
+  This circuit operates using the principle that if the signal is hard 
+limited, the output of the amplifier will not have any amplitude 
+variations on it - hence it will only allow through the carrier without 
+modulation. This is exactly what is required for the mixing process.<br><br>
+  <div style="text-align: center;"><img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/am-synchronous-detection-limiting-amplifier-diagram.gif" title="High gain amplifier synchronous demodulator" alt="Diagram showing how a high gain amplifier can be used in a circuit to recreate the carrier only and inject this into a mixer to provide synchronous detection for an AM signal"><br>
+<b>High gain limiting amplifier synchronous detector</b></div>
+</li>
+</ul>
+
+
+<h2>AM synchronous detection performance</h2>
+<p>A synchronous detector is more expensive to make than an ordinary 
+diode detector when discrete components are used, although with 
+integrated circuits being found in many receivers today there is little 
+or no noticeable cost associated with its use as the circuitry is often 
+included as part of an overall receiver IC.</p>
+<p>Synchronous detectors are used because they have several advantages 
+over ordinary diode detectors. Firstly the level of distortion is less. 
+This can be an advantage if a better level of quality is required but 
+for many communications receivers this might not be a problem. Instead 
+the main advantages lie in their ability to improve reception under 
+adverse conditions, especially when selective fading occurs or when 
+signal levels are low.</p>
+<p>Under conditions when the carrier level is reduced by selective 
+fading, the receiver is able to re-insert its own signal on the carrier 
+frequency ensuring that the effects of selective fading are removed. As a
+ result the effects of selective fading can be removed to greatly 
+enhance reception.</p>
+<p>The other advantage is an improved signal to noise ratio at low 
+signal levels. As the demodulator is what is termed a coherent modulator
+ it only sees the components of noise that are in phase with the local 
+oscillator. Consequently the noise level is reduced and the signal to 
+noise ratio is improved.</p>
+<p>Unfortunately synchronous detectors are only used in a limited number
+ of receivers because of their increased complexity. Where they are used
+ a noticeable improvement in receiver performance is seen and when 
+choosing a receiver that will be used for short wave broadcast reception
+ it is worth considering whether a synchronous detector is one of the 
+facilities that is required.</p>
+
+<!-- Start Google Authorship -->
+   <p><i> By <a href="https://plus.google.com/104687638164370436625?rel=author" target="_blank">Ian Poole</a></i></p>
+<!-- Stop Google Authorship -->
+
+<br>
+<p><b><a href="http://www.radio-electronics.com/info/rf-technology-design/am-reception/diode-detector-demodulator.php">&lt;&lt; Previous</a> &nbsp; | &nbsp; 
+<a href="http://www.radio-electronics.com/info/rf-technology-design/index.php">Next &gt;&gt;</a></b></p>
+<br>
+
+<div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/TlA_zCeMkxl.htm" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0"></iframe><iframe src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/TlA_zCeMkxl_002.htm" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<h3><b>Share this page</b></h3>
+<!-- AddThis Buttons -->
+<script type="text/javascript" src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/addthis_widget.js" async="async"></script>
+
+<div class="addthis_native_toolbox"></div>
+<!-- End AddThis buttons -->
+
+<br>
+
+<a href="http://www.radio-electronics.com/newsletter/" class="btn btn-success btn-lg">Want more like this? Register for our newsletter</a>
+<!-- in this section start -->
+<div class="inThisSection linksColumn clearfix"> 
+    <h3>More tutorials</h3>
+<ul class="list-unstyled">
+
+<li><a href="http://www.radio-electronics.com/info/rf-technology-design/superheterodyne-radio-receiver/basics-tutorial.php">Superhet radio</a></li><li><a href="http://www.radio-electronics.com/info/rf-technology-design/rf-noise-sensitivity/receiver-sensitivity-performance-tutorial.php">Sensitivity</a></li><li><a href="http://www.radio-electronics.com/info/rf-technology-design/sdr/software-defined-radios-tutorial.php">Software radio</a></li><li><a href="http://www.radio-electronics.com/info/rf-technology-design/cognitive-radio-cr/technology-tutorial.php">Cognitive radio</a></li><li><a href="http://www.radio-electronics.com/info/rf-technology-design/fm-reception/fm-demodulation-detection-overview.php">FM demod</a></li><li><a href="http://www.radio-electronics.com/info/rf-technology-design/am-reception/amplitude-modulation-detection-demodulation.php">AM demod</a></li><li><a href="http://www.radio-electronics.com/info/rf-technology-design/digital-signal-processing/dsp-basics-tutorial.php">DSP tutorial</a></li><li><a href="http://www.radio-electronics.com/info/rf-technology-design/receiver-selectivity/basics-tutorial.php">Selectivity &amp; filters</a></li>
+</ul>
+
+</div> 
+
+<!-- in this section end -->
+<div class="leaderboard">
+	<div class="leaderboardWrap">
+<!-- Google bottom leaderboard Ad -->
+
+<!-- REC_RF_Topics_bottom_leaderboard_728x90 -->
+<div id="div-gpt-ad-1413820515333-1" style="width: 728px; height: 90px; display: none ! important;">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1413820515333-1'); });
+</script>
+</div>	
+
+<!-- End bottom leaderboard Ad -->
+	</div>
+</div>
+
+
+
+
+
+
+
+
+    <!-- Stop Main Content -->  
+ 
+</div>
+
+	</div> <!-- Main body end -->
+		
+	<div style="display: none ! important;" class="col-lg-4 col-md-5 col-sm-6 advertColumn"> <!-- RHS columns start -->
+	
+
+<hr style="border: 0;color: #000000; background-color:#000000;height:3px; margin-top:1px; margin-bottom:1px;">
+<hr style="border: 0;color: #000000; background-color:#ff0000;height:2px; margin-top:1px; margin-bottom:1px;">
+<hr style="border: 0;color: #ffffff; background-color:#ffffff;height:30px; margin-top:1px; margin-bottom:1px;">
+
+
+<div style="display: none ! important;" class="adLeft">
+
+<!-- REC_RF_Topics_MPU_300x250 -->
+<div id="div-gpt-ad-1413820515333-3" style="width: 300px; height: 250px; display: none ! important;">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1413820515333-3'); });
+</script>
+</div>
+
+<hr style="border: 0;color: #ffffff; background-color:#ffffff;height:30px; margin-top:1px; margin-bottom:1px;">
+<hr style="border: 0;color: #000000; background-color:#ff0000;height:2px; margin-top:1px; margin-bottom:1px;">
+<hr style="border: 0;color: #000000; background-color:#000000;height:3px; margin-top:1px; margin-bottom:1px;">
+
+<br><br>
+
+</div>
+
+<!--
+<br>
+<img src="/ads/Anritsu-300x50.jpg">
+<br>
+-->	
+<!-- News start -->
+	<div class="rhsLatestNews" style="margin-top:27px;">
+		<p><span style="color: red"><b>Latest news</b></span></p>
+		<div class="pressReleases"><ul><li><a href="http://www.radio-electronics.com/news/distribution-supply/rohde-schwarz-intensifies-cooperation-with-6635" rel="nofollow">Rohde &amp; Schwarz intensifies cooperation with HUBER+SUHNER</a></li><li><a href="http://www.radio-electronics.com/news/test-measurement/pci-express-clock-jitter-measurement-tool-6634" rel="nofollow">PCI express clock jitter measurement tool simplifies timing design</a></li><li><a href="http://www.radio-electronics.com/news/cellular-telecoms/openfastpath-foundation-to-accelerate-performance-of-6633" rel="nofollow">OpenFastPath Foundation to accelerate performance of SDN-ready applications</a></li><li><a href="http://www.radio-electronics.com/news/power-management/ac-dc-regulator-enables-ultra-low-standby-power-6632" rel="nofollow">AC-DC regulator enables ultra-low standby power in USB chargers</a></li><li><a href="http://www.radio-electronics.com/news/electronics-components/unique-magnetic-latchswitch-family-offers-lateral-6631" rel="nofollow">Unique magnetic latch/switch family offers lateral sensitivity</a></li></ul></div>		&nbsp; &nbsp; . . . . <b><i><a href="http://www.radio-electronics.com/news.php">More News</a></i></b>
+	</div>
+<!-- News End -->
+
+<!-- Blog start -->
+<div class="panel panel-feature">
+	<div class="panel-heading"><a href="http://www.radio-electronics.com/industry-currents/">Industry Currents Blog</a>
+	</div>
+	<div class="panel-body"> 	
+  <!--
+
+  
+
+-->
+  
+  <div class="region region-content">
+    <div class="views-element-container contextual-region block block-views block-views-blockposts-block-5" id="block-views-block-posts-block-5">
+  
+    <div data-contextual-id="block:block=views_block__posts_block_5:langcode=en|entity.view.edit_form:view=posts:location=block&amp;name=posts&amp;display_id=block_5&amp;langcode=en"></div>
+      <div><div class="contextual-region view view-posts view-id-posts view-display-id-block_5 js-view-dom-id-4d136f8bb2df715236d92c753153ac2cb1c04d521809cb57f64b409c286ab0bd">
+  
+    <div data-contextual-id="entity.view.edit_form:view=posts:location=block&amp;name=posts&amp;display_id=block_5&amp;langcode=en"></div>
+      
+      <div class="view-content">
+          <div>
+    <div class="views-field views-field-field-post-image"><div class="field-content">  <img style="display: none ! important;" src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/Microlease-Network-Challenges.jpg" alt="Network challenges" typeof="foaf:Image" class="image-style-rhs-column-advert" height="160" width="280">
+
+
+</div></div><div class="views-field views-field-field-subtitle"><div class="field-content">George Acris  |  Microlease <br>
+<b><a href="http://www.radio-electronics.com/industry-currents/posts/test-challenges-of-modern-day-networks" hreflang="en">Test Challenges of Modern Day Networks</a></b><br>
+Contemporary society so heavily fixated on the transfer, manipulation 
+and sharing of large quantities of data. As a consequence of this, 
+exacting pressures are starting to be placed upon existing communication
+ infrastructure. </div></div>
+  </div>
+
+    </div>
+  
+            <div class="view-footer">
+      <p><b><a href="http://www.radio-electronics.com/industry-currents">More entries...</a></b></p>
+    </div>
+    </div>
+</div>
+
+  </div>
+
+<article data-history-node-id="12" data-quickedit-entity-id="node/12" role="article" class="contextual-region node node--type-page node--view-mode-full" about="/industry-currents/content/rhs-advert-block" typeof="schema:WebPage">
+
+  
+    <div data-contextual-id="node:node=12:changed=1448981376&amp;langcode=en"></div>  <span property="schema:name" content="RHS advert block" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+  </div>
+
+</article>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+ 	</div>
+</div>
+<!-- Blog end -->
+
+
+
+<div class="panel panel-feature">
+	<div class="panel-heading"><a href="http://www.radio-electronics.com/learning-training-courses/">Training courses</a>
+	</div>
+	<div class="panel-body">
+	<div style="float:right;width:110px;max-height:110px;">
+    <img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/brain-gears.gif" alt="Training" height="110" width="110">
+    </div>
+    
+    <div style="float:left;width:155px;">
+    
+    	<b><a href="http://www.radio-electronics.com/learning-training-courses/courses_item.php?id=radio-engineering/online---transmission-lines-s-parameters-93">Online - Transmission Lines, S-Parameters &amp; Smith Chart</a></b><br>
+    	<div style="line-height:1.2em">
+			<small>Understand these essential concepts without complex mathematics<p style="margin-top:9px;"><a href="http://www.radio-electronics.com/learning-training-courses/" style="font-weight:bold;">More training courses</a></p></small>
+    	</div>
+	</div>
+	
+ 	</div>
+</div>
+
+
+
+
+<div class="panel panel-feature">
+	<div class="panel-heading"><a href="http://www.radio-electronics.com/whitepapers.php">Recommended whitepaper</a>
+	</div>
+	<div class="panel-body">
+	<div style="float:right;width:110px;max-height:140px;">
+    	<img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/paper_animation.gif" alt="Whitepapers" height="150" width="110">
+    </div>
+    
+    <div style="float:left;width:155px;">
+    
+    	<b><a href="http://www.radio-electronics.com/whitepapers/designing-for-li-ion-batteries-in-motor-15" target="_blank">Designing for Li-ion Batteries in Motor Applications</a></b><br>
+    	<div style="line-height:1.2em">
+			<small>Discover all the design considerations for integrating 
+brushless DC motors with Li-ion batteries in 3-phase motor applications 
+in this whitepaper from Intersil.<p style="margin-top:9px;"><a href="http://www.radio-electronics.com/whitepapers.php" style="font-weight:bold;">More whitepapers</a></p></small>
+    	</div>
+	</div>
+	
+ 	</div>
+</div>
+
+
+<!-- Events start -->
+	<div class="rhsLatestNews" style="margin-top:27px;">
+		
+		<p><span style="color: red"><b>Forthcoming Events</b></span></p>
+		<div class="events"><ul><li><a href="http://www.radio-electronics.com/event/consumer-electronics-show-ces-25">Consumer Electronics Show, CES</a></li><li><a href="http://www.radio-electronics.com/event/seminar-demystifying-emc-45">Seminar: Demystifying EMC</a></li><li><a href="http://www.radio-electronics.com/event/short-course-on-travelling-wave-tubes-59">Short Course on Travelling Wave Tubes</a></li><li><a href="http://www.radio-electronics.com/event/mobile-world-congress-8">Mobile World Congress</a></li><li><a href="http://www.radio-electronics.com/event/cebit-2015-22">CeBit 2015</a></li><li><a href="http://www.radio-electronics.com/event/future-of-wireless-international-conference-61">Future of Wireless International Conference</a></li></ul></div>		&nbsp; &nbsp; . . . . <b><i><a href="http://www.radio-electronics.com/events-exhibitions-trade-shows/">More Events</a></i></b>
+	</div>
+<!-- Events End -->
+
+<!-- Popular Articles -->
+	<div class="rhsLatestNews" style="margin-top:27px;">
+		<p><span style="color: red"><b>Popular Articles</b></span></p>
+		<div class="pressReleases"><ul>
+		<li><a href="http://www.radio-electronics.com/articles/distribution-supply/electronics-component-industry-forecast-for-168">Electronics Component &amp; Industry Forecast for 2016</a></li><li><a href="http://www.radio-electronics.com/articles/circuit-design/practical-pcb-design-using-designspark-pcb-143">Practical PCB Design using DesignSpark PCB</a></li><li><a href="http://www.radio-electronics.com/articles/circuit-design/soc-development-do-we-really-understand-165">SoC development: do we really understand what is going on?</a></li><li><a href="http://www.radio-electronics.com/articles/power-management/power-density-dominates-server-design-outlook-167">Power Density Dominates Server Design: Outlook for 2016</a></li><li><a href="http://www.radio-electronics.com/articles/wireless-technology/implementing-zigbee-light-link-for-lighting-66">Implementing ZigBee Light Link for Lighting Control</a></li>		</ul></div>
+		&nbsp; &nbsp; . . . . <b><i><a href="http://www.radio-electronics.com/articles.php">More Articles</a></i></b>
+	</div>
+<!-- End Popular Articles -->
+
+<!-- FEATURED BOOK START -->
+<div class="panel panel-feature">
+	<div class="panel-heading"><a href="http://www.radio-electronics.com/bookstore/featured-book.php">Featured Book</a>
+	</div>
+	<div class="panel-body">
+    	<img alt="The Advanced Smart Grid" src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/415jKLBq9cL.jpg" style="float:right;" border="0" width="75">
+		<h5>The Advanced Smart Grid</h5>
+		<p><i>Andres Carvallo, John Cooper</i><br>
+		There is a huge degree of talk about the Smart Grid - what it is, how it works...<br>
+		<i><a href="http://www.radio-electronics.com/bookstore/featured-book.php">Read more . . </a></i></p>
+        <a href="http://www.radio-electronics.com/bookstore/bookshop-usa.php" class="btn btn-primary btn-sm" role="button"><img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/usa.jpg"> USA bookstore</a><a href="http://www.radio-electronics.com/bookstore/bookshop-uk.php" class="btn btn-primary btn-sm pull-right" role="button"><img src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/uk.gif"> UK bookstore</a>
+ 	</div>
+</div>
+<!-- FEATURED BOOK END -->
+
+
+<br><br>
+<br><br>
+<hr style="border: 0;color: #000000; background-color:#000000;height:3px; margin-top:1px; margin-bottom:1px;">
+<hr style="border: 0;color: #ffffff; background-color:#ffffff;height:30px; margin-top:1px; margin-bottom:1px;">
+
+
+<!-- REC_RF_Topics_bottom_300x250 -->
+<div id="div-gpt-ad-1413820515333-0" style="width: 300px; height: 250px; display: none ! important;">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1413820515333-0'); });
+</script>
+</div>
+
+<hr style="border: 0;color: #ffffff; background-color:#ffffff;height:30px; margin-top:1px; margin-bottom:1px;">
+<hr style="border: 0;color: #000000; background-color:#000000;height:3px; margin-top:1px; margin-bottom:1px;">
+<br>
+<div style="clear:both;height:20px;"> </div>
+</div>
+</div> <!-- big column end -->
+</div> <!-- main row end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+<div class="row footnav topSpace2">	
+		
+  		<div class="col-lg-2 col-md-2 col-sm-2">
+  		<h5>The website</h5>
+    	<ul class="list-unstyled">
+		<li><a href="http://www.radio-electronics.com/rec-information/about-us.php" rel="nofollow">About us</a></li>
+		<li><a href="http://www.radio-electronics.com/rec-information/privacy-policy.php" rel="nofollow">Privacy Policy</a></li>
+		<li><a href="http://www.radio-electronics.com/rec-information/article-submission.php" rel="nofollow">Submit news / articles</a></li>
+		<li><a href="http://www.radio-electronics.com/rec-information/advertising.php" rel="nofollow">Advertise with us</a></li>
+		
+  		</ul>
+  		</div>
+  			
+  		 <div class="col-lg-2 col-md-2 col-sm-2 ">
+  		<h5>Sections</h5>
+    	<ul class="list-unstyled">
+		<li><a href="http://www.radio-electronics.com/news.php">News</a></li>
+		<li><a href="http://www.radio-electronics.com/articles.php">Articles</a></li>
+		<li><a href="http://www.radio-electronics.com/learning-training-courses/">Training</a></li>
+		<li><a href="http://www.radio-electronics.com/electronics-software-jobs/">Jobs</a></li>
+		<li><a href="http://www.radio-electronics.com/events-exhibitions-trade-shows/">Events</a></li>
+		<li><a href="http://www.radio-electronics.com/bookstore/" rel="nofollow">Bookshop</a></li>
+		<li><a href="http://www.radio-electronics.com/test-equipment-shop/" rel="nofollow">Equipment store</a></li>
+		<li><a href="http://www.radio-electronics.com/whitepapers.php">Whitepapers</a></li>
+		<!-- <li><a href="#">Webinars</a></li>-->
+		</ul>
+  		</div>
+  			
+  		<div class="col-lg-8 col-md-8 col-sm-8 ">
+  			
+			<h5>Channels</h5>
+			
+			<div class="row">
+			
+			<div class="col-lg-3 col-md-3 col-sm-3">
+		
+			<ul class="list-unstyled">
+			<li><a href="http://www.radio-electronics.com/info/antennas/">Antennas &amp; propagation</a></li>
+			<li><a href="http://www.radio-electronics.com/info/cellulartelecomms/">Cellular telecoms</a></li>
+			<li><a href="http://www.radio-electronics.com/info/circuits/">Circuit design</a></li>
+			<li><a href="http://www.radio-electronics.com/info/data/">Components</a></li>
+			</ul>
+			</div>
+		
+			<div class="col-lg-3 col-md-3 col-sm-3">
+			<ul class="list-unstyled">
+			<li><a href="http://www.radio-electronics.com/info/power-management/">Power management</a></li>
+			<li><a href="http://www.radio-electronics.com/info/rf-technology-design/">RF technology</a></li>
+			<li><a href="http://www.radio-electronics.com/info/t_and_m/">Test</a></li>
+			<li><a href="http://www.radio-electronics.com/info/wireless/">Wireless</a></li>
+			</ul>
+			</div>
+		
+			<div class="col-lg-3 col-md-3 col-sm-3">
+			<ul class="list-unstyled">
+			<li><a href="http://www.radio-electronics.com/info/broadcast/">Broadcast technology </a></li>
+			<li><a href="http://www.radio-electronics.com/info/processing-embedded/">Embedded</a></li>
+			<li><a href="http://www.radio-electronics.com/info/electronics-design/">Design principles</a></li>
+			<li><a href="http://www.radio-electronics.com/info/distribution-supply/">Distribution</a></li>
+			<li><a href="http://www.radio-electronics.com/info/formulae/">Formulae</a></li>
+			</ul>
+			</div>
+			
+			 <div class="col-lg-3 col-md-3 col-sm-3">
+			<ul class="list-unstyled">
+			<li><a href="http://www.radio-electronics.com/info/manufacture/">Manufacture</a></li>
+			<li><a href="http://www.radio-electronics.com/info/satellite/">Satellites</a></li>
+			<li><a href="http://www.radio-electronics.com/info/telecommunications_networks/">Telecoms &amp; networks</a></li>
+			<li><a href="http://www.radio-electronics.com/info/radio_history/">History </a></li>
+			</ul>
+			</div>
+		
+			</div>
+		
+		</div>
+  	
+</div>
+
+<div class="row botSpace2">
+<div class="col-lg-12">
+<div class="greyLine"></div>
+<small>Radio-Electronics.com is operated and owned by Adrio 
+Communications Ltd and edited by Ian Poole. All information is © Adrio 
+Communications Ltd and may not be copied except for individual personal 
+use. This includes copying material in whatever form into website pages.
+ While every effort is made to ensure the accuracy of the information on
+ Radio-Electronics.com, no liability is accepted for any consequences of
+ using it. This site uses cookies. By using this site, these terms 
+including the use of cookies are accepted.	More explanation can be found
+ in our Privacy Policy</small>
+</div>
+</div>
+
+	</div> <!-- container -->
+<div class="rightAdvertisementFixed">
+
+ 
+<!-- REC_RF_Topics_Skyscraper_160x600 -->
+<div id="div-gpt-ad-1413820515333-4" style="width: 160px; height: 600px; display: none ! important;">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1413820515333-4'); });
+</script>
+</div>
+
+
+</div>
+
+
+
+	</div> <!-- outerContainer -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/jquery.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/bootstrap.js"></script>
+    
+    <script src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/in.js" type="text/javascript"></script>
+
+    
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    
+    
+    <script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+
+	<script gapi_processed="true" src="Synchronous%20Demodulation%20_%20AM%20Synchronous%20Detection%20_%20Radio-Electronics.com_pliki/platform.js" async="" defer="defer"></script>
+
+
+<!-- Google Analytics Tracking Code Start -->
+	
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-675939-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Google Analytics Tracking Code End -->
+
+</body></html>

@@ -1,6 +1,6 @@
-update=2015-10-12 20:38:26
+update=2015-12-06 23:56:14
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 [pcbnew]

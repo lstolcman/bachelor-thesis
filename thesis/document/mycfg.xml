@@ -5,7 +5,8 @@
 	<option name="no_preamble" value="true" /> <!-- no documentclass etc. -->
 	<option name="ignore_empty_paragraphs" value="true" /> <!-- \bigskip remove -->
 	<option name="ignore_hard_line_breaks" value="true" />
-	<option name="use_Geometry" value="false" />
+
+	<style-map name="Quotations" family="paragraph" before=",," after="''" />
 
 
 	<heading-map max-level="5">

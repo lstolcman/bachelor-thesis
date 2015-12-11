@@ -21,8 +21,13 @@ del *.mtc
 del *.mtc1
 del *.out
 del *.synctex.gz
+del *.jpg
+del *.jpeg
+del *.png
+del *.bak
 
 del *.pdf
+
 
 del 1_*.tex
 del 2_*.tex

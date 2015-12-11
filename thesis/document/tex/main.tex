@@ -1,31 +1,59 @@
-\documentclass [a4paper, fleqn, 12pt] {mwrep}
+\documentclass [a4paper, fleqn, 12pt, twoside] {mwbk}
 
 \usepackage [OT4] {fontenc}
 \usepackage [utf8] {inputenc}
 \usepackage {polski}
+\usepackage {arabicfront} %numerowanie arabskimi w frontmatter
+
+
+%\usepackage{showframe}
+
 
 \include {titlepage}
 
 \include {setups}
 
+% zmiana geometrii dokumentu
+\usepackage {geometry}
 
-
+%interlinia 1.5: https://pl.wikibooks.org/wiki/LaTeX/Formatowanie#Interlinia
+\linespread{1.3}
 
 
 \begin {document}
-\pagenumbering{gobble}
+%\pagenumbering{gobble}
+
+\newgeometry {bindingoffset=1cm, left=2.5cm, right=2.5cm, top=2cm, bottom=2cm}
+
+% set specific geometry for title page
+%\newgeometry {bindingoffset=0.8cm, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
 \maketitle
-\pagenumbering{arabic}
-\newpage
+
+%set geometry for rest of document
+%\newgeometry {bindingoffset=0.8cm, left=3.2cm, right=3.2cm, top=2.7cm, bottom=2.7cm}
+\newgeometry {bindingoffset=1cm, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+
+
+
+
+%\pagenumbering{arabic}
+\frontmatter
+
 \tableofcontents
+\setcounter{page}{8}
 
-\newpage
 
+
+
+%\cleardoublepage
+%\setcounter{page}{9}
 \input{1_wstep}
+\mainmatter
 \input{2_analiza_wiedzy}
 \input{3_teoria_problemu}
 \input{4_praktyka_implementacja}
 \input{5_rezultaty_analiza}
+
 \input{6_zakonczenie_podsumowanie}
 
 
@@ -209,6 +237,9 @@
 			\label {fig:islam1}
 		\end {figure}
 
+
+
+\backmatter
 	
 \section {Elementy różne}
 	\subsection {Tabela}
@@ -233,6 +264,7 @@
 		\input {t4}
 		\paragraph {Paragraf 2}
 		\input {t4}
+
 
 
 \newpage

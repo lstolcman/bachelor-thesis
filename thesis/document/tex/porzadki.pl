@@ -197,6 +197,11 @@ sub PrzeformatujAkapit {
     s/\n$Odstep+/\n/g;
 };
 # ========================================================================
+# Zmiany cudzyslowiow na polskie
+sub PoprawCudzyslowia {
+	s/(.*){\\textquotedbl}(.*){\\textquotedbl}(.*)/$1,,$2''$3/g;
+};
+# ========================================================================
 # Główny program
  
 $/ = "";
@@ -209,6 +214,7 @@ while (<>) {
     &PolaczWiersze;
     &PoprawAkapit;
     &PrzeformatujAkapit;
+	&PoprawCudzyslowia;
 } continue { print; };
  
 # Koniec skryptu "porzadki".

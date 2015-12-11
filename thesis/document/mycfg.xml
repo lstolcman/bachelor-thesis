@@ -6,8 +6,6 @@
 	<option name="ignore_empty_paragraphs" value="true" /> <!-- \bigskip remove -->
 	<option name="ignore_hard_line_breaks" value="true" />
 
-	<style-map name="Quotations" family="paragraph" before=",," after="''" />
-
 
 	<heading-map max-level="5">
 		<heading-level-map writer-level="1" name="chapter" level="1" />

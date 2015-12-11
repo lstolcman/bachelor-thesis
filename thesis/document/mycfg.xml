@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<option name="inputencoding" value="utf8" />
+
+	<option name="no_preamble" value="true" /> <!-- no documentclass etc. -->
+	<option name="ignore_empty_paragraphs" value="true" /> <!-- \bigskip remove -->
+	<option name="ignore_hard_line_breaks" value="true" />
+	<option name="use_Geometry" value="false" />
+
+
+	<heading-map max-level="5">
+		<heading-level-map writer-level="1" name="chapter" level="1" />
+		<heading-level-map writer-level="2" name="section" level="2" />
+		<heading-level-map writer-level="3" name="subsection" level="3" />
+		<heading-level-map writer-level="4" name="subsubsection" level="4" />
+		<heading-level-map writer-level="5" name="paragraph" level="5" />
+		<heading-level-map writer-level="6" name="subparagraph" level="6" />
+	</heading-map>
+
+</config>

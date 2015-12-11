@@ -21,3 +21,12 @@ del *.mtc
 del *.mtc1
 del *.out
 del *.synctex.gz
+
+del *.pdf
+
+del 1_*.tex
+del 2_*.tex
+del 3_*.tex
+del 4_*.tex
+del 5_*.tex
+del 6_*.tex

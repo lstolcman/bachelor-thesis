@@ -5,6 +5,7 @@
 	<option name="no_preamble" value="true" /> <!-- no documentclass etc. -->
 	<option name="ignore_empty_paragraphs" value="true" /> <!-- \bigskip remove -->
 	<option name="ignore_hard_line_breaks" value="true" />
+	<option name="multilingual" value="false" />
 
 
 	<heading-map max-level="5">

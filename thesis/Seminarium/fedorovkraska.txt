@@ -1,0 +1,216 @@
+1.Pojêcie procesu wytwarzania systemów informatycznych. Przyk³ady procesów i ich charakterystyka. Proces wytwarzania to zbiór czynnoœci i zwi¹zanych z nimi wyników, które prowadz¹ do produktu programowego. Przyk³ady procesów:
+
+Kaskadowy – w tym modelu czynnoœci podstawowe czynnoœci takie jak specyfikowanie  s¹ odrêbnymi fazami procesu
+
+Ewolucyjny – fazy projektowania , specyfikowania i  zatwierdzania przeplataj¹ siê. Mamy wstêpn¹ implementacjê któr¹ zatwierdza  u¿ytkownik do momentu uzyskania odpowiedniego systemu.
+
+Formalny – budujemy formalne definicje systemu w postaci specyfikacji i przekszta³camy je w produkt za pomoc¹ metod matematycznych
+
+U¿ycie wielokrotne – k³adziemy g³ówny nacisk na tworzenie komponentów z których budujemy aplikacjê.
+
+Hybrydowy – ³¹czy powy¿sze w jednym na przyk³ad przyrostowy ³¹czy ewolucyjny i kaskadowy
+
+2.Metody szacowania nak³adów pracy.
+
+
+3.Zarz¹dzanie ryzykiem w procesie wytwórczym.
+
+Jest niezbêdne i takie tam a poza tym sk³ada siê z nastêpuj¹cych faz
+
+Identyfikacja zagro¿eñ – stworzenie listy potencjalnych zagro¿eñ
+Analiza zagro¿eñ – stworzenie listy zagro¿eñ z przypisanymi priorytetami, prawdopodobieñstwem oraz konsekwencjami
+Planowanie przeciwdzia³ania zagro¿eniom – lista zagro¿eñ i strategia postêpowania na wypadek zagro¿enia + plan awaryjny
+Monitorowanie zagro¿eñ – ocenianie na bie¿¹co zagro¿eñ i powrót do fazy analizy zagro¿eñ
+
+
+4.Metody ustalenia wymagañ stawianych oprogramowaniu.
+
+
+
+5.Pojêcie komponentu. Typy komponentów i ich charakterystyka.
+
+Jest to byt bardziej abstrakcyjny ni¿ klasa i jest samodzielnym oferentem us³ug. Ma interfejs wymagany okreœlaj¹cy jakie us³ugi musz¹ byæ dostêpne w systemie u¿ywaj¹cym komponentu oraz oferowany, który zawiera us³ugi oferowane przez komponent.
+
+Komponent funkcyjny – implementacja jednej funkcji np. matematycznej
+Komponenty przypadkowego grupowania – taki œmietnik luŸno powi¹zanych bytów.
+Komponent abstrakcji danych – ma operacje do tworzenia, modyfikowania i odczytywania danych
+Komponent abstrakcji grupowej. -- grupa powi¹zanych klas które dzia³aj¹ razem. Nazywany te¿ zrêbem
+Komponent systemowy – jest osobnym systemem an jego interfejs oferowany to API.
+
+6. Jêzyk modelowania UML. Scharakteryzowaæ podstawowe diagramy.
+7. Proces modelowania wymagañ funkcjonalnych.
+8. Pojêcie architektury systemu informatycznego i jej widoki w procesie wytwórczym.
+9. Pojêcie wzorca. Wzorce architektury.
+
+10. Dekompozycja jest wszechobecna na ka¿dym etapie tworzenia oprogramowania. Dekomponuje siê dokumentacjê tworz¹c z niej diagramy, które znów siê dekomponuje do momentu uzyskania wymaganego poziomu szczegó³owoœci.
+11. Zadania diagramów dynamicznych UML
+	-- przedstawienie sposobu dzia³ania systemu 
+	-- umo¿liwienie dalszego projektowania
+	-- pomocne przy testowaniu
+12. Diagramy statyczne UML
+	-- Klas mo¿na bezpoœrednio za pomoc¹ narzêdzia CASE generowaæ kod
+	-- Obiektów wyjaœniaj¹ znaczenie diagramu klas, dziêki czemu mo¿na wype³niæ metody kodem
+	-- Pakietów przedstawia powi¹zania pakietów i pozwala pouk³adaæ napisane klasy w pakiety
+	-- wdro¿eniowe pokazuje jakie strukturê systemu (np adres serwera baz danych).
+   
+13. Rodzaje
+
+	kreacyjne
+	 -- singleton pozwala na stworzenie dok³adnie jednego obiektu danej klasy.
+	 -- fabryka pozwala na przydzia³ odpowiednich klas w zale¿noœci od potrzeb generowania obiektu
+	 -- metoda wytwórcza  okreœla interfejs do tworzenia obiektów, lecz umo¿liwia podklasom
+		decydowanie o tym, której klasy ma to byc obiekt. Dziêki Metodzie Wytwórczej
+		klasy mog¹ zdaæ siê na podklasy w kwestii tworzenia egzemplarzy.
+	 -- builder Wzorzec ten oddziela konstrukcjê obiektów z³o¿onych od ich reprezentacji, umo¿liwiaj¹c tym samym powstawanie 
+	    w jednym procesie konstrukcyjnym ró¿nych reprezentacji.
+	 -- prototyp Wzorzec ten specyfikuje rodzaje tworzonych obiektów, u¿ywaj¹c prototypowego
+		egzemplarza, a tak¿e tworzy nowe obiekty, kopiuj¹c ten prototyp.
+		
+	strukturalne
+	 -- adapter Wzorzec ADAPTER pozwala na konwersjê interfejsu klasy na interfejs
+        którego potrzebuje klient. Adapter zachowuje siê jako poœrednik dziêki czemu np. dwie niezwi¹zane ze sob¹ klasy mog¹ wspó³pracowaæ, co wczeœniej by³o niemo¿liwe ze wzglêdu na niekompatybilny interfejs.
+	 -- most Wzorzec MOST mo¿e wydawaæ siê bardzo podobny do wzorca Adapter. Wzorzec ten powsta³ by oddzieliæ interfejs od implementacji tak by oba
+elementy mog³y istnieæ niezale¿nie, a co za tym idzie by powsta³a mo¿liwoœæ wprowadzania zmian do implementacji bez koniecznoœci zmian w kodzie, który korzysta z klasy.
+	 -- fasada Intencj¹ omawianego wzorca jest dostarczenie „zjednoczonego” i uproszczonego imterfejsu zestawu interfejsów z danego podsystemu. Wzorzec Fasady opisuje interfejs wy¿szego rzêdu, który sprawia, ¿e podsystem jest ³atwiejszy w u¿yciu.
+	 
+	czynnoœciowe (behavioral)
+	 -- mediator zapewnia jednolity interfejs do ró¿nych elementów danego podsystemu.
+Wzorzec mediatora umo¿liwia zmniejszenie liczby powi¹zañ miêdzy ró¿nymi klasami, poprzez utworzenie mediatora bêd¹cego jedyn¹ klas¹, która dok³adnie zna metody wszystkich innych klas, którymi zarz¹dza. Nie musz¹ one nic o sobie wiedzieæ, jedynie przekazuj¹ polecenia mediatorowi, a ten rozsy³a je do odpowiednich obiektów.
+	 -- interpreter umo¿liwia konstruowanie interpreterów
+minijezyków nadajace sie do wbudowywania w aplikacje interfejsów
+skryptowych.
+	 -- iterator Umo¿liwia sekwencyjnego dostêpu do elementów
+kolekcji bez ujawniania jej wewnêtrznej implementacji
+	 -- obserwator Sedno wzorca Observer (obserwator) polega na rozdzieleniu elementów u¿ytkuj¹cych
+(obserwatorów) od klasy centralnej (podmiotu obserwacji). Obserwatory musza byæ
+informowane o zdarzeniach zachodzacych w podmiocie obserwacji. Równoczesnie nie
+chcemy wprowadzac trwa³ych i sztywnych zale¿nosci pomiedzy podmiotem obserwacji
+a klasami obserwatorów.
+	 -- strategia Kiedy klasy musz¹ obs³ugiwac wielorakie implementacje
+interfejsu, wzorzec ten zak³ada zaniechanie rozbudowywania oryginalnej hierarchii klas, zalecaj¹c wyodrêbnienie
+owych implementacji do osobnego typu.
+	 
+14.
+15. Testy metod¹ bia³ej skrzynki. Tester ma wgl¹d w kod Ÿród³owy programu i zna strukturê tego kodu. Metod¹ bia³ej skrzynki robi siê testy:
+    -- jednostkowe (weryfikacja metod wszystkich klas pod wzglêdem dzia³ania np jak jest w klasie metoda dodaj, to czy jej implementacja faktycznie poprawnie wykonuje operacjê dodawania)
+	-- pokrycia kodu (ile linii kodu zosta³o wykonanych podczas testów)
+	-- pokrycia rozga³êzieñ (ile linii kod uzosta³o niesprawdzone przez istniej¹ce w oprogramowaniu konstrukcje if itd)
+	-- test bezpieczeñstwa (czy kod nie jest podatny na na przyk³ad SQL Injection)
+    
+16. Testy metod¹ czarnej skrzynki. Tester nie zna szczegó³ów implementacji i testuje aplikacjê z pozycji koñcowego u¿ytkownika.
+    metod¹ czarnej skrzynki wykonuje siê testy:
+	-- obci¹¿eniowe (np przez trzy godziny generuje siê okreœlony ruch na serwisie internetowym)
+	-- wydajnoœciowe (aplikacja ma obs³u¿yæ jednoczeœnie 100 logowañ)
+	-- u¿ytecznoœci (w formie ankiety, czy gui jest zrozumia³e. Mo¿na te¿ posadziæ 90 latka przed kompem i kazaæ mu siê na przyk³ad zarejestrowaæ na dany serwis)
+	-- regresji (po wgraniu nowej wersji sprawdza siê czy poprzednie funkcjonalnoœci nadal dzia³aj¹)
+	-- ad-hoc (testy na chybi³ trafi³)
+	-- akceptacyjne (bierzemy dokumentacjê wymagañ, albo przypadki uzycia i robimy testy wedle scenariuszy)
+	-- smoke (szybkie testy krytycznych œcie¿ek przypadków u¿ycia, na przyk³ad po wdro¿eniu aplikacji)
+	-- alpha
+	-- beta
+17. Abstrakcja -- Ka¿dy obiekt w systemie s³u¿y jako model abstrakcyjnego "wykonawcy", który mo¿e wykonywaæ pracê, opisywaæ i zmieniaæ swój stan, oraz komunikowaæ siê z innymi obiektami w systemie, bez ujawniania, w jaki sposób zaimplementowano dane cechy. Procesy, funkcje lub metody mog¹ byæ równie¿ abstrahowane, a kiedy tak siê dzieje, konieczne s¹ rozmaite techniki rozszerzania abstrakcji.
+
+Enkapsulacja -- Czyli ukrywanie implementacji, hermetyzacja. Zapewnia, ¿e obiekt nie mo¿e zmieniaæ stanu wewnêtrznego innych obiektów w nieoczekiwany sposób. Tylko wewnêtrzne metody obiektu s¹ uprawnione do zmiany jego stanu. Ka¿dy typ obiektu prezentuje innym obiektom swój "interfejs", który okreœla dopuszczalne metody wspó³pracy. Pewne jêzyki os³abiaj¹ to za³o¿enie, dopuszczaj¹c pewien poziom bezpoœredniego (kontrolowanego) dostêpu do "wnêtrznoœci" obiektu. Ograniczaj¹ w ten sposób poziom abstrakcji.
+
+Polimorfizm -- Referencje i kolekcje obiektów mog¹ dotyczyæ obiektów ró¿nego typu, a wywo³anie metody dla referencji spowoduje zachowanie odpowiednie dla pe³nego typu obiektu wywo³ywanego. Jeœli dzieje siê to w czasie dzia³ania programu, to nazywa siê to póŸnym wi¹zaniem lub wi¹zaniem dynamicznym. Niektóre jêzyki udostêpniaj¹ bardziej statyczne (w trakcie kompilacji) rozwi¹zania polimorfizmu - na przyk³ad szablony i przeci¹¿anie operatorów w C++.
+
+Dziedziczenie -- Porz¹dkuje i wspomaga polimorfizm i enkapsulacjê dziêki umo¿liwieniu definiowania i tworzenia specjalizowanych obiektów na podstawie bardziej ogólnych. Dla obiektów specjalizowanych nie trzeba redefiniowaæ ca³ej funkcjonalnoœci, lecz tylko tê, której nie ma obiekt ogólniejszy. W typowym przypadku powstaj¹ grupy obiektów zwane klasami, oraz grupy klas zwane drzewami. Odzwierciedlaj¹ one wspólne cechy obiektów.
+
+
+KRASKA 
+
+1. REENGINEERING
+proces transformacji istniej¹cego
+oprogramowania (ang. legacy software) w celu
+poprawy jego pielêgnowalnoœci
+• ni¿sze ryzyko ni¿ w przypadku budowy nowego
+systemu
+• op³acalne, je¿eli koszt jest niSszy od kosztu
+stworzenia nowego systemu
+• stosowane w przypadku czêsto ewoluuj¹cych
+fragmentów systemu
+
+In¿ynieria ponowna (czyli re-in¿ynieria) jest pojêciem stosowanym w
+odniesieniu do pielêgnacji istniej¹cych systemów o s³abej
+pielêgnowalnoœci. Celem jest zwiêkszenie tej zdolnoœci przez zmianê jego
+wewnêtrznej struktury, aktualizacjê dokumentacji etc. Stosowanie jej
+pozwala ograniczyæ koszty zwi¹zane z pielêgnacj¹, a tak¿e ryzyko
+zwi¹zane ze stworzeniem ca³kowicie nowego oprogramowania.
+Oczywiœcie, wi¹¿e siê z tym dodatkowy koszt, jaki naleSy ponieœæ w fazie
+tworzenia programu, jednak jest on rodzajem inwestycji zwracaj¹cej siê
+podczas pielêgnacji. Z uwagi na koszty, warto stosowaæ inSynieriê
+ponown¹, szczególnie w tych fragmentach systemu, które czêsto
+ewoluuj¹.
+
+
+2. Aktor
+
+spójny zbiór ról odgrywanych przez u¿ytkowników przypadku u¿ycia w czasie interakcji z tym przypadkiem u¿ycia.
+Wyró¿niamy aktorów osobowych i nieosobowych. Aktorem osobowym mo¿e byæ osoba, zespó³, dzia³, instytucja, organizacja, zrzeszenie organizacji lub organizacja wirtualna. Nazwy aktorów osobowych czêsto pokryte s¹ z nazwami funkcji jakie pe³ni¹ w organizacji, projekcie lub przedsiêwziêciu b¹dŸ nazw¹ stanowiska jakie piastuj¹. Natomiast aktorem bezosobowym mo¿e byæ system zewnêtrzny (podsystemy, bazy danych), urz¹dzenie lub czas.
+Nazwa aktora jest rzeczownikiem (ewentualnie okreœleniem rzeczownikowym) w liczbie pojedynczej. Podczas identyfikacji aktorów musimy pamiêtaæ, ¿e odzwierciedlaj¹ oni role pe³nione przez te obiekty, a nie indywidualne obiekty ze œwiata rzeczywistego.
+Aktor u¿ytkuje jeden lub wiele przypadków u¿ycia w projektowanym systemie, natomiast przypadek u¿ycia jest u¿ytkowany przez jednego lub wiêcej aktorów. Interakcja aktorów z przypadkami u¿ycia sk³ada siê z ich inicjowania, dostarczania danych, otrzymywaniu danych oraz u¿ytkowaniu realizowanej przez przypadek u¿ycia funkcjonalnoœci.
+
+3. Funkcja przypadku u¿ycia
+
+przypadek u¿ycia jest przedstawieniem jeden z us³ug, które system œwiadczy aktorom, lecz bez wskazywania konkretnych rozwi¹zañ technicznych.
+
+4. Agregacja i zawieranie na UML
+
+5. Fasada
+
+Intencj¹ omawianego wzorca jest dostarczenie „zjednoczonego” i
+uproszczonego imterfejsu zestawu interfejsów z danego podsystemu.
+Wzorzec Fasady opisuje interfejs wy¿szego rzêdu, który sprawia, ¿e
+podsystem jest ³atwiejszy w u¿yciu.
+Korzyœci ze stosowania wzorca dekoratora:
+- dostarcza prostszy interfejs do rozbudowanego podsystemu bez
+ograniczania jego funkcjonalnoœci
+- os³ania klienta od z³o¿onoœci komponentów podsystemu
+- dostarcza „³¹cznik” pomiêdzy podsystem a jego klientów
+- ogranicza ³¹cznoœæ pomiêdzy podsystemami – ka¿dy podsystem
+u¿ywa w³asnej Fasady i inne czêœci systemu u¿ywaj¹ wzorca
+Fasady do komunikowania sie z subsystemami.
+
+6. Wzorzec fabryka abstrakcyjna jest wykorzystywany w sytuacjach, gdy wybór okreœlonej konfiguracji powinien powodowaæ tworzenie grupy okreœlonych produktów. Dodanie nowej konfiguracji to zdefiniowanie nowej konkretnej fabryki oraz grupy nowych produktów. W trakcie dzia³ania systemu wykorzystywana jest tylko jedna konkretna fabryka. Wybór tej klasy nie ma wp³ywu na ¿¹dania kierowane przez klienta, poprzez dziedziczenie interfejsu.
+Intencja: Uzyskanie rodzin obiektów w³aœciwych w okreœlonym przypadku
+Problem: Utworzenie odpowiednich rodzin obiektów
+Rozwi¹zanie: Koordynuje utworzenie rodzin obiektów. Podsuwa sposób pozwalaj¹cy wydzieliæ z obiektów u¿ytkownika regu³y tworzenia obiektów, które s¹ przez nie u¿ywane.
+Uczestnicy i wspó³pracownicy: Abs_ fabryka definiuje interfejs okreœlaj¹cy sposób utworzenia ka¿dego z obiektów danej rodziny. Typowo ka¿da z rodzin obiektów posiada w³asn¹ klasê kon_fabryka.
+Konsekwencje: Wzorzec izoluje regu³y opisuj¹ce sposób wykorzystania obiektów od regu³ decyduj¹cych o utworzeniu tych obiektów.
+Implementacja: Definiuje klasê abstrakcyjn¹ specyfikuj¹c¹ tworzone obiekty. Dla ka¿dej z rodzin obiektów implementuje siê klasê konkretn¹. W celu dokonania wyboru tworzonych obiektów mog¹ byæ zastosowane pliki konfiguracyjne lub tabela bazy danych.
+
+7. Singleton
+
+Czêsto w aplikacji istnieje potrzeba stworzenia klasy, która posiada³aby wy³¹cznie jedn¹ instancjê. Zwykle zwi¹zane to jest z zapewnieniem wiêkszej wydajnoœci aplikacji, np. przy dostêpie do bazy danych, gdzie ka¿de ³¹czenie siê z baz¹ jest dla aplikacji kosztowne, bo wymaga czasoch³onnego uwierzytelnienia i autoryzacji. W tym przypadku sensowniej jest stworzyæ jeden obiekt przechowuj¹cy sesjê po³¹czenia i wykorzystaæ go do przes³ania wielu zapytañ.
+Równie¿ w mniej krytycznych przypadkach korzystne jest stosowanie wzorca singletonu. Wskazówk¹ do jego u¿ycia jest sytuacja, gdy potrzebna jest wy³¹cznie jedna instancja obiektu, któr¹ wywo³uje wiele ró¿nych czêœci aplikacji. W takich przypadkach tworzenie obiektu, a nastêpnie niszczenie go (lub pozostawianie do zniszczenia przez garbage collector) jest marnotrawstwem zasobów pamiêci.
+Wzorzec singletonu implementuje siê przez stworzenie klasy, która posiada statyczn¹ metodê, która najpierw sprawdza, czy istnieje ju¿ instancja tej klasy - jeœli nie istnieje to tworzy j¹ - i nastêpnie zwraca j¹ przez referencjê. Instancja klasy jest przechowywana w prywatnym lub chronionym, statycznym polu, do którego dostêp ma tylko opisana wy¿ej metoda. Owa metoda dostêpowa jest jedyn¹ drog¹ pozyskania instancji obiektu singletonu - aby uniemo¿liwiæ tworzenie dodatkowych instancji w zwyk³y sposób, czyli przez wywo³anie konstruktora, deklaruje siê go jako prywatny lub chroniony.
+Dodatkow¹ korzyœci¹ z zastosowania takiego rozwi¹zania jest to, ¿e ca³y proces jest niewidoczny dla u¿ytkownika i nie musi on wiedzieæ, czy instancja istnieje czy te¿ nie.
+
+
+8. servlety
+
+ Serwlety to serwerowe komponenty Javy, które mog¹ byæ alternatyw¹ skryptów CGI i PERL podczas tworzenia aplikacji WWW. Generalnie mówi¹c, serwlety s¹ wydajniejszym komponentem ni¿ skrypty CGI, mo¿na ich tak¿e u¿ywaæ w wiêkszej iloœci aplikacji, na przyk³ad przy tworzeniu dynamicznie aktualizowanych stron WWW, a tak¿e podczas wymiany danych pomiêdzy aplikacjami.
+Serwlet jest ³adowany przy starcie serwera lub na ¿¹danie, a nastêpnie rezyduje w pamiêci a¿ do zamkniêcia serwera. Na przyk³ad, podczas ³¹czenia siê z baz¹ danych mo¿na wybraæ serwlet, który bêdzie obs³ugiwa³ sta³e po³¹czenie, umo¿liwiaj¹ce ci¹g³y transfer danych bez prze³adowywania kodu.
+Aby napisaæ serwlet, nale¿y rozszerzyæ klasê Servlet i zdefiniowaæ metody jêzyka Java, s³u¿¹ce do ustanawiania po³¹czeñ i zarz¹dzania nimi. Serwlety obs³uguj¹ takie opcje jak kod o bezpiecznych w¹tkach, automatyczne zarz¹dzanie pamiêci¹ i obs³ugê funkcji sieciowych.
+Aby napisaæ serwlet, nale¿y rozszerzyæ podstawow¹ klasê Servlet:
+
+Javax.servlet.http.HttpServlet
+Javax.servlet.GenericServlet
+
+Nastêpnie trzeba zdefiniowaæ metody opisuj¹ce funkcje serwletu. Poni¿ej wymienione s¹ najczêœciej u¿ywane metody:
+
+.  doGet() i doPost(): obs³uga ¿¹dañ GET i POST
+.  getServiceInfo(): udostêpnia opisy serwletu
+.  getLastModified(): warunkowe wykonanie GETS
+.  init(): inicjalizacja kodu serwletu
+.  service(): obs³uga niemodyfikowanych ¿¹dañ
+
+JSP
+
+9. EJB
+
+
+15. Code-and-FIX
+
+http://joker.linuxstuff.pl/files/agile-slajdy.pdf
+

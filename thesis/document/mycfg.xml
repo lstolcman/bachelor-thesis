@@ -7,7 +7,6 @@
 	<option name="ignore_hard_line_breaks" value="true" />
 	<option name="multilingual" value="false" />
 
-
 	<heading-map max-level="5">
 		<heading-level-map writer-level="1" name="chapter" level="1" />
 		<heading-level-map writer-level="2" name="section" level="2" />
@@ -16,5 +15,12 @@
 		<heading-level-map writer-level="5" name="paragraph" level="5" />
 		<heading-level-map writer-level="6" name="subparagraph" level="6" />
 	</heading-map>
+
+
+	<!-- polish hyphens -->
+	<string-replace input="-" latex-code="-" />
+	<string-replace input="--" latex-code="--" />
+	<string-replace input="---" latex-code="---" />
+
 
 </config>

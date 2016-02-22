@@ -43,7 +43,7 @@ del "%lock%*"
 :: call _compile.bat
 
 start /b /w /realtime pdflatex main.tex
-start /b /w /realtime makeindex main.idx
+::start /b /w /realtime makeindex main.idx
 start /b /w /realtime bibtex main.aux
 start /b /w /realtime pdflatex main.tex
 start /b /w /realtime pdflatex main.tex

@@ -24,4 +24,9 @@
 *.mtc1
 *.out
 *.synctex.gz
+*.bak
+
+*.pdf
+
+thesis.tex
 

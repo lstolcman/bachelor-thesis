@@ -197,9 +197,12 @@ sub PrzeformatujAkapit {
     s/\n$Odstep+/\n/g;
 };
 # ========================================================================
-# Zmiany cudzyslowiow na polskie
-sub PoprawCudzyslowia {
+sub PoprawReszte{
+	# Zmiany cudzyslowiow na polskie
 	s/(.*){\\textquotedbl}(.*){\\textquotedbl}(.*)/$1,,$2''$3/g;
+	# Usuwa niepotrzebne naglowni formatowania list punktowanych z Writera
+	s/(.*)\\liststyleLii(.*)/$1$2/g;
+	s/(.*)\\liststyleLi(.*)/$1$2/g;
 };
 # ========================================================================
 # Główny program
@@ -214,7 +217,7 @@ while (<>) {
     &PolaczWiersze;
     &PoprawAkapit;
     &PrzeformatujAkapit;
-	&PoprawCudzyslowia;
+	&PoprawReszte;
 } continue { print; };
  
 # Koniec skryptu "porzadki".

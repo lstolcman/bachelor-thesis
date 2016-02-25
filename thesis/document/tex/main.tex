@@ -19,6 +19,34 @@
 %interlinia 1.5: https://pl.wikibooks.org/wiki/LaTeX/Formatowanie#Interlinia
 \linespread{1.3}
 
+\usepackage[nonumberlist]{glossaries}
+%\usepackage{glossaries}
+\makeglossaries
+
+\newglossarystyle{mojalista}
+{
+	\renewenvironment{theglossary}
+	{\begin{description}}
+	{\end{description}}
+	\renewcommand*{\glossaryheader}{}
+	\renewcommand*{\glsgroupheading}[1]{}
+	\renewcommand*{\glossentry}[2]
+	{
+	\item[\glsentryitem{##1}
+		\glstarget{##1}{\glossentryname{##1}}.]
+		\glossentrydesc{##1}\glspostdescription\space ##2
+	}
+	\renewcommand*{\subglossentry}[3]
+	{
+		\glssubentryitem{##2}
+		\glstarget{##2}{\strut}
+		\glossentrydesc{##2}\glspostdescription\space ##3.
+	}
+	\renewcommand*{\glsgroupskip}{\ifglsnogroupskip\else\indexspace\fi}
+}
+\glossarystyle{mojalista}
+\renewcommand*{\glossaryname}{Słownik terminów}
+\loadglsentries{glossary}
 
 \begin {document}
 %\pagenumbering{gobble}
@@ -63,7 +91,8 @@
 
 
 \newpage
-\appendix \input {appendix}
+\glsaddall
+\printglossary
 
 \newpage
 \listoffigures
@@ -80,7 +109,7 @@
 \nocite{*}
 
 \bibliographystyle{plabbrv}
-\bibliography{bibliography/books,bibliography/websites}
+\bibliography{bibliography/books,bibliography/websites,bibliography/datasheets}
 
 \end {document}
 

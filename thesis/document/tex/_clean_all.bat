@@ -27,6 +27,7 @@ del *.png
 del *.bak
 del *.bcf
 del *.xml
+del *.xdy
 
 del *.pdf
 

@@ -43,6 +43,10 @@ del "%lock%*"
 :: call _compile.bat
 
 start /b /w /realtime pdflatex main
+start /b /w /realtime makeglossaries main
+start /b /w /realtime bibtex main.aux
+start /b /w /realtime pdflatex main
+start /b /w /realtime pdflatex main
 
 
 cd %RUNTIME%

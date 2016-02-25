@@ -21,6 +21,7 @@ del *.mtc
 del *.mtc1
 del *.out
 del *.synctex.gz
+del *.xdy
 
 del 1_*.tex
 del 2_*.tex

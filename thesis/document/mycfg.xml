@@ -27,6 +27,7 @@
 	<string-replace input="}" latex-code="}" />
 	<string-replace input="\cite" latex-code="\cite" />
 	<string-replace input="\nocite" latex-code="\nocite" />
+	<string-replace input="\gls" latex-code="\gls" />
 
 
 </config>

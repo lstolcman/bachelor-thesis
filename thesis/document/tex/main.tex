@@ -22,29 +22,7 @@
 \usepackage[nonumberlist]{glossaries}
 %\usepackage{glossaries}
 \makeglossaries
-
-\newglossarystyle{mojalista}
-{
-	\renewenvironment{theglossary}
-	{\begin{description}}
-	{\end{description}}
-	\renewcommand*{\glossaryheader}{}
-	\renewcommand*{\glsgroupheading}[1]{}
-	\renewcommand*{\glossentry}[2]
-	{
-	\item[\glsentryitem{##1}
-		\glstarget{##1}{\glossentryname{##1}}.]
-		\glossentrydesc{##1}\glspostdescription\space ##2
-	}
-	\renewcommand*{\subglossentry}[3]
-	{
-		\glssubentryitem{##2}
-		\glstarget{##2}{\strut}
-		\glossentrydesc{##2}\glspostdescription\space ##3.
-	}
-	\renewcommand*{\glsgroupskip}{\ifglsnogroupskip\else\indexspace\fi}
-}
-\glossarystyle{mojalista}
+\glossarystyle{list}
 \renewcommand*{\glossaryname}{Słownik terminów}
 \loadglsentries{glossary}
 
@@ -65,28 +43,15 @@
 
 
 %\pagenumbering{arabic}
-\frontmatter
 
 \cleardoublepage
 \pdfbookmark{\contentsname}{toc}
 \tableofcontents
+
 \setcounter{page}{8}
 
 
-
-
-%\cleardoublepage
-%\setcounter{page}{9}
-\input{1_wstep}
-\mainmatter
-\input{2_analiza_wiedzy}
-\input{3_teoria_problemu}
-\input{4_praktyka_implementacja}
-\input{5_rezultaty_analiza}
-\backmatter
-\input{6_zakonczenie_podsumowanie}
-
-
+\input{thesis}
 
 
 

@@ -32,9 +32,11 @@ del *.xdy
 del *.pdf
 
 
-del 1_*.tex
-del 2_*.tex
-del 3_*.tex
-del 4_*.tex
-del 5_*.tex
-del 6_*.tex
+del 0*.tex
+del 1*.tex
+del 2*.tex
+del 3*.tex
+del 4*.tex
+del 5*.tex
+del 6*.tex
+del thesis.tex

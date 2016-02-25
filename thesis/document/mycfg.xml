@@ -28,6 +28,10 @@
 	<string-replace input="\cite" latex-code="\cite" />
 	<string-replace input="\nocite" latex-code="\nocite" />
 	<string-replace input="\gls" latex-code="\gls" />
+	<string-replace input="\textit" latex-code="\textit" />
+	<string-replace input="\frontmatter" latex-code="\frontmatter" />
+	<string-replace input="\mainmatter" latex-code="\mainmatter" />
+	<string-replace input="\backmatter" latex-code="\backmatter" />
 
 
 </config>

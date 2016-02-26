@@ -64,7 +64,7 @@
 */testbench/
 */*_sim/
 /greybox_tmp/
-
+/output_files/
 
 
 #  http://justacodestory.blogspot.cz/2013/06/how-to-store-quartus-project-in-vcs-on.html

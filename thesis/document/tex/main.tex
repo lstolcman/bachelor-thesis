@@ -22,10 +22,11 @@
 \usepackage[nonumberlist]{glossaries}
 %\usepackage{glossaries}
 \makeglossaries
-\glossarystyle{list}
+\setglossarystyle{list}
 \renewcommand*{\glossaryname}{Słownik terminów}
 \loadglsentries{glossary}
 
+\usepackage{calc}
 \begin {document}
 %\pagenumbering{gobble}
 
@@ -38,7 +39,6 @@
 %set geometry for rest of document
 %\newgeometry {bindingoffset=0.8cm, left=3.2cm, right=3.2cm, top=2.7cm, bottom=2.7cm}
 \newgeometry {bindingoffset=1cm, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
-
 
 
 
@@ -74,7 +74,7 @@
 \nocite{*}
 
 \bibliographystyle{plabbrv}
-\bibliography{bibliography/books,bibliography/websites,bibliography/datasheets}
+\bibliography{bibliography/books,bibliography/datasheets,bibliography/papers}
 
 \end {document}
 

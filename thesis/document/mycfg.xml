@@ -32,6 +32,8 @@
 	<string-replace input="\frontmatter" latex-code="\frontmatter" />
 	<string-replace input="\mainmatter" latex-code="\mainmatter" />
 	<string-replace input="\backmatter" latex-code="\backmatter" />
+	<string-replace input="\footnote" latex-code="\footnote" />
+	<string-replace input="\url" latex-code="\url" />
 
 
 </config>

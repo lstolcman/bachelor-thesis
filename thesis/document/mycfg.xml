@@ -22,7 +22,7 @@
 	<string-replace input="--" latex-code="--" />
 	<string-replace input="---" latex-code="---" />
 
-
+	<!--
 	<string-replace input="{" latex-code="{" />
 	<string-replace input="}" latex-code="}" />
 	<string-replace input="\cite" latex-code="\cite" />
@@ -34,6 +34,6 @@
 	<string-replace input="\backmatter" latex-code="\backmatter" />
 	<string-replace input="\footnote" latex-code="\footnote" />
 	<string-replace input="\url" latex-code="\url" />
-
+-->
 
 </config>

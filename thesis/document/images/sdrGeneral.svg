@@ -27,7 +27,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="492.2459"
+     inkscape:cx="531.97773"
      inkscape:cy="469.91569"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -181,7 +181,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -263,19 +263,7 @@
        height="141.73228"
        x="460.62994"
        y="520.86615" />
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot6068"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(0.68358612,314.58692)"><flowRegion
-         id="flowRegion6070"><rect
-           id="rect6072"
-           width="141.73228"
-           height="141.73228"
-           x="460.62991"
-           y="212.59842" /></flowRegion><flowPara
-         id="flowPara6074"
-         style="font-size:50px;line-height:200%;text-align:center;text-anchor:middle">ADC</flowPara></flowRoot>    <path
+    <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6208)"
        d="m 602.36221,591.73228 70.86614,0"
        id="path6064-9"
@@ -288,18 +276,6 @@
        x="673.22833"
        y="520.86615" />
     <flowRoot
-       xml:space="preserve"
-       id="flowRoot6310"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(-1.9118729,348.93906)"><flowRegion
-         id="flowRegion6312"><rect
-           id="rect6314"
-           width="141.73228"
-           height="141.73228"
-           x="673.22833"
-           y="212.59842" /></flowRegion><flowPara
-         id="flowPara6316"
-         style="font-size:45px;text-align:center;text-anchor:middle">FPGA</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot6318"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -347,5 +323,29 @@
            x="70.866142"
            y="389.76376" /></flowRegion><flowPara
          id="flowPara6324-2-7"
-         style="line-height:125%;letter-spacing:-2px">(4)</flowPara></flowRoot>  </g>
+         style="line-height:125%;letter-spacing:-2px">(4)</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6318-3-2"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(420.06836,176.71469)"><flowRegion
+         id="flowRegion6320-9-8"><rect
+           id="rect6322-5-8"
+           width="106.29921"
+           height="70.866142"
+           x="70.866142"
+           y="389.76376" /></flowRegion><flowPara
+         id="flowPara6324-2-2"
+         style="line-height:125%;letter-spacing:-2px">ADC</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6318-3-2-7"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(627.61602,177.72484)"><flowRegion
+         id="flowRegion6320-9-8-3"><rect
+           id="rect6322-5-8-9"
+           width="106.29921"
+           height="70.866142"
+           x="70.866142"
+           y="389.76376" /></flowRegion><flowPara
+         id="flowPara6324-2-2-3"
+         style="line-height:125%;letter-spacing:-2px">FPGA</flowPara></flowRoot>  </g>
 </svg>

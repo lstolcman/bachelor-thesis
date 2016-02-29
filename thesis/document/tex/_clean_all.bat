@@ -28,6 +28,7 @@ del *.bak
 del *.bcf
 del *.xml
 del *.xdy
+del *.svg
 
 del *.pdf
 
@@ -40,3 +41,4 @@ del 4*.tex
 del 5*.tex
 del 6*.tex
 del thesis.tex
+del *plfixed.tex

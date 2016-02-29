@@ -5,6 +5,7 @@
 \usepackage {polski}
 \usepackage {arabicfront} %numerowanie arabskimi w frontmatter
 
+\usepackage{svg}
 
 %\usepackage{showframe}
 
@@ -24,9 +25,8 @@
 \makeglossaries
 \setglossarystyle{list}
 \renewcommand*{\glossaryname}{Słownik terminów}
-\loadglsentries{glossary}
+\loadglsentries{glossary_plfixed}
 
-\usepackage{calc}
 \begin {document}
 %\pagenumbering{gobble}
 
@@ -49,7 +49,6 @@
 \tableofcontents
 
 \setcounter{page}{8}
-
 
 \input{thesis}
 

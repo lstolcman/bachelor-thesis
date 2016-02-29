@@ -199,10 +199,10 @@ sub PrzeformatujAkapit {
 # ========================================================================
 sub PoprawReszte{
 	# Zmiany cudzyslowiow na polskie
-	s/(.*){\\textquotedbl}(.*){\\textquotedbl}(.*)/$1,,$2''$3/g;
+	s/{\\textquotedbl}(.*){\\textquotedbl}/,,$1''/g;
 	# Usuwa niepotrzebne naglowni formatowania list punktowanych z Writera
-	s/(.*)\\liststyleLii(.*)/$1$2/g;
-	s/(.*)\\liststyleLi(.*)/$1$2/g;
+	s/\\liststyleLii//g;
+	s/\\liststyleLi//g;
 };
 # ========================================================================
 # Główny program

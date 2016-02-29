@@ -2,6 +2,7 @@
 call env.bat
 
 del *.pdf
+set PATH=%PATH%;C:\dev\software\inkscape
 
 if "%1" == "" goto all
 if "%1" == "all" goto all
@@ -27,9 +28,9 @@ del *.ilg
 goto eof
 
 :compile
-start /b /w /realtime pdflatex main.tex
+start /b /w /realtime pdflatex --shell-escape main.tex
 start /b /w /realtime makeindex main.idx
-start /b /w /realtime pdflatex main.tex
+start /b /w /realtime pdflatex --shell-escape main.tex
 goto eof
 
 :eof

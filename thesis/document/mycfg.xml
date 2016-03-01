@@ -22,6 +22,10 @@
 	<string-replace input="--" latex-code="--" />
 	<string-replace input="---" latex-code="---" />
 
+	<string-replace input="{" latex-code="{" />
+	<string-replace input="}" latex-code="}" />
+	<string-replace input="\" latex-code="\" />
+
 	<!--
 	<string-replace input="{" latex-code="{" />
 	<string-replace input="}" latex-code="}" />

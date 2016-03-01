@@ -11,14 +11,15 @@ java -jar %W2L_PATH%\writer2latex.jar -backend pdftex -config mycfg.xml thesis.f
 
 cd tex
 
-perl -i.bak porzadki.pl thesis.tex
+perl -i.bak pporzadki2.pl thesis.tex
+perl porzadki.pl thesis.tex > thesis_plfixed.tex
 perl porzadki.pl glossary.tex > glossary_plfixed.tex
 
-pdflatex --shell-escape main
+pdflatex main
 makeglossaries main
 bibtex main.aux
-pdflatex --shell-escape main
-pdflatex --shell-escape main
+pdflatex main
+pdflatex main
 
 
 cd %RUNTIME%

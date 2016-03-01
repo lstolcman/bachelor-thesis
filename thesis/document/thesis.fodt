@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2009-04-16T11:32:02.64</meta:creation-date><meta:editing-duration>PT22H57M19S</meta:editing-duration><meta:editing-cycles>172</meta:editing-cycles><meta:generator>LibreOffice/4.4.3.2$Windows_x86 LibreOffice_project/88805f81e9fe61362df02b9941de8e38a9b5fd16</meta:generator><dc:date>2016-03-01T10:53:54.755000000</dc:date><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="9" meta:paragraph-count="96" meta:word-count="1219" meta:character-count="9733" meta:non-whitespace-character-count="8599"/><meta:user-defined meta:name="Info 1"/><meta:user-defined meta:name="Info 2"/><meta:user-defined meta:name="Info 3"/><meta:user-defined meta:name="Info 4"/></office:meta>
+ <office:meta><meta:creation-date>2009-04-16T11:32:02.64</meta:creation-date><meta:editing-duration>PT22H57M23S</meta:editing-duration><meta:editing-cycles>173</meta:editing-cycles><meta:generator>LibreOffice/4.4.3.2$Windows_x86 LibreOffice_project/88805f81e9fe61362df02b9941de8e38a9b5fd16</meta:generator><dc:date>2016-03-01T11:14:37.300000000</dc:date><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="9" meta:paragraph-count="93" meta:word-count="1210" meta:character-count="9678" meta:non-whitespace-character-count="8549"/><meta:user-defined meta:name="Info 1"/><meta:user-defined meta:name="Info 2"/><meta:user-defined meta:name="Info 3"/><meta:user-defined meta:name="Info 4"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">179938</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">44669</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">17681</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">15104</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">185782</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">16439</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">3623</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">179938</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">44667</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">197617</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">17679</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -59,7 +59,7 @@
    <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
    <config:config-item config:name="RsidRoot" config:type="int">1230481</config:config-item>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">2717005</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2816330</config:config-item>
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
@@ -316,263 +316,254 @@
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6"/>
   </style:style>
   <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001ce0b7" officeooo:paragraph-rsid="001ce0b7"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="0029754d"/>
   </style:style>
   <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0020c5c8" officeooo:paragraph-rsid="0020c5c8"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001ce0b7" officeooo:paragraph-rsid="001ce0b7"/>
   </style:style>
   <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00198e6f" officeooo:paragraph-rsid="00198e6f"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0020c5c8" officeooo:paragraph-rsid="0020c5c8"/>
   </style:style>
   <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="001a80dd"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00198e6f" officeooo:paragraph-rsid="00198e6f"/>
   </style:style>
   <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="003acbc2" officeooo:paragraph-rsid="001a80dd"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00162f82" officeooo:paragraph-rsid="001a80dd"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="003acbc2" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="0028a3f9"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00162f82" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00295773" officeooo:paragraph-rsid="00295773"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="0028a3f9"/>
   </style:style>
   <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00236df1" officeooo:paragraph-rsid="00236df1"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00295773" officeooo:paragraph-rsid="00295773"/>
   </style:style>
   <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="00236df1"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00236df1" officeooo:paragraph-rsid="00236df1"/>
   </style:style>
   <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0028a3f9" officeooo:paragraph-rsid="0028a3f9"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="00236df1"/>
   </style:style>
   <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="0024f888"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0028a3f9" officeooo:paragraph-rsid="0028a3f9"/>
   </style:style>
   <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="001c63f6"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0028a3f9" officeooo:paragraph-rsid="0024f888"/>
   </style:style>
   <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="italic" officeooo:rsid="0012c691" officeooo:paragraph-rsid="0012c691" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="0024f888"/>
   </style:style>
   <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:color="#ff3333" officeooo:rsid="0041434a" officeooo:paragraph-rsid="001a80dd"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="001c63f6"/>
   </style:style>
   <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:color="#ff3333" fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0041434a" officeooo:paragraph-rsid="001a80dd" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="italic" officeooo:rsid="0012c691" officeooo:paragraph-rsid="0012c691" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:color="#ff3333" fo:language="pl" fo:country="PL" officeooo:rsid="0041434a" officeooo:paragraph-rsid="001a80dd"/>
+   <style:text-properties fo:color="#ff3333" officeooo:rsid="0041434a" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="003acbc2" officeooo:paragraph-rsid="001a80dd"/>
+   <style:text-properties fo:color="#ff3333" fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0041434a" officeooo:paragraph-rsid="001a80dd" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:color="#000000" fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0041434a" officeooo:paragraph-rsid="001a80dd" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#ff3333" fo:language="pl" fo:country="PL" officeooo:rsid="0041434a" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6"/>
+   <style:text-properties officeooo:rsid="003acbc2" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:paragraph-rsid="001c63f6"/>
+   <style:text-properties fo:color="#000000" fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0041434a" officeooo:paragraph-rsid="001a80dd" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-size="26pt" fo:language="pl" fo:country="PL" fo:font-weight="bold" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6" style:font-size-asian="26pt" style:font-weight-asian="bold" style:font-size-complex="26pt" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="001ed28f" officeooo:paragraph-rsid="001ed28f"/>
-  </style:style>
-  <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="001fb51f" officeooo:paragraph-rsid="001fb51f" style:font-style-asian="normal" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:paragraph-rsid="0020c5c8"/>
-  </style:style>
-  <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-style="italic" officeooo:rsid="0012c691" officeooo:paragraph-rsid="0012c691" style:font-style-asian="italic" style:font-style-complex="italic"/>
-  </style:style>
-  <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="0020c5c8" officeooo:paragraph-rsid="0020c5c8"/>
-  </style:style>
-  <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="00236df1" officeooo:paragraph-rsid="00236df1"/>
-  </style:style>
-  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:paragraph-rsid="00236df1"/>
-  </style:style>
-  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:paragraph-rsid="0024f888"/>
-  </style:style>
-  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="0024f888" officeooo:paragraph-rsid="0024f888"/>
-  </style:style>
-  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties officeooo:rsid="0012c691" officeooo:paragraph-rsid="0012c691"/>
-  </style:style>
-  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties officeooo:rsid="00198e6f" officeooo:paragraph-rsid="00198e6f"/>
-  </style:style>
-  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0035cc42" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6"/>
-  </style:style>
-  <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties fo:color="#ff3333" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties fo:color="#ff3333" fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="0012c691" officeooo:paragraph-rsid="0012c691"/>
-  </style:style>
-  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001ed28f" officeooo:paragraph-rsid="001ed28f"/>
-  </style:style>
-  <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00225467" officeooo:paragraph-rsid="00225467"/>
-  </style:style>
-  <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6"/>
-  </style:style>
-  <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6"/>
   </style:style>
-  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:paragraph-rsid="001c63f6"/>
+  </style:style>
+  <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-size="26pt" fo:language="pl" fo:country="PL" fo:font-weight="bold" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6" style:font-size-asian="26pt" style:font-weight-asian="bold" style:font-size-complex="26pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:rsid="001ed28f" officeooo:paragraph-rsid="001ed28f"/>
   </style:style>
-  <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="00225467" officeooo:paragraph-rsid="00225467"/>
+  <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-style="normal" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="001fb51f" officeooo:paragraph-rsid="001fb51f" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties officeooo:rsid="00162f82" officeooo:paragraph-rsid="00162f82"/>
+  <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:paragraph-rsid="0020c5c8"/>
   </style:style>
-  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:break-before="page"/>
+  <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-style="italic" officeooo:rsid="0012c691" officeooo:paragraph-rsid="0012c691" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="0020c5c8" officeooo:paragraph-rsid="0020c5c8"/>
+  </style:style>
+  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="00236df1" officeooo:paragraph-rsid="00236df1"/>
+  </style:style>
+  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:paragraph-rsid="00236df1"/>
+  </style:style>
+  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:paragraph-rsid="0024f888"/>
+  </style:style>
+  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="0024f888" officeooo:paragraph-rsid="0024f888"/>
+  </style:style>
+  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:text-properties officeooo:rsid="0012c691" officeooo:paragraph-rsid="0012c691"/>
+  </style:style>
+  <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties officeooo:rsid="00198e6f" officeooo:paragraph-rsid="00198e6f"/>
+  </style:style>
+  <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0035cc42" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6"/>
+  </style:style>
+  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties fo:color="#ff3333" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties fo:color="#ff3333" fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="0012c691" officeooo:paragraph-rsid="0012c691"/>
+  </style:style>
+  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001ed28f" officeooo:paragraph-rsid="001ed28f"/>
+  </style:style>
+  <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00225467" officeooo:paragraph-rsid="00225467"/>
+  </style:style>
+  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6"/>
+  </style:style>
+  <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6"/>
+  </style:style>
+  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="001ed28f" officeooo:paragraph-rsid="001ed28f"/>
+  </style:style>
+  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="00225467" officeooo:paragraph-rsid="00225467"/>
   </style:style>
   <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties officeooo:rsid="00198e6f" officeooo:paragraph-rsid="00162f82"/>
+   <style:text-properties officeooo:rsid="00162f82" officeooo:paragraph-rsid="00162f82"/>
   </style:style>
   <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties officeooo:rsid="00198e6f" officeooo:paragraph-rsid="0012c691"/>
+   <style:text-properties officeooo:rsid="0012c691" officeooo:paragraph-rsid="0012c691"/>
   </style:style>
   <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00198e6f" officeooo:paragraph-rsid="00162f82"/>
+   <style:text-properties officeooo:rsid="00198e6f" officeooo:paragraph-rsid="00162f82"/>
   </style:style>
   <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties officeooo:rsid="00198e6f" officeooo:paragraph-rsid="0012c691"/>
+  </style:style>
+  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00198e6f" officeooo:paragraph-rsid="00162f82"/>
+  </style:style>
+  <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00198e6f" officeooo:paragraph-rsid="0012c691"/>
-  </style:style>
-  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0038ec2f" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P73" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00349a45" officeooo:paragraph-rsid="001a80dd"/>
+   <style:text-properties officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P74" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0038ec2f" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P75" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0020c5c8" officeooo:paragraph-rsid="0020c5c8"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00349a45" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P76" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties officeooo:rsid="0020c5c8" officeooo:paragraph-rsid="0020c5c8"/>
-  </style:style>
-  <style:style style:name="P77" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00295773" officeooo:paragraph-rsid="0024f888"/>
-  </style:style>
-  <style:style style:name="P78" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.499cm" loext:contextual-spacing="false"/>
-  </style:style>
-  <style:style style:name="P79" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties fo:color="#ff3333" fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P80" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6"/>
-  </style:style>
-  <style:style style:name="P81" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
-  <style:style style:name="P82" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P77" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0020c5c8" officeooo:paragraph-rsid="0020c5c8"/>
+  </style:style>
+  <style:style style:name="P78" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties officeooo:rsid="0020c5c8" officeooo:paragraph-rsid="0020c5c8"/>
+  </style:style>
+  <style:style style:name="P79" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00295773" officeooo:paragraph-rsid="0024f888"/>
+  </style:style>
+  <style:style style:name="P80" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.499cm" loext:contextual-spacing="false"/>
+  </style:style>
+  <style:style style:name="P81" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6"/>
+  </style:style>
+  <style:style style:name="P82" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P83" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0020c5c8" officeooo:paragraph-rsid="0020c5c8"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P84" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0038ec2f" officeooo:paragraph-rsid="001a80dd"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0020c5c8" officeooo:paragraph-rsid="0020c5c8"/>
   </style:style>
   <style:style style:name="P85" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0038ec2f" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00349a45" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
-  <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
-  <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P88" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001ed28f" officeooo:paragraph-rsid="001ed28f"/>
   </style:style>
-  <style:style style:name="P88" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P89" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00225467" officeooo:paragraph-rsid="00225467"/>
   </style:style>
-  <style:style style:name="P89" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P90" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6"/>
-  </style:style>
-  <style:style style:name="P90" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00427eb0" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P91" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="001c63f6"/>
   </style:style>
-  <style:style style:name="P92" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P92" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="0029754d"/>
   </style:style>
-  <style:style style:name="P93" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6" officeooo:paragraph-rsid="0029754d"/>
-  </style:style>
-  <style:style style:name="P94" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+  <style:style style:name="P93" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0020c5c8" officeooo:paragraph-rsid="0020c5c8"/>
   </style:style>
-  <style:style style:name="P95" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+  <style:style style:name="P94" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P96" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00236df1" officeooo:paragraph-rsid="00236df1"/>
-  </style:style>
-  <style:style style:name="P97" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0028a3f9" officeooo:paragraph-rsid="0024f888"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties officeooo:rsid="00162f82"/>
@@ -871,58 +862,6 @@
     </style:list-level-properties>
    </text:list-level-style-bullet>
   </text:list-style>
-  <text:list-style style:name="L4">
-   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.27cm" fo:text-indent="-0.635cm" fo:margin-left="1.27cm"/>
-    </style:list-level-properties>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.905cm" fo:text-indent="-0.635cm" fo:margin-left="1.905cm"/>
-    </style:list-level-properties>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.54cm" fo:text-indent="-0.635cm" fo:margin-left="2.54cm"/>
-    </style:list-level-properties>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.175cm" fo:text-indent="-0.635cm" fo:margin-left="3.175cm"/>
-    </style:list-level-properties>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm" fo:text-indent="-0.635cm" fo:margin-left="3.81cm"/>
-    </style:list-level-properties>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm" fo:text-indent="-0.635cm" fo:margin-left="4.445cm"/>
-    </style:list-level-properties>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm" fo:text-indent="-0.635cm" fo:margin-left="5.08cm"/>
-    </style:list-level-properties>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm" fo:text-indent="-0.635cm" fo:margin-left="5.715cm"/>
-    </style:list-level-properties>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm" fo:text-indent="-0.635cm" fo:margin-left="6.35cm"/>
-    </style:list-level-properties>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm" fo:text-indent="-0.635cm" fo:margin-left="6.985cm"/>
-    </style:list-level-properties>
-   </text:list-level-style-bullet>
-  </text:list-style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:footnote-max-height="0cm">
     <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="none" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
@@ -942,152 +881,141 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
    </text:sequence-decls>
-   <text:p text:style-name="P19">\frontmatter</text:p>
-   <text:h text:style-name="P55" text:outline-level="1">TODO</text:h>
-   <text:list xml:id="list667201455875987290" text:style-name="L1">
-    <text:list-item>
-     <text:p text:style-name="P90">Bibliografia: nazwisko pierwsze, skrót imienia drugi</text:p>
-    </text:list-item>
-    <text:list-item>
-     <text:p text:style-name="P91"/>
-    </text:list-item>
-    <text:list-item>
-     <text:p text:style-name="P91"/>
-    </text:list-item>
-   </text:list>
+   <text:p text:style-name="P20">\frontmatter</text:p>
+   <text:h text:style-name="P55" text:outline-level="1"><text:span text:style-name="T5">TODO</text:span></text:h>
    <text:p text:style-name="P16"/>
-   <text:p text:style-name="P18">Z projektu:</text:p>
-   <text:p text:style-name="P18">Programowo (FPGA): (wraz z symulacją w symulatorze)</text:p>
-   <text:p text:style-name="P18">filtracja sygnału wejściowego</text:p>
-   <text:p text:style-name="P18">dekodowanie (demodulacja) dcf77</text:p>
-   <text:p text:style-name="P18">Programowo:</text:p>
-   <text:list xml:id="list5240034241715690254" text:style-name="L2">
+   <text:p text:style-name="P19">Z projektu:</text:p>
+   <text:p text:style-name="P19">Programowo (FPGA): (wraz z symulacją w symulatorze)</text:p>
+   <text:p text:style-name="P19">filtracja sygnału wejściowego</text:p>
+   <text:p text:style-name="P19">dekodowanie (demodulacja) dcf77</text:p>
+   <text:p text:style-name="P19">Programowo:</text:p>
+   <text:list xml:id="list5187040863684681111" text:style-name="L2">
     <text:list-item>
-     <text:p text:style-name="P94">zaprojektować ogólną strukturę(struktura modułowa)</text:p>
+     <text:p text:style-name="P93">zaprojektować ogólną strukturę(struktura modułowa)</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P94">poszczególne moduły:</text:p>
+     <text:p text:style-name="P93">poszczególne moduły:</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P94">filtr fir/iir(/cic?) + decymacja</text:p>
-       <text:p text:style-name="P94">przestudiować rodzaje, moja ogólna orientacja pokazuje, że będzie używany fir i potem decymacja</text:p>
-       <text:p text:style-name="P94">w matlabie wygenerować współczynniki filtrów</text:p>
-       <text:p text:style-name="P94">zaaplikować je używając IP Core do FPGA w którym podajemy współczynniki, wejście i otrzymujemy filtrowane wyjście</text:p>
-       <text:p text:style-name="P94">problemy: jakość filtru, może być konieczne dwustopniowy filtr z decymatorem</text:p>
-       <text:p text:style-name="P94">wynik: ograniczony sygnał do np 100-200kHz który można demodulować (w założeniu łatwiej i z mniejszymi zakłóceniami?)</text:p>
+       <text:p text:style-name="P93">filtr fir/iir(/cic?) + decymacja</text:p>
+       <text:p text:style-name="P93">przestudiować rodzaje, moja ogólna orientacja pokazuje, że będzie używany fir i potem decymacja</text:p>
+       <text:p text:style-name="P93">w matlabie wygenerować współczynniki filtrów</text:p>
+       <text:p text:style-name="P93">zaaplikować je używając IP Core do FPGA w którym podajemy współczynniki, wejście i otrzymujemy filtrowane wyjście</text:p>
+       <text:p text:style-name="P93">problemy: jakość filtru, może być konieczne dwustopniowy filtr z decymatorem</text:p>
+       <text:p text:style-name="P93">wynik: ograniczony sygnał do np 100-200kHz który można demodulować (w założeniu łatwiej i z mniejszymi zakłóceniami?)</text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P94">demodulator dcf77</text:p>
-       <text:p text:style-name="P94">sygnał AM, modulacja ASK, cosekundowe impulsy markowane zmianą mocy sygnału między 100% a 15%</text:p>
-       <text:p text:style-name="P94">pomysł na demodulator: algorytm goertzla wykrywania prążka na 77,5kHz, wielokrotny sampling i porównywanie ze specyfikacją? póki co brak innego (prostego) pomysłu</text:p>
-       <text:p text:style-name="P94">założenie: algorytm goertzla powinien być prosty, więc wpierw będzie napisana jego software&apos;owa wersja, przetestowana i potem przepisana do FPGA i to również symulowane</text:p>
-       <text:p text:style-name="P94">wynik: poszczególne bity sygnału czasu.</text:p>
-       <text:p text:style-name="P94">Dalej, planuję je: wysłać przez rs232 do komputera i tam prosto zdekodować i wyświetlić.</text:p>
-       <text:p text:style-name="P94">lub: napisać prostą maszynę stanów i wysłać wynik przez rs232 (lub podłączyć kablem vga i pokazać na monitorze?) - trochę więcej czasochłonne</text:p>
+       <text:p text:style-name="P93">demodulator dcf77</text:p>
+       <text:p text:style-name="P93">sygnał AM, modulacja ASK, cosekundowe impulsy markowane zmianą mocy sygnału między 100% a 15%</text:p>
+       <text:p text:style-name="P93">pomysł na demodulator: algorytm goertzla wykrywania prążka na 77,5kHz, wielokrotny sampling i porównywanie ze specyfikacją? póki co brak innego (prostego) pomysłu</text:p>
+       <text:p text:style-name="P93">założenie: algorytm goertzla powinien być prosty, więc wpierw będzie napisana jego software&apos;owa wersja, przetestowana i potem przepisana do FPGA i to również symulowane</text:p>
+       <text:p text:style-name="P93">wynik: poszczególne bity sygnału czasu.</text:p>
+       <text:p text:style-name="P93">Dalej, planuję je: wysłać przez rs232 do komputera i tam prosto zdekodować i wyświetlić.</text:p>
+       <text:p text:style-name="P93">lub: napisać prostą maszynę stanów i wysłać wynik przez rs232 (lub podłączyć kablem vga i pokazać na monitorze?) - trochę więcej czasochłonne</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P94">symulacja w symulatorze</text:p>
+     <text:p text:style-name="P93">symulacja w symulatorze</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P94">aplikacja w FPGA</text:p>
+     <text:p text:style-name="P93">aplikacja w FPGA</text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P18"/>
-   <text:p text:style-name="P18"><text:soft-page-break/>Sprzętowo:</text:p>
-   <text:p text:style-name="P18">zlutowanie anteny magnetyczne pa0rdt - ryzykowny etap, od tego zależy czy w ogóle odbiorę jakiś sygnał</text:p>
-   <text:p text:style-name="P18">dla pewności zamówiłem też najtańszy zegarek z dcf77 aby testować obecność sygnału oraz ew. wymontować stamtąd antenę ferrytową i użyć jej zamiast pa0rdt w przypadku nie działania pa0rdt.</text:p>
+   <text:p text:style-name="P19"/>
+   <text:p text:style-name="P19">Sprzętowo:</text:p>
+   <text:p text:style-name="P19">zlutowanie anteny magnetyczne pa0rdt - ryzykowny etap, od tego zależy czy w ogóle odbiorę jakiś sygnał</text:p>
+   <text:p text:style-name="P19">dla pewności zamówiłem też najtańszy zegarek z dcf77 aby testować obecność sygnału oraz ew. <text:soft-page-break/>wymontować stamtąd antenę ferrytową i użyć jej zamiast pa0rdt w przypadku nie działania pa0rdt.</text:p>
    <text:p text:style-name="P16"/>
    <text:p text:style-name="P16"/>
    <text:p text:style-name="P16"/>
    <text:p text:style-name="P16"/>
    <text:p text:style-name="P16"/>
-   <text:p text:style-name="P38">Pytania</text:p>
-   <text:list xml:id="list105354954616424" text:continue-list="list667201455875987290" text:style-name="L1">
+   <text:p text:style-name="P40">Pytania</text:p>
+   <text:list xml:id="list1707362531754077428" text:style-name="L1">
     <text:list-item>
      <text:p text:style-name="P91">czy wszystkie skróty tłumaczyć do słownika?</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P95"/>
+     <text:p text:style-name="P94"/>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P91"/>
     </text:list-item>
    </text:list>
-   <text:h text:style-name="P74" text:outline-level="1">Wstęp</text:h>
+   <text:h text:style-name="P76" text:outline-level="1">Wstęp</text:h>
    <text:p text:style-name="P11">Przez ostatnie lata można zaobserwować gwałtowny rozwój usług mobilnego dostępu do danych. Wciąż zwiększana przepustowość oraz jednoczesna ilość obsługiwanych użytkowników wymaga zaaplikowania odpowiednich metod technicznych w celu ich prawidłowej realizacji.</text:p>
    <text:p text:style-name="P11">Cegiełką, która jest podstawą w budowie tych systemów jest prezentowana w niniejszej pracy <text:span text:style-name="T29">technologia</text:span> programowalnego radia cyfrowego. Obecna na rynku od początków lat 90. XX wieku (na przykład w formie telefonii \gls{gsm}), a przez wojsko używana już dwie dekady wcześniej. Jej zastosowanie znacząco upraszcza projektowanie systemów radiowych a także umożliwia znaczące obniżenie kosztów poprzez przeniesienie (większości) przetwarzania sygnału <text:span text:style-name="T5">z toru analogowego do domeny cyfrowej (uprościć stwierdzenie – tor analogowy, domena cyfrowa?)</text:span>. Rezultatem jest zmniejszenie rozmiarów wynikowego \gls{pcb}. Z drugiej strony wymaga to dużych nakładów obliczeniowych czyli szybkich procesorów, lecz wraz z rozwojem zaawansowanych technik półprzewodnikowych stało się to możliwe. Przykładem były telefony firmy Nokia, np. model 5110 --- wydany w roku 1998 zawierał układ \gls{asic} (zintegrowany procesor \gls{arm} z układem \gls{dsp}).</text:p>
    <text:p text:style-name="P16">Obecnie, za sprawą takich projektów jak np. \gls{usrp}, już każdy ma łatwy dostęp do technologii \gls{sdr}. Mnogość\footnote{\url{https://en.wikipedia.org/wiki/List_of_software-defined_radios}} projektów pozwala na dostosowanie sprzętu do własnych potrzeb. Ciekawym rozwiązaniem jest projekt <text:span text:style-name="T33">rtl-sdr</text:span>. Jest on wynikiem odkryć\footnote{\url{http://rtlsdr.org/#history_and_discovery_of_rtlsdr}} podczas inżynierii odwrotnej sterowników zwykłego tunera telewizyjnego DVB-T. Pozwala on użyć takiego tunera jako taniego odbiornika \gls{sdr}.</text:p>
-   <text:h text:style-name="P58" text:outline-level="2">Cel i zakres pracy</text:h>
-   <text:p text:style-name="P20"><text:span text:style-name="T39">Tematem obejmującym niniejszą pracę dyplomową jest analiza zagadnienia radia programowalnego oraz symulacja i implementacja prototypu cyfrowego systemu odbioru i dekodowania transmisji radiowej wzorca czasu \gls{dcf77}</text:span><text:span text:style-name="T43">. System odbiorczy powinien być zdolny do odebrania sygnału radiowego oraz takiego jego przetworzenia, aby możliwe było odczytanie nadawanego komunikatu.</text:span></text:p>
-   <text:p text:style-name="P33"><text:span text:style-name="T43">(</text:span><text:span text:style-name="T42">możliwy duplikat poniżej)</text:span></text:p>
-   <text:p text:style-name="P21"><text:span text:style-name="T42">Założeniem pracy jest zaaplikowanie metody programowalnego radia cyfrowego do odbioru zmodulowanych informacji radiowych. </text:span><text:span text:style-name="T44">Radio programowalne to nazwa procedury</text:span><text:span text:style-name="T42"> postępowania polegając</text:span><text:span text:style-name="T44">ej</text:span><text:span text:style-name="T42"> na próbie jak największego przeniesienia przetwarzania sygnału w kierunku układów cyfrowych przy jednoczesnym ograniczeniu części analogowej. Ma to na celu zwiększenie ?</text:span><text:span text:style-name="T10">?dostępności(w sensie że jest więej możliwości np. rekonfiguracja </text:span><text:span text:style-name="T11">czestotliwosci</text:span><text:span text:style-name="T10">)</text:span><text:span text:style-name="T12">?? dopisać.</text:span><text:span text:style-name="T26"> sd</text:span></text:p>
-   <text:p text:style-name="P35">W tym celu wykorzystane zostaną narzędzia \gls{cad} projektowania płytek drukowanych, moduł DE0-Nano firmy <text:span text:style-name="T33">Terasic</text:span> także środowisko <text:span text:style-name="T33">Quartus</text:span> firmy Altera wraz z językiem \gls{verilog}.</text:p>
-   <text:p text:style-name="P35"/>
-   <text:p text:style-name="P21"><text:span text:style-name="T42">Rozdział </text:span><text:span text:style-name="T45">pierwszy, &quot;tytuł&quot;, </text:span><text:span text:style-name="T42">zawiera wytłumaczenie pojęć radia programowalnego a także opis transmisji radiowej sygnału czasu.</text:span></text:p>
+   <text:h text:style-name="P60" text:outline-level="2">Cel i zakres pracy</text:h>
+   <text:p text:style-name="P21"><text:span text:style-name="T39">Tematem obejmującym niniejszą pracę dyplomową jest analiza zagadnienia radia programowalnego oraz symulacja i implementacja prototypu cyfrowego systemu odbioru i dekodowania transmisji radiowej wzorca czasu \gls{dcf77}</text:span><text:span text:style-name="T43">. System odbiorczy powinien być zdolny do odebrania sygnału radiowego oraz takiego jego przetworzenia, aby możliwe było odczytanie nadawanego komunikatu.</text:span></text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T43">(</text:span><text:span text:style-name="T42">możliwy duplikat poniżej)</text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T42">Założeniem pracy jest zaaplikowanie metody programowalnego radia cyfrowego do odbioru zmodulowanych informacji radiowych. </text:span><text:span text:style-name="T44">Radio programowalne to nazwa procedury</text:span><text:span text:style-name="T42"> postępowania polegając</text:span><text:span text:style-name="T44">ej</text:span><text:span text:style-name="T42"> na próbie jak największego przeniesienia przetwarzania sygnału w kierunku układów cyfrowych przy jednoczesnym ograniczeniu części analogowej. Ma to na celu zwiększenie ?</text:span><text:span text:style-name="T10">?dostępności(w sensie że jest więej możliwości np. rekonfiguracja </text:span><text:span text:style-name="T11">czestotliwosci</text:span><text:span text:style-name="T10">)</text:span><text:span text:style-name="T12">?? dopisać.</text:span><text:span text:style-name="T26"> sd</text:span></text:p>
+   <text:p text:style-name="P37">W tym celu wykorzystane zostaną narzędzia \gls{cad} projektowania płytek drukowanych, moduł DE0-Nano firmy <text:span text:style-name="T33">Terasic</text:span> także środowisko <text:span text:style-name="T33">Quartus</text:span> firmy Altera wraz z językiem \gls{verilog}.</text:p>
+   <text:p text:style-name="P37"/>
+   <text:p text:style-name="P22"><text:span text:style-name="T42">Rozdział </text:span><text:span text:style-name="T45">pierwszy, &quot;tytuł&quot;, </text:span><text:span text:style-name="T42">zawiera wytłumaczenie pojęć radia programowalnego a także opis transmisji radiowej sygnału czasu.</text:span></text:p>
    <text:p text:style-name="P12">Rozdział <text:span text:style-name="T27">drugi, &quot;tytuł&quot;, </text:span>obejmuje opis założeń <text:span text:style-name="T27">systemu</text:span>, architekturę oraz mechanizmy użyte podczas projektowania odbiornika i dekodera.</text:p>
    <text:p text:style-name="P12">Rozdział <text:span text:style-name="T27">trzeci, &quot;tytuł&quot;, </text:span>przedstawia implementację odbiornika wraz z podziałem na część sprzętową (hardware&apos;ową) oraz programową (software&apos;ową).</text:p>
    <text:p text:style-name="P13">Rozdział czwarty, &quot;tytuł&quot;, zawiera...</text:p>
    <text:p text:style-name="P12"/>
-   <text:p text:style-name="P32"><text:soft-page-break/>!!!</text:p>
+   <text:p text:style-name="P34"><text:soft-page-break/>!!!</text:p>
    <text:p text:style-name="P12">System został podzielony na dwie części --- sprzętową(hardware&apos;ową) oraz programową(software&apos;ową).</text:p>
-   <text:p text:style-name="P22"><text:span text:style-name="T43">Cały system jest zaimplementowany z użyciem płytki Terasic DE0-Nano. Dodatkowo, aby umożliwić odbiór sygnałów radiowych zaprojektowano płytkę drukowaną (</text:span><text:span text:style-name="T44">\gls{pcb}</text:span><text:span text:style-name="T43">) na której umieszczono układ przetwornika analogowo-cyfrowego oraz układy pomocnicze, co ma umożliwić przetworzenie sygnału analogowego na postać cyfrową oraz przesłanie tejże do układu </text:span><text:span text:style-name="T44">\gls{fpga}</text:span><text:span text:style-name="T43">, gdzie podlegać będzie ona dalszej obróbce</text:span><text:span text:style-name="T46">.</text:span></text:p>
-   <text:p text:style-name="P69">\mainmatter</text:p>
-   <text:h text:style-name="P52" text:outline-level="1">Software Defined Radio</text:h>
-   <text:p text:style-name="P17">Rozwój technologii produkcji układów scalonych wielkiej skali integracji umożliwił rozpoczęcie innowacyjnych projektów. Jednym z nich z pewnością można nazwać ideę radia programowalnego. <text:span text:style-name="T30">Realizacja praktyczna rozpoczęła się w latach 80. XX wieku \cite{john85sdr}. Dziesięć lat później pojęcie to zostało opisane teoretycznie \cite{mitola92sr}. Realizacja praktyczna była możliwa dzięki wykorzystaniu procesora \gls{dsp} TMS320 firmy Texas Instruments. Dzisiaj każdy zainteresowany może korzystać z tej technologii.</text:span></text:p>
-   <text:h text:style-name="P59" text:outline-level="2">Teoria</text:h>
+   <text:p text:style-name="P23"><text:span text:style-name="T43">Cały system jest zaimplementowany z użyciem płytki Terasic DE0-Nano. Dodatkowo, aby umożliwić odbiór sygnałów radiowych zaprojektowano płytkę drukowaną (</text:span><text:span text:style-name="T44">\gls{pcb}</text:span><text:span text:style-name="T43">) na której umieszczono układ przetwornika analogowo-cyfrowego oraz układy pomocnicze, co ma umożliwić przetworzenie sygnału analogowego na postać cyfrową oraz przesłanie tejże do układu </text:span><text:span text:style-name="T44">\gls{fpga}</text:span><text:span text:style-name="T43">, gdzie podlegać będzie ona dalszej obróbce</text:span><text:span text:style-name="T46">.</text:span></text:p>
+   <text:p text:style-name="P71">\mainmatter</text:p>
+   <text:h text:style-name="P54" text:outline-level="1">Software Defined Radio</text:h>
+   <text:p text:style-name="P18">Rozwój technologii produkcji układów scalonych wielkiej skali integracji umożliwił rozpoczęcie innowacyjnych projektów. Jednym z nich z pewnością można nazwać ideę radia programowalnego. <text:span text:style-name="T30">Realizacja praktyczna rozpoczęła się w latach 80. XX wieku \cite{john85sdr}. Dziesięć lat później pojęcie to zostało opisane teoretycznie \cite{mitola92sr}. Realizacja praktyczna była możliwa dzięki wykorzystaniu procesora \gls{dsp} TMS320 firmy Texas Instruments. Dzisiaj każdy zainteresowany może korzystać z tej technologii.</text:span></text:p>
+   <text:h text:style-name="P61" text:outline-level="2">Teoria</text:h>
    <text:p text:style-name="P9"><text:span text:style-name="T30">Rysunek \ref{fig:sdrGeneral} przedstawia typowy sposób działania radia </text:span>programowalnego.</text:p>
    <text:p text:style-name="P9">\begin{figure}<text:span text:style-name="T38">[ht!]</text:span></text:p>
    <text:p text:style-name="P9"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P23"><text:s text:c="4"/>\include<text:span text:style-name="T38">graphics</text:span>[<text:span text:style-name="T38">w</text:span>idth=<text:span text:style-name="T38">0.8</text:span>\textwidth]{../<text:span text:style-name="T38">images/sdrGeneral}</text:span></text:p>
+   <text:p text:style-name="P24"><text:s text:c="4"/>\include<text:span text:style-name="T38">graphics</text:span>[<text:span text:style-name="T38">w</text:span>idth=<text:span text:style-name="T38">0.8</text:span>\textwidth]{../<text:span text:style-name="T38">images/sdrGeneral}</text:span></text:p>
    <text:p text:style-name="P9"><text:s text:c="4"/>\caption<text:span text:style-name="T38">{Idea radia programowalnego</text:span>}</text:p>
    <text:p text:style-name="P9"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T37">sdrGeneral</text:span>}</text:p>
    <text:p text:style-name="P9">\end{figure}</text:p>
    <text:p text:style-name="P9">Pierwszym elemente<text:span text:style-name="T30">m </text:span><text:span text:style-name="T34">(1)</text:span><text:span text:style-name="T30"> jest antena. Jej wybór determinowany jest zakładanym przez projektantów systemu zakresem częstotliwości wejściowych, kierunkowością, selektywnością i szerokopasmowością.</text:span></text:p>
-   <text:p text:style-name="P24">Drugi element <text:span text:style-name="T33">(2)</text:span> to analogowe filtry wejściowe. Zapobiegają one przedostawaniu się niepożądanych części pasma radiowego do dalszych części systemu. W tym przypadku doprowadzenie pełnego pasma do przetwornika analogowo-cyfrowego spowodowałoby powstanie zjawiska aliasingu. ?d<text:span text:style-name="T9">odac literature jakas</text:span>? </text:p>
-   <text:p text:style-name="P24">Kolejnym <text:span text:style-name="T33">(3)</text:span> elementem systemu jest przetwornik analogowo-cyfrowy. Umożliwia on odwzorowanie sygnałów analogowych na sygnały cyfrowe możliwe do analizowania i przetwarzania przez logikę cyfrową.</text:p>
-   <text:p text:style-name="P24">Ostatnim <text:span text:style-name="T33">(4)</text:span> elementem systemu jest układ cyfrowy. Na schemacie ten blok podpisano jako \gls{fpga}, gdyż tak będzie reprezentowany w niniejszej pracy. Jednak nic nie szkodzi na przeszkodzie aby był to innego typu układ, np. \gls{dsp}, szeroko stosowany w komunikacji komórkowej.</text:p>
-   <text:p text:style-name="P24">Cały schemat jest uproszczonym przykładem \gls{sdr}, jednak nakreśla jego główne właściwości. Przerywana strzałka zaznaczona na obrazku symbolicznie rozdziela część sprzętową (po lewej stronie) od części programowej przetwarzania sygnału.</text:p>
-   <text:h text:style-name="P75" text:outline-level="1">DCF77</text:h>
-   <text:p text:style-name="P18">DCF77 jest to nazwa sygnału czasu nadawany na falach długich. Częstotliwo<text:span text:style-name="T38">ś</text:span>ć została <text:span text:style-name="T38">zarejestrowana</text:span> w \gls{itu} w 1953 a rozpoczął działanie w 1959 roku --- pierwotnie jako wzorzec częstotliwości. W roku 1979 dołączono zmodulowaną informację o aktualnej godzinie. Wysoka stabilnoś<text:span text:style-name="T38">ć</text:span> sygnału, kontrolowana przez zegary atomowe powoduje, że sygnał jest uznawany za wzorzec odniesienia czasu w Niemczech.</text:p>
-   <text:p text:style-name="P18">Sygnał jest kontrolowany przez <text:span text:style-name="T33">Physikalisch-Technische Bundesanstalt</text:span> (narodowy instytut metrologii Republiki Federalnej Niemiec) i nadawany z miejscowości Manfliegen --- około 25km na południowy zachód od Frankfurtu nad Menem. System jest zabezpieczonyg Moc nadajnika to 50kW. \cite<text:span text:style-name="T35">[s. 4-7]</text:span>{bauch09dcf}</text:p>
-   <text:h text:style-name="P60" text:outline-level="2"><text:span text:style-name="T35">S</text:span>ygnał</text:h>
-   <text:p text:style-name="P25">Częstotliwość nośna sygnału wynosi 77,5kHz jest modulowana amplitudowo z sekundowymi znacznikami. Z początkiem każdej sekundy amplituda jest redukowana na czas 0,1s lub 0,2s --- z wyjątkiem ostatniej sekundy każdej minuty, co jest identyfikatorem początku kolejnej minuty.</text:p>
-   <text:p text:style-name="P25">Z początkiem każdej sekundy amplituda sygnału jest zmniejszana do 15% na 0,1s lub 0,2s.\cite[s. 10]{bauch09dcf}</text:p>
-   <text:h text:style-name="P60" text:outline-level="2">Kodowanie</text:h>
-   <text:p text:style-name="P25">Każda zmiana amplitudy oznacza wartość w systemie binarnym, brany jest pod uwagę czas tej zmiany. I tak --- zmiana na okres 0,1s uważana jest za binarne zero a 0,2s --- binarną jedynkę. Co każdą minutę transmitowane są sygnały minuty, godziny, dnia, miesiąca i roku w systemie \gls{bcd} --- czas jest nadawany dla nadchodzącej minuty. Całą zawartość komunikatu ilustruje rysunek \ref{fig:dcf77clk}, w którym przedstawiono nadawane bity w formie zegara. </text:p>
-   <text:p text:style-name="P27">\begin{figure}[!h<text:span text:style-name="T38">t</text:span>]</text:p>
-   <text:p text:style-name="P27"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P27"><text:s text:c="4"/>\include<text:span text:style-name="T38">graphics</text:span>[width=<text:span text:style-name="T38">0.8</text:span>\textwidth]{../<text:span text:style-name="T38">images/</text:span>dcf77clk}</text:p>
-   <text:p text:style-name="P27"><text:s text:c="4"/>\caption{<text:span text:style-name="T38">Wykres zegarowy sygnału DCF77</text:span>}</text:p>
-   <text:p text:style-name="P27"><text:s text:c="4"/>\label{fig:dcf77clk}</text:p>
-   <text:p text:style-name="P97">\end{figure}</text:p>
-   <text:h text:style-name="P72" text:outline-level="1">Implementacja</text:h>
-   <text:p text:style-name="P92">Projekt został na początku rozdzielony na dwie części:</text:p>
-   <text:list xml:id="list2482317512363578280" text:style-name="L4">
+   <text:p text:style-name="P25">Drugi element <text:span text:style-name="T33">(2)</text:span> to analogowe filtry wejściowe. Zapobiegają one przedostawaniu się niepożądanych części pasma radiowego do dalszych części systemu. W tym przypadku doprowadzenie pełnego pasma do przetwornika analogowo-cyfrowego spowodowałoby powstanie zjawiska aliasingu. ?d<text:span text:style-name="T9">odac literature jakas</text:span>? </text:p>
+   <text:p text:style-name="P25">Kolejnym <text:span text:style-name="T33">(3)</text:span> elementem systemu jest przetwornik analogowo-cyfrowy. Umożliwia on odwzorowanie sygnałów analogowych na sygnały cyfrowe możliwe do analizowania i przetwarzania przez logikę cyfrową.</text:p>
+   <text:p text:style-name="P25">Ostatnim <text:span text:style-name="T33">(4)</text:span> elementem systemu jest układ cyfrowy. Na schemacie ten blok podpisano jako \gls{fpga}, gdyż tak będzie reprezentowany w niniejszej pracy. Jednak nic nie szkodzi na przeszkodzie aby był to innego typu układ, np. \gls{dsp}, szeroko stosowany w komunikacji komórkowej.</text:p>
+   <text:p text:style-name="P25">Cały schemat jest uproszczonym przykładem \gls{sdr}, jednak nakreśla jego główne właściwości. Przerywana strzałka zaznaczona na obrazku symbolicznie rozdziela część sprzętową (po lewej stronie) od części programowej przetwarzania sygnału.</text:p>
+   <text:h text:style-name="P77" text:outline-level="1">DCF77</text:h>
+   <text:p text:style-name="P19">DCF77 jest to nazwa sygnału czasu nadawany na falach długich. Częstotliwo<text:span text:style-name="T38">ś</text:span>ć została <text:span text:style-name="T38">zarejestrowana</text:span> w \gls{itu} w 1953 a rozpoczął działanie w 1959 roku --- pierwotnie jako wzorzec częstotliwości. W roku 1979 dołączono zmodulowaną informację o aktualnej godzinie. Wysoka stabilnoś<text:span text:style-name="T38">ć</text:span> sygnału, kontrolowana przez zegary atomowe powoduje, że sygnał jest uznawany za wzorzec odniesienia czasu w Niemczech.</text:p>
+   <text:p text:style-name="P19">Sygnał jest kontrolowany przez <text:span text:style-name="T33">Physikalisch-Technische Bundesanstalt</text:span> (narodowy instytut metrologii Republiki Federalnej Niemiec) i nadawany z miejscowości Manfliegen --- około 25km na południowy zachód od Frankfurtu nad Menem. System jest zabezpieczonyg Moc nadajnika to 50kW. \cite<text:span text:style-name="T35">[s. 4-7]</text:span>{bauch09dcf}</text:p>
+   <text:h text:style-name="P62" text:outline-level="2"><text:span text:style-name="T35">S</text:span>ygnał</text:h>
+   <text:p text:style-name="P26">Częstotliwość nośna sygnału wynosi 77,5kHz jest modulowana amplitudowo z sekundowymi znacznikami. Z początkiem każdej sekundy amplituda jest redukowana na czas 0,1s lub 0,2s --- z wyjątkiem ostatniej sekundy każdej minuty, co jest identyfikatorem początku kolejnej minuty.</text:p>
+   <text:p text:style-name="P26">Z początkiem każdej sekundy amplituda sygnału jest zmniejszana do 15% na 0,1s lub 0,2s.\cite[s. 10]{bauch09dcf}</text:p>
+   <text:h text:style-name="P62" text:outline-level="2">Kodowanie</text:h>
+   <text:p text:style-name="P26">Każda zmiana amplitudy oznacza wartość w systemie binarnym, brany jest pod uwagę czas tej zmiany. I tak --- zmiana na okres 0,1s uważana jest za binarne zero a 0,2s --- binarną jedynkę. Co każdą minutę transmitowane są sygnały minuty, godziny, dnia, miesiąca i roku w systemie \gls{bcd} --- czas jest nadawany dla nadchodzącej minuty. Całą zawartość komunikatu ilustruje rysunek \ref{fig:dcf77clk}, w którym przedstawiono nadawane bity w formie zegara. </text:p>
+   <text:p text:style-name="P28">\begin{figure}[!h<text:span text:style-name="T38">t</text:span>]</text:p>
+   <text:p text:style-name="P28"><text:s text:c="4"/>\centering</text:p>
+   <text:p text:style-name="P28"><text:s text:c="4"/>\include<text:span text:style-name="T38">graphics</text:span>[width=<text:span text:style-name="T38">0.8</text:span>\textwidth]{../<text:span text:style-name="T38">images/</text:span>dcf77clk}</text:p>
+   <text:p text:style-name="P28"><text:s text:c="4"/>\caption{<text:span text:style-name="T38">Wykres zegarowy sygnału DCF77</text:span>}</text:p>
+   <text:p text:style-name="P28"><text:s text:c="4"/>\label{fig:dcf77clk}</text:p>
+   <text:p text:style-name="P29">\end{figure}</text:p>
+   <text:h text:style-name="P74" text:outline-level="1">Implementacja</text:h>
+   <text:p text:style-name="P17">Projekt został na początku rozdzielony na dwie części:</text:p>
+   <text:list xml:id="list7116132430271437956" text:style-name="L3">
     <text:list-item>
-     <text:p text:style-name="P93">część sprzętowa --- zaprojektowana przez autora płytka \gls{pcb} dołączona do modułu <text:span text:style-name="T33">DE0-Nano</text:span></text:p>
+     <text:p text:style-name="P92">część sprzętowa --- zaprojektowana przez autora płytka \gls{pcb} dołączona do modułu <text:span text:style-name="T33">DE0-Nano</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P93">częś<text:span text:style-name="T38">ć</text:span> programowa --- kod napisany w języku \gls{verilog}, <text:span text:style-name="T38">interpretujący</text:span> dane wejściowe.</text:p>
+     <text:p text:style-name="P92">częś<text:span text:style-name="T38">ć</text:span> programowa --- kod napisany w języku \gls{verilog}, <text:span text:style-name="T38">interpretujący</text:span> dane wejściowe.</text:p>
     </text:list-item>
    </text:list>
-   <text:h text:style-name="P61" text:outline-level="2">Część sprzętowa</text:h>
-   <text:p text:style-name="P29"/>
-   <text:p text:style-name="P29"/>
-   <text:p text:style-name="P29"/>
-   <text:h text:style-name="P61" text:outline-level="2">Część programowa</text:h>
-   <text:p text:style-name="P30"><text:span text:style-name="T32">sd</text:span>Dadsd<text:span text:style-name="T32">asd</text:span></text:p>
-   <text:p text:style-name="P18">asd</text:p>
-   <text:h text:style-name="P73" text:outline-level="1"><text:span text:style-name="T31">Uruchomienie</text:span> prototypu i rezultaty</text:h>
+   <text:h text:style-name="P63" text:outline-level="2">Część sprzętowa</text:h>
+   <text:p text:style-name="P31"/>
+   <text:p text:style-name="P31"/>
+   <text:p text:style-name="P31"/>
+   <text:h text:style-name="P63" text:outline-level="2">Część programowa</text:h>
+   <text:p text:style-name="P32"><text:span text:style-name="T32">sd</text:span>Dadsd<text:span text:style-name="T32">asd</text:span></text:p>
+   <text:p text:style-name="P19">asd</text:p>
+   <text:h text:style-name="P75" text:outline-level="1"><text:span text:style-name="T31">Uruchomienie</text:span> prototypu i rezultaty</text:h>
    <text:p text:style-name="P11"><text:span text:style-name="T47">A</text:span>sdsa</text:p>
-   <text:h text:style-name="P58" text:outline-level="2">asd</text:h>
+   <text:h text:style-name="P60" text:outline-level="2">asd</text:h>
    <text:p text:style-name="P11">Asdsdd</text:p>
-   <text:p text:style-name="P70">\backmatter</text:p>
-   <text:h text:style-name="P53" text:outline-level="1">Zakończenie</text:h>
-   <text:p text:style-name="P24">abasasda</text:p>
-   <text:p text:style-name="P24">aaa</text:p>
+   <text:p text:style-name="P72">\backmatter</text:p>
+   <text:h text:style-name="P55" text:outline-level="1">Zakończenie</text:h>
+   <text:p text:style-name="P25">abasasda</text:p>
+   <text:p text:style-name="P25">aaa</text:p>
   </office:text>
  </office:body>
 </office:document>

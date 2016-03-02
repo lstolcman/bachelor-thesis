@@ -1,26 +1,26 @@
-\begin{center}
-\begin{tabular}{|c|c|c|}
-	\hline
-	Bit	&	Nazwa	& Znaczenie	\\
-	\hline
-	0	&	M		& Start minuty. Zawsze zero	\\
-	\hline
-	
- LB & Lucas Radebe		&\multirow{4}{*}{Defender}\\
- DC & Michael Duburry	&\\
- DC & Dominic Matteo	&\\
- RB & Didier Domi		&\\
-	\hline
-	\multirow{3}{*}{Midfielders}
-	& MC & David Batty	\\
-	& MC & Eirik Bakke	\\
-	& MC & Jody Morris	\\
-	\hline
-	Forward & FW & Jamie McMaster	\\
-	\hline
-	\multirow{2}{*}{Strikers}
-	& ST & Alan Smith	\\
-	& ST & Mark Viduka	\\
-	\hline
-\end{tabular}
+% http://truben.no/table/
+%\setlength\extrarowheight{1pt}
+\begin{center} 
+    \begin{tabular}{|c|c|c|}
+    \hline
+    Bit   & Symbol bitu & Grupa                                                            \\ \hline \hline
+	0     & M     & \minibox[c]{początek minuty (zawsze 0)}                                      \\ \hline \hline
+	1-14  & --     & \minibox[c]{informacja pogodowa\\(Meteotime)}                                 \\ \hline \hline
+    15    & R     & nieprawidłowe działanie nadajnika              \\ \hline
+	16    & A1    & \minibox[c]{nadchodzący czas letni\\(przez godzinę przed ustaleniem)}         \\ \hline
+    17    & Z1    & czas letni                                                       \\ \hline
+    18    & Z2    & czas zimowy                                                     	 \\ \hline
+	19    & A2    & \minibox[c]{nadchodząca sekunda przestępna\\(przez godzinę przed ustaleniem)} \\ \hline \hline
+	20    & S     & \minibox[c]{początek sygnału czasu (zawsze 1)}                               \\ \hline
+	21-27 & --     & \minibox[c]{minuty\\(pierwszy bit najmłodszy)}                                \\ \hline
+    28    & P1    & bit parzystości minuty                                           \\ \hline \hline
+	29-34 & --     & \minibox[c]{godziny\\(pierwszy bit najmłodszy)}                               \\ \hline
+    35    & P2    & bit parzystości godziny                                          \\ \hline 
+	36-41 & --     & \minibox[c]{dzień miesiąca\\(pierwszy bit najmłodszy)}                        \\ \hline 
+	42-44 & --     & \minibox[c]{dzień tygodnia\\(pierwszy bit najmłodszy)}                        \\ \hline 
+    45-49 & --     & miesiąc                                                          \\ \hline
+	50-57 & --     & \minibox[c]{rok (dwie cyfry)}                                                \\ \hline
+	58    & P3    & \minibox[c]{bit parzystości daty\\(bity 36-58)}                               \\ \hline \hline
+	59    & --     & \minibox[c]{znacznik nowej minuty\\(brak modulacji)}                          \\ \hline
+    \end{tabular}
 \end{center}

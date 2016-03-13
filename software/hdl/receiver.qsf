@@ -23,22 +23,14 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK_50
 #============================================================
 # LED
 #============================================================
-set_location_assignment PIN_A15 -to LEDA[0]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDA[0]
-set_location_assignment PIN_A13 -to LEDA[1]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDA[1]
-set_location_assignment PIN_B13 -to LEDA[2]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDA[2]
-set_location_assignment PIN_A11 -to LEDA[3]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDA[3]
-set_location_assignment PIN_D1 -to LEDA[4]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDA[4]
-set_location_assignment PIN_F3 -to LEDA[5]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDA[5]
-set_location_assignment PIN_B1 -to LEDA[6]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDA[6]
-set_location_assignment PIN_L3 -to LEDA[7]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDA[7]
+set_location_assignment PIN_A15 -to LED[0]
+set_location_assignment PIN_A13 -to LED[1]
+set_location_assignment PIN_B13 -to LED[2]
+set_location_assignment PIN_A11 -to LED[3]
+set_location_assignment PIN_D1 -to LED[4]
+set_location_assignment PIN_F3 -to LED[5]
+set_location_assignment PIN_B1 -to LED[6]
+set_location_assignment PIN_L3 -to LED[7]
 
 #============================================================
 # KEY
@@ -241,5 +233,14 @@ set_global_assignment -name SYSTEMVERILOG_FILE src/uart.v
 
 set_global_assignment -name SYSTEMVERILOG_FILE src/interface.v
 
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[5]
 
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

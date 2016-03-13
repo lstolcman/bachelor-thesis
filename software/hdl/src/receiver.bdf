@@ -22,7 +22,7 @@ agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 40 96 216 112)
+	(rect -24 96 152 112)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "CLOCK_50" (rect 9 0 64 12)(font "Arial" ))
 	(pt 176 8)
@@ -35,7 +35,7 @@ agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -16 112 40 128))
+	(annotation_block (location)(rect -80 96 -24 112))
 )
 (pin
 	(input)
@@ -52,13 +52,13 @@ agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 88 304 144 320))
+	(annotation_block (location)(rect 504 128 560 144))
 )
 (pin
 	(input)
 	(rect 568 144 736 160)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLKOUT_P" (rect 5 0 62 12)(font "Arial" ))
+	(text "CLKOUTA" (rect 5 0 56 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -69,13 +69,13 @@ agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 632 176 688 192))
+	(annotation_block (location)(rect 504 144 560 160))
 )
 (pin
 	(input)
 	(rect 568 160 736 176)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLKOUT_N" (rect 5 0 63 12)(font "Arial" ))
+	(text "CLKOUTB" (rect 5 0 55 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -86,13 +86,13 @@ agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 712 224 768 240))
+	(annotation_block (location)(rect 504 160 560 176))
 )
 (pin
 	(input)
 	(rect 568 112 736 128)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D[15..0]" (rect 5 0 46 12)(font "Arial" ))
+	(text "DA[15..0]" (rect 5 0 52 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -103,7 +103,7 @@ agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 208 432 264 448))
+	(annotation_block (location)(rect 504 112 560 128))
 )
 (pin
 	(output)
@@ -154,7 +154,7 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1304 56 1360 72))
+	(annotation_block (location)(rect 1200 96 1256 112))
 )
 (pin
 	(output)
@@ -171,7 +171,7 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1304 104 1360 120))
+	(annotation_block (location)(rect 1200 112 1256 128))
 )
 (pin
 	(output)
@@ -188,7 +188,7 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1320 144 1376 160))
+	(annotation_block (location)(rect 1200 128 1256 144))
 )
 (pin
 	(output)
@@ -208,7 +208,7 @@ agreement for further details.
 	(annotation_block (location)(rect 1184 432 1240 448))
 )
 (symbol
-	(rect 288 40 552 192)
+	(rect 192 40 456 192)
 	(text "pll2MHz" (rect 109 0 164 16)(font "Arial" (font_size 10)))
 	(text "inst3" (rect 8 136 31 148)(font "Arial" ))
 	(port
@@ -370,28 +370,8 @@ agreement for further details.
 	)
 )
 (connector
-	(pt 232 104)
-	(pt 232 312)
-)
-(connector
 	(pt 568 312)
 	(pt 496 312)
-)
-(connector
-	(pt 216 104)
-	(pt 232 104)
-)
-(connector
-	(pt 232 104)
-	(pt 288 104)
-)
-(connector
-	(pt 232 312)
-	(pt 360 312)
-)
-(connector
-	(pt 552 104)
-	(pt 776 104)
 )
 (connector
 	(pt 736 120)
@@ -431,4 +411,24 @@ agreement for further details.
 	(pt 1016 168)
 	(bus)
 )
-(junction (pt 232 104))
+(connector
+	(pt 168 104)
+	(pt 168 312)
+)
+(connector
+	(pt 360 312)
+	(pt 168 312)
+)
+(connector
+	(pt 152 104)
+	(pt 168 104)
+)
+(connector
+	(pt 168 104)
+	(pt 192 104)
+)
+(connector
+	(pt 456 104)
+	(pt 776 104)
+)
+(junction (pt 168 104))

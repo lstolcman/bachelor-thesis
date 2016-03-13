@@ -39,7 +39,9 @@ begin
 		cnt_uart	<=	0;
 		data_out_rdy<=1;
 		data_out	<=	data_in;
-		LED <= data_in[8:1];
+		LED[7:5] <= data_in[15:13];
+		LED[4:3] <= 0;
+		LED[2:0] <= data_in[2:0];
 	end
 end
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3906,7 +3906,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$57">
 </signal>
-<signal name="CLKOUT_P">
+<signal name="CLKOUTA">
 <contactref element="IC5" pad="41"/>
 <contactref element="SV1" pad="3"/>
 <wire x1="90.62029375" y1="37.084" x2="79.95629375" y2="48.0528" width="0.3048" layer="1"/>
@@ -3920,7 +3920,7 @@ design rules under a new name.</description>
 <wire x1="90.62029375" y1="37.084" x2="90.62029375" y2="32.82370625" width="0.3048" layer="1"/>
 <wire x1="90.62029375" y1="32.82370625" x2="91.44" y2="32.004" width="0.3048" layer="1"/>
 </signal>
-<signal name="CLKOUT_N">
+<signal name="CLKOUTB">
 <contactref element="IC5" pad="40"/>
 <contactref element="SV1" pad="1"/>
 <wire x1="89.84670625" y1="36.83" x2="79.42870625" y2="47.502" width="0.3048" layer="1"/>
@@ -3934,42 +3934,15 @@ design rules under a new name.</description>
 <wire x1="89.84670625" y1="36.83" x2="89.84670625" y2="32.32729375" width="0.3048" layer="1"/>
 <wire x1="89.84670625" y1="32.32729375" x2="92.71" y2="29.464" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$33">
-<contactref element="SV1" pad="6"/>
-</signal>
-<signal name="N$32">
-<contactref element="SV1" pad="36"/>
-</signal>
-<signal name="N$35">
-<contactref element="SV1" pad="38"/>
-</signal>
-<signal name="N$36">
-<contactref element="SV1" pad="40"/>
-</signal>
-<signal name="N$37">
-<contactref element="SV1" pad="39"/>
-</signal>
-<signal name="N$38">
-<contactref element="SV1" pad="37"/>
-</signal>
-<signal name="N$45">
-<contactref element="SV1" pad="35"/>
-</signal>
-<signal name="N$46">
-<contactref element="SV1" pad="33"/>
-</signal>
-<signal name="N$48">
-<contactref element="SV1" pad="29"/>
-</signal>
-<signal name="N$52">
-<contactref element="SV1" pad="5"/>
-</signal>
-<signal name="N$58">
-<contactref element="SV1" pad="11"/>
-</signal>
 <signal name="N$8">
 </signal>
 <signal name="N$21">
+</signal>
+<signal name="VCC3P3">
+<contactref element="SV1" pad="29"/>
+</signal>
+<signal name="VCC_SYS">
+<contactref element="SV1" pad="11"/>
 </signal>
 </signals>
 <errors>

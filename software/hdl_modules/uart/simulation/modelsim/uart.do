@@ -9,12 +9,15 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work ../../src/dds.v
-vlog -sv -work work dds_over.v
+vlog -sv -work work ../../src/uart.v
+vlog -sv -work work uart.v
 
 
-vsim -L rtl_work -L work work.dds_over_tb
+vsim -L rtl_work -L work work.uart_tb
 
 add wave *
+add wave i1/*
+
+run 700us
 
 

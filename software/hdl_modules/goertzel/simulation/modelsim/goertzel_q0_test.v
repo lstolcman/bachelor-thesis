@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-module goertzel_tb();
+module goertzel_q0_test_tb();
 
 parameter CLK_PERIOD=7.692; //130MHz
 parameter CLK_PERIOD_sample=769.2; //1.3MHz
@@ -76,8 +76,76 @@ goertzel i1
 	.power(power)
 );
 
-wire [64:0] power_div;
-assign power_div = power>>35;
+
+
+
+
+
+
+
+
+
+
+
+wire signed [31:0] q0int;
+fp64int32conv fp64int32conv_i1_q0
+(
+	.aclr(1'b0),
+	.clock(clock),
+	.dataa(i1.q0),
+	.result(q0int)
+);
+
+
+wire signed [31:0] q1int;
+fp64int32conv fp64int32conv_i1_q1
+(
+	.aclr(1'b0),
+	.clock(clock),
+	.dataa(i1.q1),
+	.result(q1int)
+);
+
+wire signed [31:0] q2int;
+fp64int32conv fp64int32conv_i1_q2
+(
+	.aclr(1'b0),
+	.clock(clock),
+	.dataa(i1.q2),
+	.result(q2int)
+);
+
+
+
+wire signed [31:0] q0int_tmp;
+fp64int32conv fp64int32conv_i1_q0_tmp
+(
+	.aclr(1'b0),
+	.clock(clock),
+	.dataa(i1.q0_tmp),
+	.result(q0int_tmp)
+);
+
+
+wire signed [31:0] q1int_tmp;
+fp64int32conv fp64int32conv_i1_q1_tmp
+(
+	.aclr(1'b0),
+	.clock(clock),
+	.dataa(i1.q1_tmp),
+	.result(q1int_tmp)
+);
+
+wire signed [31:0] q2int_tmp;
+fp64int32conv fp64int32conv_i1_q2_tmp
+(
+	.aclr(1'b0),
+	.clock(clock),
+	.dataa(i1.q2_tmp),
+	.result(q2int_tmp)
+);
+
+
 
 
 

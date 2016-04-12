@@ -5,18 +5,18 @@ module uart
 	input reset_n,
 
 	input send,
-	output reg done,
+	output reg done = 1'b1,
 
 	input [7:0] data,
-	output reg tx
+	output reg tx = 1'b0
 );
 
 
 // state machine for asynchronous send detect
 
-reg send_state;
-reg send_state_next;
-reg [7:0] data_sync;
+reg send_state = 1'b0;
+reg send_state_next = 1'b0;
+reg [7:0] data_sync = 8'b0;
 
 always @(*)
 begin
@@ -28,31 +28,40 @@ begin
 	else
 	begin
 	case(send_state)
+
 		0:
-			if (send && done)
 			begin
-				send_state_next = 1;
-				data_sync = data;
+				if (send && done)
+				begin
+					send_state_next = 1;
+					data_sync = data;
+				end
 			end
+
 		1:
-			if (!done)
-				send_state_next = 0;
+			begin
+				if (!done)
+					send_state_next = 0;
+			end
+
 	endcase
 	end
 end
 
 always @(posedge clock)
 begin
+
 	if (!reset_n)
 		send_state <= 0;
 	else
 		send_state <= send_state_next;
+
 end
 
 
 
-reg [3:0] data_counter;
-enum {S0, S1, S2} state;
+reg [3:0] data_counter = 4'b0;
+enum {S0, S1, S2} state = S0;
 
 always @(posedge clock)
 begin

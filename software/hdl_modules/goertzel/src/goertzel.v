@@ -7,7 +7,7 @@ module goertzel
 	input signed [31:0] sample,
 
 	output reg ready,
-	output reg signed [31:0] power
+	output reg [63:0] power
 );
 
 reg signed [31:0] sample_reg;
@@ -162,17 +162,30 @@ fp64int64conv fp64int64conv_i1
 	.result(fp64int64conv_i1_result)
 );
 //-----------------------------------------------------------------------------
-wire signed [24:0] fp64int64conv_i1_result_div;
-assign fp64int64conv_i1_result_div = fp64int64conv_i1_result[54:31]; // >> 35;
+
+
+always @(posedge ready)
+begin
+	power <= fp64int64conv_i1_result;
+end
+
 
 
 always @(posedge clock_sample)
 begin
-	sample_reg <= sample;
-	i <= 0;
-	sample_counter <= sample_counter+1;
 
+	if (reset_n == 0)
+	begin
+		sample_reg <= 64'd0;
+		sample_counter <= 0;
+	end
+	else
+	begin
+		sample_reg <= sample;
+		sample_counter <= sample_counter+1;
+	end
 
+	i<= 0;
 
 end
 
@@ -183,8 +196,7 @@ begin
 	if (reset_n == 0)
 	begin
 		ready <= 1'd0;
-		power <= 32'd0;
-		sample_reg <= 64'd0;
+		power <= 64'd0;
 		coeff <= 64'h3FFDC7FE93706522;
 		q0 <= 64'd0;
 		q1 <= 64'd0;
@@ -192,11 +204,9 @@ begin
 		q0_tmp <= 64'd0;
 		q1_tmp <= 64'd0;
 		q2_tmp <= 64'd0;
-		i <= 0;
 		fpmult_i1_aclr <= 1;
 		fpadd_i1_aclr <= 1;
 		fpsub_i1_aclr <= 1;
-		sample_counter <= 0;
 	end
 	else
 	begin
@@ -228,7 +238,6 @@ begin
 
 		// result = ((q1**2) + (q2**2)) - ((q1*q2)*coeff)
 		case (sample_counter)
-			0: ready <= 0;
 			10:
 				begin
 					fpmult_i2_1_aclr <= 0;
@@ -239,6 +248,7 @@ begin
 			30: fpadd_i2_aclr <= 0;
 			40: fpsub_i2_aclr <= 0;
 			50:	ready <= 1;
+			51: ready <= 0;
 			520:
 				// 520 samples collected, store results to tmp and compute
 				// power

@@ -54,7 +54,7 @@ with open('sine.txt', 'w') as f:
 	for i, val in enumerate(sine_wave):
 		if ((i >= 1040) and (i<1560)):
 			print(i)
-			val=int(val/10000)
+			val=int(val/8)
 		if (val < 0):
 			val = 2**32-abs(val)
 		f.write(hex(val)[2:].zfill(8))

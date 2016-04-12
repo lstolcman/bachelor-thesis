@@ -77,7 +77,6 @@ integer inc;
 wr=1;
 #100us;
 $writememb("dataout.txt", memoryout);
-$stop;
 	end
 
 	always

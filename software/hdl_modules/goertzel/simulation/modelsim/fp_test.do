@@ -1,3 +1,7 @@
+# speedup modelsim simulation - no log file is written
+# source: http://www.ht-lab.com/howto/modelsim/Modelsim_tips.html
+nolog -all
+
 transcript on
 if {[file exists rtl_work]} {
 	vdel -lib rtl_work -all

@@ -19,7 +19,7 @@ entity fir_second_ast is
   PHYSCHANOUT         : integer := 1;
   CHANSPERPHYIN       : natural := 1;
   CHANSPERPHYOUT      : natural := 1;
-  OUTPUTFIFODEPTH     : integer := 16;
+  OUTPUTFIFODEPTH     : integer := 8;
   USE_PACKETS         : integer := 0;
   MODE_WIDTH         : integer := 0;
   ENABLE_BACKPRESSURE : boolean := false;

@@ -15,33 +15,6 @@
    type="VHDL" />
  <file path="fir_first_sim/auk_dspip_roundsat_hpfir.vhd" type="VHDL" />
  <file path="fir_first_sim/altera_avalon_sc_fifo.v" type="VERILOG" />
- <file
-   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_wi0_r0_ra4_count1_lut_lutmem.hex"
-   type="HEX" />
- <file
-   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_wi0_r0_ra6_count1_lut_lutmem.hex"
-   type="HEX" />
- <file
-   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_wi0_r0_ra8_count1_lut_lutmem.hex"
-   type="HEX" />
- <file
-   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_wi0_r0_ra13_count1_lut_lutmem.hex"
-   type="HEX" />
- <file
-   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_cm2_lutmem.hex"
-   type="HEX" />
- <file
-   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_cm3_lutmem.hex"
-   type="HEX" />
- <file
-   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_cm4_lutmem.hex"
-   type="HEX" />
- <file
-   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_cm5_lutmem.hex"
-   type="HEX" />
- <file
-   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_cm6_lutmem.hex"
-   type="HEX" />
  <file path="fir_first_sim/fir_first_rtl.vhd" type="VHDL" />
  <file path="fir_first_sim/fir_first_ast.vhd" type="VHDL" />
  <file path="fir_first_sim/fir_first.vhd" type="VHDL" />

@@ -1,3 +1,3 @@
 ## Generated SDC file
 
-create_clock -name {clk} -period "1.3 MHz" [get_ports {clk}]
+create_clock -name {clk} -period "130 MHz" [get_ports {clk}]

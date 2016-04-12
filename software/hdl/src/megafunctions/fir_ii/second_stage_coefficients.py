@@ -22,7 +22,7 @@ cutoff_hz = 650
 
 #taps = scipy.signal.firwin(N, cutoff_hz/nyq_rate, window=('kaiser', beta))
 
-taps = scipy.signal.firwin(256, [.11, .13], window='hamming', pass_zero=False)
+taps = scipy.signal.firwin(128, [.11, .13], window='hamming', pass_zero=False)
 #taps = scipy.signal.firwin(128, .8, window='hamming', pass_zero=True)
 
 

@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 15.1 185 win32 2016.04.06.13:57:01
+# ACDS 15.1 185 win32 2016.04.12.13:59:19
 
 # ----------------------------------------
 # ncsim - auto-generated simulation script
@@ -59,7 +59,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 15.1 185 win32 2016.04.06.13:57:01
+# ACDS 15.1 185 win32 2016.04.12.13:59:19
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="fir_first"
@@ -114,17 +114,6 @@ mkdir -p ./libraries/cycloneive/
 
 # ----------------------------------------
 # copy RAM/ROM files to simulation directory
-if [ $SKIP_FILE_COPY -eq 0 ]; then
-  cp -f $QSYS_SIMDIR/fir_first_rtl_u0_m0_wo0_wi0_r0_ra4_count1_lut_lutmem.hex ./
-  cp -f $QSYS_SIMDIR/fir_first_rtl_u0_m0_wo0_wi0_r0_ra6_count1_lut_lutmem.hex ./
-  cp -f $QSYS_SIMDIR/fir_first_rtl_u0_m0_wo0_wi0_r0_ra8_count1_lut_lutmem.hex ./
-  cp -f $QSYS_SIMDIR/fir_first_rtl_u0_m0_wo0_wi0_r0_ra13_count1_lut_lutmem.hex ./
-  cp -f $QSYS_SIMDIR/fir_first_rtl_u0_m0_wo0_cm2_lutmem.hex ./
-  cp -f $QSYS_SIMDIR/fir_first_rtl_u0_m0_wo0_cm3_lutmem.hex ./
-  cp -f $QSYS_SIMDIR/fir_first_rtl_u0_m0_wo0_cm4_lutmem.hex ./
-  cp -f $QSYS_SIMDIR/fir_first_rtl_u0_m0_wo0_cm5_lutmem.hex ./
-  cp -f $QSYS_SIMDIR/fir_first_rtl_u0_m0_wo0_cm6_lutmem.hex ./
-fi
 
 # ----------------------------------------
 # compile device library files

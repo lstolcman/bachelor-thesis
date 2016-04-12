@@ -54,7 +54,7 @@ module receiver
 
 
 
-	pll_board pll1
+	pll_board pll_board1
 	(
 		.inclk0(CLOCK_50),
 		.c0(ENC)
@@ -63,7 +63,7 @@ module receiver
 
 
 	wire pll_uart_out;
-	pll_uart pll2
+	pll_uart pll_uart1
 	(
 		.inclk0(CLOCK_50),
 		.c0(pll_uart_out)
@@ -77,7 +77,7 @@ module receiver
 	end
 
 
-	wire signed [21:0] fir_first_data_out;
+	wire signed [22:0] fir_first_data_out;
 	wire fir_first_valid_out;
 	wire [1:0] fir_first_error_out;
 	fir_first f1
@@ -102,7 +102,8 @@ module receiver
 	.im()
 	);
 
-	reg signed [21:0] reg_mult;
+
+	reg signed [25:0] reg_mult;
 	always @(posedge fir_first_valid_out)
 	begin
 		reg_mult <= fir_first_data_out * sine;
@@ -113,7 +114,7 @@ module receiver
 	wire [1:0] fir_second_error_out;
 	fir_second f2
 	(
-		.clk              (fir_first_valid_out),
+		.clk              (CLKOUTA),
 		.reset_n          (reset_n),
 		.ast_sink_data    (reg_mult),
 		.ast_sink_valid   (fir_valid),

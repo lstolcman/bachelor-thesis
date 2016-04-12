@@ -26,7 +26,7 @@ set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_C
 set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "c3ltbWV0cnlNb2Rl::bnN5bQ==::U3ltbWV0cnk="
 set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "TF9iYW5kc0ZpbHRlcg==::MQ==::TC10aCBCYW5kIEZpbHRlcg=="
 set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "aW5wdXRDaGFubmVsTnVt::MQ==::TWF4IE51bWJlciBvZiBDaGFubmVscw=="
-set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "Y2xvY2tSYXRl::MS4z::Q2xvY2sgUmF0ZQ=="
+set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "Y2xvY2tSYXRl::MTMw::Q2xvY2sgUmF0ZQ=="
 set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "Y2xvY2tTbGFjaw==::MA==::Q2xvY2sgU2xhY2s="
 set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "aW5wdXRSYXRl::MS4z::SW5wdXQgU2FtcGxlIFJhdGUgKE1TUFMp"
 set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "Y29lZmZSZWxvYWQ=::ZmFsc2U=::Q29lZmZpY2llbnRzIFJlbG9hZA=="
@@ -62,9 +62,9 @@ set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_C
 set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "Y2hhblBlck91dHB1dEludGVyZmFjZQ==::MQ==::TnVtYmVyIG9mIENoYW5uZWxzIHBlciBPdXRwdXQgSW50ZXJmYWNl"
 set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "YmFua0NvdW50::MQ==::TnVtYmVyIG9mIENvZWZmaWNpZW50IEJhbmtz"
 set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "YmFua0Rpc3BsYXk=::MA==::YmFua0Rpc3BsYXk="
-set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "bHV0Q291bnQ=::NDE4NzM=::TnVtYmVyIG9mIExVVHM="
-set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "ZHNwQ291bnQ=::MzI=::TnVtYmVyIG9mIERTUHM="
-set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "bWVtQml0Q291bnQ=::MA==::TnVtYmVyIG9mIE1lbW9yeSBCaXRz"
+set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "bHV0Q291bnQ=::NTIx::TnVtYmVyIG9mIExVVHM="
+set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "ZHNwQ291bnQ=::Ng==::TnVtYmVyIG9mIERTUHM="
+set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "bWVtQml0Q291bnQ=::MTMyNTI=::TnVtYmVyIG9mIE1lbW9yeSBCaXRz"
 set_global_assignment -entity "fir_second_0002" -library "fir_second" -name IP_COMPONENT_PARAMETER "ZXJyb3JMaXN0::MA==::ZXJyb3JMaXN0"
 
 set_global_assignment -library "fir_second" -name VERILOG_FILE [file join $::quartus(qip_path) "fir_second.v"]
@@ -77,6 +77,10 @@ set_global_assignment -library "fir_second" -name VHDL_FILE [file join $::quartu
 set_global_assignment -library "fir_second" -name VHDL_FILE [file join $::quartus(qip_path) "fir_second/auk_dspip_avalon_streaming_source_hpfir.vhd"]
 set_global_assignment -library "fir_second" -name VHDL_FILE [file join $::quartus(qip_path) "fir_second/auk_dspip_roundsat_hpfir.vhd"]
 set_global_assignment -library "fir_second" -name VERILOG_FILE [file join $::quartus(qip_path) "fir_second/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "fir_second" -name SOURCE_FILE [file join $::quartus(qip_path) "fir_second/fir_second_0002_rtl_u0_m0_wo0_wi0_r0_ra2_count1_lut_lutmem.hex"]
+set_global_assignment -library "fir_second" -name SOURCE_FILE [file join $::quartus(qip_path) "fir_second/fir_second_0002_rtl_u0_m0_wo0_cm0_lutmem.hex"]
+set_global_assignment -library "fir_second" -name SOURCE_FILE [file join $::quartus(qip_path) "fir_second/fir_second_0002_rtl_u0_m0_wo0_cm1_lutmem.hex"]
+set_global_assignment -library "fir_second" -name SOURCE_FILE [file join $::quartus(qip_path) "fir_second/fir_second_0002_rtl_u0_m0_wo0_cm2_lutmem.hex"]
 set_global_assignment -library "fir_second" -name VHDL_FILE [file join $::quartus(qip_path) "fir_second/fir_second_0002_rtl.vhd"]
 set_global_assignment -library "fir_second" -name VHDL_FILE [file join $::quartus(qip_path) "fir_second/fir_second_0002_ast.vhd"]
 set_global_assignment -library "fir_second" -name VHDL_FILE [file join $::quartus(qip_path) "fir_second/fir_second_0002.vhd"]

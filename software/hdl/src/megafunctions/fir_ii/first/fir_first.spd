@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="fir_first_sim/dspba_library_package.vhd" type="VHDL" />
+ <file path="fir_first_sim/dspba_library.vhd" type="VHDL" />
+ <file path="fir_first_sim/auk_dspip_math_pkg_hpfir.vhd" type="VHDL" />
+ <file path="fir_first_sim/auk_dspip_lib_pkg_hpfir.vhd" type="VHDL" />
+ <file
+   path="fir_first_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"
+   type="VHDL" />
+ <file
+   path="fir_first_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"
+   type="VHDL" />
+ <file
+   path="fir_first_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"
+   type="VHDL" />
+ <file path="fir_first_sim/auk_dspip_roundsat_hpfir.vhd" type="VHDL" />
+ <file path="fir_first_sim/altera_avalon_sc_fifo.v" type="VERILOG" />
+ <file
+   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_wi0_r0_ra4_count1_lut_lutmem.hex"
+   type="HEX" />
+ <file
+   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_wi0_r0_ra6_count1_lut_lutmem.hex"
+   type="HEX" />
+ <file
+   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_wi0_r0_ra8_count1_lut_lutmem.hex"
+   type="HEX" />
+ <file
+   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_wi0_r0_ra13_count1_lut_lutmem.hex"
+   type="HEX" />
+ <file
+   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_cm2_lutmem.hex"
+   type="HEX" />
+ <file
+   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_cm3_lutmem.hex"
+   type="HEX" />
+ <file
+   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_cm4_lutmem.hex"
+   type="HEX" />
+ <file
+   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_cm5_lutmem.hex"
+   type="HEX" />
+ <file
+   path="fir_first_sim/fir_first_rtl_u0_m0_wo0_cm6_lutmem.hex"
+   type="HEX" />
+ <file path="fir_first_sim/fir_first_rtl.vhd" type="VHDL" />
+ <file path="fir_first_sim/fir_first_ast.vhd" type="VHDL" />
+ <file path="fir_first_sim/fir_first.vhd" type="VHDL" />
+ <file path="fir_first_sim/fir_first.sdc" type="SDC" />
+ <file path="fir_first_sim/fir_first_nativelink.tcl" type="OTHER" />
+ <file path="fir_first_sim/fir_first_msim.tcl" type="OTHER" />
+ <file path="fir_first_sim/fir_first_tb.vhd" type="VHDL" />
+ <file path="fir_first_sim/fir_first_mlab.m" type="OTHER" />
+ <file path="fir_first_sim/fir_first_model.m" type="OTHER" />
+ <file path="fir_first_sim/fir_first_coef_int.txt" type="OTHER" />
+ <file path="fir_first_sim/fir_first_input.txt" type="OTHER" />
+ <file path="fir_first_sim/fir_first_param.txt" type="OTHER" />
+ <topLevel name="fir_first" />
+ <deviceFamily name="cycloneive" />
+</simPackage>

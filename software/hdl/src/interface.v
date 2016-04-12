@@ -23,7 +23,7 @@ module board_iface
 
 );
 
-reg [31:0] cnt_uart;
+reg [29:0] cnt_uart;
 always @(posedge clk2mhz)
 begin
 	enc <= ~enc;
@@ -32,15 +32,12 @@ end
 always @(posedge clkouta)
 begin
 	cnt_uart<=cnt_uart+1;
-	//if(cnt_uart > 1000000)
-	//	data_out_rdy<=0;
-	if(cnt_uart > 20000)
+	if(cnt_uart > 1300000)
 	begin
 		cnt_uart	<=	0;
 		data_out_rdy<=1;
 		data_out	<=	data_in;
 		LED[7:5] <= data_out[15:13];
-		LED[4:3] <= {ofa,ofa};
 		LED[2:0] <= data_out[2:0];
 	end
 end

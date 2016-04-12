@@ -1,0 +1,26 @@
+set_global_assignment -entity "fir_second" -library "lib_fir_second" -name IP_TOOL_NAME "altera_fir_compiler_ii"
+set_global_assignment -entity "fir_second" -library "lib_fir_second" -name IP_TOOL_VERSION "15.1"
+set_global_assignment -entity "fir_second" -library "lib_fir_second" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -library "lib_fir_second" -name SPD_FILE [file join $::quartus(sip_path) "fir_second.spd"]
+
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/dspba_library_package.vhd"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/dspba_library.vhd"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/auk_dspip_math_pkg_hpfir.vhd"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/auk_dspip_lib_pkg_hpfir.vhd"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/auk_dspip_roundsat_hpfir.vhd"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/fir_second_rtl.vhd"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/fir_second_ast.vhd"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/fir_second.vhd"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/fir_second.sdc"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/fir_second_nativelink.tcl"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/fir_second_msim.tcl"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/fir_second_tb.vhd"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/fir_second_mlab.m"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/fir_second_model.m"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/fir_second_coef_int.txt"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/fir_second_input.txt"]
+set_global_assignment -library "lib_fir_second" -name MISC_FILE [file join $::quartus(sip_path) "fir_second_sim/fir_second_param.txt"]

@@ -1,43 +1,94 @@
+
 module uart
 (
-	input clock50,
-	output reg tx = 0
+	input clock,
+	input reset_n,
+
+	input send,
+	output reg done,
+
+	input [7:0] data,
+	output reg tx
 );
 
 
-reg [31:0] cnt = 0;
+// state machine for asynchronous send detect
 
+reg send_state;
+reg send_state_next;
+reg [7:0] data_sync;
 
-assign clk_uart = cnt[31];
-// speed: 115200 
-always @(posedge clock50)
+always @(*)
 begin
-	cnt <= cnt + 9896;
+	if (!reset_n)
+	begin
+		send_state_next = 0;
+		data_sync = 8'd0;
+	end
+	else
+	begin
+	case(send_state)
+		0:
+			if (send && done)
+			begin
+				send_state_next = 1;
+				data_sync = data;
+			end
+		1:
+			if (!done)
+				send_state_next = 0;
+	endcase
+	end
+end
+
+always @(posedge clock)
+begin
+	if (!reset_n)
+		send_state <= 0;
+	else
+		send_state <= send_state_next;
 end
 
 
-//localparam S0=2'd0, S1=2'd1, S2=2'd2;
-//reg [1:0] state = S0;
-enum {S0, S1, S2 } state = S0;
-reg [3:1] datacnt = 0;
-reg [7:0] data = 8'b01000000;
 
+reg [3:0] data_counter;
+enum {S0, S1, S2} state;
 
-always @(posedge clk_uart)
+always @(posedge clock)
 begin
-
+	
+	if (!reset_n)
+	begin
+		state <= S0;
+		done <= 1;
+		tx <= 1;
+		data_counter <= 0;
+	end
+	else
+	begin
 	case (state)
-		S0: // idle
+
+		S0: //idle
 			begin
-				tx <= 1;
-				state <= S1;
+				if (send_state && done)
+				begin
+					tx <= 0; // start bit
+					done <= 0;
+					data_counter <= 0;
+					state <= S1;
+				end
+				else
+				begin
+					tx <= 1;
+					done <= 1;
+				end
 			end
 
 		S1: //transfer bits
 			begin
-				tx <= data[datacnt];
-				datacnt<=datacnt+1;
-				if (datacnt == 9)
+				tx <= data_sync[data_counter];
+				data_counter <= data_counter+1;
+				if (data_counter == 7)
 				begin
 					state <= S2;
 				end
@@ -47,29 +98,18 @@ begin
 			begin
 				tx <= 1;
 				state <= S0;
+				//done <= 1;
 			end
 
 		default:
 			state <= S0;
+
 	endcase
+	end
+
+
 
 end
 
 endmodule
 
-
-module led
-(
-input c2,
-output reg l
-);
-
-reg [31:0] cnt;
-assign l = cnt[31];
-always @(posedge c2)
-begin
-cnt<=cnt+4295;
-
-end
-
-endmodule

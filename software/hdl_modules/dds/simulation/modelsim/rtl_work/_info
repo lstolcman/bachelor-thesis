@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kkthx/Dropbox/__Praca_dyplomowa/software/hdl_modules/dds/simulation/modelsim
+vuart_tb
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!s110 1459328433
+!i10b 1
+!s100 b8]l=Fjfb?bM99:;L8hC90
+ISjR@AG4RU1okWU7d^L@]T3
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 dds_v_unit
+S1
+R0
+w1458742770
+8dds.v
+Fdds.v
+L0 3
+OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1459328433.000000
+!s107 dds.v|
+!s90 -reportprogress|300|-sv|-work|work|dds.v|
+!i113 1
+o-sv -work work

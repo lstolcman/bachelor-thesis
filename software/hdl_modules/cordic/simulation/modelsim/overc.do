@@ -1,7 +1,3 @@
-# speedup modelsim simulation - no log file is written
-# source: http://www.ht-lab.com/howto/modelsim/Modelsim_tips.html
-nolog -all
-
 transcript on
 if {[file exists rtl_work]} {
 	vdel -lib rtl_work -all
@@ -13,6 +9,10 @@ vlog -sv -work work ../../src/cordic.v
 vlog -sv -work work overc.v
 
 vsim -L rtl_work -L work work.overc_tb
+
+# speedup modelsim simulation - no log file is written
+# source: http://www.ht-lab.com/howto/modelsim/Modelsim_tips.html
+nolog -all
 
 add wave clk
 add wave delta

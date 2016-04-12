@@ -1,6 +1,3 @@
-# speedup modelsim simulation - no log file is written
-# source: http://www.ht-lab.com/howto/modelsim/Modelsim_tips.html
-nolog -all
 
 transcript on
 if {[file exists rtl_work]} {
@@ -22,6 +19,10 @@ vlog -sv -work work goertzel_tb.v
 
 
 vsim -L rtl_work -L work -L lpm_ver work.goertzel_tb
+
+# speedup modelsim simulation - no log file is written
+# source: http://www.ht-lab.com/howto/modelsim/Modelsim_tips.html
+nolog -all
 
 
 add wave clock

@@ -1,6 +1,3 @@
-# speedup modelsim simulation - no log file is written
-# source: http://www.ht-lab.com/howto/modelsim/Modelsim_tips.html
-nolog -all
 
 transcript on
 if {[file exists rtl_work]} {
@@ -20,6 +17,11 @@ vlog -sv -work work fp_test.v
 
 
 vsim -L rtl_work -L work -L lpm_ver work.fp_test_tb
+
+# speedup modelsim simulation - no log file is written
+# source: http://www.ht-lab.com/howto/modelsim/Modelsim_tips.html
+nolog -all
+
 
 add wave -hex memory
 add wave clock

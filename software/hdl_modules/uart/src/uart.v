@@ -8,7 +8,7 @@ module uart
 	output reg done = 1'b1,
 
 	input [7:0] data,
-	output reg tx = 1'b0
+	output reg tx = 1'b1
 );
 
 
@@ -20,13 +20,7 @@ reg [7:0] data_sync = 8'b0;
 
 always @(*)
 begin
-	if (!reset_n)
-	begin
-		send_state_next = 0;
-		data_sync = 8'd0;
-	end
-	else
-	begin
+
 	case(send_state)
 
 		0:
@@ -45,8 +39,9 @@ begin
 			end
 
 	endcase
-	end
+
 end
+
 
 always @(posedge clock)
 begin
@@ -66,15 +61,6 @@ enum {S0, S1, S2} state = S0;
 always @(posedge clock)
 begin
 	
-	if (!reset_n)
-	begin
-		state <= S0;
-		done <= 1;
-		tx <= 1;
-		data_counter <= 0;
-	end
-	else
-	begin
 	case (state)
 
 		S0: //idle
@@ -114,7 +100,6 @@ begin
 			state <= S0;
 
 	endcase
-	end
 
 
 

@@ -1,3 +1,5 @@
+@echo off
+
 del *.aux
 del *.glo
 del *.idx

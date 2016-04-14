@@ -21,6 +21,10 @@ bibtex main.aux
 pdflatex main
 pdflatex main
 
+rem stat -c "%%z" main.pdf | gdate "+%%Y-%%m-%%d_%%H-%%M" > tmpFile
+rem set /p mvmain= <tmpFile
+rem cp main.pdf %mvmain%.pdf
+rem rm tmpFile
 
 cd %RUNTIME%
 

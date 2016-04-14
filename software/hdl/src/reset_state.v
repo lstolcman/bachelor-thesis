@@ -3,7 +3,7 @@
 module reset_state
 (
 	input clock,
-	output reg reset_n
+	output reg reset_n = 1'd0
 );
 
 

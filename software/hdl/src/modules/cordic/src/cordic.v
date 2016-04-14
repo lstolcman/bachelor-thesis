@@ -25,7 +25,9 @@ module cordic
 	input wire clock,
 	input wire [31:0] phase_inc,
 	output signed [19:0] re,
-	output signed [19:0] im
+	output signed [19:0] im,
+	output unsigned [19:0] re_u,
+	output unsigned [19:0] im_u
 );
 
 
@@ -83,6 +85,9 @@ module cordic
 
 	assign re = re31;
 	assign im = im31;
+
+	assign re_u = re[19] ? re-2**19: re+2**19;
+	assign im_u = im[19] ? im-2**19: im+2**19;
 
 	always @(posedge clock)
 	begin
@@ -514,6 +519,6 @@ module cordic
 				//zz31 <= zz30 - atan30;
 				
 			end
-
 	end
+
 endmodule

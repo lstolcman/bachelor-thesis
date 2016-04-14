@@ -18,7 +18,7 @@ ripple_db = 60.0
 N, beta = scipy.signal.kaiserord(ripple_db, width)
 
 # The cutoff frequency of the filter.
-cutoff_hz = 200
+cutoff_hz = 20000
 
 taps = scipy.signal.firwin(N, cutoff_hz/nyq_rate, window=('kaiser', beta))
 

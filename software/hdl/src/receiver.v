@@ -1,21 +1,3 @@
-// Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
-// Your use of Altera Corporation's design tools, logic functions 
-// and other software and tools, and its AMPP partner logic 
-// functions, and any output files from any of the foregoing 
-// (including device programming or simulation files), and any 
-// associated documentation or information are expressly subject 
-// to the terms and conditions of the Altera Program License 
-// Subscription Agreement, the Altera Quartus Prime License Agreement,
-// the Altera MegaCore Function License Agreement, or other 
-// applicable license agreement, including, without limitation, 
-// that your use is for the sole purpose of programming logic 
-// devices manufactured by Altera and sold by Altera or its 
-// authorized distributors.  Please refer to the applicable 
-// agreement for further details.
-
-// PROGRAM		"Quartus Prime"
-// VERSION		"Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition"
-// CREATED		"Tue Mar 22 14:28:25 2016"
 
 module receiver
 (
@@ -26,50 +8,50 @@ module receiver
 	output			DITH,
 	output			RAND,
 	output			ENC,
-	output			[7:0] LED,
-	output			[2:1] TX
+	output			TX[2:1]
 );
 
 
+
 	wire fir_valid;
+	assign	fir_valid = 1'd1;
 	wire [1:0] fir_error;
+	assign	fir_error = 2'd0;
+
+
 
 	assign	PGA = 0;
 	assign	DITH = 0;
 	assign	RAND = 0;
-	assign	fir_valid = 1'd1;
-	assign	fir_error = 2'd0;
 	
-	assign TX[1] = 1;
-
-	reg [15:0] reg_adc_data;
+	reg [15:0] reg_adc_data = 16'd0;
 
 
 	wire reset_n;
-	reset_state rst1
+	reset_state reset_state_i1
 	(
 		.clock(CLKOUTA),
 		.reset_n(reset_n)
 	);
 
 
-
-	pll_board pll_board1
+	
+	/*
+	pll_board pll_board_i1
 	(
 		.inclk0(CLOCK_50),
 		.c0(ENC)
 	);
 
 
-
 	wire pll_uart_out;
-	pll_uart pll_uart1
+	pll_uart pll_uart_i1
 	(
 		.inclk0(CLOCK_50),
 		.c0(pll_uart_out)
 	);
 
-
+*/
 
 	always @(posedge CLKOUTA)
 	begin
@@ -80,7 +62,7 @@ module receiver
 	wire signed [22:0] fir_first_data_out;
 	wire fir_first_valid_out;
 	wire [1:0] fir_first_error_out;
-	fir_first f1
+	fir_first fir_first_i1
 	(
 		.clk              (CLKOUTA),
 		.reset_n          (reset_n),
@@ -93,13 +75,16 @@ module receiver
 	);
 
 
+	/*
 	wire signed [19:0] sine;
-	cordic c1
+	cordic cordic_i1
 	(
 	.clock(fir_first_valid_out), //2MHz
 	.phase_inc(32'd483183821),
 	.re(sine),
-	.im()
+	.im(),
+	.re_u(),
+	.im_u()
 	);
 
 
@@ -112,7 +97,7 @@ module receiver
 	wire signed [31:0] fir_second_data_out;
 	wire fir_second_valid_out;
 	wire [1:0] fir_second_error_out;
-	fir_second f2
+	fir_second fir_second_i1
 	(
 		.clk              (CLKOUTA),
 		.reset_n          (reset_n),
@@ -123,22 +108,42 @@ module receiver
 		.ast_source_valid (fir_second_valid_out),
 		.ast_source_error (fir_second_error_out)
 	);
+	*/
+	wire signed [31:0] gin= {{9{fir_first_data_out[22]}}, fir_first_data_out};
+	wire ready;
+	wire [63:0] power;
+	goertzel goertzel_i1
+	(
+		.clock(CLKOUTA), //130MHz
+		.clock_sample(fir_first_valid_out), //1,3MHz
+		.sample(gin),
 
+		.ready(ready),
+		.power(power)
+		
+		//input clock, //130MHz
+		//input clock_sample, //1,3MHz
+		//input signed [31:0] sample,
+		//output reg ready = 1'd0,
+		//output reg [63:0] power = 64'd0
+		
+	);
 
-
+/*
 	wire uart_done;
-	uart u1
+	uart uart_i1
 	(
 		.clock(pll_uart_out),
 		.reset_n(reset_n),
-		.send(fir_second_valid_out),
-		.done(uart_done),
-		.data(fir_second_data_out[15:8]),
+		.send(ready),
+		.done(),
+		.data(power[45:38]),
 		.tx(TX[2])
 	);
 
-
+	*/
 
 
 
 endmodule
+

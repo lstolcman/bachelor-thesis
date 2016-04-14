@@ -6,9 +6,6 @@ vlib rtl_work
 vmap work rtl_work
 
 
-
-
-
 ####
 
 #init fir first files
@@ -59,27 +56,60 @@ vcom "$QSYS_SIMDIR/fir_second.vhd"
 #init pll board
 vlog ../../src/megafunctions/pll/board/pll_board.v
 
+#init pll uart
+vlog ../../src/megafunctions/pll/uart/pll_uart.v
+
 
 ####
 
-#init pll uart
-vlog -sv ../../src/megafunctions/pll/uart/pll_uart.v
+
+
+# goertzel module 
+vlog -sv -work work ../../src/modules/goertzel/src/megafunc/fpmult.v
+vlog -sv -work work ../../src/modules/goertzel/src/megafunc/fpadd.v
+vlog -sv -work work ../../src/modules/goertzel/src/megafunc/fpsub.v
+vlog -sv -work work ../../src/modules/goertzel/src/megafunc/fp64int64conv.v
+vlog -sv -work work ../../src/modules/goertzel/src/megafunc/fp64int32conv.v
+vlog -sv -work work ../../src/modules/goertzel/src/megafunc/int32fp64conv.v
+vlog -sv -work work ../../src/modules/goertzel/src/goertzel.v
+#-----------------
+
+
+vlog -sv -work work ../../src/modules/cordic/src/cordic.v
+
+vlog -sv -work work ../../src/modules/uart/src/uart.v
 
 
 
-vlog -sv -work work ../../src/interface.v
-vlog -sv -work work ../../src/mult.v
+
+
 vlog -sv -work work ../../src/receiver.v
-vlog -sv -work work ../../src/uart.v
 vlog -sv -work work ../../src/reset_state.v
-vlog -sv -work work ../../src/cordic.v
 
-vlog -sv -work work ./receiver_tb.v
-vsim -t 10ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work work.receiver_tb
+vlog -sv -work work receiver_tb.v
+vsim -L lpm_ver -L altera_mf_ver -L rtl_work -L work work.receiver_tb
 
-add wave *
+# speedup modelsim simulation - no log file is written
+# source: http://www.ht-lab.com/howto/modelsim/Modelsim_tips.html
+nolog -all
 
-add wave -analog -max 5e5 -min -5e5 -height 100 sine77_5k
-add wave -analog -max 5e6 -min -5e6 -height 100 fir_second_data_out
+
+add wave CLOCK_50
+add wave CLOCK_130
+add wave CLOCK_1_3
+add wave CLOCK_115200
+add wave CLKOUTA
+add wave -analog -height 100 -max 32768 -min -32768 DA
+add wave receiver_i1/reset_n
+add wave -binary ready
+add wave -unsigned power
+add wave -binary TX
+add wave -unsigned i
+add wave memory
+
+
+set StdArithNoWarnings 1
+run 0 ns
+set StdArithNoWarnings 0
 
 

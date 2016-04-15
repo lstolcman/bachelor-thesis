@@ -35,3 +35,8 @@
 
 %\makeindex
 
+% horizontal alignment of multiline footnotes
+\usepackage{scrextend}
+%\deffootnote[2em]{2em}{1em}{\textsuperscript{\thefootnotemark}}
+\deffootnote[2em]{2em}{1em}{\makebox[1em][l]{\textsuperscript{\thefootnotemark}}}
+

@@ -4,9 +4,9 @@ call env.bat
 :: inkscape needed for includesvg
 set PATH=%PATH%;C:\dev\software\inkscape
 
-del *.pdf
 
 for /R "%cd%" %%f in (*.svg) do (
+	del "%%~nf.pdf"
 	inkscape "%%~nf.svg" -A "%%~nf_.pdf"
 	pdfcrop "%%~nf_.pdf" "%%~nf.pdf"
 	del "%%~nf_.pdf"

@@ -6,7 +6,8 @@
 
 \usepackage {amsmath}
 
-\usepackage [unicode]{hyperref}
+%\usepackage [unicode]{hyperref}
+\usepackage [unicode,hidelinks]{hyperref}
 
 \makeatletter
 \hypersetup {pdfauthor={\@author}}
@@ -47,5 +48,9 @@
 \setlength{\abovecaptionskip}{-7pt}
 
 %\usepackage[section]{placeins}
+
+% multiple footnotes at one point divided by comma
+% http://tex.stackexchange.com/a/28467
+\usepackage[multiple]{footmisc}
 
 

@@ -1,0 +1,40 @@
+\lstset{ % General setup for the package
+%	language=Python,
+	basicstyle=\linespread{1.0}\small\ttfamily,
+%	numbers=left,
+%	numberstyle=\scriptsize\ttfamily,
+	xleftmargin=10pt,
+%	numbersep=-6pt,
+	frame=l,
+	framesep=0.5em,
+	tabsize=2,
+	columns=fixed,
+	showstringspaces=false,
+	showtabs=false,
+	tab=\textcolor{gray}{$\to$},
+	keepspaces,
+%	aboveskip=\bigskipamount,
+%	belowskip=\bigskipamount,
+	commentstyle=\color{red},
+	keywordstyle=\color{blue}
+}
+
+\begin{lstlisting}[caption={Algorytm Goertzla -- Python},label={lst:algg}]
+N = len(samples)
+k = int((N*freq)/sample_rate)
+w = 2.0 * np.pi / N * k
+cosine = np.cos(w)
+coeff = 2 * cosine
+q0 = 0.0
+q1 = 0.0
+q2 = 0.0
+for num in range(N):
+	q0 = coeff * q1 - q2 + samples[num]
+	q2 = q1
+	q1 = q0
+
+result = q1*q1 + q2*q2 - q1*q2*coeff
+\end{lstlisting}
+%\hrule
+\vspace{10pt}
+

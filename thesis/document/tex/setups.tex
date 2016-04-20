@@ -28,6 +28,12 @@
 
 \usepackage {xcolor}
 
+\usepackage {listingsutf8}
+
+% Align caption to the left
+\DeclareCaptionFormat{listing}{\parbox{\dimexpr\textwidth-2\fboxsep+.8pt\relax}{#1#2#3}}
+\captionsetup[lstlisting]{format=listing} 
+
 
 \widowpenalty = 10000 % nie pozostawia wdów na koncu strony
 \clubpenalty = 10000 % nie pozostawia sierot

@@ -29,6 +29,28 @@
 \usepackage {xcolor}
 
 \usepackage {listingsutf8}
+\lstset{ % General setup for the package
+%	language=Python,
+	basicstyle=\linespread{1.0}\small\ttfamily,
+	numbers=left,
+%	numberstyle=\scriptsize\ttfamily,
+	xleftmargin=24pt,
+%	numbersep=-6pt,
+	frame=l,
+	framesep=0.5em,
+	tabsize=2,
+	columns=fixed,
+	showstringspaces=false,
+	showtabs=false,
+	tab=\textcolor{gray}{$\to$},
+	keepspaces,
+%	aboveskip=\bigskipamount,
+%	belowskip=\bigskipamount,
+	commentstyle=\color{red},
+	keywordstyle=\color{blue}
+}
+
+
 
 % Align caption to the left
 \DeclareCaptionFormat{listing}{\parbox{\dimexpr\textwidth-2\fboxsep+.8pt\relax}{#1#2#3}}

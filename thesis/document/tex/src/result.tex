@@ -1,0 +1,37 @@
+\begin{lstlisting}[language=verilog,caption={Algorytm Goertzla -- obliczanie wyniku},label={lst:result}]
+always @(posedge clock_sample)
+begin
+	sample_reg <= sample;
+	sample_counter <= sample_counter+1;
+
+	case (sample_counter)
+		10:
+			begin
+				fpmult_i2_1_aclr <= 0;
+				fpmult_i2_2_aclr <= 0;
+				fpmult_i2_3_aclr <= 0;
+ 			end
+		20:	fpmult_i2_4_aclr <= 0;
+		30: fpadd_i2_aclr <= 0;
+		40: fpsub_i2_aclr <= 0;
+		50:	ready <= 1;
+		51: ready <= 0;
+		519:
+			begin
+				sample_counter <= 0;
+				q0_tmp <= q0;
+				q1_tmp <= q1;
+				q2_tmp <= q2;
+				fpmult_i2_1_aclr <= 1;
+				fpmult_i2_2_aclr <= 1;
+				fpmult_i2_3_aclr <= 1;
+				fpmult_i2_4_aclr <= 1;
+				fpadd_i2_aclr <= 1;
+				fpsub_i2_aclr <= 1;
+			end
+	endcase
+end
+\end{lstlisting}
+%\hrule
+\vspace{10pt}
+

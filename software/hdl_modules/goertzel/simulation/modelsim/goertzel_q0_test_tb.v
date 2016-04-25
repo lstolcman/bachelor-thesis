@@ -7,7 +7,6 @@ parameter CLK_PERIOD_sample=769.2; //1.3MHz
 
 reg clock;
 reg clock_sample;
-reg reset_n;
 reg signed [31:0] sample;
 wire ready;
 wire [63:0] power;
@@ -28,10 +27,6 @@ begin
 	clock = 0;
 	clock_sample = 0;
 	sample = 0;
-	reset_n = 0;
-#2us;
-	i=0;
-	reset_n = 1;
 end
 
 always
@@ -51,13 +46,8 @@ begin
 	i = i+1;
 
 
-	if (reset_n == 0)
+	if (i >= 520)
 		i = 0;
-	else
-	begin
-		if (i >= 5200)
-			i = 0;
-	end	
 	sample = memory[i];
 end
 
@@ -69,7 +59,6 @@ goertzel i1
 (
 	.clock(clock), //130MHz
 	.clock_sample(clock_sample), //1,3MHz
-	.reset_n(reset_n),
 	.sample(sample),
 
 	.ready(ready),

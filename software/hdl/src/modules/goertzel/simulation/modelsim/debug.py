@@ -47,13 +47,25 @@ WINDOW_SIZE = 520
 t = np.linspace(0, 1, SAMPLE_RATE)[:WINDOW_SIZE]
 sine_wave = np.sin(2*np.pi*77500*t+2*np.pi*3.2)
 
+
 print(max(sine_wave))
 print(min(sine_wave))
-#sine_wave = awgn(sine_wave, -0)
+#sine_wave = awgn(sine_wave, -5)
+sine_wave /= max(sine_wave)
 sine_wave *= 2**16
+sine_wave *= 0.99
 sine_wave = sine_wave.astype(int)
+print(max(sine_wave))
+print(min(sine_wave))
 
-print (sine_wave)
+with open('sine.txt', 'w') as f:
+	for i, val in enumerate(sine_wave):
+		if ((i >= 1040) and (i<1560)):
+			val=int(val/8)
+		if (val < 0):
+			val = 2**32-abs(val)
+		f.write(hex(val)[2:].zfill(8))
+		f.write('\n')
 
 goert(sine_wave, SAMPLE_RATE, 77500)
 

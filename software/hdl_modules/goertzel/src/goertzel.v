@@ -247,9 +247,9 @@ begin
 		20:	fpmult_i1_aclr <= 0;
 		30: fpsub_i1_aclr <= 0;
 		40: fpadd_i1_aclr <= 0;
-		50: q0 <= fpadd_i1_result;
-		51: q2 <= q1;
-		52: q1 <= q0;
+		94: q0 <= fpadd_i1_result;
+		95: q2 <= q1;
+		96: q1 <= q0;
 	endcase
 
 end

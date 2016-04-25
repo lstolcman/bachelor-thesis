@@ -8,12 +8,12 @@ use work.auk_dspip_math_pkg_hpfir.all;
 
 entity fir_second_ast is
   generic (
-  INWIDTH             : integer := 26;
-  FULL_WIDTH          : integer := 44;
+  INWIDTH             : integer := 16;
+  FULL_WIDTH          : integer := 34;
   BANKINWIDTH         : integer := 0;
-  REM_LSB_BIT_g       : integer := 10;
+  REM_LSB_BIT_g       : integer := 0;
   REM_LSB_TYPE_g      : string := "round";
-  REM_MSB_BIT_g       : integer := 2;
+  REM_MSB_BIT_g       : integer := 0;
   REM_MSB_TYPE_g      : string := "sat";
   PHYSCHANIN          : integer := 1;
   PHYSCHANOUT         : integer := 1;
@@ -87,10 +87,10 @@ component fir_second_rtl is
   port (
     xIn_v              : in std_logic_vector(0 downto 0);
     xIn_c              : in std_logic_vector(7 downto 0);
-    xIn_0              : in std_logic_vector(26 - 1 downto 0);
+    xIn_0              : in std_logic_vector(16 - 1 downto 0);
     xOut_v             : out std_logic_vector(0 downto 0);
     xOut_c             : out std_logic_vector(7 downto 0);
-    xOut_0             : out std_logic_vector(44 - 1 downto 0);
+    xOut_0             : out std_logic_vector(34 - 1 downto 0);
     clk                : in std_logic;
     areset             : in std_logic
 );
@@ -162,10 +162,10 @@ hpfircore: fir_second_rtl
    port map (
      xIn_v     => data_valid,
      xIn_c     => "00000000",
-     xIn_0     => data_in((0 + 26) * 0 + 26 - 1 downto (0 + 26) * 0),
+     xIn_0     => data_in((0 + 16) * 0 + 16 - 1 downto (0 + 16) * 0),
      xOut_v    => core_out_valid,
      xOut_c    => core_out_channel,
-     xOut_0   => core_out(44 * 0 + 44 - 1 downto 44 * 0),
+     xOut_0   => core_out(34 * 0 + 34 - 1 downto 34 * 0),
      clk       => clk,
      areset    => reset_fir
    );

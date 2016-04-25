@@ -1,0 +1,18 @@
+# system info cic on 2016.04.22.13:59:03
+system_info:
+name,value
+DEVICE,EP4CE22F17C6
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1461326300
+#
+#
+# Files generated for cic on 2016.04.22.13:59:03
+files:
+filepath,kind,attributes,module,is_top
+simulation/cic.v,VERILOG,,cic,true
+simulation/submodules/cic_cic_ii_0.vo,VERILOG,,cic_cic_ii_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+cic.cic_ii_0,cic_cic_ii_0

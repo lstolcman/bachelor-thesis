@@ -15,18 +15,6 @@
    type="VHDL" />
  <file path="fir_second_sim/auk_dspip_roundsat_hpfir.vhd" type="VHDL" />
  <file path="fir_second_sim/altera_avalon_sc_fifo.v" type="VERILOG" />
- <file
-   path="fir_second_sim/fir_second_rtl_u0_m0_wo0_wi0_r0_ra2_count1_lut_lutmem.hex"
-   type="HEX" />
- <file
-   path="fir_second_sim/fir_second_rtl_u0_m0_wo0_cm0_lutmem.hex"
-   type="HEX" />
- <file
-   path="fir_second_sim/fir_second_rtl_u0_m0_wo0_cm1_lutmem.hex"
-   type="HEX" />
- <file
-   path="fir_second_sim/fir_second_rtl_u0_m0_wo0_cm2_lutmem.hex"
-   type="HEX" />
  <file path="fir_second_sim/fir_second_rtl.vhd" type="VHDL" />
  <file path="fir_second_sim/fir_second_ast.vhd" type="VHDL" />
  <file path="fir_second_sim/fir_second.vhd" type="VHDL" />

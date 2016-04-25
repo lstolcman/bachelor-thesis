@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/cic_cic_ii_0.vo"
+   type="VERILOG"
+   library="cic_ii_0" />
+ <file path="simulation/cic.v" type="VERILOG" />
+ <topLevel name="cic" />
+ <deviceFamily name="cycloneive" />
+</simPackage>

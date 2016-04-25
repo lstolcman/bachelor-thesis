@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 15.1 185 win32 2016.04.12.14:01:30
+# ACDS 15.1 185 win32 2016.04.22.20:11:43
 
 # ----------------------------------------
 # vcsmx - auto-generated simulation script
@@ -59,7 +59,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 15.1 185 win32 2016.04.12.14:01:30
+# ACDS 15.1 185 win32 2016.04.22.20:11:43
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="fir_second"
@@ -114,12 +114,6 @@ mkdir -p ./libraries/cycloneive/
 
 # ----------------------------------------
 # copy RAM/ROM files to simulation directory
-if [ $SKIP_FILE_COPY -eq 0 ]; then
-  cp -f $QSYS_SIMDIR/fir_second_rtl_u0_m0_wo0_wi0_r0_ra2_count1_lut_lutmem.hex ./
-  cp -f $QSYS_SIMDIR/fir_second_rtl_u0_m0_wo0_cm0_lutmem.hex ./
-  cp -f $QSYS_SIMDIR/fir_second_rtl_u0_m0_wo0_cm1_lutmem.hex ./
-  cp -f $QSYS_SIMDIR/fir_second_rtl_u0_m0_wo0_cm2_lutmem.hex ./
-fi
 
 # ----------------------------------------
 # compile device library files

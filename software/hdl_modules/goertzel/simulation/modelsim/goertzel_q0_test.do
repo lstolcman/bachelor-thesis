@@ -27,7 +27,6 @@ nolog -all
 
 add wave clock
 add wave clock_sample
-add wave reset_n
 add wave -signed -analog -min -1e5 -max 1e5 -height 100 sample
 add wave -unsigned i
 add wave ready

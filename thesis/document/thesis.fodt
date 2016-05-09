@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2009-04-16T11:32:02.64</meta:creation-date><meta:editing-duration>P8DT9H55M40S</meta:editing-duration><meta:editing-cycles>1066</meta:editing-cycles><meta:generator>LibreOffice/5.1.1.3$Windows_x86 LibreOffice_project/89f508ef3ecebd2cfb8e1def0f0ba9a803b88a6d</meta:generator><dc:date>2016-05-09T12:09:01.709000000</dc:date><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="22" meta:paragraph-count="273" meta:word-count="3517" meta:character-count="31336" meta:non-whitespace-character-count="27840"/><meta:user-defined meta:name="Info 1"/><meta:user-defined meta:name="Info 2"/><meta:user-defined meta:name="Info 3"/><meta:user-defined meta:name="Info 4"/></office:meta>
+ <office:meta><meta:creation-date>2009-04-16T11:32:02.64</meta:creation-date><meta:editing-duration>P8DT19H19M40S</meta:editing-duration><meta:editing-cycles>1142</meta:editing-cycles><meta:generator>LibreOffice/5.1.1.3$Windows_x86 LibreOffice_project/89f508ef3ecebd2cfb8e1def0f0ba9a803b88a6d</meta:generator><dc:date>2016-05-09T21:33:39.672000000</dc:date><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="22" meta:paragraph-count="287" meta:word-count="3588" meta:character-count="32473" meta:non-whitespace-character-count="28899"/><meta:user-defined meta:name="Info 1"/><meta:user-defined meta:name="Info 2"/><meta:user-defined meta:name="Info 3"/><meta:user-defined meta:name="Info 4"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">552450</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">575733</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">33957</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">18634</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">17773</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">13309</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">556867</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">22671</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">592286</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">552450</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">575733</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">33955</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">571082</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">593505</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -1099,158 +1099,206 @@
   </style:style>
   <style:style style:name="P242" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:paragraph-rsid="00341938"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00341938" officeooo:paragraph-rsid="003afa55"/>
   </style:style>
   <style:style style:name="P243" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:paragraph-rsid="001a80dd"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00341938" officeooo:paragraph-rsid="003fdb23"/>
   </style:style>
   <style:style style:name="P244" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:paragraph-rsid="00394a2d"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0034658b" officeooo:paragraph-rsid="003fdb23"/>
   </style:style>
   <style:style style:name="P245" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="00341938"/>
   </style:style>
   <style:style style:name="P246" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="003513c9"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="003fdb23"/>
   </style:style>
   <style:style style:name="P247" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="00381707"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:paragraph-rsid="00381707"/>
   </style:style>
   <style:style style:name="P248" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="003afa55"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="003fdb23" officeooo:paragraph-rsid="003fdb23"/>
   </style:style>
   <style:style style:name="P249" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="003fdb23" officeooo:paragraph-rsid="003fdb23"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0028a3f9" officeooo:paragraph-rsid="003fdb23"/>
   </style:style>
   <style:style style:name="P250" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0042b7e2" officeooo:paragraph-rsid="003fdb23" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P251" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="0034658b"/>
+   <style:text-properties officeooo:paragraph-rsid="00341938"/>
   </style:style>
   <style:style style:name="P252" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00381707"/>
+   <style:text-properties officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
   <style:style style:name="P253" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="003afa55"/>
+   <style:text-properties officeooo:paragraph-rsid="00394a2d"/>
   </style:style>
   <style:style style:name="P254" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="003ca93e"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
   </style:style>
   <style:style style:name="P255" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0033a954" officeooo:paragraph-rsid="0033a954"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="003513c9"/>
   </style:style>
   <style:style style:name="P256" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0035bf1b" officeooo:paragraph-rsid="003afa55"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="00381707"/>
   </style:style>
   <style:style style:name="P257" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="00372d78"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="003afa55"/>
   </style:style>
   <style:style style:name="P258" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="003513c9"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="003fdb23"/>
   </style:style>
   <style:style style:name="P259" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="003afa55" officeooo:paragraph-rsid="003afa55"/>
+   <style:text-properties officeooo:rsid="003fdb23" officeooo:paragraph-rsid="003fdb23"/>
   </style:style>
   <style:style style:name="P260" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="003513c9"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
   </style:style>
   <style:style style:name="P261" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="00346b24"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="0034658b"/>
   </style:style>
   <style:style style:name="P262" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="003286cc" officeooo:paragraph-rsid="003286cc"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00381707"/>
   </style:style>
-  <style:style style:name="P263" style:family="paragraph" style:parent-style-name="Text_20_body" style:master-page-name="">
-   <style:paragraph-properties fo:line-height="150%" style:page-number="auto" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="003286cc" officeooo:paragraph-rsid="003286cc"/>
-  </style:style>
-  <style:style style:name="P264" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P263" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="003afa55"/>
   </style:style>
-  <style:style style:name="P265" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P264" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:paragraph-rsid="003421c3"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="003ca93e"/>
   </style:style>
-  <style:style style:name="P266" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
-  </style:style>
-  <style:style style:name="P267" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
-   <style:text-properties officeooo:paragraph-rsid="003afa55"/>
-  </style:style>
-  <style:style style:name="P268" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
+  <style:style style:name="P265" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="0033a954" officeooo:paragraph-rsid="0033a954"/>
   </style:style>
-  <style:style style:name="P269" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P266" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+   <style:text-properties officeooo:rsid="0035bf1b" officeooo:paragraph-rsid="003afa55"/>
   </style:style>
-  <style:style style:name="P270" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P267" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="00372d78"/>
   </style:style>
-  <style:style style:name="P271" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
-  </style:style>
-  <style:style style:name="P272" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b"/>
-  </style:style>
-  <style:style style:name="P273" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
-  </style:style>
-  <style:style style:name="P274" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P268" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="003513c9"/>
   </style:style>
-  <style:style style:name="P275" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:paragraph-rsid="003afa55"/>
-  </style:style>
-  <style:style style:name="P276" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P269" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
+   <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="003fdb23"/>
   </style:style>
-  <style:style style:name="P277" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P270" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
+   <style:text-properties officeooo:rsid="003afa55" officeooo:paragraph-rsid="003afa55"/>
   </style:style>
-  <style:style style:name="P278" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P271" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="003513c9"/>
+  </style:style>
+  <style:style style:name="P272" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="00346b24"/>
   </style:style>
-  <style:style style:name="P279" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P273" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003286cc" officeooo:paragraph-rsid="003286cc"/>
+  </style:style>
+  <style:style style:name="P274" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003e8d5c" officeooo:paragraph-rsid="003fdb23"/>
+  </style:style>
+  <style:style style:name="P275" style:family="paragraph" style:parent-style-name="Text_20_body" style:master-page-name="">
+   <style:paragraph-properties fo:line-height="150%" style:page-number="auto" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003286cc" officeooo:paragraph-rsid="003286cc"/>
+  </style:style>
+  <style:style style:name="P276" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P277" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:paragraph-rsid="003421c3"/>
+  </style:style>
+  <style:style style:name="P278" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
+  </style:style>
+  <style:style style:name="P279" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
+   <style:text-properties officeooo:paragraph-rsid="003afa55"/>
+  </style:style>
+  <style:style style:name="P280" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0033a954" officeooo:paragraph-rsid="0033a954"/>
+  </style:style>
+  <style:style style:name="P281" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P282" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+  </style:style>
+  <style:style style:name="P283" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
+  </style:style>
+  <style:style style:name="P284" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b"/>
+  </style:style>
+  <style:style style:name="P285" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
+  </style:style>
+  <style:style style:name="P286" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="003513c9"/>
+  </style:style>
+  <style:style style:name="P287" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:paragraph-rsid="003afa55"/>
+  </style:style>
+  <style:style style:name="P288" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
+  </style:style>
+  <style:style style:name="P289" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
+  </style:style>
+  <style:style style:name="P290" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="00346b24"/>
+  </style:style>
+  <style:style style:name="P291" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="00381707" officeooo:paragraph-rsid="00381707"/>
   </style:style>
-  <style:style style:name="P280" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P292" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="003afa55" officeooo:paragraph-rsid="00381707"/>
   </style:style>
-  <style:style style:name="P281" style:family="paragraph" style:parent-style-name="Heading_20_4">
+  <style:style style:name="P293" style:family="paragraph" style:parent-style-name="Heading_20_4">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
   </style:style>
@@ -1297,261 +1345,273 @@
    <style:text-properties fo:color="#ff3333" officeooo:rsid="0034658b"/>
   </style:style>
   <style:style style:name="T15" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL"/>
+   <style:text-properties fo:color="#ff3333" officeooo:rsid="0036b9e7"/>
   </style:style>
   <style:style style:name="T16" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#ff3333" officeooo:rsid="003e8d5c"/>
   </style:style>
   <style:style style:name="T17" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="003acbc2" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#ff3333" officeooo:rsid="003fdb23"/>
   </style:style>
   <style:style style:name="T18" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0041434a" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL"/>
   </style:style>
   <style:style style:name="T19" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0042b7e2" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T20" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="003bec0e" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="003acbc2" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T21" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0034658b" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0041434a" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T22" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="00394a2d" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0042b7e2" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T23" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001fb94a"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="003bec0e" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T24" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="003acbc2"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0034658b" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T25" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0041434a"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="00394a2d" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T26" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00349a45"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001fb94a"/>
   </style:style>
   <style:style style:name="T27" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="003acbc2"/>
   </style:style>
   <style:style style:name="T28" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0020c5c8"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0041434a"/>
   </style:style>
   <style:style style:name="T29" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0028a3f9"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00349a45"/>
   </style:style>
   <style:style style:name="T30" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="002de612"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd"/>
   </style:style>
   <style:style style:name="T31" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0020c5c8"/>
   </style:style>
   <style:style style:name="T32" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0033a4eb"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0028a3f9"/>
   </style:style>
   <style:style style:name="T33" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="italic" officeooo:rsid="001c63f6" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="002de612"/>
   </style:style>
   <style:style style:name="T34" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="italic" fo:font-weight="normal" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001c63f6"/>
   </style:style>
   <style:style style:name="T35" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00295773"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0033a4eb"/>
   </style:style>
   <style:style style:name="T36" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0033a954"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="italic" officeooo:rsid="001c63f6" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T37" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00341938"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="italic" fo:font-weight="normal" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T38" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00295773"/>
   </style:style>
   <style:style style:name="T39" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="003421c3" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0033a954"/>
   </style:style>
   <style:style style:name="T40" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0034658b" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00341938"/>
   </style:style>
   <style:style style:name="T41" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00394a2d" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T42" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="003afa55" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="003421c3" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T43" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="003ca93e" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0034658b" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T44" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00394a2d" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T45" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0034658b"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="003afa55" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T46" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="003513c9"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="003ca93e" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T47" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00381707"/>
+   <style:text-properties fo:language="pl" fo:country="PL" fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T48" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00394a2d"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0034658b"/>
   </style:style>
   <style:style style:name="T49" style:family="text">
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="003afa55"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="003513c9"/>
   </style:style>
   <style:style style:name="T50" style:family="text">
-   <style:text-properties fo:color="#000000"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00381707"/>
   </style:style>
   <style:style style:name="T51" style:family="text">
-   <style:text-properties fo:color="#000000" fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0041434a" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00394a2d"/>
   </style:style>
   <style:style style:name="T52" style:family="text">
-   <style:text-properties fo:color="#000000" fo:font-weight="normal" officeooo:rsid="0041434a" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="003afa55"/>
   </style:style>
   <style:style style:name="T53" style:family="text">
-   <style:text-properties officeooo:rsid="003bec0e"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="003fdb23"/>
   </style:style>
   <style:style style:name="T54" style:family="text">
-   <style:text-properties officeooo:rsid="0038ec2f"/>
+   <style:text-properties fo:color="#000000"/>
   </style:style>
   <style:style style:name="T55" style:family="text">
-   <style:text-properties officeooo:rsid="001c63f6"/>
+   <style:text-properties fo:color="#000000" fo:language="pl" fo:country="PL" fo:font-weight="normal" officeooo:rsid="0041434a" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T56" style:family="text">
-   <style:text-properties officeooo:rsid="001ed28f"/>
+   <style:text-properties fo:color="#000000" fo:font-weight="normal" officeooo:rsid="0041434a" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T57" style:family="text">
-   <style:text-properties officeooo:rsid="0020c5c8"/>
+   <style:text-properties officeooo:rsid="003bec0e"/>
   </style:style>
   <style:style style:name="T58" style:family="text">
-   <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties officeooo:rsid="0038ec2f"/>
   </style:style>
   <style:style style:name="T59" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0020c5c8" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties officeooo:rsid="001c63f6"/>
   </style:style>
   <style:style style:name="T60" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0034658b" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties officeooo:rsid="001ed28f"/>
   </style:style>
   <style:style style:name="T61" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00394a2d" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties officeooo:rsid="0020c5c8"/>
   </style:style>
   <style:style style:name="T62" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="003afa55" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T63" style:family="text">
-   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0020c5c8" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T64" style:family="text">
-   <style:text-properties fo:font-style="italic" officeooo:rsid="001ed28f" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0034658b" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T65" style:family="text">
-   <style:text-properties fo:font-style="italic" officeooo:rsid="002de612" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00394a2d" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T66" style:family="text">
-   <style:text-properties fo:font-style="italic" officeooo:rsid="00295773" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="003afa55" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T67" style:family="text">
-   <style:text-properties officeooo:rsid="00236df1"/>
+   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T68" style:family="text">
-   <style:text-properties officeooo:rsid="0024f888"/>
+   <style:text-properties fo:font-style="italic" officeooo:rsid="001ed28f" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T69" style:family="text">
-   <style:text-properties officeooo:rsid="0028a3f9"/>
+   <style:text-properties fo:font-style="italic" officeooo:rsid="002de612" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T70" style:family="text">
-   <style:text-properties officeooo:rsid="00295773"/>
+   <style:text-properties fo:font-style="italic" officeooo:rsid="00295773" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T71" style:family="text">
-   <style:text-properties officeooo:rsid="001fb94a"/>
+   <style:text-properties officeooo:rsid="00236df1"/>
   </style:style>
   <style:style style:name="T72" style:family="text">
-   <style:text-properties officeooo:rsid="003acbc2"/>
+   <style:text-properties officeooo:rsid="0024f888"/>
   </style:style>
   <style:style style:name="T73" style:family="text">
-   <style:text-properties officeooo:rsid="0041434a"/>
+   <style:text-properties officeooo:rsid="0028a3f9"/>
   </style:style>
   <style:style style:name="T74" style:family="text">
-   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties officeooo:rsid="00295773"/>
   </style:style>
   <style:style style:name="T75" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="003acbc2" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties officeooo:rsid="001fb94a"/>
   </style:style>
   <style:style style:name="T76" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="0041434a" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties officeooo:rsid="003acbc2"/>
   </style:style>
   <style:style style:name="T77" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="003bec0e" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties officeooo:rsid="0041434a"/>
   </style:style>
   <style:style style:name="T78" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="0042b7e2" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T79" style:family="text">
-   <style:text-properties officeooo:rsid="00349a45"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="003acbc2" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T80" style:family="text">
-   <style:text-properties officeooo:rsid="002de612"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0041434a" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T81" style:family="text">
-   <style:text-properties officeooo:rsid="0033a4eb"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="003bec0e" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T82" style:family="text">
-   <style:text-properties officeooo:rsid="0033a954"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0042b7e2" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T83" style:family="text">
-   <style:text-properties officeooo:rsid="00341938"/>
+   <style:text-properties officeooo:rsid="00349a45"/>
   </style:style>
   <style:style style:name="T84" style:family="text">
-   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="002de612"/>
   </style:style>
   <style:style style:name="T85" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="0033a954" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="0033a4eb"/>
   </style:style>
   <style:style style:name="T86" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="0034658b" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="0033a954"/>
   </style:style>
   <style:style style:name="T87" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="003513c9" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="00341938"/>
   </style:style>
   <style:style style:name="T88" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="003afa55" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T89" style:family="text">
-   <style:text-properties officeooo:rsid="0034658b"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0033a954" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T90" style:family="text">
-   <style:text-properties officeooo:rsid="00346b24"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0034658b" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T91" style:family="text">
-   <style:text-properties officeooo:rsid="003513c9"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="003513c9" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T92" style:family="text">
-   <style:text-properties officeooo:rsid="0035bf1b"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="003afa55" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T93" style:family="text">
-   <style:text-properties officeooo:rsid="00372d78"/>
+   <style:text-properties officeooo:rsid="0034658b"/>
   </style:style>
   <style:style style:name="T94" style:family="text">
-   <style:text-properties officeooo:rsid="00381707"/>
+   <style:text-properties officeooo:rsid="00346b24"/>
   </style:style>
   <style:style style:name="T95" style:family="text">
-   <style:text-properties officeooo:rsid="00394a2d"/>
+   <style:text-properties officeooo:rsid="003513c9"/>
   </style:style>
   <style:style style:name="T96" style:family="text">
-   <style:text-properties officeooo:rsid="003afa55"/>
+   <style:text-properties officeooo:rsid="0035bf1b"/>
   </style:style>
   <style:style style:name="T97" style:family="text">
-   <style:text-properties officeooo:rsid="003ca93e"/>
+   <style:text-properties officeooo:rsid="00372d78"/>
   </style:style>
   <style:style style:name="T98" style:family="text">
-   <style:text-properties officeooo:rsid="003e8d5c"/>
+   <style:text-properties officeooo:rsid="00381707"/>
   </style:style>
   <style:style style:name="T99" style:family="text">
-   <style:text-properties officeooo:rsid="0036b9e7"/>
+   <style:text-properties officeooo:rsid="00394a2d"/>
   </style:style>
   <style:style style:name="T100" style:family="text">
+   <style:text-properties officeooo:rsid="003afa55"/>
+  </style:style>
+  <style:style style:name="T101" style:family="text">
+   <style:text-properties officeooo:rsid="003ca93e"/>
+  </style:style>
+  <style:style style:name="T102" style:family="text">
+   <style:text-properties officeooo:rsid="003e8d5c"/>
+  </style:style>
+  <style:style style:name="T103" style:family="text">
+   <style:text-properties officeooo:rsid="0036b9e7"/>
+  </style:style>
+  <style:style style:name="T104" style:family="text">
    <style:text-properties officeooo:rsid="003fdb23"/>
   </style:style>
   <style:page-layout style:name="pm1">
@@ -1575,279 +1635,293 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
    </text:sequence-decls>
    <text:p text:style-name="P232">\frontmatter</text:p>
-   <text:p text:style-name="P164">\setcounter{page}{<text:span text:style-name="T89">5</text:span>}</text:p>
+   <text:p text:style-name="P164">\setcounter{page}{<text:span text:style-name="T93">5</text:span>}</text:p>
    <text:h text:style-name="P218" text:outline-level="1">Wstęp</text:h>
-   <text:p text:style-name="P165">Przez ostatnie lata można zaobserwować gwałtowny rozwój usług mobilnego dostępu do danych. Wciąż zwiększana przepustowość oraz jednoczesna ilość obsługiwanych użytkowników wymaga za<text:span text:style-name="T96">stosowania </text:span>odpowiednich metod technicznych w celu ich prawidłowej realizacji.</text:p>
-   <text:p text:style-name="P166">Cegiełką, która jest podstawą w budowie tych systemów jest prezentowana w niniejszej pracy <text:span text:style-name="T55">technologia</text:span> programowalnego radia cyfrowego<text:span text:style-name="T96">, o</text:span>becna na rynku<text:span text:style-name="T83"> cywilnym</text:span> od początków lat 90. XX wieku (na przykład w formie telefonii \gls{gsm}), a przez wojsko używana już dwie dekady wcześniej. Jej zastosowanie znacząco upraszcza projektowanie systemów radiowych a także umożliwia znaczące obniżenie kosztów poprzez przeniesienie większości przetwarzania sygnału <text:span text:style-name="T81">z obszaru analogowego --- sprzętowego, do cyfrowego --- oprogramowania. </text:span>Rezultatem jest <text:span text:style-name="T81">znaczne przyspieszenie prac inżynierskich nad projektem, łatwość poprawianie błędów (nawet na wyprodukowanym już urządzeniu) a także</text:span> zmniejszenie rozmiarów wynikowego \gls{pcb}. Z drugiej strony <text:span text:style-name="T81">takie podejście do problemu</text:span> wymaga dużych nakładów obliczeniowych czyli szybkich procesorów, lecz wraz z rozwojem <text:span text:style-name="T95">coraz bardziej </text:span>zaawansowanych technik półprzewodnikowych stało się to możliwe. Przykładem były telefony firmy Nokia, np. model 5110<text:span text:style-name="T83"> </text:span>wydany w roku 1998<text:span text:style-name="T83"> --- z</text:span>awierał układ \gls{asic} (zintegrowany procesor \gls{arm} z układem \gls{dsp})<text:span text:style-name="T95">, odpowiadający za przetwarzanie danych.</text:span></text:p>
-   <text:p text:style-name="P200"><text:span text:style-name="T31">Obecnie, za sprawą takich projektów jak np. </text:span><text:span text:style-name="T36">USRP\footnote{\</text:span><text:span text:style-name="T37">url{https://www.ettus.com/product</text:span><text:span text:style-name="T36">}}</text:span><text:span text:style-name="T31"> </text:span><text:span text:style-name="T32">czy HackRF\footnote{\url{https://greatscottgadgets.com/hackrf/}} znacznie zwiększyła się popularność </text:span><text:span text:style-name="T49">techniki \gls{sdr}</text:span><text:span text:style-name="T32">i i właściwie każdy może mieć</text:span><text:span text:style-name="T49"> do niej</text:span><text:span text:style-name="T32"> </text:span><text:span text:style-name="T31">łatwy dostęp. Mnogość projektów\footnote{\url{https://en.wikipedia.org/wiki/List_of_software-defined_radios}} pozwala na</text:span><text:span text:style-name="T48"> wybraniu i </text:span><text:span text:style-name="T31">dostosowanie sprzętu do własnych potrzeb. Ciekawym rozwiązaniem jest projekt </text:span><text:span text:style-name="T33">rtl-sdr</text:span><text:span text:style-name="T31">. Jest on </text:span><text:span text:style-name="T49">rezultatem </text:span><text:span text:style-name="T31">odkryć\footnote{\url{http://rtlsdr.org/#history_and_discovery_of_rtlsdr}} </text:span><text:span text:style-name="T32">dokonanych </text:span><text:span text:style-name="T31">podczas inżynierii odwrotnej sterowników zwykłego, </text:span><text:span text:style-name="T32">taniego</text:span><text:span text:style-name="T31"> tunera telewizyjnego </text:span><text:span text:style-name="T32">\gls{dvbt}.</text:span><text:span text:style-name="T31"> Pozwala on użyć takiego tunera jako taniego odbiornika \gls{sdr} </text:span><text:span text:style-name="T32">o dość szerokim spektrum wejściowym</text:span><text:span text:style-name="T31">.</text:span></text:p>
+   <text:p text:style-name="P165">Przez ostatnie lata można zaobserwować gwałtowny rozwój usług mobilnego dostępu do danych. Wciąż zwiększana przepustowość oraz jednoczesna ilość obsługiwanych użytkowników wymaga za<text:span text:style-name="T100">stosowania </text:span>odpowiednich metod technicznych w celu ich prawidłowej realizacji.</text:p>
+   <text:p text:style-name="P166">Cegiełką, która jest podstawą w budowie tych systemów jest prezentowana w niniejszej pracy <text:span text:style-name="T59">technologia</text:span> programowalnego radia cyfrowego<text:span text:style-name="T100">, o</text:span>becna na rynku<text:span text:style-name="T87"> cywilnym</text:span> od początków lat 90. XX wieku (na przykład w formie telefonii \gls{gsm}), a przez wojsko używana już dwie dekady wcześniej. Jej zastosowanie znacząco upraszcza projektowanie systemów radiowych a także umożliwia znaczące obniżenie kosztów poprzez przeniesienie większości przetwarzania sygnału <text:span text:style-name="T85">z obszaru analogowego --- sprzętowego, do cyfrowego --- oprogramowania. </text:span>Rezultatem jest <text:span text:style-name="T85">znaczne przyspieszenie prac inżynierskich nad projektem, łatwość poprawianie błędów (nawet na wyprodukowanym już urządzeniu) a także</text:span> zmniejszenie rozmiarów wynikowego \gls{pcb}. Z drugiej strony <text:span text:style-name="T85">takie podejście do problemu</text:span> wymaga dużych nakładów obliczeniowych czyli szybkich procesorów, lecz wraz z rozwojem <text:span text:style-name="T99">coraz bardziej </text:span>zaawansowanych technik półprzewodnikowych stało się to możliwe. Przykładem były telefony firmy Nokia, np. model 5110<text:span text:style-name="T87"> </text:span>wydany w roku 1998<text:span text:style-name="T87"> --- z</text:span>awierał układ \gls{asic} (zintegrowany procesor \gls{arm} z układem \gls{dsp})<text:span text:style-name="T99">, odpowiadający za przetwarzanie danych.</text:span></text:p>
+   <text:p text:style-name="P200"><text:span text:style-name="T34">Obecnie, za sprawą takich projektów jak np. </text:span><text:span text:style-name="T39">USRP\footnote{\</text:span><text:span text:style-name="T40">url{https://www.ettus.com/product</text:span><text:span text:style-name="T39">}}</text:span><text:span text:style-name="T34"> </text:span><text:span text:style-name="T35">czy HackRF\footnote{\url{https://greatscottgadgets.com/hackrf/}} znacznie zwiększyła się popularność </text:span><text:span text:style-name="T52">techniki \gls{sdr}</text:span><text:span text:style-name="T35">i i właściwie każdy może mieć</text:span><text:span text:style-name="T52"> do niej</text:span><text:span text:style-name="T35"> </text:span><text:span text:style-name="T34">łatwy dostęp. Mnogość projektów\footnote{\url{https://en.wikipedia.org/wiki/List_of_software-defined_radios}} pozwala na</text:span><text:span text:style-name="T51"> wybraniu i </text:span><text:span text:style-name="T34">dostosowanie sprzętu do własnych potrzeb. Ciekawym rozwiązaniem jest projekt </text:span><text:span text:style-name="T36">rtl-sdr</text:span><text:span text:style-name="T34">. Jest on </text:span><text:span text:style-name="T52">rezultatem </text:span><text:span text:style-name="T34">odkryć\footnote{\url{http://rtlsdr.org/#history_and_discovery_of_rtlsdr}} </text:span><text:span text:style-name="T35">dokonanych </text:span><text:span text:style-name="T34">podczas inżynierii odwrotnej sterowników zwykłego, </text:span><text:span text:style-name="T35">taniego</text:span><text:span text:style-name="T34"> tunera telewizyjnego </text:span><text:span text:style-name="T35">\gls{dvbt}.</text:span><text:span text:style-name="T34"> Pozwala on użyć takiego tunera jako taniego odbiornika \gls{sdr} </text:span><text:span text:style-name="T35">o dość szerokim spektrum wejściowym</text:span><text:span text:style-name="T34">.</text:span></text:p>
    <text:h text:style-name="P220" text:outline-level="2">Cel i zakres pracy</text:h>
-   <text:p text:style-name="P197"><text:span text:style-name="T23">Tematem obejmującym niniejszą pracę dyplomową jest analiza zagadnienia radia programowalnego</text:span><text:span text:style-name="T37">, projekt sprzętu</text:span><text:span text:style-name="T23"> oraz symulacja prototypu cyfrowego systemu odbioru i </text:span><text:soft-page-break/><text:span text:style-name="T23">dekodowania transmisji radiowej wzorca czasu \gls{dcf77}</text:span><text:span text:style-name="T17">. System odbiorczy powinien być zdolny do odebrania sygnału radiowego oraz takiego jego przetworzenia, aby możliwe było odczytanie nadawanego komunikatu.</text:span></text:p>
+   <text:p text:style-name="P197"><text:span text:style-name="T26">Tematem obejmującym niniejszą pracę dyplomową jest analiza zagadnienia radia programowalnego</text:span><text:span text:style-name="T40">, projekt sprzętu</text:span><text:span text:style-name="T26"> oraz symulacja prototypu cyfrowego systemu odbioru i </text:span><text:soft-page-break/><text:span text:style-name="T26">dekodowania transmisji radiowej wzorca czasu \gls{dcf77}</text:span><text:span text:style-name="T20">. System odbiorczy powinien być zdolny do odebrania sygnału radiowego oraz takiego jego przetworzenia, aby możliwe było odczytanie nadawanego komunikatu.</text:span></text:p>
    <text:p text:style-name="P167">Zakres pracy obejmuje następujące podmoduły:</text:p>
    <text:p text:style-name="P202">\begin{addmargin}[.5em]{0em}</text:p>
    <text:p text:style-name="P202">\begin{itemize}</text:p>
-   <text:p text:style-name="P202">\item{<text:span text:style-name="T84">Sprzęt</text:span><text:span text:style-name="T82"> -- </text:span>celem było zaprojektowanie alternatywnej<text:span text:style-name="T95"> do już instniejących</text:span> platformy wielokrotnego użytku do odbioru sygnałów radiowych}</text:p>
-   <text:p text:style-name="P202">\item{<text:span text:style-name="T84">Oprogramowanie</text:span><text:span text:style-name="T82"> -- </text:span>celem było zaimplementowanie<text:span text:style-name="T96"> jednego z </text:span>istniejących algorytmów <text:span text:style-name="T95">używanych w technice \gls{sdr}</text:span>}</text:p>
+   <text:p text:style-name="P202">\item{<text:span text:style-name="T88">Sprzęt</text:span><text:span text:style-name="T86"> -- </text:span>celem było zaprojektowanie alternatywnej<text:span text:style-name="T99"> do już instniejących</text:span> platformy wielokrotnego użytku do odbioru sygnałów radiowych}</text:p>
+   <text:p text:style-name="P202">\item{<text:span text:style-name="T88">Oprogramowanie</text:span><text:span text:style-name="T86"> -- </text:span>celem było zaimplementowanie<text:span text:style-name="T100"> jednego z </text:span>istniejących algorytmów <text:span text:style-name="T99">używanych w technice \gls{sdr}</text:span>}</text:p>
    <text:p text:style-name="P202">\end{itemize}</text:p>
    <text:p text:style-name="P167">\end{addmargin}</text:p>
-   <text:p text:style-name="P202"><text:span text:style-name="T16">W ramach realizacji, projekt zostanie zaprogramowany w środowisku \gls{fpga}. Docelowym modułem </text:span><text:span text:style-name="T22">jest</text:span><text:span text:style-name="T16"> płytka </text:span><text:span text:style-name="T34">DE0-Nano</text:span><text:span text:style-name="T38"> f</text:span><text:span text:style-name="T39">i</text:span><text:span text:style-name="T38">rmy </text:span><text:span text:style-name="T34">Terasic</text:span><text:span text:style-name="T38">. Samo środowisko programistyczne </text:span><text:span text:style-name="T41">wynikło</text:span><text:span text:style-name="T38"> z zastosowanego modułu prototypowego ---</text:span><text:span text:style-name="T41"> jest</text:span><text:span text:style-name="T38"> to </text:span><text:span text:style-name="T34">Altera Quartus Prime</text:span><text:span text:style-name="T38"> w wersji 15.1.</text:span></text:p>
+   <text:p text:style-name="P202"><text:span text:style-name="T19">W ramach realizacji, projekt zostanie zaprogramowany w środowisku \gls{fpga}. Docelowym modułem </text:span><text:span text:style-name="T25">jest</text:span><text:span text:style-name="T19"> płytka </text:span><text:span text:style-name="T37">DE0-Nano</text:span><text:span text:style-name="T41"> f</text:span><text:span text:style-name="T42">i</text:span><text:span text:style-name="T41">rmy </text:span><text:span text:style-name="T37">Terasic</text:span><text:span text:style-name="T41">. Samo środowisko programistyczne </text:span><text:span text:style-name="T44">wynikło</text:span><text:span text:style-name="T41"> z zastosowanego modułu prototypowego ---</text:span><text:span text:style-name="T44"> jest</text:span><text:span text:style-name="T41"> to </text:span><text:span text:style-name="T37">Altera Quartus Prime</text:span><text:span text:style-name="T41"> w wersji 15.1.</text:span></text:p>
    <text:p text:style-name="P173">Praca składa się z trzech części:</text:p>
    <text:p text:style-name="P173"/>
    <text:p text:style-name="P206">\begin{addmargin}[.5em]{0em}</text:p>
    <text:p text:style-name="P206">\begin{itemize}</text:p>
-   <text:p text:style-name="P206">\item{<text:span text:style-name="T41">Pierwszy rozdział opisuje założenia techniki \gls{sdr}</text:span><text:span text:style-name="T42">.</text:span><text:span text:style-name="T97">}</text:span></text:p>
-   <text:p text:style-name="P206">\item{<text:span text:style-name="T42">Drugi rozdział </text:span><text:span text:style-name="T41">przedstawia system nadawania sygnału czasu \gls{dcf77}.</text:span><text:span text:style-name="T97">}</text:span></text:p>
-   <text:p text:style-name="P206">\item{<text:span text:style-name="T42">Trzeci</text:span><text:span text:style-name="T38"> rozdział </text:span><text:span text:style-name="T41">przedstawia</text:span><text:span text:style-name="T38"> część sprzętową: płytkę prototypową z układem \gls{fpga}</text:span><text:span text:style-name="T41"> i </text:span><text:span text:style-name="T38">płytkę prototypową będącą modułem radiowym.</text:span><text:span text:style-name="T97">}</text:span></text:p>
-   <text:p text:style-name="P206">\item{<text:span text:style-name="T42">Czwarty</text:span><text:span text:style-name="T41"> rozdział</text:span><text:span text:style-name="T38"> rozdział </text:span><text:span text:style-name="T41">skupia się nad </text:span><text:span text:style-name="T38">proponowaną architektur</text:span><text:span text:style-name="T41">ą</text:span><text:span text:style-name="T38"> oprogramowani</text:span><text:span text:style-name="T41">a,</text:span><text:span text:style-name="T38"> zawiera przedstawienie wykorzystanych modułów </text:span><text:span text:style-name="T43">o</text:span><text:span text:style-name="T41">raz prezentuje symulacje</text:span><text:span text:style-name="T38"> które powstały w celu przetestowania poprawności zaprojektowanego oprogramowani</text:span><text:span text:style-name="T40">a.</text:span><text:span text:style-name="T97">}</text:span></text:p>
+   <text:p text:style-name="P206">\item{<text:span text:style-name="T44">Pierwszy rozdział opisuje założenia techniki \gls{sdr}</text:span><text:span text:style-name="T45">.</text:span><text:span text:style-name="T101">}</text:span></text:p>
+   <text:p text:style-name="P206">\item{<text:span text:style-name="T45">Drugi rozdział </text:span><text:span text:style-name="T44">przedstawia system nadawania sygnału czasu \gls{dcf77}.</text:span><text:span text:style-name="T101">}</text:span></text:p>
+   <text:p text:style-name="P206">\item{<text:span text:style-name="T45">Trzeci</text:span><text:span text:style-name="T41"> rozdział </text:span><text:span text:style-name="T44">przedstawia</text:span><text:span text:style-name="T41"> część sprzętową: płytkę prototypową z układem \gls{fpga}</text:span><text:span text:style-name="T44"> i </text:span><text:span text:style-name="T41">płytkę prototypową będącą modułem radiowym.</text:span><text:span text:style-name="T101">}</text:span></text:p>
+   <text:p text:style-name="P206">\item{<text:span text:style-name="T45">Czwarty</text:span><text:span text:style-name="T44"> rozdział</text:span><text:span text:style-name="T41"> rozdział </text:span><text:span text:style-name="T44">skupia się nad </text:span><text:span text:style-name="T41">proponowaną architektur</text:span><text:span text:style-name="T44">ą</text:span><text:span text:style-name="T41"> oprogramowani</text:span><text:span text:style-name="T44">a,</text:span><text:span text:style-name="T41"> zawiera przedstawienie wykorzystanych modułów </text:span><text:span text:style-name="T46">o</text:span><text:span text:style-name="T44">raz prezentuje symulacje</text:span><text:span text:style-name="T41"> które powstały w celu przetestowania poprawności zaprojektowanego oprogramowani</text:span><text:span text:style-name="T43">a.</text:span><text:span text:style-name="T101">}</text:span></text:p>
    <text:p text:style-name="P206">\end{itemize}</text:p>
    <text:p text:style-name="P174">\end{addmargin}</text:p>
-   <text:p text:style-name="P168"><text:span text:style-name="T60">Przy tworzeniu pracy wykorzystane były</text:span><text:span text:style-name="T89"> następujące oprogramowanie i narzędzia \gls{cad}:</text:span></text:p>
+   <text:p text:style-name="P168"><text:span text:style-name="T64">Przy tworzeniu pracy wykorzystane były</text:span><text:span text:style-name="T93"> następujące oprogramowanie i narzędzia \gls{cad}:</text:span></text:p>
    <text:p text:style-name="P169"><text:soft-page-break/>\begin{addmargin}[.5em]{0em}</text:p>
    <text:p text:style-name="P169">\begin{itemize}</text:p>
-   <text:p text:style-name="P170"><text:span text:style-name="T89">\item{</text:span><text:span text:style-name="T86">Eagle PCB 7.4</text:span><text:span text:style-name="T89"> -- program do projektowania płytek drukowanych}</text:span></text:p>
-   <text:p text:style-name="P170"><text:span text:style-name="T89">\item{</text:span><text:span text:style-name="T86">Altera Quartus Prime 15.1</text:span><text:span text:style-name="T89"> -- środowisko projektowania dla układów firmy Altera}</text:span></text:p>
-   <text:p text:style-name="P170"><text:span text:style-name="T89">\item{</text:span><text:span text:style-name="T86">Modelsim 10.4d Altera Edition</text:span><text:span text:style-name="T89"> -- symulator języków opisu sprzętu (dołączony do środowiska Quartus Prime)}</text:span></text:p>
-   <text:p text:style-name="P170"><text:span text:style-name="T89">\item{</text:span><text:span text:style-name="T86">Qucs 0.0.18</text:span><text:span text:style-name="T89"> -- open-source symulator analogowych obwodów elektronicznych}</text:span></text:p>
-   <text:p text:style-name="P170"><text:span text:style-name="T89">\item{</text:span><text:span text:style-name="T86">Python 3.4</text:span><text:span text:style-name="T88">.3</text:span><text:span text:style-name="T89"> -- język programowania wysokiego poziomu ogólnego przeznaczenia}</text:span></text:p>
-   <text:p text:style-name="P172">\item{<text:span text:style-name="T84">Matplotlib 1.4.3</text:span> -- biblioteka dla języka Python umożliwiająca rysowanie wykresów}</text:p>
+   <text:p text:style-name="P170"><text:span text:style-name="T93">\item{</text:span><text:span text:style-name="T90">Eagle PCB 7.4</text:span><text:span text:style-name="T93"> -- program do projektowania płytek drukowanych}</text:span></text:p>
+   <text:p text:style-name="P170"><text:span text:style-name="T93">\item{</text:span><text:span text:style-name="T90">Altera Quartus Prime 15.1</text:span><text:span text:style-name="T93"> -- środowisko projektowania dla układów firmy Altera}</text:span></text:p>
+   <text:p text:style-name="P170"><text:span text:style-name="T93">\item{</text:span><text:span text:style-name="T90">Modelsim 10.4d Altera Edition</text:span><text:span text:style-name="T93"> -- symulator języków opisu sprzętu (dołączony do środowiska Quartus Prime)}</text:span></text:p>
+   <text:p text:style-name="P170"><text:span text:style-name="T93">\item{</text:span><text:span text:style-name="T90">Qucs 0.0.18</text:span><text:span text:style-name="T93"> -- open-source symulator analogowych obwodów elektronicznych}</text:span></text:p>
+   <text:p text:style-name="P170"><text:span text:style-name="T93">\item{</text:span><text:span text:style-name="T90">Python 3.4</text:span><text:span text:style-name="T92">.3</text:span><text:span text:style-name="T93"> -- język programowania wysokiego poziomu ogólnego przeznaczenia}</text:span></text:p>
+   <text:p text:style-name="P172">\item{<text:span text:style-name="T88">Matplotlib 1.4.3</text:span> -- biblioteka dla języka Python umożliwiająca rysowanie wykresów}</text:p>
    <text:p text:style-name="P169">\end{itemize}</text:p>
    <text:p text:style-name="P169">\end{addmargin}</text:p>
    <text:p text:style-name="P145">\mainmatter</text:p>
    <text:h text:style-name="P219" text:outline-level="1">Software Defined Radio</text:h>
-   <text:p text:style-name="P176">Rozwój technologii produkcji układów scalonych wielkiej skali integracji umożliwił rozpoczęcie innowacyjnych projektów. Jednym z nich z pewnością można nazwać ideę radia programowalnego. <text:span text:style-name="T56">Realizacja praktyczna rozpoczęła się w latach 80. XX wieku\cite{john85sdr}. Dziesięć lat później pojęcie to zostało opisane teoretycznie\cite{mitola92sr}. Realizacja praktyczna była możliwa dzięki wykorzystaniu procesora \gls{dsp} TMS320 firmy Texas Instruments. Dzisiaj każdy zainteresowany może korzystać z tej technologii.</text:span></text:p>
+   <text:p text:style-name="P176">Rozwój technologii produkcji układów scalonych wielkiej skali integracji umożliwił rozpoczęcie innowacyjnych projektów. Jednym z nich z pewnością można nazwać ideę radia programowalnego. <text:span text:style-name="T60">Realizacja praktyczna rozpoczęła się w latach 80. XX wieku\cite{john85sdr}. Dziesięć lat później pojęcie to zostało opisane teoretycznie\cite{mitola92sr}. Realizacja praktyczna była możliwa dzięki wykorzystaniu procesora \gls{dsp} TMS320 firmy Texas Instruments. Dzisiaj każdy zainteresowany może korzystać z tej technologii.</text:span></text:p>
    <text:h text:style-name="P221" text:outline-level="2">Teoria</text:h>
-   <text:p text:style-name="P177"><text:span text:style-name="T56">Rysunek \ref{fig:sdrGeneral} przedstawia typowy sposób działania radia </text:span>programowalnego.</text:p>
-   <text:p text:style-name="P177">\begin{figure}<text:span text:style-name="T70">[ht!]</text:span></text:p>
+   <text:p text:style-name="P177"><text:span text:style-name="T60">Rysunek \ref{fig:sdrGeneral} przedstawia typowy sposób działania radia </text:span>programowalnego.</text:p>
+   <text:p text:style-name="P246">\begin{figure}<text:span text:style-name="T74">[ht!]</text:span></text:p>
    <text:p text:style-name="P177"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\include<text:span text:style-name="T70">graphics</text:span>[<text:span text:style-name="T70">w</text:span>idth=<text:span text:style-name="T70">0.9</text:span>\textwidth]{../<text:span text:style-name="T70">images/sdrGeneral}</text:span></text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\caption<text:span text:style-name="T70">{Idea radia programowalnego</text:span>}</text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T69">sdrGeneral</text:span>}</text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\include<text:span text:style-name="T74">graphics</text:span>[<text:span text:style-name="T74">w</text:span>idth=<text:span text:style-name="T74">0.9</text:span>\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/sdrGeneral}</text:span></text:p>
+   <text:p text:style-name="P177"><text:s text:c="4"/>\caption<text:span text:style-name="T74">{Idea radia programowalnego</text:span>}</text:p>
+   <text:p text:style-name="P177"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T73">sdrGeneral</text:span>}</text:p>
    <text:p text:style-name="P177">\end{figure}</text:p>
-   <text:p text:style-name="P177">Pierwszym elemente<text:span text:style-name="T56">m </text:span><text:span text:style-name="T64">(1)</text:span><text:span text:style-name="T56"> jest antena. Jej wybór determinowany jest zakładanym przez projektantów systemu zakresem częstotliwości wejściowych, kierunkowością, selektywnością i szerokopasmowością.</text:span></text:p>
-   <text:p text:style-name="P182">Drugi element <text:span text:style-name="T63">(2)</text:span> to filtry wejściowe.<text:span text:style-name="T96"> D</text:span>oprowadzenie pełnego pasma do przetwornika analogowo-cyfrowego spowodowałoby powstanie<text:span text:style-name="T96"> </text:span>zjawiska aliasingu<text:span text:style-name="T96">\cite[s. 3]{ti13ousampl}\cite[s. 4-8]{ti11adcbasics}</text:span>.<text:span text:style-name="T96"> Z tego powodu należy zastosować filtry analogowe o odpowiedniej charakterystyce, które zapobiegają </text:span>przedostawaniu się niepożądanych części pasma radiowego do dalszych części systemu.</text:p>
-   <text:p text:style-name="P182">Kolejnym <text:span text:style-name="T63">(3)</text:span> elementem systemu jest przetwornik analogowo-cyfrowy. Umożliwia on odwzorowanie sygnałów analogowych na sygnały cyfrowe możliwe do analizowania i przetwarzania przez logikę cyfrową<text:span text:style-name="T96">\cite{kester2012przetworniki}\cite{ti11adcbasics}</text:span>.</text:p>
-   <text:p text:style-name="P182">Ostatnim <text:span text:style-name="T63">(4)</text:span> elementem systemu jest układ <text:span text:style-name="T83">akwizycji danych</text:span>. <text:span text:style-name="T89">Ten element jest odpowiedzialny za odbiór danych z przetwornika \gls{adc} oraz następne przetworzenie sygnału. W tym miejscu </text:span><text:soft-page-break/><text:span text:style-name="T89">można zastosować dokładniejsze, bardziej selektywne algorytmy filtracji oraz inne procesy operujące na sygnale tak, aby jak najlepiej dostosować go do oczekiwań projektantów. </text:span>Na schemacie ten blok podpisano jako \gls{fpga}, gdyż t<text:span text:style-name="T83">en</text:span> będzie reprezentowany w niniejszej pracy. Jednak nic nie szkodzi na przeszkodzie aby był to <text:span text:style-name="T96">inny </text:span>układ<text:span text:style-name="T96"> (</text:span>n<text:span text:style-name="T96">a przykład</text:span> <text:span text:style-name="T96">typu </text:span>\gls{dsp}, szeroko stosowany w komunikacji komórkowej<text:span text:style-name="T96">)</text:span>.<text:span text:style-name="T89"> </text:span></text:p>
-   <text:p text:style-name="P199"><text:span text:style-name="T35">Cały schemat jest uproszczonym przykładem \gls{sdr},</text:span><text:span text:style-name="T37"> </text:span><text:span text:style-name="T35">nakreśla</text:span><text:span text:style-name="T37"> jednak</text:span><text:span text:style-name="T35"> jego główne właściwości. Przerywana strzałka na obrazku symbolicznie rozdziela część sprzętową (po lewej stronie) od części programowej przetwarzania sygnału.</text:span></text:p>
+   <text:p text:style-name="P177">Pierwszym elemente<text:span text:style-name="T60">m </text:span><text:span text:style-name="T68">(1)</text:span><text:span text:style-name="T60"> jest antena. Jej wybór determinowany jest zakładanym przez projektantów systemu zakresem częstotliwości wejściowych, kierunkowością, selektywnością i szerokopasmowością.</text:span></text:p>
+   <text:p text:style-name="P182">Drugi element <text:span text:style-name="T67">(2)</text:span> to filtry wejściowe.<text:span text:style-name="T100"> D</text:span>oprowadzenie pełnego pasma do przetwornika analogowo-cyfrowego spowodowałoby powstanie<text:span text:style-name="T100"> </text:span>zjawiska aliasingu<text:span text:style-name="T100">\cite[s. 3]{ti13ousampl}\cite[s. 4-8]{ti11adcbasics}</text:span>.<text:span text:style-name="T100"> Z tego powodu należy zastosować filtry analogowe o odpowiedniej charakterystyce, które zapobiegają </text:span>przedostawaniu się niepożądanych części pasma radiowego do dalszych części systemu.</text:p>
+   <text:p text:style-name="P182">Kolejnym <text:span text:style-name="T67">(3)</text:span> elementem systemu jest przetwornik analogowo-cyfrowy. Umożliwia on odwzorowanie sygnałów analogowych na sygnały cyfrowe możliwe do analizowania i przetwarzania przez logikę cyfrową<text:span text:style-name="T100">\cite{kester2012przetworniki}\cite{ti11adcbasics}</text:span>.</text:p>
+   <text:p text:style-name="P182">Ostatnim <text:span text:style-name="T67">(4)</text:span> elementem systemu jest układ <text:span text:style-name="T87">akwizycji danych</text:span>. <text:span text:style-name="T93">Ten element jest odpowiedzialny za odbiór danych z przetwornika \gls{adc} oraz następne przetworzenie sygnału. W tym miejscu </text:span><text:soft-page-break/><text:span text:style-name="T93">można zastosować dokładniejsze, bardziej selektywne algorytmy filtracji oraz inne procesy operujące na sygnale tak, aby jak najlepiej dostosować go do oczekiwań projektantów. </text:span>Na schemacie ten blok podpisano jako \gls{fpga}, gdyż t<text:span text:style-name="T87">en</text:span> będzie reprezentowany w niniejszej pracy. Jednak nic nie szkodzi na przeszkodzie aby był to <text:span text:style-name="T100">inny </text:span>układ<text:span text:style-name="T100"> (</text:span>n<text:span text:style-name="T100">a przykład</text:span> <text:span text:style-name="T100">typu </text:span>\gls{dsp}, szeroko stosowany w komunikacji komórkowej<text:span text:style-name="T100">)</text:span>.<text:span text:style-name="T93"> </text:span></text:p>
+   <text:p text:style-name="P199"><text:span text:style-name="T38">Cały schemat jest uproszczonym przykładem \gls{sdr},</text:span><text:span text:style-name="T40"> </text:span><text:span text:style-name="T38">nakreśla</text:span><text:span text:style-name="T40"> jednak</text:span><text:span text:style-name="T38"> jego główne właściwości. Przerywana strzałka na obrazku symbolicznie rozdziela część sprzętową (po lewej stronie) od części programowej przetwarzania sygnału.</text:span></text:p>
    <text:h text:style-name="P148" text:outline-level="1">DCF77</text:h>
    <text:p text:style-name="P216">\label{sec:dcf77}</text:p>
-   <text:p text:style-name="P183">DCF77 jest to nazwa sygnału czasu nadawany na falach długich. Częstotliwo<text:span text:style-name="T70">ś</text:span>ć została <text:span text:style-name="T70">zarejestrowana</text:span> w \gls{itu} w 1953 a<text:span text:style-name="T83"> system</text:span> rozpoczął działanie w 1959 roku --- pierwotnie jako wzorzec częstotliwości. W roku 1979 dołączono zmodulowaną informację o aktualnej godzinie. Wysoka stabilnoś<text:span text:style-name="T70">ć</text:span> sygnału, kontrolowana przez zegary atomowe powoduje, że sygnał jest uznawany za wzorzec odniesienia czasu w Niemczech.</text:p>
-   <text:p text:style-name="P183">Sygnał jest kontrolowany przez <text:span text:style-name="T63">Physikalisch-Technische Bundesanstalt</text:span> (narodowy instytut metrologii Republiki Federalnej Niemiec) i nadawany z miejscowości Manfliegen --- około 25<text:span text:style-name="T96"> </text:span>km na południowy zachód od Frankfurtu nad Menem. <text:span text:style-name="T80">Zasięg sygnału to ponad 1500 km w promieniu od nadajnika (rys. \ref{fig:dcfRange}). </text:span>Moc nadajnika to 50<text:span text:style-name="T90"> </text:span>kW<text:span text:style-name="T91">\</text:span>cite<text:span text:style-name="T67">[s. 4-7]</text:span>{bauch09dcf}<text:span text:style-name="T91">.</text:span> <text:span text:style-name="T80">Czas nadawany przez DCF77 może być także stosowany bez zmian na terenie Polski, ze względu na jednakową strefę czasową.</text:span></text:p>
+   <text:p text:style-name="P183">DCF77 jest to nazwa sygnału czasu nadawany na falach długich. Częstotliwo<text:span text:style-name="T74">ś</text:span>ć została <text:span text:style-name="T74">zarejestrowana</text:span> w \gls{itu} w 1953 a<text:span text:style-name="T87"> system</text:span> rozpoczął działanie w 1959 roku --- pierwotnie jako wzorzec częstotliwości. W roku 1979 dołączono zmodulowaną informację o aktualnej godzinie. Wysoka stabilnoś<text:span text:style-name="T74">ć</text:span> sygnału, kontrolowana przez zegary atomowe powoduje, że sygnał jest uznawany za wzorzec odniesienia czasu w Niemczech.</text:p>
+   <text:p text:style-name="P183">Sygnał jest kontrolowany przez <text:span text:style-name="T67">Physikalisch-Technische Bundesanstalt</text:span> (narodowy instytut metrologii Republiki Federalnej Niemiec) i nadawany z miejscowości Manfliegen --- około 25<text:span text:style-name="T100"> </text:span>km na południowy zachód od Frankfurtu nad Menem. <text:span text:style-name="T84">Zasięg sygnału to ponad 1500 km w promieniu od nadajnika (rys. \ref{fig:dcfRange}). </text:span>Moc nadajnika to 50<text:span text:style-name="T94"> </text:span>kW<text:span text:style-name="T95">\</text:span>cite<text:span text:style-name="T71">[s. 4-7]</text:span>{bauch09dcf}<text:span text:style-name="T95">.</text:span> <text:span text:style-name="T84">Czas nadawany przez DCF77 może być także stosowany bez zmian na terenie Polski, ze względu na jednakową strefę czasową.</text:span></text:p>
    <text:p text:style-name="P184">\begin{figure}</text:p>
    <text:p text:style-name="P184"><text:tab/>\centering</text:p>
-   <text:p text:style-name="P184"><text:tab/>\include<text:span text:style-name="T70">graphics</text:span>[width=<text:span text:style-name="T70">0.9</text:span>\textwidth]{../<text:span text:style-name="T70">images/</text:span>d<text:span text:style-name="T80">cfRange</text:span>}</text:p>
-   <text:p text:style-name="P185"><text:tab/>\caption<text:span text:style-name="T80">[Zasięg sygnału DCF77]</text:span>{<text:span text:style-name="T80">Zasięg sygnału DCF77 (źródło: \cite[s. 18]{bauch09dcf})</text:span>}</text:p>
-   <text:p text:style-name="P199"><text:span text:style-name="T29"><text:tab/>\label{fig:dcf</text:span><text:span text:style-name="T30">Range</text:span><text:span text:style-name="T29">}</text:span></text:p>
+   <text:p text:style-name="P249"><text:tab/>\include<text:span text:style-name="T74">graphics</text:span>[width=<text:span text:style-name="T74">0.9</text:span>\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/</text:span>d<text:span text:style-name="T84">cfRange</text:span>}</text:p>
+   <text:p text:style-name="P185"><text:tab/>\caption<text:span text:style-name="T84">[Zasięg sygnału DCF77]</text:span>{<text:span text:style-name="T84">Zasięg sygnału DCF77 (źródło: \cite[s. 18]{bauch09dcf})</text:span>}</text:p>
+   <text:p text:style-name="P199"><text:span text:style-name="T32"><text:tab/>\label{fig:dcf</text:span><text:span text:style-name="T33">Range</text:span><text:span text:style-name="T32">}</text:span></text:p>
    <text:p text:style-name="P184">\end{figure}</text:p>
-   <text:h text:style-name="P221" text:outline-level="2"><text:span text:style-name="T67">S</text:span>ygnał</text:h>
-   <text:p text:style-name="P186">Częstotliwość nośna sygnału wynosi 77,5<text:span text:style-name="T90"> </text:span>kHz jest modulowana amplitudowo z sekundowymi znacznikami. Z początkiem każdej sekundy amplituda jest redukowana na czas 0,1<text:span text:style-name="T96">~s</text:span> lub 0,2<text:span text:style-name="T96">~</text:span>s --- z wyjątkiem ostatniej sekundy każdej minuty, co jest identyfikatorem początku kolejnej minuty<text:span text:style-name="T90"> (rys. \ref{fig:dcf77envelope})</text:span>.</text:p>
-   <text:p text:style-name="P186">Z początkiem każdej sekundy amplituda sygnału jest zmniejszana do 15% na 0,1<text:span text:style-name="T96">~</text:span>s lub 0,2<text:span text:style-name="T96">~</text:span>s\cite[s.<text:span text:style-name="T96"> </text:span>10]{bauch09dcf}<text:span text:style-name="T91">.</text:span></text:p>
+   <text:h text:style-name="P221" text:outline-level="2"><text:span text:style-name="T71">S</text:span>ygnał</text:h>
+   <text:p text:style-name="P186">Częstotliwość nośna sygnału wynosi 77,5<text:span text:style-name="T94"> </text:span>kHz jest modulowana amplitudowo z sekundowymi znacznikami. Z początkiem każdej sekundy amplituda jest redukowana na czas 0,1<text:span text:style-name="T100">~s</text:span> lub 0,2<text:span text:style-name="T100">~</text:span>s --- z wyjątkiem ostatniej sekundy każdej minuty, co jest identyfikatorem początku kolejnej minuty<text:span text:style-name="T94"> (rys. \ref{fig:dcf77minutemark})</text:span>.</text:p>
+   <text:p text:style-name="P186">Z początkiem każdej sekundy amplituda sygnału jest zmniejszana do 15% na 0,1<text:span text:style-name="T100">~</text:span>s lub 0,2<text:span text:style-name="T100">~</text:span>s\cite[s.<text:span text:style-name="T100"> </text:span>10]{bauch09dcf}<text:span text:style-name="T95">.</text:span></text:p>
    <text:h text:style-name="P221" text:outline-level="2">Kodowanie</text:h>
-   <text:p text:style-name="P186">Każda zmiana amplitudy oznacza wartość w systemie binarnym, brany jest pod uwagę czas tej <text:soft-page-break/>zmiany. I tak --- zmiana na okres 0,1~s uważana jest za binarne zero a 0,2~<text:span text:style-name="T96">s</text:span> --- binarną jedynkę. Co każdą minutę transmitowane są sygnały minuty, godziny, dnia, miesiąca i roku w systemie \gls{bcd} --- czas jest nadawany dla nadchodzącej minuty. Całą zawartość komunikatu ilustruje rysunek \ref{fig:dcf77clk}, w którym przedstawiono nadawane bity w formie <text:span text:style-name="T83">tarczy zegarowej</text:span>. </text:p>
+   <text:p text:style-name="P186">Każda zmiana amplitudy oznacza wartość w systemie binarnym, brany jest pod uwagę czas tej <text:soft-page-break/>zmiany. I tak --- zmiana na okres 0,1~s uważana jest za binarne zero a 0,2~<text:span text:style-name="T100">s</text:span> --- binarną jedynkę. Co każdą minutę transmitowane są sygnały minuty, godziny, dnia, miesiąca i roku w systemie \gls{bcd} --- czas jest nadawany dla nadchodzącej minuty. Całą zawartość komunikatu ilustruje rysunek \ref{fig:dcf77clk}, w którym przedstawiono nadawane bity w formie <text:span text:style-name="T87">tarczy zegarowej</text:span>. </text:p>
    <text:p text:style-name="P184">\begin{figure}</text:p>
    <text:p text:style-name="P184"><text:tab/>\centering</text:p>
-   <text:p text:style-name="P184"><text:tab/>\include<text:span text:style-name="T70">graphics</text:span>[width=<text:span text:style-name="T70">0.9</text:span>\textwidth]{../<text:span text:style-name="T70">images/</text:span>dcf77clk}</text:p>
-   <text:p text:style-name="P184"><text:tab/>\caption{<text:span text:style-name="T70">Wykres zegarowy sygnału DCF77</text:span>}</text:p>
+   <text:p text:style-name="P249"><text:tab/>\include<text:span text:style-name="T74">graphics</text:span>[width=<text:span text:style-name="T74">0.9</text:span>\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/</text:span>dcf77clk}</text:p>
+   <text:p text:style-name="P184"><text:tab/>\caption{<text:span text:style-name="T74">Wykres zegarowy sygnału DCF77</text:span>}</text:p>
    <text:p text:style-name="P184"><text:tab/>\label{fig:dcf77clk}</text:p>
    <text:p text:style-name="P184">\end{figure}</text:p>
-   <text:p text:style-name="P184"/>
-   <text:p text:style-name="P187">Komunikat, tak jak wspomniano powyżej, jest podzielony na kilka <text:span text:style-name="T80">grup, co bardziej szczegółowo przedstawia tabela</text:span> \ref{tab:dcf77sig}. <text:span text:style-name="T80">Początek nowego komunikatu jest oznaczony przez brak modulacji (rys. \ref{fig:dcf77envelope}).</text:span></text:p>
-   <text:p text:style-name="P188"><text:span text:style-name="T80">Ciekawą informacją dodatkową w sygnale jest informacja pogodowa </text:span><text:span text:style-name="T65">Meteotime</text:span><text:span text:style-name="T80">. Jest to informacja pogodowa dla ponad osiemdziesięciu obszarów Europy\footnote{\url{http://www.meteotime.com/}}. Dla Polski wybrano 3 obszary, które jednak nie obejmują całości kraju. </text:span></text:p>
+   <text:p text:style-name="P187">Komunikat, tak jak wspomniano powyżej, jest podzielony na kilka <text:span text:style-name="T84">grup, co bardziej szczegółowo przedstawia tabela</text:span> \ref{tab:dcf77sig}. <text:span text:style-name="T84">Początek nowego komunikatu jest oznaczony przez brak modulacji (rys. \ref{fig:dcf77envelope}).</text:span></text:p>
+   <text:p text:style-name="P188"><text:span text:style-name="T84">Ciekawą informacją dodatkową w sygnale jest informacja pogodowa </text:span><text:span text:style-name="T69">Meteotime</text:span><text:span text:style-name="T84">. Jest to informacja pogodowa dla ponad osiemdziesięciu obszarów Europy\footnote{\url{http://www.meteotime.com/}}. Dla Polski wybrano 3 obszary, które jednak nie obejmują całości kraju. </text:span></text:p>
    <text:p text:style-name="P187">\begin{table}</text:p>
    <text:p text:style-name="P189"><text:tab/>\input{../tab.dcf77}</text:p>
-   <text:p text:style-name="P187"><text:tab/>\caption{<text:span text:style-name="T80">Poszczególne bity sygnału DCF77</text:span>} </text:p>
+   <text:p text:style-name="P187"><text:tab/>\caption{<text:span text:style-name="T84">Poszczególne bity sygnału DCF77</text:span>} </text:p>
    <text:p text:style-name="P187"><text:tab/>\label{tab:dcf77sig} </text:p>
    <text:p text:style-name="P187">\end{table}</text:p>
    <text:p text:style-name="P184">\begin{figure}</text:p>
    <text:p text:style-name="P184"><text:tab/>\centering</text:p>
-   <text:p text:style-name="P184"><text:tab/>\include<text:span text:style-name="T70">graphics</text:span>[width=<text:span text:style-name="T70">0.8</text:span>\textwidth]{../<text:span text:style-name="T70">images/</text:span>dcf<text:span text:style-name="T80">CarrierEnvelope</text:span>}</text:p>
-   <text:p text:style-name="P185"><text:tab/>\caption<text:span text:style-name="T80">[Obwiednia sygnału DCF77]</text:span>{<text:span text:style-name="T80">Obwiednia sygnału DCF77 (źródło: \cite[s. 13]{bauch09dcf})</text:span>}</text:p>
-   <text:p text:style-name="P184"><text:tab/>\label{fig:dcf77<text:span text:style-name="T80">envelope</text:span>}</text:p>
-   <text:p text:style-name="P184"><text:soft-page-break/>\end{figure}</text:p>
-   <text:p text:style-name="P171"/>
-   <text:h text:style-name="P147" text:outline-level="1">Sprzęt<text:span text:style-name="T83"> -- projekt</text:span></text:h>
+   <text:p text:style-name="P249"><text:tab/>\include<text:span text:style-name="T74">graphics</text:span>[width=<text:span text:style-name="T74">0.8</text:span>\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/</text:span>dcf<text:span text:style-name="T84">CarrierEnvelope</text:span>}</text:p>
+   <text:p text:style-name="P185"><text:tab/>\caption<text:span text:style-name="T84">[Obwiednia sygnału DCF77]</text:span>{<text:span text:style-name="T84">Obwiednia sygnału DCF77 (źródło: \cite[s. 13]{bauch09dcf})</text:span>}</text:p>
+   <text:p text:style-name="P184"><text:tab/>\label{fig:dcf77<text:span text:style-name="T84">envelope</text:span>}</text:p>
+   <text:p text:style-name="P184">\end{figure}</text:p>
+   <text:p text:style-name="P249"><text:soft-page-break/>\begin{figure}</text:p>
+   <text:p text:style-name="P249"><text:tab/>\centering</text:p>
+   <text:p text:style-name="P249"><text:tab/>\include<text:span text:style-name="T74">graphics</text:span>[width=<text:span text:style-name="T74">0.8</text:span>\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/</text:span>dcf<text:span text:style-name="T104">MinuteMark</text:span>}</text:p>
+   <text:p text:style-name="P249"><text:tab/>\caption<text:span text:style-name="T84">[Znacznik nowej minuty DCF77]</text:span>{<text:span text:style-name="T104">Znacznik nowej minuty DCF77 (źródło: \cite[s. 13]{bauch09dcf})</text:span>}</text:p>
+   <text:p text:style-name="P249"><text:tab/>\label{fig:dcf77<text:span text:style-name="T104">minutemark</text:span>}</text:p>
+   <text:p text:style-name="P249">\end{figure}</text:p>
+   <text:p text:style-name="P250"/>
+   <text:h text:style-name="P147" text:outline-level="1">Sprzęt<text:span text:style-name="T87"> -- projekt</text:span></text:h>
    <text:h text:style-name="P222" text:outline-level="2">Moduły sprzętowe</text:h>
-   <text:h text:style-name="P226" text:outline-level="3">Płytka bazowa \gls{fpga}</text:h>
-   <text:p text:style-name="P202">Projekt jest zbudowany na podstawie, i jako płytki bazowej używa zestaw startowy <text:span text:style-name="T63">Terasic DE0-Nano</text:span>\footnote{\url{http://de0-nano.terasic.com.tw/}}. Autor zdecydował się na użycie powyższej płytki ze względu na względnie niską cenę oraz odpowiednie możliwości w początkowym stadium projektowania układów opartych na \gls{fpga}.</text:p>
-   <text:p text:style-name="P177">\begin{figure}<text:span text:style-name="T70">[!htb]</text:span></text:p>
+   <text:h text:style-name="P226" text:outline-level="3">Płytka bazowa <text:span text:style-name="T104">FPGA</text:span></text:h>
+   <text:p text:style-name="P202">Projekt jest zbudowany na podstawie, i jako płytki bazowej używa zestaw startowy <text:span text:style-name="T67">Terasic DE0-Nano</text:span>\footnote{\url{http://de0-nano.terasic.com.tw/}}. Autor zdecydował się na użycie powyższej płytki ze względu na względnie niską cenę oraz odpowiednie możliwości w początkowym stadium projektowania układów opartych na \gls{fpga}.</text:p>
+   <text:p text:style-name="P248"/>
+   <text:p text:style-name="P177">\begin{figure}<text:span text:style-name="T74">[!htb]</text:span></text:p>
    <text:p text:style-name="P177"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\include<text:span text:style-name="T70">graphics</text:span>[<text:span text:style-name="T70">w</text:span>idth=<text:span text:style-name="T70">0.9</text:span>\textwidth]{../<text:span text:style-name="T70">images/de0-nano-overview}</text:span></text:p>
-   <text:p text:style-name="P181"><text:s text:c="4"/>\caption<text:span text:style-name="T70">{Moduł prototypowy </text:span><text:span text:style-name="T66">Terasic DE0-Nano</text:span><text:span text:style-name="T96"> (źródło: \cite{ter12de0man})}</text:span></text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T83">de0-nano-overview</text:span>}</text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\include<text:span text:style-name="T74">graphics</text:span>[<text:span text:style-name="T74">w</text:span>idth=<text:span text:style-name="T74">0.9</text:span>\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/de0-nano-overview}</text:span></text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\caption<text:span text:style-name="T104">[Moduł prototypowy Terasic DE0-Nano]{Moduł prototypowy </text:span><text:span text:style-name="T70">Terasic DE0-Nano</text:span><text:span text:style-name="T100"> (źródło: \cite{ter12de0man})}</text:span></text:p>
+   <text:p text:style-name="P177"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T87">de0-nano-overview</text:span>}</text:p>
    <text:p text:style-name="P190">\end{figure}</text:p>
-   <text:p text:style-name="P203">Moduł <text:span text:style-name="T63">DE0-Nano</text:span> zawiera ponad 22 tysiące programowalnych elementów logicznych, 500 kilobajtów wbudowanej pamięci, 66 układów mnożenia, 4 generatory częstotliwości PLL oraz 72 porty wejścia/wyjścia zgrupowane w dwa gniazda typu 2x40 pin (rys. \ref{fig:de0-nano-overview}). Dodatkowo (co nie jest używane w tym przypadku) posiada także 8 diod LED, 32 megabajty pamięci dynamicznej typu SDRAM, akcelerometr i przetwornik analogowo-cyfrowy o szybkości próbkowania 50<text:span text:style-name="T90"> </text:span>ksps\<text:span text:style-name="T89">cite{ter12de0man}.</text:span></text:p>
-   <text:p text:style-name="P216">W 2015 roku wprowadzono na rynek ulepszoną wersję powyższego modułu opartą o nowszy układ: <text:span text:style-name="T63">Cyclone V</text:span><text:span text:style-name="T58">. Zawiera on w sobie oprócz dwukrotnie większej liczby logicznych elementów także zintegrowany procesor \gls{arm}. Na płytce \gls{pcb} obecny jest także układ sieciowy Ethernet, dwa porty USB, większa ilość złącz\footnote{\url{http://de0-nano-soc.terasic.com/}}.</text:span></text:p>
+   <text:p text:style-name="P203">Moduł <text:span text:style-name="T67">DE0-Nano</text:span> zawiera ponad 22 tysiące programowalnych elementów logicznych, 500 kilobajtów wbudowanej pamięci, 66 układów mnożenia, 4 generatory częstotliwości PLL oraz 72 porty wejścia/wyjścia zgrupowane w dwa gniazda typu 2x40 pin (rys. \ref{fig:de0-nano-overview}). Dodatkowo (co nie jest używane w tym przypadku) posiada także 8 diod LED, 32 megabajty pamięci dynamicznej typu SDRAM, akcelerometr i przetwornik analogowo-cyfrowy o szybkości próbkowania 50<text:span text:style-name="T94"> </text:span>ksps\<text:span text:style-name="T93">cite{ter12de0man}.</text:span></text:p>
+   <text:p text:style-name="P216">W 2015 roku wprowadzono na rynek ulepszoną wersję powyższego modułu opartą o nowszy układ: <text:span text:style-name="T67">Cyclone V</text:span><text:span text:style-name="T62">. Zawiera on w sobie oprócz dwukrotnie większej liczby logicznych elementów także zintegrowany procesor \gls{arm}. Na płytce \gls{pcb} obecny jest także układ sieciowy Ethernet, dwa porty USB, większa ilość złącz\footnote{\url{http://de0-nano-soc.terasic.com/}}.</text:span></text:p>
    <text:h text:style-name="P226" text:outline-level="3">Schemat ideowy</text:h>
-   <text:p text:style-name="P205">Schemat projektu prototypu płytki drukowanej został podzielony na trzy części<text:span text:style-name="T96">. Na rys. \ref{fig:pcb-physical} zaznaczono je następująco</text:span>: sekcja zasilania<text:span text:style-name="T96"> -- niebieski</text:span>, sekcja wejścia sygnału radiowego<text:span text:style-name="T96"> -- żółty</text:span> o<text:span text:style-name="T96">raz</text:span> sekcja cyfrowa<text:span text:style-name="T96"> -- czerwony</text:span>.</text:p>
-   <text:h text:style-name="P231" text:outline-level="4"><text:soft-page-break/>Sekcja zasilania</text:h>
-   <text:p text:style-name="P203">Założeniem była uniwersalność zasilania. W tym celu zastosowano zasilanie dwustopniowe: w pierwszym stopniu wejściowe napięcie z zakresu od 6 do 20 V zostaje przetworzone przez liniowy regulator o niskim spadku napięcia do wartości 5<text:span text:style-name="T95"> </text:span>V. Następnie to napięcie zostaje skierowane do kolejnego liniowego regulatora o niskim spadku napięcia; tutaj napięcie wyjściowe to 3,3 V. Wszystkie układy są filtrowane kondensatorami odsprzęgającymi<text:span text:style-name="T28">\cite{</text:span><text:span text:style-name="T45">int11bypass</text:span><text:span text:style-name="T28">}</text:span><text:span text:style-name="T45">\cite{mur10noisesup}</text:span><text:span text:style-name="T46">,</text:span> dodatkowo zielona dioda LED wskazuje na stan modułu.</text:p>
+   <text:p text:style-name="P205">Schemat projektu prototypu płytki drukowanej został podzielony na trzy części<text:span text:style-name="T100">. Na rys. \ref{fig:pcb-physical} zaznaczono je następująco</text:span>: sekcja zasilania<text:span text:style-name="T100"> -- niebieski</text:span>, sekcja wejścia <text:soft-page-break/>sygnału radiowego<text:span text:style-name="T100"> -- żółty</text:span> o<text:span text:style-name="T100">raz</text:span> sekcja cyfrowa<text:span text:style-name="T100"> -- czerwony</text:span>.</text:p>
+   <text:h text:style-name="P231" text:outline-level="4">Sekcja zasilania</text:h>
+   <text:p text:style-name="P203">Założeniem była uniwersalność zasilania. W tym celu zastosowano zasilanie dwustopniowe: w pierwszym stopniu wejściowe napięcie z zakresu od 6 do 20 V zostaje przetworzone przez liniowy regulator o niskim spadku napięcia do wartości 5<text:span text:style-name="T99"> </text:span>V. Następnie to napięcie zostaje skierowane do kolejnego liniowego regulatora o niskim spadku napięcia; tutaj napięcie wyjściowe to 3,3 V. Wszystkie układy są filtrowane kondensatorami odsprzęgającymi<text:span text:style-name="T31">\cite{</text:span><text:span text:style-name="T48">int11bypass</text:span><text:span text:style-name="T31">}</text:span><text:span text:style-name="T48">\cite{mur10noisesup}</text:span><text:span text:style-name="T49">,</text:span> dodatkowo zielona dioda LED wskazuje na stan modułu.</text:p>
    <text:h text:style-name="P231" text:outline-level="4">Sekcja formowania sygnału radiowego</text:h>
-   <text:p text:style-name="P205">Sygnał radiowy jest wprowadzany do układu poprzez złącze \gls{bnc}. Następnie sygnał prowadzony jest poprzez układ chroniący przed przepięciem<text:span text:style-name="T89">\cite[s.</text:span><text:span text:style-name="T49"> </text:span><text:span text:style-name="T89">7]{sky11rfdiode}\cite{sky08pin}</text:span> (rys. \ref<text:span text:style-name="T15">{fig:</text:span><text:span text:style-name="T35">overvoltage</text:span><text:span text:style-name="T15">}</text:span>), do zaprojektowanego filtru <text:span text:style-name="T89">(rys. \ref{fig:filter}).</text:span></text:p>
-   <text:p text:style-name="P207">\begin{figure}[!htb]</text:p>
-   <text:p text:style-name="P207"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P207"><text:s text:c="4"/>\includegraphics[width=0.9\textwidth]{../images/qucs-filter-design}</text:p>
-   <text:p text:style-name="P207"><text:s text:c="4"/>\caption{Qucs -- projektowanie filtrów}</text:p>
-   <text:p text:style-name="P207"><text:s text:c="4"/>\label{fig:qucs-filter-design}</text:p>
-   <text:p text:style-name="P207">\end{figure}</text:p>
-   <text:p text:style-name="P203"><text:span text:style-name="T89">Filtr został zaprojektowany w programie Qucs\footnote{\url{http://qucs.sourceforge.net/}}. Program ten jest darmowym programem typu \gls{spice} i pozwala na analizę i symulację układów analogowych. Posiada wtyczkę do projektowania filtrów (rys. \ref{fig:</text:span><text:span text:style-name="T35">qucs</text:span><text:span text:style-name="T45">-</text:span><text:span text:style-name="T35">filter</text:span><text:span text:style-name="T45">-design}</text:span><text:span text:style-name="T89">) użytą do wygenerowania i symulacji charakterystyki filtra. W tym przypadku zaprojektowano filtr eliptyczny, typ \begin{math}\pi\end{math}, dolnoprzepustowy o częstotliwości granicznej 55 MHz i tłumieniu w paśmie zaporowym 59 dB (rys. \ref{fig:</text:span><text:span text:style-name="T35">qucs</text:span><text:span text:style-name="T45">-</text:span><text:span text:style-name="T35">filter</text:span><text:span text:style-name="T45">-curve}</text:span><text:span text:style-name="T89">). Wybrano filtr typu eliptycznego ze względu na jego ostre przejście pomiędzy pasmem przepuszczania i zaporowym oraz możliwość dokładnego określenia tętnień i szerokość pasma przejściowego.</text:span></text:p>
-   <text:p text:style-name="P209">\begin{figure}[!htb]</text:p>
+   <text:p text:style-name="P205">Sygnał radiowy jest wprowadzany do układu poprzez złącze \gls{bnc}. Następnie sygnał prowadzony jest poprzez układ chroniący przed przepięciem<text:span text:style-name="T93">\cite[s.</text:span><text:span text:style-name="T52"> </text:span><text:span text:style-name="T93">7]{sky11rfdiode}\cite{sky08pin}</text:span> (rys. \ref<text:span text:style-name="T18">{fig:</text:span><text:span text:style-name="T38">overvoltage</text:span><text:span text:style-name="T18">}</text:span>), do zaprojektowanego filtru <text:span text:style-name="T93">(rys. \ref{fig:filter}).</text:span></text:p>
+   <text:p text:style-name="P248"><text:span text:style-name="T87">\begin{figure}[!htb]</text:span></text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\centering</text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\include<text:span text:style-name="T74">graphics</text:span>[<text:span text:style-name="T74">w</text:span>idth=<text:span text:style-name="T74">0.2</text:span>\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/overvoltage}</text:span></text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\caption<text:span text:style-name="T74">{Układ chroniący przed przepięciem}</text:span></text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T74">overvoltage</text:span>}</text:p>
+   <text:p text:style-name="P243">\end{figure}</text:p>
+   <text:p text:style-name="P246">\begin{figure}<text:span text:style-name="T74">[!htb]</text:span></text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\centering</text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\include<text:span text:style-name="T74">graphics</text:span>[<text:span text:style-name="T74">w</text:span>idth=<text:span text:style-name="T74">0.5</text:span>\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/filter}</text:span></text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\caption<text:span text:style-name="T74">{Filtr antyaliasingowy}</text:span></text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T87">filter</text:span>}</text:p>
+   <text:p text:style-name="P242">\end{figure}</text:p>
+   <text:p text:style-name="P203"><text:span text:style-name="T93">Filtr został zaprojektowany w programie Qucs\footnote{\url{http://qucs.sourceforge.net/}}. Program ten jest darmowym programem typu \gls{spice} i pozwala na analizę i symulację układów analogowych. Posiada wtyczkę do projektowania filtrów (rys. \ref{fig:</text:span><text:span text:style-name="T38">qucs</text:span><text:span text:style-name="T48">-</text:span><text:span text:style-name="T38">filter</text:span><text:span text:style-name="T48">-design}</text:span><text:span text:style-name="T93">) użytą do </text:span><text:soft-page-break/><text:span text:style-name="T93">wygenerowania i symulacji charakterystyki filtra. W tym przypadku zaprojektowano filtr eliptyczny, typ \begin{math}\pi\end{math}, dolnoprzepustowy o częstotliwości granicznej 55 MHz i tłumieniu w paśmie zaporowym 59 dB (rys. \ref{fig:</text:span><text:span text:style-name="T38">qucs</text:span><text:span text:style-name="T48">-</text:span><text:span text:style-name="T38">filter</text:span><text:span text:style-name="T48">-curve}</text:span><text:span text:style-name="T93">). Wybrano filtr typu eliptycznego ze względu na jego ostre przejście pomiędzy pasmem przepuszczania i zaporowym oraz możliwość dokładnego określenia tętnień i szerokość pasma przejściowego. </text:span></text:p>
+   <text:p text:style-name="P258">\begin{figure}[!htb]</text:p>
    <text:p text:style-name="P209"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P209"><text:s text:c="4"/>\includegraphics[width=0.9\textwidth]{../images/qucs-filter-curve}</text:p>
-   <text:p text:style-name="P209"><text:soft-page-break/><text:s text:c="4"/>\caption{Qucs -- symulowana charakterystyka zaprojektowanego filtru}</text:p>
+   <text:p text:style-name="P258"><text:s text:c="4"/>\includegraphics[width=0.9\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../images/qucs-filter-curve}</text:p>
+   <text:p text:style-name="P209"><text:s text:c="4"/>\caption{Qucs -- symulowana charakterystyka zaprojektowanego filtru}</text:p>
    <text:p text:style-name="P209"><text:s text:c="4"/>\label{fig:qucs-filter-curve}</text:p>
    <text:p text:style-name="P209">\end{figure}</text:p>
    <text:p text:style-name="P203">Po filtracji, sygnał jest kierowany do symetryzatora, który zamienia sygnał niesymetryczny na symetryczny a następnie do przedwzmacniacza LTC6405 zasilanego napięciem 5 V.</text:p>
-   <text:p text:style-name="P177">\begin{figure}<text:span text:style-name="T70">[!htb]</text:span></text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\include<text:span text:style-name="T70">graphics</text:span>[<text:span text:style-name="T70">w</text:span>idth=<text:span text:style-name="T70">0.2</text:span>\textwidth]{../<text:span text:style-name="T70">images/overvoltage}</text:span></text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\caption<text:span text:style-name="T70">{Układ chroniący przed przepięciem}</text:span></text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T70">overvoltage</text:span>}</text:p>
-   <text:p text:style-name="P190">\end{figure}</text:p>
-   <text:p text:style-name="P177">\begin{figure}<text:span text:style-name="T70">[!htb]</text:span></text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\include<text:span text:style-name="T70">graphics</text:span>[<text:span text:style-name="T70">w</text:span>idth=<text:span text:style-name="T70">0.5</text:span>\textwidth]{../<text:span text:style-name="T70">images/filter}</text:span></text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\caption<text:span text:style-name="T70">{Filtr antyaliasingowy}</text:span></text:p>
-   <text:p text:style-name="P177"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T83">filter</text:span>}</text:p>
-   <text:p text:style-name="P190">\end{figure}</text:p>
    <text:h text:style-name="P231" text:outline-level="4">Sekcja cyfrowa</text:h>
-   <text:p text:style-name="P203">W tej części sygnał jest wstępnie przetworzony przez sekcję formowania sygnału radiowego i dopasowany do układu przetwornika analogowo-cyfrowego LTC2208. Następnie sygnał jest próbkowany przez przetwornik i z drugiej strony może być odebrany przez moduł prototypowy \gls{fpga}. Dodatkowo, w tej sekcji istnieją też dodatkowe elementy takie jak zworka wyboru trybu działania \gls{adc} oraz układ SY100EPT22 który odpowiada za przetwarzanie z poziomu napięć TTL na sygnał różnicowy, odpowiedni do taktowania przetwornika<text:span text:style-name="T89">\cite{vec14sigtypes}.</text:span> Ostatecznie, sygnał cyfrowy przesyłany jest <text:s/>szesnastoma liniami danych i poprzez złącze krawędziowe może być pobrane przez docelowy układ (tutaj -- moduł \gls{fpga}).</text:p>
+   <text:p text:style-name="P203">W tej części sygnał jest wstępnie przetworzony przez sekcję formowania sygnału radiowego i dopasowany do układu przetwornika analogowo-cyfrowego LTC2208. Następnie sygnał jest próbkowany przez przetwornik i z drugiej strony może być odebrany przez moduł prototypowy \gls{fpga}. Dodatkowo, w tej sekcji istnieją też dodatkowe elementy takie jak zworka wyboru trybu działania \gls{adc} oraz układ SY100EPT22 który odpowiada za przetwarzanie z poziomu napięć TTL na sygnał różnicowy, odpowiedni do taktowania przetwornika<text:span text:style-name="T93">\cite{vec14sigtypes}.</text:span> Ostatecznie, sygnał cyfrowy przesyłany jest <text:s/>szesnastoma liniami danych i poprzez złącze krawędziowe może być pobrane przez docelowy układ (tutaj -- moduł \gls{fpga}).</text:p>
    <text:h text:style-name="P226" text:outline-level="3">Płytka drukowana</text:h>
-   <text:p text:style-name="P204">Schemat ideowy został zastosowany do zaprojektowania płytki drukowanej (rys. <text:span text:style-name="T94">\ref{</text:span><text:span text:style-name="T47">fig:</text:span><text:span text:style-name="T35">pcb</text:span><text:span text:style-name="T94">}) a następnie do jej fizycznego wykonania oraz zmontowania (rys. \ref{</text:span><text:span text:style-name="T47">fig:</text:span><text:span text:style-name="T35">pcb</text:span><text:span text:style-name="T47">-physical}</text:span>).</text:p>
-   <text:p text:style-name="P178"><text:soft-page-break/>\begin{figure}<text:span text:style-name="T70">[!htb]</text:span></text:p>
+   <text:p text:style-name="P204">Schemat ideowy został zastosowany do zaprojektowania płytki drukowanej (rys. <text:span text:style-name="T98">\ref{</text:span><text:span text:style-name="T50">fig:</text:span><text:span text:style-name="T38">pcb</text:span><text:span text:style-name="T98">}) a następnie do jej fizycznego wykonania oraz zmontowania (rys. \ref{</text:span><text:span text:style-name="T50">fig:</text:span><text:span text:style-name="T38">pcb</text:span><text:span text:style-name="T50">-physical}</text:span>).</text:p>
+   <text:p text:style-name="P178">\begin{figure}<text:span text:style-name="T74">[!htb]</text:span></text:p>
    <text:p text:style-name="P178"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P178"><text:s text:c="4"/>\include<text:span text:style-name="T70">graphics</text:span>[<text:span text:style-name="T70">w</text:span>idth=<text:span text:style-name="T70">0.9\</text:span>textwidth]{../<text:span text:style-name="T70">images/pcb}</text:span></text:p>
-   <text:p text:style-name="P178"><text:s text:c="4"/>\caption<text:span text:style-name="T70">{Płytka drukowana --- rendering}</text:span></text:p>
-   <text:p text:style-name="P178"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T70">pcb</text:span>}</text:p>
-   <text:p text:style-name="P191">\end{figure}</text:p>
-   <text:p text:style-name="P178">\begin{figure}<text:span text:style-name="T70">[!htb]</text:span></text:p>
-   <text:p text:style-name="P178"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P178"><text:s text:c="4"/>\include<text:span text:style-name="T70">graphics</text:span>[<text:span text:style-name="T70">w</text:span>idth=<text:span text:style-name="T70">0.9\</text:span>textwidth]{../<text:span text:style-name="T70">images/pcb-physical}</text:span></text:p>
-   <text:p text:style-name="P178"><text:s text:c="4"/>\caption<text:span text:style-name="T70">{Płytka drukowana --- wykonanie fizyczne}</text:span></text:p>
-   <text:p text:style-name="P178"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T70">pcb-physical</text:span>}</text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\include<text:span text:style-name="T74">graphics</text:span>[<text:span text:style-name="T74">w</text:span>idth=<text:span text:style-name="T74">0.9\</text:span>textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/pcb}</text:span></text:p>
+   <text:p text:style-name="P178"><text:s text:c="4"/>\caption<text:span text:style-name="T74">{Płytka drukowana --- rendering}</text:span></text:p>
+   <text:p text:style-name="P178"><text:soft-page-break/><text:s text:c="4"/>\label{fig:<text:span text:style-name="T74">pcb</text:span>}</text:p>
    <text:p text:style-name="P191">\end{figure}</text:p>
    <text:p text:style-name="P210">Podczas projektowania wzorowano się na istniejących, zrealizowanych projektach\footnote{\href{https://github.com/opendous/Upconverter1v3}{Opendous Upconverter 125 MHz: Passive Upconverter Hardware Design for SDR}}\footnote{\href{http://openhpsdr.org/mercury.php}{OpenHPSDR: Mercury -- a direct sampling front end}}\footnote{\href{http://openhpsdr.org/hermes.php}{OpenHPSDR: Hermes -- a DUC/DDC transceiver}}\footnote{\href{http://hiqsdr.com/}{HiQSDR: a Software Defined Radio Transceiver}}.</text:p>
+   <text:p text:style-name="P246">\begin{figure}<text:span text:style-name="T74">[!htb]</text:span></text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\centering</text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\include<text:span text:style-name="T74">graphics</text:span>[<text:span text:style-name="T74">w</text:span>idth=<text:span text:style-name="T74">0.9\</text:span>textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/pcb-physical}</text:span></text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\caption<text:span text:style-name="T74">{Płytka drukowana --- wykonanie fizyczne}</text:span></text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T74">pcb-physical</text:span>}</text:p>
+   <text:p text:style-name="P243">\end{figure}</text:p>
+   <text:p text:style-name="P248">\FloatBarrier</text:p>
    <text:p text:style-name="P207">Zostały poczynione następujące założenia w kwestii zaprojektowania \gls{pcb}:</text:p>
    <text:p text:style-name="P207">\begin{addmargin}[.5em]{0em}</text:p>
    <text:p text:style-name="P207">\begin{itemize}</text:p>
-   <text:p text:style-name="P207">\item{<text:span text:style-name="T84">Dwuwarstwowa płytka drukowana</text:span> -- płytka ma na celu przenosić sygnał radiowy. Z tego względu zdecydowano się na wykonanie płytki dwuwarstwowej, z jedną warstwą masy.}</text:p>
-   <text:p text:style-name="P207">\item{<text:span text:style-name="T84">Elementy \gls{smd}</text:span> -- Płytkę <text:span text:style-name="T91">od początku </text:span>projektowano z myślą o elementach \gls{smd} (rys. \ref{fig:pcb}). <text:span text:style-name="T91">Było to założenie narzucone przez same układy przetwornika i przedwzmacniacza, które posiadają </text:span>mały raster wyprowadzeń<text:span text:style-name="T91">.</text:span>}</text:p>
+   <text:p text:style-name="P207">\item{<text:span text:style-name="T88">Dwuwarstwowa płytka drukowana</text:span> -- płytka ma na celu przenosić sygnał radiowy. Z tego względu zdecydowano się na wykonanie płytki dwuwarstwowej, z jedną warstwą masy.}</text:p>
+   <text:p text:style-name="P207">\item{<text:span text:style-name="T88">Elementy \gls{smd}</text:span> -- Płytkę <text:span text:style-name="T95">od początku </text:span>projektowano z myślą o elementach \gls{smd} (rys. \ref{fig:pcb}). <text:span text:style-name="T95">Było to założenie narzucone przez same układy przetwornika i przedwzmacniacza, które posiadają </text:span>mały raster wyprowadzeń<text:span text:style-name="T95">.</text:span>}</text:p>
    <text:p text:style-name="P207">\end{itemize}</text:p>
    <text:p text:style-name="P207">\end{addmargin}</text:p>
-   <text:p text:style-name="P208"><text:soft-page-break/><text:span text:style-name="T91">P</text:span>rojekt został wykonany w zewnętrznej firmie<text:span text:style-name="T91">\footnote{\url{http://www.elecrow.com/services-pcb-prototyping-c-73_116.html}}.</text:span> Tak więc możliwe było <text:s/>uzyskanie wysokiej jakości oraz dokładności połączeń przez co montaż powierzchniowy był możliwy do zrealizowania.<text:span text:style-name="T91"> </text:span>Przylutowanie elementów o bardzo małym rastrze oraz takich, które wymagały zaawansowanych narzędzi, zlecono zewnętrznej firmie. Pozostałe elementy zostały zlutowane przez autora<text:span text:style-name="T91">. </text:span>Wynikowa wersja modułu została zaprojektowana z myślą o efektywnym oraz logicznym rozkładzie komponentów wraz z zasadami projektowania\cite{ott01pcb}<text:span text:style-name="T91">.</text:span></text:p>
-   <text:h text:style-name="P147" text:outline-level="1">Oprogramowanie<text:span text:style-name="T83"> -- moduły, algorytmy</text:span></text:h>
+   <text:p text:style-name="P208"><text:span text:style-name="T95">P</text:span>rojekt został wykonany w zewnętrznej firmie<text:span text:style-name="T95">\footnote{\url{http://www.elecrow.com/services-pcb-prototyping-c-73_116.html}}.</text:span> Tak więc możliwe było <text:s/>uzyskanie wysokiej jakości oraz dokładności połączeń przez co montaż powierzchniowy był możliwy do zrealizowania.<text:span text:style-name="T95"> </text:span>Przylutowanie elementów o bardzo małym rastrze oraz takich, które wymagały zaawansowanych narzędzi, <text:soft-page-break/>zlecono zewnętrznej firmie. Pozostałe elementy zostały zlutowane przez autora<text:span text:style-name="T95">. </text:span>Wynikowa wersja modułu została zaprojektowana z myślą o efektywnym oraz logicznym rozkładzie komponentów wraz z zasadami projektowania\cite{ott01pcb}<text:span text:style-name="T95">.</text:span></text:p>
+   <text:h text:style-name="P147" text:outline-level="1">Oprogramowanie<text:span text:style-name="T87"> -- moduły, algorytmy</text:span></text:h>
    <text:h text:style-name="P223" text:outline-level="2">Architektura</text:h>
-   <text:p text:style-name="P194">\begin{figure}<text:span text:style-name="T70">[!htb]</text:span></text:p>
+   <text:p text:style-name="P194">\begin{figure}<text:span text:style-name="T74">[!htb]</text:span></text:p>
    <text:p text:style-name="P179"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P179"><text:s text:c="4"/>\include<text:span text:style-name="T70">graphics</text:span>[<text:span text:style-name="T70">w</text:span>idth=<text:span text:style-name="T70">0.9</text:span>\textwidth]{../<text:span text:style-name="T70">images/architecture}</text:span></text:p>
-   <text:p text:style-name="P179"><text:s text:c="4"/>\caption<text:span text:style-name="T70">{Architektura modułowa części programowej}</text:span></text:p>
-   <text:p text:style-name="P179"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T70">architecture</text:span>}</text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\include<text:span text:style-name="T74">graphics</text:span>[<text:span text:style-name="T74">w</text:span>idth=<text:span text:style-name="T74">0.9</text:span>\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/swModules}</text:span></text:p>
+   <text:p text:style-name="P179"><text:s text:c="4"/>\caption<text:span text:style-name="T74">{Architektura modułowa części programowej}</text:span></text:p>
+   <text:p text:style-name="P179"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T74">architecture</text:span>}</text:p>
    <text:p text:style-name="P192">\end{figure}</text:p>
-   <text:p text:style-name="P207">Rysunek \ref{<text:span text:style-name="T35">fig:architecture</text:span><text:span text:style-name="T15">}</text:span> przedstawia architekturę części programowej urządzenia. Autor wybrał styl projektowania top-down w celu implementacji powyższej architektury. Działanie poszczególnych modułów było badanie, rozpoznawane a następnie testowane. Kolejnym krokiem było poszczególne łączenie modułów w całość.</text:p>
+   <text:p text:style-name="P207">Rysunek \ref{<text:span text:style-name="T38">fig:architecture</text:span><text:span text:style-name="T18">}</text:span> przedstawia architekturę części programowej urządzenia. Autor wybrał styl projektowania top-down w celu implementacji powyższej architektury. Działanie poszczególnych modułów było badanie, rozpoznawane a następnie testowane. Kolejnym krokiem było poszczególne łączenie modułów w całość.</text:p>
+   <text:p text:style-name="P259">Symbol strzałki w dół zawartej w okręgu symbolizuje decymację sygnału. W tym bloku duża częstotliwość z jaką przesyłane są próbki danych z przetwornika \gls{adc} jest obniżana. Rolę tego bloku może pełnić filtr FIR o zaprojektowanej charakterystyce lub dolnoprzepustowy filtr CIC.</text:p>
    <text:p text:style-name="P207">Każdy moduł udostępnia sygnały (porty) wejścia/wyjścia dla sterowania i interakcji z modułem. Zdefiniowano następujące moduły:</text:p>
    <text:p text:style-name="P203">\begin{addmargin}[.5em]{0em}</text:p>
    <text:p text:style-name="P203">\begin{itemize}</text:p>
-   <text:p text:style-name="P207">\item{<text:span text:style-name="T84">reset_state</text:span><text:span text:style-name="T74"> -- moduł resetu. Zarządza globalnym ustawieniem resetowania innych modułów tego wymagających}</text:span></text:p>
-   <text:p text:style-name="P207"><text:span text:style-name="T74">\item{</text:span><text:span text:style-name="T84">pll_board</text:span><text:span text:style-name="T74"> -- moduł \gls{pll}. Jego celem jest przyjęcie zegara o częstotliwości 50 MHz i wygenerowanie na jego podstawie zegara 130 MHz, który taktuje \gls{pcb} z układem \gls{adc}}</text:span></text:p>
-   <text:p text:style-name="P207"><text:span text:style-name="T74">\item{</text:span><text:span text:style-name="T84">pll_uart</text:span><text:span text:style-name="T74"> -- moduł \gls{pll}. Jego celem jest przyjęcie zegara o częstotliwości 50 MHz i wygenerowanie na jego podstawie zegara 115,2kHz taktującego moduł &quot;uart&quot;}</text:span></text:p>
-   <text:p text:style-name="P203">\item<text:span text:style-name="T89">{</text:span><text:span text:style-name="T86">fir_first</text:span><text:span text:style-name="T89"> -- moduł filtra \gls{fir}. Odpowiedzialny za wstępne filtrowanie oraz decymację sygnału wejściowego</text:span>}</text:p>
-   <text:p text:style-name="P203">\item<text:span text:style-name="T89">{</text:span><text:span text:style-name="T86">fir_second</text:span><text:span text:style-name="T89"> -- moduł filtra \gls{fir}. Odpowiedzialny za <text:s/>dokładne filtrowanie sygnału (wyselekcjonowanie częstotliwości 77,5 kHz)}</text:span></text:p>
-   <text:p text:style-name="P216">\item{<text:span text:style-name="T84">cic</text:span> -- moduł filtra \gls{cic}. <text:span text:style-name="T89">Odpowiedzialny za wstępne filtrowanie oraz decymację sygnału wejściowego</text:span>}</text:p>
-   <text:p text:style-name="P207"><text:soft-page-break/>\item{<text:span text:style-name="T84">goertzel</text:span><text:span text:style-name="T74"> -- moduł algorytmu Goertzela. Jest to moduł obliczania pojedynczego prążka transformaty Fouriera za pomocą algorytmu Goertzela}</text:span></text:p>
-   <text:p text:style-name="P207"><text:span text:style-name="T74">\item{</text:span><text:span text:style-name="T84">uart</text:span><text:span text:style-name="T74"> -- moduł rs232 -- część odpowiedzialna za przesyłanie obliczonych wyników do komputera \gls{pc}}</text:span></text:p>
+   <text:p text:style-name="P207">\item{<text:span text:style-name="T88">reset_state</text:span><text:span text:style-name="T78"> -- moduł resetu. Zarządza globalnym ustawieniem resetowania innych modułów tego wymagających}</text:span></text:p>
+   <text:p text:style-name="P207"><text:span text:style-name="T78">\item{</text:span><text:span text:style-name="T88">pll_board</text:span><text:span text:style-name="T78"> -- moduł \gls{pll}. Jego celem jest przyjęcie zegara o częstotliwości 50 MHz i wygenerowanie na jego podstawie zegara 130 MHz, który taktuje \gls{pcb} z układem \gls{adc}}</text:span></text:p>
+   <text:p text:style-name="P207"><text:span text:style-name="T78">\item{</text:span><text:span text:style-name="T88">pll_uart</text:span><text:span text:style-name="T78"> -- moduł \gls{pll}. Jego celem jest przyjęcie zegara o częstotliwości 50 MHz i wygenerowanie na jego podstawie zegara 115,2kHz taktującego moduł &quot;uart&quot;}</text:span></text:p>
+   <text:p text:style-name="P203">\item<text:span text:style-name="T93">{</text:span><text:span text:style-name="T90">fir_first</text:span><text:span text:style-name="T93"> -- moduł filtra \gls{fir}. Odpowiedzialny za wstępne filtrowanie oraz decymację sygnału wejściowego</text:span>}</text:p>
+   <text:p text:style-name="P216">\item{<text:span text:style-name="T88">cic</text:span> -- moduł filtra \gls{cic}. <text:span text:style-name="T93">Odpowiedzialny za wstępne filtrowanie oraz decymację sygnału </text:span><text:soft-page-break/><text:span text:style-name="T93">wejściowego</text:span>}</text:p>
+   <text:p text:style-name="P207">\item{<text:span text:style-name="T88">goertzel</text:span><text:span text:style-name="T78"> -- moduł algorytmu Goertzela. Jest to moduł obliczania pojedynczego prążka transformaty Fouriera za pomocą algorytmu Goertzela}</text:span></text:p>
+   <text:p text:style-name="P207"><text:span text:style-name="T78">\item{</text:span><text:span text:style-name="T88">uart</text:span><text:span text:style-name="T78"> -- moduł rs232 -- część odpowiedzialna za przesyłanie obliczonych wyników do komputera \gls{pc}}</text:span></text:p>
    <text:p text:style-name="P203">\end{itemize}</text:p>
    <text:p text:style-name="P168">\end{addmargin}</text:p>
    <text:h text:style-name="P224" text:outline-level="2">Moduły</text:h>
    <text:p text:style-name="P207">Przestawione w poprzedniej sekcji wybrane moduły zostaną teraz szczegółowiej opisane --- są to moduły zarządzania zegarem, filtrujące, moduł algorytmu Goertzela oraz moduł rs232. </text:p>
-   <text:p text:style-name="P194">\begin{figure}<text:span text:style-name="T70">[!htb]</text:span></text:p>
+   <text:p text:style-name="P244">\begin{figure}<text:span text:style-name="T74">[!htb]</text:span></text:p>
    <text:p text:style-name="P179"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P179"><text:s text:c="4"/>\include<text:span text:style-name="T70">graphics</text:span>[<text:span text:style-name="T70">w</text:span>idth=<text:span text:style-name="T70">0.5</text:span>\textwidth]{../<text:span text:style-name="T70">images/quartus-ip-catalog}</text:span></text:p>
-   <text:p text:style-name="P179"><text:s text:c="4"/>\caption<text:span text:style-name="T70">{Katalog bloków IP w programie Quartus}</text:span></text:p>
-   <text:p text:style-name="P179"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T89">quartus-ip-catalog</text:span>}</text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\include<text:span text:style-name="T74">graphics</text:span>[<text:span text:style-name="T74">w</text:span>idth=<text:span text:style-name="T74">0.5</text:span>\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/quartus-ip-catalog}</text:span></text:p>
+   <text:p text:style-name="P179"><text:s text:c="4"/>\caption<text:span text:style-name="T74">{Katalog bloków IP w programie Quartus}</text:span></text:p>
+   <text:p text:style-name="P179"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T93">quartus-ip-catalog</text:span>}</text:p>
    <text:p text:style-name="P192">\end{figure}</text:p>
    <text:h text:style-name="P227" text:outline-level="3">PLL</text:h>
    <text:p text:style-name="P207">Moduł, który jest udostępniany przez firmę Altera do swoich produktów w postaci &quot;IP Core&apos;a&quot; --- fragmentu kodu, który został napisany przez firmę Altera i jest udostępniany innym programistom. W środowisku Quartus Prime moduły IP można znaleźć w zakładce &quot;IP Catalog&quot; (rys. \ref{fig:quartus-ip-catalog}).</text:p>
-   <text:p text:style-name="P207">Konfiguracja modułu \gls{pll} rozpoczyna się od znalezienia pozycji &quot;ALTPLL&quot; w katalogu IP. Podstawowa konfiguracja zakłada wpisanie częstotliwości wejściowej zegara oraz zdefiniowanie częstotliwości wyjściowej. Kreator przy tym przekazuje nam odpowiedni komunikat dotyczący tego, czy zadane wartości są prawidłowe i moduł będzie mógł być prawidłowo zaimplementowany w strukturze \gls{fpga}. W podsumowaniu wybieramy pliki utworzone przez kreator, które będą użyte przy syntezie i ewentualnej symulacji\cite{alt16int2ip}\cite{alt14pllug}<text:span text:style-name="T91">.</text:span></text:p>
-   <text:p text:style-name="P194">W pracy dyplomowej tej funkcji użyto w modułach &quot;pll_board&quot; oraz &quot;pll_uart&quot;. Pierwszy z nich służy do wygenerowania częstotliwości 130 MHz taktującej układ przetwornika analogowo-cyfrowego, drugi --- do użycia przez moduł obsługi portu szeregowego&quot;uart&quot;.</text:p>
-   <text:h text:style-name="P227" text:outline-level="3"><text:soft-page-break/>FIR</text:h>
-   <text:p text:style-name="P207">Moduł również udostępniany przez firmę Altera w postaci IP Core pod nazwą &quot;FIR II&quot;. Moduł daje dużo większe możliwości konfiguracyjne aniżeli &quot;PLL&quot;. Można skonfigurować wiele zmiennych, między innymi prędkość zegara, wielkość magistrali wejścia i wyjścia. Zakładka &quot;Coefficients&quot; pozwala na wprowadzenie współczynników filtra oraz wygenerowanie wykresu (rys. \ref{fig:quartus-fir-<text:span text:style-name="T15">coefficients}</text:span>).</text:p>
-   <text:p text:style-name="P194">\begin{figure}<text:span text:style-name="T70">[!htb]</text:span></text:p>
+   <text:p text:style-name="P207">Konfiguracja modułu \gls{pll} rozpoczyna się od znalezienia pozycji &quot;ALTPLL&quot; w katalogu IP. Podstawowa konfiguracja zakłada wpisanie częstotliwości wejściowej zegara oraz zdefiniowanie częstotliwości wyjściowej. Kreator przy tym przekazuje nam odpowiedni komunikat dotyczący tego, czy zadane wartości są prawidłowe i moduł będzie mógł być prawidłowo zaimplementowany w strukturze \gls{fpga}. W podsumowaniu wybieramy pliki utworzone przez kreator, które będą użyte przy syntezie i ewentualnej symulacji\cite{alt16int2ip}\cite{alt14pllug}<text:span text:style-name="T95">.</text:span></text:p>
+   <text:p text:style-name="P194">W pracy dyplomowej tej funkcji użyto w modułach &quot;pll_board&quot; oraz &quot;pll_uart&quot;. Pierwszy z nich służy do wygenerowania częstotliwości 130 MHz taktującej układ przetwornika analogowo-<text:soft-page-break/>cyfrowego, drugi --- do użycia przez moduł obsługi portu szeregowego&quot;uart&quot;.</text:p>
+   <text:h text:style-name="P227" text:outline-level="3">FIR</text:h>
+   <text:p text:style-name="P207">Moduł również udostępniany przez firmę Altera w postaci IP Core pod nazwą &quot;FIR II&quot;. Moduł daje dużo większe możliwości konfiguracyjne aniżeli &quot;PLL&quot;. Można skonfigurować wiele zmiennych, między innymi prędkość zegara, wielkość magistrali wejścia i wyjścia. Zakładka &quot;Coefficients&quot; pozwala na wprowadzenie współczynników filtra oraz wygenerowanie wykresu (rys. \ref{fig:quartus-fir-<text:span text:style-name="T18">coefficients}</text:span>).</text:p>
+   <text:p text:style-name="P244">\begin{figure}<text:span text:style-name="T74">[!htb]</text:span></text:p>
    <text:p text:style-name="P179"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P179"><text:s text:c="4"/>\include<text:span text:style-name="T70">graphics</text:span>[<text:span text:style-name="T70">w</text:span>idth=<text:span text:style-name="T70">0.5</text:span>\textwidth]{../<text:span text:style-name="T70">images/quartus-ip-res-estimation}</text:span></text:p>
-   <text:p text:style-name="P179"><text:s text:c="4"/>\caption<text:span text:style-name="T70">{Przewidywanie zajętości zasobów logicznych projektowanego modułu}</text:span></text:p>
-   <text:p text:style-name="P179"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T89">quartus-ip-res-estimation</text:span>}</text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\include<text:span text:style-name="T74">graphics</text:span>[<text:span text:style-name="T74">w</text:span>idth=<text:span text:style-name="T74">0.5</text:span>\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../<text:span text:style-name="T74">images/quartus-ip-res-estimation}</text:span></text:p>
+   <text:p text:style-name="P179"><text:s text:c="4"/>\caption<text:span text:style-name="T74">{Przewidywanie zajętości zasobów logicznych projektowanego modułu}</text:span></text:p>
+   <text:p text:style-name="P179"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T93">quartus-ip-res-estimation</text:span>}</text:p>
    <text:p text:style-name="P192">\end{figure}</text:p>
-   <text:p text:style-name="P195">\begin{figure}<text:span text:style-name="T70">[!htb]</text:span></text:p>
+   <text:p text:style-name="P244">\begin{figure}<text:span text:style-name="T74">[!htb]</text:span></text:p>
    <text:p text:style-name="P180"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P180"><text:s text:c="4"/>\include<text:span text:style-name="T70">graphics</text:span>[<text:span text:style-name="T70">w</text:span>idth=<text:span text:style-name="T89">0.9\textwidth]</text:span>{../<text:span text:style-name="T70">images/quartus-fir-coefficients}</text:span></text:p>
-   <text:p text:style-name="P180"><text:s text:c="4"/>\caption<text:span text:style-name="T89">{Współczynniki w kreatorze i symulacja charakterystyki}</text:span></text:p>
-   <text:p text:style-name="P180"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T89">quartus-fir-coefficients</text:span>}</text:p>
+   <text:p text:style-name="P246"><text:s text:c="4"/>\include<text:span text:style-name="T74">graphics</text:span>[<text:span text:style-name="T74">w</text:span>idth=<text:span text:style-name="T93">0.9\textwidth,keepaspectratio]</text:span>{../<text:span text:style-name="T74">images/quartus-fir-coefficients}</text:span></text:p>
+   <text:p text:style-name="P180"><text:s text:c="4"/>\caption<text:span text:style-name="T93">{Współczynniki w kreatorze i symulacja charakterystyki}</text:span></text:p>
+   <text:p text:style-name="P180"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T93">quartus-fir-coefficients</text:span>}</text:p>
    <text:p text:style-name="P193">\end{figure}</text:p>
-   <text:p text:style-name="P208">Istotnym wskaźnikiem jest okno &quot;Resource estimation&quot; (rys. \ref{fig:quartus-ip-res-estimation}). Pozwala ono stwierdzić jak dużo zasobów logicznych będzie potrzebować projektowany moduł. Jest to o tyle istotne, że podczas symulacji wszystkie wymagania będą spełnione.<text:span text:style-name="T91"> </text:span>Jednak przy próbie syntezy układu środowisko Quartus z pewnością poinformuje o braku dostępn<text:span text:style-name="T91">ych zasobów logicznych niezbędnych do zsyntezowania projektu </text:span>w układzie \gls{fpga}. Ma to miejsce na przykład przy dość dużej ilości współczynników filtra\cite{alt15firug}\cite{alt16int2ip}<text:span text:style-name="T91">.</text:span></text:p>
-   <text:p text:style-name="P207">Ostatecznie, wygenerowany moduł filtra ma sygnały podobne do tych na rys. \ref{<text:span text:style-name="T15">fig:quartus-fir-signals}.</text:span></text:p>
-   <text:p text:style-name="P194">\begin{figure}<text:span text:style-name="T70">[!htb]</text:span></text:p>
+   <text:p text:style-name="P208">Istotnym wskaźnikiem jest okno &quot;Resource estimation&quot; (rys. \ref{fig:quartus-ip-res-estimation}). Pozwala ono stwierdzić jak dużo zasobów logicznych będzie potrzebować projektowany moduł. Jest to o tyle istotne, że podczas symulacji wszystkie wymagania będą spełnione.<text:span text:style-name="T95"> </text:span>Jednak przy próbie syntezy układu środowisko Quartus z pewnością poinformuje o braku dostępn<text:span text:style-name="T95">ych zasobów logicznych niezbędnych do zsyntezowania projektu </text:span>w układzie \gls{fpga}. Ma to miejsce na przykład przy dość dużej ilości współczynników filtra\cite{alt15firug}\cite{alt16int2ip}<text:span text:style-name="T95">.</text:span></text:p>
+   <text:p text:style-name="P207">Ostatecznie, wygenerowany moduł filtra ma sygnały podobne do tych na rys. \ref{<text:span text:style-name="T18">fig:quartus-fir-signals}.</text:span></text:p>
+   <text:p text:style-name="P244">\begin{figure}<text:span text:style-name="T74">[!htb]</text:span></text:p>
    <text:p text:style-name="P179"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P179"><text:s text:c="4"/>\include<text:span text:style-name="T70">graphics</text:span>[<text:span text:style-name="T70">w</text:span>idth=<text:span text:style-name="T89">0.8\textwidth]</text:span>{../<text:span text:style-name="T70">images/quartus-fir-signals}</text:span></text:p>
-   <text:p text:style-name="P179"><text:soft-page-break/><text:s text:c="4"/>\caption<text:span text:style-name="T70">{Przykładowe sygnały modułu &quot;FIR II&quot;}</text:span></text:p>
-   <text:p text:style-name="P179"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T89">quartus-fir-signals</text:span>}</text:p>
+   <text:p text:style-name="P246"><text:soft-page-break/><text:s text:c="4"/>\include<text:span text:style-name="T74">graphics</text:span>[<text:span text:style-name="T74">w</text:span>idth=<text:span text:style-name="T93">0.8\textwidth,keepaspectratio]</text:span>{../<text:span text:style-name="T74">images/quartus-fir-signals}</text:span></text:p>
+   <text:p text:style-name="P179"><text:s text:c="4"/>\caption<text:span text:style-name="T74">{Przykładowe sygnały modułu &quot;FIR II&quot;}</text:span></text:p>
+   <text:p text:style-name="P179"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T93">quartus-fir-signals</text:span>}</text:p>
    <text:p text:style-name="P192">\end{figure}</text:p>
-   <text:h text:style-name="P275" text:outline-level="3"><text:span text:style-name="T96">CIC</text:span></text:h>
-   <text:p text:style-name="P238">Kolejny moduł udostępniany jako „IP Core”. Podobnie jak „FIR” daje duże możliwości konfiguracji (rys. \ref<text:span text:style-name="T98">{fig:</text:span>quartus-cic-options<text:span text:style-name="T98">}</text:span>).</text:p>
-   <text:p text:style-name="P237">\begin{figure}[!<text:span text:style-name="T100">h</text:span>t<text:span text:style-name="T100">b</text:span>]</text:p>
+   <text:h text:style-name="P287" text:outline-level="3"><text:span text:style-name="T100">CIC</text:span></text:h>
+   <text:p text:style-name="P238">Kolejny moduł udostępniany jako „IP Core”. Podobnie jak „FIR” daje duże możliwości konfiguracji (rys. \ref<text:span text:style-name="T102">{fig:</text:span>quartus-cic-options<text:span text:style-name="T102">}</text:span>).</text:p>
+   <text:p text:style-name="P237">\begin{figure}[!<text:span text:style-name="T104">h</text:span>t<text:span text:style-name="T104">b</text:span>]</text:p>
    <text:p text:style-name="P237"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P237"><text:s text:c="4"/>\includegraphics[width=0.<text:span text:style-name="T100">7</text:span>\textwidth]{../images/<text:span text:style-name="T100">quartus-cic-options</text:span>}</text:p>
-   <text:p text:style-name="P237"><text:s text:c="4"/>\caption{<text:span text:style-name="T100">Konfiguracja modułu „CIC”</text:span>}</text:p>
-   <text:p text:style-name="P237"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T100">quartus-cic-options</text:span>}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\includegraphics[width=0.<text:span text:style-name="T104">7</text:span>\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../images/<text:span text:style-name="T104">quartus-cic-options</text:span>}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\caption{<text:span text:style-name="T104">Konfiguracja modułu „CIC”</text:span>}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T104">quartus-cic-options</text:span>}</text:p>
    <text:p text:style-name="P237">\end{figure}</text:p>
    <text:p text:style-name="P238">Filtr typu CIC, jest podklasą filtrów typu FIR\cite{hog81cic}. Zalety jego użycia obejmują między innymi znaczne uproszczenie obliczeń w stosunku do filtra FIR --- jedyne działania arytmetyczne to dodawanie oraz opóźnienie sygnału (rys. \ref{fig:cic-schematic}). Jest to bardzo korzystne obliczeniowo, gdyż wymaga niewielkiej ilości zasobów logicznych. Dodatkowym atutem jest charakterystyka dolnoprzepustowa filtru. Jest ona spowodowana decymacją wkomponowaną w strukturę filtra i będąca jego integralną częścią. Także ta właściwość spowodowała zainteresowanie wykorzystaniem tego typu filtra w zastosowaniach cyfrowej zmiany częstotliwości w radiu programowalnym\cite{kap04ddc}.</text:p>
-   <text:p text:style-name="P236">\begin{figure}[!<text:span text:style-name="T100">h</text:span>t<text:span text:style-name="T100">b</text:span>]</text:p>
+   <text:p text:style-name="P237">\begin{figure}[!<text:span text:style-name="T104">h</text:span>t<text:span text:style-name="T104">b</text:span>]</text:p>
    <text:p text:style-name="P236"><text:s text:c="4"/>\centering</text:p>
-   <text:p text:style-name="P236"><text:s text:c="4"/>\includegraphics[width=0.8\textwidth]{../images/cic-schematic}</text:p>
-   <text:p text:style-name="P236"><text:s text:c="4"/>\caption{Cyfrowa konwersja częstotliwości z użyciem filtracji typu CIC (źródło: \cite{<text:span text:style-name="T100">kap04ddc</text:span>})}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\includegraphics[width=0.8\textwidth<text:span text:style-name="T104">,keepaspectratio</text:span>]{../images/cic-schematic}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\caption<text:span text:style-name="T104">[Decymacja</text:span> użyciem filtracji typu CIC<text:span text:style-name="T104">]</text:span>{<text:span text:style-name="T104">Decymacja z</text:span> użyciem filtracji typu CIC (źródło: \cite{<text:span text:style-name="T104">kap04ddc</text:span>})}</text:p>
    <text:p text:style-name="P236"><text:s text:c="4"/>\label{fig:cic-schematic}</text:p>
-   <text:p text:style-name="P236">\end{figure}</text:p>
+   <text:p text:style-name="P237">\end{figure}</text:p>
+   <text:p text:style-name="P238">\FloatBarrier</text:p>
    <text:h text:style-name="P228" text:outline-level="3">Goertzel</text:h>
    <text:p text:style-name="P211">Algorytm Goertzla pozwala na wykrywanie częstotliwości podobnie jak transformata Fouriera. Jednak zbiór wartości funkcji ogranicza się do jednej, pojedynczej częstotliwości a nie jak w <text:s/>przypadku transformaty Fouriera, do widma. Z tego powodu, jest bardziej korzystne obliczeniowo korzystać z tego algorytmu podczas wykrywania pojedynczej częstotliwości. Najczęściej stosowana aplikacja to dekodowanie \gls{dtmf}. </text:p>
-   <text:p text:style-name="P211">Podstawowa wersja algorytmu zwraca część rzeczywistą i urojoną sygnału, tak jak transformata Fouriera. Możliwe jest więc obliczenie zarówno siły jak i fazy sygnału.<text:span text:style-name="T91"> Tutaj zastosowano jednak uproszczone (zoptymalizowane) obliczanie siły sygnału. Tracimy przy tym informacje o fazie, lecz </text:span><text:soft-page-break/><text:span text:style-name="T91">nie jest ona potrzebna w tym przypadku.</text:span></text:p>
-   <text:p text:style-name="P211">Kod źródłowy algorytm<text:span text:style-name="T91">u</text:span> Goetzela w języku Python ma się następująco:</text:p>
+   <text:p text:style-name="P211">Podstawowa wersja algorytmu zwraca część rzeczywistą i urojoną sygnału, tak jak transformata <text:soft-page-break/>Fouriera. Możliwe jest więc obliczenie zarówno siły jak i fazy sygnału.<text:span text:style-name="T95"> Tutaj zastosowano jednak uproszczone (zoptymalizowane) obliczanie siły sygnału. Tracimy przy tym informacje o fazie, lecz nie jest ona potrzebna w tym przypadku.</text:span></text:p>
+   <text:p text:style-name="P211">Kod źródłowy algorytm<text:span text:style-name="T95">u</text:span> Goetzela w języku Python ma się następująco:</text:p>
    <text:p text:style-name="P211">\input{src/goertzel}</text:p>
-   <text:p text:style-name="P161">Przed <text:span text:style-name="T91">implementacją</text:span> algorytmu <text:span text:style-name="T91">z listingu \ref{lst:algg} </text:span>trzeba zdefiniować kilka wartości:</text:p>
-   <text:p text:style-name="P162">\begin{<text:span text:style-name="T91">itemize</text:span>}</text:p>
-   <text:p text:style-name="P162">\item{Szybkość samplowania<text:span text:style-name="T91"> </text:span><text:span text:style-name="T87">&quot;sample_rate&quot;</text:span> --- Wybrana arbitralnie poprzez szybkość wyjścia danych z filtra drugiego stopnia. Ze względu na to, że zegar taktujący \gls{adc} ma 130 MHz a pierwszy stopień filtra decymuje o krotność 100, to szybkość samplowania wynosi 1,3 MHz.}</text:p>
-   <text:p text:style-name="P161">\item{Wielkość bloku <text:span text:style-name="T87">&quot;N&quot; </text:span>--- <text:span text:style-name="T91">Analogicznie do transformaty Fouriera, ten wskaźnik ma znaczenie przy obliczaniu rozdzielczości. Została wybrana wielkość bloku równa 520.}</text:span></text:p>
-   <text:p text:style-name="P163">\item{Numer prążka <text:span text:style-name="T84">&quot;k&quot;</text:span> --- liczba typu całkowitego obliczana na podstawie docelowej częstotliwości, która będzie wykrywana. Z tego względu trzeba rozważnie wybrać wartości szybkości samplowania i wielkość bloku. Dla danych podanych wyżej obliczony numer prążka to \begin{math}\frac{N\cdot target_freq}{sample_rate} = 31\end{math} gdzie \begin{math}target_freq\end{math} (częstotliwość poszukiwana) ma wartość 77500 (77,5 kHz)}</text:p>
+   <text:p text:style-name="P161">Przed <text:span text:style-name="T95">implementacją</text:span> algorytmu <text:span text:style-name="T95">z listingu \ref{lst:algg} </text:span>trzeba zdefiniować kilka wartości:</text:p>
+   <text:p text:style-name="P162">\begin{<text:span text:style-name="T95">itemize</text:span>}</text:p>
+   <text:p text:style-name="P162">\item{Szybkość samplowania<text:span text:style-name="T95"> </text:span><text:span text:style-name="T91">&quot;sample_rate&quot;</text:span> --- Wybrana arbitralnie poprzez szybkość wyjścia danych z filtra drugiego stopnia. Ze względu na to, że zegar taktujący \gls{adc} ma 130 MHz a pierwszy stopień filtra decymuje o krotność 100, to szybkość samplowania wynosi 1,3 MHz.}</text:p>
+   <text:p text:style-name="P161">\item{Wielkość bloku <text:span text:style-name="T91">&quot;N&quot; </text:span>--- <text:span text:style-name="T95">Analogicznie do transformaty Fouriera, ten wskaźnik ma znaczenie przy obliczaniu rozdzielczości. Została wybrana wielkość bloku równa 520.}</text:span></text:p>
+   <text:p text:style-name="P163">\item{Numer prążka <text:span text:style-name="T88">&quot;k&quot;</text:span> --- liczba typu całkowitego obliczana na podstawie docelowej częstotliwości, która będzie wykrywana. Z tego względu trzeba rozważnie wybrać wartości szybkości samplowania i wielkość bloku. Dla danych podanych wyżej obliczony numer prążka to \begin{math}\frac{N\cdot target_freq}{sample_rate} = 31\end{math} gdzie \begin{math}target_freq\end{math} (częstotliwość poszukiwana) ma wartość 77500 (77,5 kHz)}</text:p>
    <text:p text:style-name="P163">\end{itemize}</text:p>
-   <text:p text:style-name="P163">Kod z listingu \ref{lst:algg} został zaimplementowany w języku Verilog (plik goertzel.v) i został podzielony na dwie części: listing \ref{lst:loop} przedstawia pętlę (tłumaczenie kodu z linijek 9-12 listingu \ref{lst:algg}), listing \ref{lst:result} określa zapisywanie wyniku (zmienna <text:span text:style-name="T63">result</text:span>, linia 14 listingu \ref{lst:algg}). Stała <text:span text:style-name="T63">coeff</text:span><text:span text:style-name="T58"> została obliczona oraz na stałe zakodowana w kodzie źródłowym w formacie double floating point (64 bity) standardu IEEE-754</text:span></text:p>
-   <text:p text:style-name="P212">\input{src/<text:span text:style-name="T91">loop</text:span>}</text:p>
-   <text:p text:style-name="P213">Kod \ref{lst:loop} modeluje automat sekwencyjny i jest podzielony na dwa bloki. W pierwszym bloku (do linii nr 15) następuje inkrementacja licznika. Jeśli rozpoczęło się obliczanie nowego bloku (linia 10), to resetujemy zmienne <text:span text:style-name="T63">q0</text:span>, <text:span text:style-name="T63">q1</text:span>, <text:span text:style-name="T63">q2</text:span>. Drugi blok --- instrukcja <text:span text:style-name="T63">case</text:span> --- modeluje układ kombinacyjny, w którym ma miejsce reagowanie na zmiany wartości licznika. Działanie to ma na celu poprawne obliczenie wartości <text:span text:style-name="T63">q0</text:span>, gdyż zdecydowano się na realizowanie obliczeń zmiennoprzecinkowych i wykorzystanie do tego celu modułów IP Core firmy Altera, dla których czas wykonania obliczeń to w najgorszym przypadku 7 cykli zegara\cite{alt15fpug}. Wykres ### przedstawia wyniki symulacji modułu \ref{lst:loop}.</text:p>
-   <text:p text:style-name="P213">Kolejny kod z listingu \ref{lst:result} modeluje automat obliczający wartość wyniku i działa analogicznie do kodu z listingu \ref{lst:loop}. </text:p>
-   <text:p text:style-name="P212">\input{src/<text:span text:style-name="T91">result</text:span>}</text:p>
-   <text:h text:style-name="P229" text:outline-level="3"><text:soft-page-break/>UART</text:h>
-   <text:p text:style-name="P249">Moduł odpowiedzialny za przesyłanie danych z płytki \gls{fpga} do komputera protokołem RS232. Jest interfejsem pomiędzy płytką a komputerem. Ze względu na brak obecności jakiegokolwiek interfejsu w module prototypowym wybrano ten standard jako najprostszy w implementacji.</text:p>
-   <text:p text:style-name="P249">Komunikacja w tym standardzie niesie ze sobą wiele niedogodności, jedną z których jest mała prędkość przesyłu. W tej aplikacji wynosi ona 115,2 kB/s i jest standardowa dla RS232. Kolejną niedogodnością jest przestarzałość standardu; konieczne jest stosowanie przejściówek oraz dodatkowych układów pośredniczących. Obecnie, najlepszym interfejsem w pośredniczeniu pomiędzy komputerem a modułem \gls{fpga} jest zastosowanie Ethernetu. To rozwiązanie zapewnia wymaganą prędkość przesyłu danych oraz rozwiązuje problem dostępności elementów przez swoją wszechobecność oraz popularność.</text:p>
-   <text:p text:style-name="P249">Zaprogramowany moduł jest prostą maszyną stanów reagującą na asynchroniczny sygnał obecności danych, który aktywuje synchroniczną maszynę stanów, działającą w takt zegara 115,2 kHz. Po przesłaniu danego bajtu maszyna stanów przechodzi w stan bezczynności, zwalnia sygnał zajętości i oczekuje na następne dane.</text:p>
+   <text:p text:style-name="P163">Kod z listingu \ref{lst:algg} został zaimplementowany w języku Verilog (plik goertzel.v) i został podzielony na dwie części: listing \ref{lst:loop} przedstawia pętlę (tłumaczenie kodu z linijek 9-12 listingu \ref{lst:algg}), listing \ref{lst:result} określa zapisywanie wyniku (zmienna <text:span text:style-name="T67">result</text:span><text:span text:style-name="T104"> z </text:span>lini<text:span text:style-name="T104">i</text:span> 14 listingu \ref{lst:algg}). Stała <text:span text:style-name="T67">coeff</text:span><text:span text:style-name="T62"> została obliczona oraz na stałe zakodowana w kodzie źródłowym w formacie double floating point (64 bity) standardu IEEE-754</text:span></text:p>
+   <text:p text:style-name="P212">\input{src/<text:span text:style-name="T95">loop</text:span>}</text:p>
+   <text:p text:style-name="P269">Kod \ref{lst:loop} modeluje automat sekwencyjny i jest podzielony na dwa bloki. W pierwszym bloku (do linii nr 15) następuje inkrementacja licznika. Jeśli rozpoczęło się obliczanie nowego bloku (linia 10), to resetujemy zmienne <text:span text:style-name="T67">q0</text:span>, <text:span text:style-name="T67">q1</text:span>, <text:span text:style-name="T67">q2</text:span>. Drugi blok --- instrukcja <text:span text:style-name="T67">case</text:span> --- modeluje układ kombinacyjny, w którym ma miejsce reagowanie na zmiany wartości licznika. Działanie to ma na celu poprawne obliczenie wartości <text:span text:style-name="T67">q0</text:span>, gdyż zdecydowano się na realizowanie obliczeń zmiennoprzecinkowych i wykorzystanie do tego celu modułów IP Core firmy Altera, dla których czas wykonania obliczeń to w najgorszym przypadku 7 cykli zegara\cite{alt15fpug}.<text:span text:style-name="T104"> Wykres \ref{fig:sim-goertzel-loop} przedstawia wyniki symulacji modułu \ref{lst:loop}, wykres <text:s/>\ref{fig:sim-goertzel-result} --- modułu ref{lst:result}.</text:span></text:p>
+   <text:p text:style-name="P213">Kolejny kod z listingu \ref{lst:result} modeluje automat obliczający wartość wyniku i działa <text:soft-page-break/>analogicznie do kodu z listingu \ref{lst:loop}. </text:p>
+   <text:p text:style-name="P212">\input{src/<text:span text:style-name="T95">result</text:span>}</text:p>
+   <text:h text:style-name="P229" text:outline-level="3">UART</text:h>
+   <text:p text:style-name="P259">Moduł odpowiedzialny za przesyłanie danych z płytki \gls{fpga} do komputera protokołem RS232. Jest interfejsem pomiędzy płytką a komputerem. Ze względu na brak obecności jakiegokolwiek interfejsu w module prototypowym wybrano ten standard jako najprostszy w implementacji.</text:p>
+   <text:p text:style-name="P259">Komunikacja w tym standardzie niesie ze sobą wiele niedogodności, jedną z których jest mała prędkość przesyłu. W tej aplikacji wynosi ona 115,2 kB/s i jest standardową dla RS232. Kolejną niedogodnością jest przestarzałość standardu; konieczne jest stosowanie przejściówek oraz dodatkowych układów pośredniczących. Obecnie, najlepszym interfejsem w pośredniczeniu pomiędzy komputerem a modułem \gls{fpga} jest zastosowanie Ethernetu. To rozwiązanie zapewnia wymaganą prędkość przesyłu danych oraz rozwiązuje problem dostępności elementów przez swoją wszechobecność oraz popularność.</text:p>
+   <text:p text:style-name="P259">Zaprogramowany moduł jest prostą maszyną stanów reagującą na asynchroniczny sygnał obecności danych, który aktywuje synchroniczną maszynę stanów, działającą w takt zegara 115,2 kHz. Po przesłaniu wszystkich bitów danego bajtu maszyna stanów przechodzi w stan bezczynności, zwalnia sygnał zajętości i oczekuje na następne dane.</text:p>
    <text:h text:style-name="P230" text:outline-level="3">Aplikacja PC</text:h>
    <text:p text:style-name="P216">Program napisany w języku Python odpowiada za przetworzenie danych przesłanych z modułu \gls{fpga} do komputera. Wynikiem są poszczególne bity sygnału oraz zdekodowany z nich czas.</text:p>
    <text:p text:style-name="P216">Algorytm działania polega na, po pierwsze, znalezieniu znacznika nowej minuty (co jest sygnalizowane długim impulsem w stanie wysokim) a następnie dekodowaniu bitów aż do następnego znacznika nowej minuty. Decyzja czy bit jest jedynką czy zerem jest ustalana na podstawie długości stanu niskiego, tak jak zostało to przedstawione teoretycznie w rozdziale \ref{sec:dcf77}.</text:p>
    <text:h text:style-name="P225" text:outline-level="2">Symulacja</text:h>
-   <text:p text:style-name="P213">Dla sprawdzenia poprawności działania, wszystkie moduły zostały symulowane i testowane w symulatorze Modelsim Altera Edition, wersja 10.4d. Ta wersja symulatora jest ulepszona względem poprzednich i zawiera możliwość symulowania projektów mieszanych (Mixed-language, mixed-HDL simulation), tzn. zbudowanych jednocześnie z kodu Verilog i VHDL. Było to niezmiernie użyteczne przy symulacji modułów filtra \gls{fir}, gdzie wytworzony przez kreator IP kod jest właśnie kodem mieszanym.</text:p>
-   <text:p text:style-name="P214">Symulacja polegała na napisaniu skryptów (.do files) w języku TCL<text:span text:style-name="T93">, je</text:span>dnostek testowych <text:soft-page-break/>(testebench) w języku Verilog<text:span text:style-name="T93"> oraz skryptu w języku Python</text:span>. Skrypty symulacyjne zostały rozdzielone<text:span text:style-name="T93"> na </text:span>moduły. Jest to podyktowane złożonością projektu oraz długim czasem symulacji w sytuacji symulacji całego projektu. Zamiast tego stosowano wspomniany podział na moduły --- każda jednostka testowa czyta plik wejściowy, przetwarza zawarte w nim dane oraz zapisuje te dane do pliku wyjściowego. Następnie plik wyjściowy trafia jako wejście do kolejnego modułu i algorytm się powtarza.</text:p>
+   <text:p text:style-name="P213">Dla sprawdzenia poprawności działania, wszystkie moduły zostały symulowane i testowane w symulatorze Modelsim Altera Edition, wersja 10.4d. Ta wersja symulatora jest ulepszona względem poprzednich i zawiera możliwość symulowania projektów mieszanych (Mixed-language, mixed-HDL simulation), tzn. zbudowanych jednocześnie z kodu Verilog i VHDL. Było to niezmiernie <text:soft-page-break/>użyteczne przy symulacji modułów filtra \gls{fir}, gdzie wytworzony przez kreator IP kod jest właśnie kodem mieszanym.</text:p>
+   <text:p text:style-name="P214">Symulacja polegała na napisaniu skryptów (.do files) w języku TCL<text:span text:style-name="T97">, je</text:span>dnostek testowych (testebench) w języku Verilog<text:span text:style-name="T97"> oraz skryptu w języku Python</text:span>. Skrypty symulacyjne zostały rozdzielone<text:span text:style-name="T97"> na </text:span>moduły. Jest to podyktowane złożonością projektu oraz długim czasem symulacji w sytuacji symulacji całego projektu. Zamiast tego stosowano wspomniany podział na moduły --- każda jednostka testowa czyta plik wejściowy, przetwarza zawarte w nim dane oraz zapisuje te dane do pliku wyjściowego. Następnie plik wyjściowy trafia jako wejście do kolejnego modułu i algorytm się powtarza.</text:p>
    <text:p text:style-name="P217">Symulowano, testowano i weryfikowano w całości moduły napisane własnoręcznie. Moduły IP testowano jedynie w celu sprawdzenia, czy dobrane parametry i współczynniki filtrów są właściwe\footnote{,,All the IP cores have been thoroughly tested and verified[...]&apos;&apos;, \url{https://www.altera.com/support/support-resources/download/megacore-ip.html}}.</text:p>
-   <text:p text:style-name="P146">\<text:span text:style-name="T82">backmatter</text:span></text:p>
+   <text:p text:style-name="P237">\begin{<text:span text:style-name="T104">sideways</text:span>figure}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\centering</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\includegraphics[<text:span text:style-name="T104">width=\textwidth,keepaspectratio</text:span>]{../images/<text:span text:style-name="T104">sim-goertzel-loop</text:span>}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\caption{<text:span text:style-name="T104">Algorytm Goertzla -- pętla (symulacja przepływu danych)</text:span>}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T104">sim-goertzel-loop</text:span>}</text:p>
+   <text:p text:style-name="P274">\end{<text:span text:style-name="T104">sideways</text:span>figure}</text:p>
+   <text:p text:style-name="P237">\begin{<text:span text:style-name="T104">sideways</text:span>figure}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\centering</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\includegraphics[<text:span text:style-name="T104">width=\textwidth,keepaspectratio</text:span>]{../images/<text:span text:style-name="T104">sim-goertzel-result</text:span>}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\caption{<text:span text:style-name="T104">Algorytm Goertzla -- wyniki (symulacja przepływu danych)</text:span>}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T104">sim-goertzel-result</text:span>}</text:p>
+   <text:p text:style-name="P274">\end{<text:span text:style-name="T104">sideways</text:span>figure}</text:p>
+   <text:p text:style-name="P146">\<text:span text:style-name="T86">backmatter</text:span></text:p>
    <text:h text:style-name="P218" text:outline-level="1">Zakończenie</text:h>
-   <text:p text:style-name="P196">Projekt pokazał, że możliwe jest zaimplementowanie przykładowego algorytmu \gls{sdr} jakim jest niewątpliwie <text:span text:style-name="T98">algorytm Goertzla użyty w implementacji dekodowania czasu \gls{dcf77}</text:span>. Wydajność rozwiązania sprzętowego przewyższa rozwiązanie programowe chociażby ze względu na równoległe działanie wielu modułów, których zaimplementowanie w kom<text:span text:style-name="T98">put</text:span>erze \gls{pc} wiązałoby się z potrzebą zastosowania <text:span text:style-name="T98">większej ilości zasobów.</text:span></text:p>
-   <text:p text:style-name="P240">Prezentowane rozwiązanie nie jest z pewnością optymalnym; w<text:span text:style-name="T99"> dalszych pracach nad układem należałoby zoptymalizować algorytm Goertzla, doda</text:span>ć<text:span text:style-name="T99"> do płytki </text:span>dodatkowy interfejs<text:span text:style-name="T99"> np</text:span>.<text:span text:style-name="T99"> </text:span>Ethernet <text:span text:style-name="T99">oraz zaimplementowa</text:span>ć<text:span text:style-name="T99"> </text:span>interfejs <text:span text:style-name="T99">do popularnego programu</text:span> \gls{sdr}, na przykład GNU Radio aby można było zastosować<text:span text:style-name="T99"> popularne oprogramowanie (wspomniane gnu radio) do obslugi sdra z szerokim pasmem (lan 100mbps/1gbps to przyjmowania danych i potem obrabiane na pc, potem implementacja konkretnych algorytmow na fpga - ulatowiona prototypowanie dzieki lan ethernet 1gbps niz symulator)</text:span></text:p>
+   <text:p text:style-name="P196">Projekt pokazał, że możliwe jest zaimplementowanie przykładowego algorytmu \gls{sdr} jakim jest niewątpliwie <text:span text:style-name="T102">algorytm Goertzla użyty w implementacji dekodowania czasu \gls{dcf77}</text:span>. Wydajność rozwiązania sprzętowego przewyższa rozwiązanie programowe chociażby ze względu na równoległe działanie wielu modułów, których zaimplementowanie w kom<text:span text:style-name="T102">put</text:span>erze \gls{pc} wiązałoby się z potrzebą zastosowania <text:span text:style-name="T102">większej ilości zasobów.</text:span></text:p>
+   <text:p text:style-name="P240">Prezentowane rozwiązanie nie jest z pewnością optymalnym; w<text:span text:style-name="T103"> dalszych pracach nad układem należałoby zoptymalizować algorytm Goertzla, doda</text:span>ć<text:span text:style-name="T103"> do płytki wydajniejszy</text:span> interfejs<text:span text:style-name="T103"> np</text:span>.<text:span text:style-name="T103"> </text:span>Ethernet <text:span text:style-name="T103">oraz zaimplementowa</text:span>ć<text:span text:style-name="T103"> </text:span>interfejs <text:span text:style-name="T103">do popularnego programu</text:span> \gls{sdr}, na przykład GNU Radio aby można było zastosować<text:span text:style-name="T103"> popularne oprogramowanie (wspomniane gnu radio) do obslugi sdra z szerokim pasmem (lan 100mbps/1gbps to przyjmowania danych</text:span><text:span text:style-name="T15"> i potem obrabiane na pc, potem implementacja konkretnych algorytmow na fpga - ulatowiona prototypowanie dzieki lan ethernet 1gbps niz sy</text:span><text:span text:style-name="T103">mulator)</text:span></text:p>
    <text:h text:style-name="P149" text:outline-level="1">Zawartość płyty</text:h>
    <text:p text:style-name="P215">Praca dyplomowa, wyniki symulacji, kody źródłowe, projekty i skompilowane pliki umieszczono na płycie w następującym porządku:</text:p>
    <text:p text:style-name="P202">\vspace{1em}</text:p>
    <text:p text:style-name="P202">\begin{addmargin}[.5em]{0em}</text:p>
    <text:p text:style-name="P202">\begin{itemize}</text:p>
-   <text:p text:style-name="P202">\item{<text:span text:style-name="T85">/hardware</text:span><text:span text:style-name="T82"> -- wszelkie pliki związane z projektem fizycznym \gls{pcb}</text:span>}</text:p>
-   <text:p text:style-name="P202">\item{<text:span text:style-name="T84">/s</text:span><text:span text:style-name="T85">oftware</text:span><text:span text:style-name="T82"> -- pliki źródłowe implementacji sprzętowej, w tym:</text:span>}</text:p>
+   <text:p text:style-name="P202">\item{<text:span text:style-name="T89">/hardware</text:span><text:span text:style-name="T86"> -- wszelkie pliki związane z projektem fizycznym \gls{pcb}</text:span>}</text:p>
+   <text:p text:style-name="P202">\item{<text:span text:style-name="T88">/s</text:span><text:span text:style-name="T89">oftware</text:span><text:span text:style-name="T86"> -- pliki źródłowe implementacji sprzętowej, w tym:</text:span>}</text:p>
    <text:p text:style-name="P202">\begin{addmargin}[1em]{0em}</text:p>
    <text:p text:style-name="P202">\begin{itemize}</text:p>
-   <text:p text:style-name="P202">\item{<text:span text:style-name="T85">/hdl</text:span><text:span text:style-name="T82"> -- projekt programu Altera Quartus Prime, w którym skompilowano wsad dla </text:span>\gls{fpga}}</text:p>
-   <text:p text:style-name="P202">\item{<text:span text:style-name="T84">/s</text:span><text:span text:style-name="T85">imulation</text:span><text:span text:style-name="T82"> -- pliki źródłowe w języku Python używane do symulacji</text:span>}</text:p>
+   <text:p text:style-name="P202">\item{<text:span text:style-name="T89">/hdl</text:span><text:span text:style-name="T86"> -- projekt programu Altera Quartus Prime, w którym skompilowano wsad dla </text:span>\gls{fpga}}</text:p>
+   <text:p text:style-name="P202">\item{<text:span text:style-name="T88">/s</text:span><text:span text:style-name="T89">imulation</text:span><text:span text:style-name="T86"> -- pliki źródłowe w języku Python używane do symulacji</text:span>}</text:p>
    <text:p text:style-name="P202">\end{itemize}</text:p>
    <text:p text:style-name="P202">\end{addmargin}</text:p>
-   <text:p text:style-name="P202">\item{<text:span text:style-name="T84">/</text:span><text:span text:style-name="T85">thesis</text:span><text:span text:style-name="T82"> -- pliki źródłowe pracy w formacie \LaTeX</text:span>}</text:p>
+   <text:p text:style-name="P202">\item{<text:span text:style-name="T88">/</text:span><text:span text:style-name="T89">thesis</text:span><text:span text:style-name="T86"> -- pliki źródłowe pracy w formacie \LaTeX</text:span>}</text:p>
    <text:p text:style-name="P202">\end{itemize}</text:p>
    <text:p text:style-name="P202">\end{addmargin}</text:p>
   </office:text>

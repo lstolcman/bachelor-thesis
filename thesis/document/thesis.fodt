@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2009-04-16T11:32:02.64</meta:creation-date><meta:editing-duration>P7DT15H42M42S</meta:editing-duration><meta:editing-cycles>1008</meta:editing-cycles><meta:generator>LibreOffice/5.1.1.3$Windows_x86 LibreOffice_project/89f508ef3ecebd2cfb8e1def0f0ba9a803b88a6d</meta:generator><dc:date>2016-05-08T17:45:26.828000000</dc:date><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="21" meta:paragraph-count="256" meta:word-count="3247" meta:character-count="28834" meta:non-whitespace-character-count="25622"/><meta:user-defined meta:name="Info 1"/><meta:user-defined meta:name="Info 2"/><meta:user-defined meta:name="Info 3"/><meta:user-defined meta:name="Info 4"/></office:meta>
+ <office:meta><meta:creation-date>2009-04-16T11:32:02.64</meta:creation-date><meta:editing-duration>P8DT9H55M40S</meta:editing-duration><meta:editing-cycles>1066</meta:editing-cycles><meta:generator>LibreOffice/5.1.1.3$Windows_x86 LibreOffice_project/89f508ef3ecebd2cfb8e1def0f0ba9a803b88a6d</meta:generator><dc:date>2016-05-09T12:09:01.709000000</dc:date><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="22" meta:paragraph-count="273" meta:word-count="3517" meta:character-count="31336" meta:non-whitespace-character-count="27840"/><meta:user-defined meta:name="Info 1"/><meta:user-defined meta:name="Info 2"/><meta:user-defined meta:name="Info 3"/><meta:user-defined meta:name="Info 4"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">42333</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">552450</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">33958</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">33957</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">18634</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">11188</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">48387</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">13309</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">556867</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">42333</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">33957</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">60965</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">552450</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">33955</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">571082</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -81,7 +81,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">4099420</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">4184867</config:config-item>
    <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">false</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -1064,72 +1064,193 @@
    <style:paragraph-properties fo:line-height="150%" style:page-number="auto" style:shadow="none"/>
    <style:text-properties officeooo:rsid="003286cc" officeooo:paragraph-rsid="003286cc"/>
   </style:style>
-  <style:style style:name="P233" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P234" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:paragraph-rsid="003421c3"/>
-  </style:style>
-  <style:style style:name="P235" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
-  </style:style>
-  <style:style style:name="P236" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
-   <style:text-properties officeooo:paragraph-rsid="003afa55"/>
-  </style:style>
-  <style:style style:name="P237" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0033a954" officeooo:paragraph-rsid="0033a954"/>
-  </style:style>
-  <style:style style:name="P238" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P239" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-  </style:style>
-  <style:style style:name="P240" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
-  </style:style>
-  <style:style style:name="P241" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b"/>
-  </style:style>
-  <style:style style:name="P242" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
-  </style:style>
-  <style:style style:name="P243" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="003513c9"/>
-  </style:style>
-  <style:style style:name="P244" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="003afa55" officeooo:paragraph-rsid="003afa55"/>
-  </style:style>
-  <style:style style:name="P245" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
-  </style:style>
-  <style:style style:name="P246" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
-  </style:style>
-  <style:style style:name="P247" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P233" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="00346b24"/>
   </style:style>
-  <style:style style:name="P248" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P234" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="003513c9"/>
+  </style:style>
+  <style:style style:name="P235" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="003513c9"/>
+  </style:style>
+  <style:style style:name="P236" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="003e8d5c" officeooo:paragraph-rsid="003e8d5c"/>
+  </style:style>
+  <style:style style:name="P237" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="003e8d5c" officeooo:paragraph-rsid="003fdb23"/>
+  </style:style>
+  <style:style style:name="P238" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="003fdb23" officeooo:paragraph-rsid="003fdb23"/>
+  </style:style>
+  <style:style style:name="P239" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0036b9e7" officeooo:paragraph-rsid="0036b9e7"/>
+  </style:style>
+  <style:style style:name="P240" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="003e8d5c" officeooo:paragraph-rsid="003e8d5c"/>
+  </style:style>
+  <style:style style:name="P241" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="00341938" officeooo:paragraph-rsid="0034658b"/>
+  </style:style>
+  <style:style style:name="P242" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:paragraph-rsid="00341938"/>
+  </style:style>
+  <style:style style:name="P243" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P244" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:paragraph-rsid="00394a2d"/>
+  </style:style>
+  <style:style style:name="P245" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
+  </style:style>
+  <style:style style:name="P246" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="003513c9"/>
+  </style:style>
+  <style:style style:name="P247" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="00381707"/>
+  </style:style>
+  <style:style style:name="P248" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="003afa55"/>
+  </style:style>
+  <style:style style:name="P249" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003fdb23" officeooo:paragraph-rsid="003fdb23"/>
+  </style:style>
+  <style:style style:name="P250" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
+  </style:style>
+  <style:style style:name="P251" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="0034658b"/>
+  </style:style>
+  <style:style style:name="P252" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00381707"/>
+  </style:style>
+  <style:style style:name="P253" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="003afa55"/>
+  </style:style>
+  <style:style style:name="P254" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="003ca93e"/>
+  </style:style>
+  <style:style style:name="P255" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0033a954" officeooo:paragraph-rsid="0033a954"/>
+  </style:style>
+  <style:style style:name="P256" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0035bf1b" officeooo:paragraph-rsid="003afa55"/>
+  </style:style>
+  <style:style style:name="P257" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="00372d78"/>
+  </style:style>
+  <style:style style:name="P258" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="003513c9"/>
+  </style:style>
+  <style:style style:name="P259" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003afa55" officeooo:paragraph-rsid="003afa55"/>
+  </style:style>
+  <style:style style:name="P260" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="003513c9"/>
+  </style:style>
+  <style:style style:name="P261" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="00346b24"/>
+  </style:style>
+  <style:style style:name="P262" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003286cc" officeooo:paragraph-rsid="003286cc"/>
+  </style:style>
+  <style:style style:name="P263" style:family="paragraph" style:parent-style-name="Text_20_body" style:master-page-name="">
+   <style:paragraph-properties fo:line-height="150%" style:page-number="auto" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003286cc" officeooo:paragraph-rsid="003286cc"/>
+  </style:style>
+  <style:style style:name="P264" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P265" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:paragraph-rsid="003421c3"/>
+  </style:style>
+  <style:style style:name="P266" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
+  </style:style>
+  <style:style style:name="P267" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
+   <style:text-properties officeooo:paragraph-rsid="003afa55"/>
+  </style:style>
+  <style:style style:name="P268" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0033a954" officeooo:paragraph-rsid="0033a954"/>
+  </style:style>
+  <style:style style:name="P269" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P270" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+  </style:style>
+  <style:style style:name="P271" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
+  </style:style>
+  <style:style style:name="P272" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b"/>
+  </style:style>
+  <style:style style:name="P273" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
+  </style:style>
+  <style:style style:name="P274" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="003513c9"/>
+  </style:style>
+  <style:style style:name="P275" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:paragraph-rsid="003afa55"/>
+  </style:style>
+  <style:style style:name="P276" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
+  </style:style>
+  <style:style style:name="P277" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
+  </style:style>
+  <style:style style:name="P278" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="00346b24"/>
+  </style:style>
+  <style:style style:name="P279" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="00381707" officeooo:paragraph-rsid="00381707"/>
   </style:style>
-  <style:style style:name="P249" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P280" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="003afa55" officeooo:paragraph-rsid="00381707"/>
   </style:style>
-  <style:style style:name="P250" style:family="paragraph" style:parent-style-name="Heading_20_4">
+  <style:style style:name="P281" style:family="paragraph" style:parent-style-name="Heading_20_4">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
   </style:style>
@@ -1427,6 +1548,12 @@
   <style:style style:name="T98" style:family="text">
    <style:text-properties officeooo:rsid="003e8d5c"/>
   </style:style>
+  <style:style style:name="T99" style:family="text">
+   <style:text-properties officeooo:rsid="0036b9e7"/>
+  </style:style>
+  <style:style style:name="T100" style:family="text">
+   <style:text-properties officeooo:rsid="003fdb23"/>
+  </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:footnote-max-height="0cm">
     <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="none" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
@@ -1621,7 +1748,7 @@
    <text:p text:style-name="P207"><text:span text:style-name="T74">\item{</text:span><text:span text:style-name="T84">pll_board</text:span><text:span text:style-name="T74"> -- moduł \gls{pll}. Jego celem jest przyjęcie zegara o częstotliwości 50 MHz i wygenerowanie na jego podstawie zegara 130 MHz, który taktuje \gls{pcb} z układem \gls{adc}}</text:span></text:p>
    <text:p text:style-name="P207"><text:span text:style-name="T74">\item{</text:span><text:span text:style-name="T84">pll_uart</text:span><text:span text:style-name="T74"> -- moduł \gls{pll}. Jego celem jest przyjęcie zegara o częstotliwości 50 MHz i wygenerowanie na jego podstawie zegara 115,2kHz taktującego moduł &quot;uart&quot;}</text:span></text:p>
    <text:p text:style-name="P203">\item<text:span text:style-name="T89">{</text:span><text:span text:style-name="T86">fir_first</text:span><text:span text:style-name="T89"> -- moduł filtra \gls{fir}. Odpowiedzialny za wstępne filtrowanie oraz decymację sygnału wejściowego</text:span>}</text:p>
-   <text:p text:style-name="P203">\item<text:span text:style-name="T89">{</text:span><text:span text:style-name="T86">fir_second</text:span><text:span text:style-name="T89"> -- moduł filtra \gls{fir}. Odpowiedzialny za <text:s/>dokładne filtrowanie sygnału --- wyselekcjonowanie częstotliwości 77,5 kHz}</text:span></text:p>
+   <text:p text:style-name="P203">\item<text:span text:style-name="T89">{</text:span><text:span text:style-name="T86">fir_second</text:span><text:span text:style-name="T89"> -- moduł filtra \gls{fir}. Odpowiedzialny za <text:s/>dokładne filtrowanie sygnału (wyselekcjonowanie częstotliwości 77,5 kHz)}</text:span></text:p>
    <text:p text:style-name="P216">\item{<text:span text:style-name="T84">cic</text:span> -- moduł filtra \gls{cic}. <text:span text:style-name="T89">Odpowiedzialny za wstępne filtrowanie oraz decymację sygnału wejściowego</text:span>}</text:p>
    <text:p text:style-name="P207"><text:soft-page-break/>\item{<text:span text:style-name="T84">goertzel</text:span><text:span text:style-name="T74"> -- moduł algorytmu Goertzela. Jest to moduł obliczania pojedynczego prążka transformaty Fouriera za pomocą algorytmu Goertzela}</text:span></text:p>
    <text:p text:style-name="P207"><text:span text:style-name="T74">\item{</text:span><text:span text:style-name="T84">uart</text:span><text:span text:style-name="T74"> -- moduł rs232 -- część odpowiedzialna za przesyłanie obliczonych wyników do komputera \gls{pc}}</text:span></text:p>
@@ -1661,10 +1788,24 @@
    <text:p text:style-name="P179"><text:soft-page-break/><text:s text:c="4"/>\caption<text:span text:style-name="T70">{Przykładowe sygnały modułu &quot;FIR II&quot;}</text:span></text:p>
    <text:p text:style-name="P179"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T89">quartus-fir-signals</text:span>}</text:p>
    <text:p text:style-name="P192">\end{figure}</text:p>
-   <text:h text:style-name="P156" text:outline-level="3">CIC</text:h>
+   <text:h text:style-name="P275" text:outline-level="3"><text:span text:style-name="T96">CIC</text:span></text:h>
+   <text:p text:style-name="P238">Kolejny moduł udostępniany jako „IP Core”. Podobnie jak „FIR” daje duże możliwości konfiguracji (rys. \ref<text:span text:style-name="T98">{fig:</text:span>quartus-cic-options<text:span text:style-name="T98">}</text:span>).</text:p>
+   <text:p text:style-name="P237">\begin{figure}[!<text:span text:style-name="T100">h</text:span>t<text:span text:style-name="T100">b</text:span>]</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\centering</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\includegraphics[width=0.<text:span text:style-name="T100">7</text:span>\textwidth]{../images/<text:span text:style-name="T100">quartus-cic-options</text:span>}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\caption{<text:span text:style-name="T100">Konfiguracja modułu „CIC”</text:span>}</text:p>
+   <text:p text:style-name="P237"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T100">quartus-cic-options</text:span>}</text:p>
+   <text:p text:style-name="P237">\end{figure}</text:p>
+   <text:p text:style-name="P238">Filtr typu CIC, jest podklasą filtrów typu FIR\cite{hog81cic}. Zalety jego użycia obejmują między innymi znaczne uproszczenie obliczeń w stosunku do filtra FIR --- jedyne działania arytmetyczne to dodawanie oraz opóźnienie sygnału (rys. \ref{fig:cic-schematic}). Jest to bardzo korzystne obliczeniowo, gdyż wymaga niewielkiej ilości zasobów logicznych. Dodatkowym atutem jest charakterystyka dolnoprzepustowa filtru. Jest ona spowodowana decymacją wkomponowaną w strukturę filtra i będąca jego integralną częścią. Także ta właściwość spowodowała zainteresowanie wykorzystaniem tego typu filtra w zastosowaniach cyfrowej zmiany częstotliwości w radiu programowalnym\cite{kap04ddc}.</text:p>
+   <text:p text:style-name="P236">\begin{figure}[!<text:span text:style-name="T100">h</text:span>t<text:span text:style-name="T100">b</text:span>]</text:p>
+   <text:p text:style-name="P236"><text:s text:c="4"/>\centering</text:p>
+   <text:p text:style-name="P236"><text:s text:c="4"/>\includegraphics[width=0.8\textwidth]{../images/cic-schematic}</text:p>
+   <text:p text:style-name="P236"><text:s text:c="4"/>\caption{Cyfrowa konwersja częstotliwości z użyciem filtracji typu CIC (źródło: \cite{<text:span text:style-name="T100">kap04ddc</text:span>})}</text:p>
+   <text:p text:style-name="P236"><text:s text:c="4"/>\label{fig:cic-schematic}</text:p>
+   <text:p text:style-name="P236">\end{figure}</text:p>
    <text:h text:style-name="P228" text:outline-level="3">Goertzel</text:h>
    <text:p text:style-name="P211">Algorytm Goertzla pozwala na wykrywanie częstotliwości podobnie jak transformata Fouriera. Jednak zbiór wartości funkcji ogranicza się do jednej, pojedynczej częstotliwości a nie jak w <text:s/>przypadku transformaty Fouriera, do widma. Z tego powodu, jest bardziej korzystne obliczeniowo korzystać z tego algorytmu podczas wykrywania pojedynczej częstotliwości. Najczęściej stosowana aplikacja to dekodowanie \gls{dtmf}. </text:p>
-   <text:p text:style-name="P211">Podstawowa wersja algorytmu zwraca część rzeczywistą i urojoną sygnału, tak jak transformata Fouriera. Możliwe jest więc obliczenie zarówno siły jak i fazy sygnału.<text:span text:style-name="T91"> Tutaj zastosowano jednak uproszczone (zoptymalizowane) obliczanie siły sygnału. Tracimy przy tym informacje o fazie, lecz nie jest ona potrzebna w tym przypadku.</text:span></text:p>
+   <text:p text:style-name="P211">Podstawowa wersja algorytmu zwraca część rzeczywistą i urojoną sygnału, tak jak transformata Fouriera. Możliwe jest więc obliczenie zarówno siły jak i fazy sygnału.<text:span text:style-name="T91"> Tutaj zastosowano jednak uproszczone (zoptymalizowane) obliczanie siły sygnału. Tracimy przy tym informacje o fazie, lecz </text:span><text:soft-page-break/><text:span text:style-name="T91">nie jest ona potrzebna w tym przypadku.</text:span></text:p>
    <text:p text:style-name="P211">Kod źródłowy algorytm<text:span text:style-name="T91">u</text:span> Goetzela w języku Python ma się następująco:</text:p>
    <text:p text:style-name="P211">\input{src/goertzel}</text:p>
    <text:p text:style-name="P161">Przed <text:span text:style-name="T91">implementacją</text:span> algorytmu <text:span text:style-name="T91">z listingu \ref{lst:algg} </text:span>trzeba zdefiniować kilka wartości:</text:p>
@@ -1673,23 +1814,26 @@
    <text:p text:style-name="P161">\item{Wielkość bloku <text:span text:style-name="T87">&quot;N&quot; </text:span>--- <text:span text:style-name="T91">Analogicznie do transformaty Fouriera, ten wskaźnik ma znaczenie przy obliczaniu rozdzielczości. Została wybrana wielkość bloku równa 520.}</text:span></text:p>
    <text:p text:style-name="P163">\item{Numer prążka <text:span text:style-name="T84">&quot;k&quot;</text:span> --- liczba typu całkowitego obliczana na podstawie docelowej częstotliwości, która będzie wykrywana. Z tego względu trzeba rozważnie wybrać wartości szybkości samplowania i wielkość bloku. Dla danych podanych wyżej obliczony numer prążka to \begin{math}\frac{N\cdot target_freq}{sample_rate} = 31\end{math} gdzie \begin{math}target_freq\end{math} (częstotliwość poszukiwana) ma wartość 77500 (77,5 kHz)}</text:p>
    <text:p text:style-name="P163">\end{itemize}</text:p>
-   <text:p text:style-name="P163">Kod z listingu \ref{lst:algg} został zaimplementowany w języku Verilog (plik goertzel.v) i został podzielony na dwie części: listing \ref{lst:loop} przedstawia pętlę (tłumaczenie kodu z linijek 9-12 listingu \ref{lst:algg}), listing \ref{lst:result} określa zapisywanie wyniku (zmienna <text:span text:style-name="T63">result</text:span>, linia 14 <text:soft-page-break/>listingu \ref{lst:algg}). Stała <text:span text:style-name="T63">coeff</text:span><text:span text:style-name="T58"> została obliczona oraz na stałe zakodowana w kodzie źródłowym w formacie double floating point (64 bity) standardu IEEE-754</text:span></text:p>
+   <text:p text:style-name="P163">Kod z listingu \ref{lst:algg} został zaimplementowany w języku Verilog (plik goertzel.v) i został podzielony na dwie części: listing \ref{lst:loop} przedstawia pętlę (tłumaczenie kodu z linijek 9-12 listingu \ref{lst:algg}), listing \ref{lst:result} określa zapisywanie wyniku (zmienna <text:span text:style-name="T63">result</text:span>, linia 14 listingu \ref{lst:algg}). Stała <text:span text:style-name="T63">coeff</text:span><text:span text:style-name="T58"> została obliczona oraz na stałe zakodowana w kodzie źródłowym w formacie double floating point (64 bity) standardu IEEE-754</text:span></text:p>
    <text:p text:style-name="P212">\input{src/<text:span text:style-name="T91">loop</text:span>}</text:p>
    <text:p text:style-name="P213">Kod \ref{lst:loop} modeluje automat sekwencyjny i jest podzielony na dwa bloki. W pierwszym bloku (do linii nr 15) następuje inkrementacja licznika. Jeśli rozpoczęło się obliczanie nowego bloku (linia 10), to resetujemy zmienne <text:span text:style-name="T63">q0</text:span>, <text:span text:style-name="T63">q1</text:span>, <text:span text:style-name="T63">q2</text:span>. Drugi blok --- instrukcja <text:span text:style-name="T63">case</text:span> --- modeluje układ kombinacyjny, w którym ma miejsce reagowanie na zmiany wartości licznika. Działanie to ma na celu poprawne obliczenie wartości <text:span text:style-name="T63">q0</text:span>, gdyż zdecydowano się na realizowanie obliczeń zmiennoprzecinkowych i wykorzystanie do tego celu modułów IP Core firmy Altera, dla których czas wykonania obliczeń to w najgorszym przypadku 7 cykli zegara\cite{alt15fpug}. Wykres ### przedstawia wyniki symulacji modułu \ref{lst:loop}.</text:p>
    <text:p text:style-name="P213">Kolejny kod z listingu \ref{lst:result} modeluje automat obliczający wartość wyniku i działa analogicznie do kodu z listingu \ref{lst:loop}. </text:p>
    <text:p text:style-name="P212">\input{src/<text:span text:style-name="T91">result</text:span>}</text:p>
-   <text:h text:style-name="P229" text:outline-level="3">UART</text:h>
+   <text:h text:style-name="P229" text:outline-level="3"><text:soft-page-break/>UART</text:h>
+   <text:p text:style-name="P249">Moduł odpowiedzialny za przesyłanie danych z płytki \gls{fpga} do komputera protokołem RS232. Jest interfejsem pomiędzy płytką a komputerem. Ze względu na brak obecności jakiegokolwiek interfejsu w module prototypowym wybrano ten standard jako najprostszy w implementacji.</text:p>
+   <text:p text:style-name="P249">Komunikacja w tym standardzie niesie ze sobą wiele niedogodności, jedną z których jest mała prędkość przesyłu. W tej aplikacji wynosi ona 115,2 kB/s i jest standardowa dla RS232. Kolejną niedogodnością jest przestarzałość standardu; konieczne jest stosowanie przejściówek oraz dodatkowych układów pośredniczących. Obecnie, najlepszym interfejsem w pośredniczeniu pomiędzy komputerem a modułem \gls{fpga} jest zastosowanie Ethernetu. To rozwiązanie zapewnia wymaganą prędkość przesyłu danych oraz rozwiązuje problem dostępności elementów przez swoją wszechobecność oraz popularność.</text:p>
+   <text:p text:style-name="P249">Zaprogramowany moduł jest prostą maszyną stanów reagującą na asynchroniczny sygnał obecności danych, który aktywuje synchroniczną maszynę stanów, działającą w takt zegara 115,2 kHz. Po przesłaniu danego bajtu maszyna stanów przechodzi w stan bezczynności, zwalnia sygnał zajętości i oczekuje na następne dane.</text:p>
    <text:h text:style-name="P230" text:outline-level="3">Aplikacja PC</text:h>
    <text:p text:style-name="P216">Program napisany w języku Python odpowiada za przetworzenie danych przesłanych z modułu \gls{fpga} do komputera. Wynikiem są poszczególne bity sygnału oraz zdekodowany z nich czas.</text:p>
    <text:p text:style-name="P216">Algorytm działania polega na, po pierwsze, znalezieniu znacznika nowej minuty (co jest sygnalizowane długim impulsem w stanie wysokim) a następnie dekodowaniu bitów aż do następnego znacznika nowej minuty. Decyzja czy bit jest jedynką czy zerem jest ustalana na podstawie długości stanu niskiego, tak jak zostało to przedstawione teoretycznie w rozdziale \ref{sec:dcf77}.</text:p>
    <text:h text:style-name="P225" text:outline-level="2">Symulacja</text:h>
    <text:p text:style-name="P213">Dla sprawdzenia poprawności działania, wszystkie moduły zostały symulowane i testowane w symulatorze Modelsim Altera Edition, wersja 10.4d. Ta wersja symulatora jest ulepszona względem poprzednich i zawiera możliwość symulowania projektów mieszanych (Mixed-language, mixed-HDL simulation), tzn. zbudowanych jednocześnie z kodu Verilog i VHDL. Było to niezmiernie użyteczne przy symulacji modułów filtra \gls{fir}, gdzie wytworzony przez kreator IP kod jest właśnie kodem mieszanym.</text:p>
-   <text:p text:style-name="P214"><text:soft-page-break/>Symulacja polegała na napisaniu skryptów (.do files) w języku TCL<text:span text:style-name="T93">, je</text:span>dnostek testowych (testebench) w języku Verilog<text:span text:style-name="T93"> oraz skryptu w języku Python</text:span>. Skrypty symulacyjne zostały rozdzielone<text:span text:style-name="T93"> na </text:span>moduły. Jest to podyktowane złożonością projektu oraz długim czasem symulacji w sytuacji symulacji całego projektu. Zamiast tego stosowano wspomniany podział na moduły --- każda jednostka testowa czyta plik wejściowy, przetwarza zawarte w nim dane oraz zapisuje te dane do pliku wyjściowego. Następnie plik wyjściowy trafia jako wejście do kolejnego modułu i algorytm się powtarza.</text:p>
+   <text:p text:style-name="P214">Symulacja polegała na napisaniu skryptów (.do files) w języku TCL<text:span text:style-name="T93">, je</text:span>dnostek testowych <text:soft-page-break/>(testebench) w języku Verilog<text:span text:style-name="T93"> oraz skryptu w języku Python</text:span>. Skrypty symulacyjne zostały rozdzielone<text:span text:style-name="T93"> na </text:span>moduły. Jest to podyktowane złożonością projektu oraz długim czasem symulacji w sytuacji symulacji całego projektu. Zamiast tego stosowano wspomniany podział na moduły --- każda jednostka testowa czyta plik wejściowy, przetwarza zawarte w nim dane oraz zapisuje te dane do pliku wyjściowego. Następnie plik wyjściowy trafia jako wejście do kolejnego modułu i algorytm się powtarza.</text:p>
    <text:p text:style-name="P217">Symulowano, testowano i weryfikowano w całości moduły napisane własnoręcznie. Moduły IP testowano jedynie w celu sprawdzenia, czy dobrane parametry i współczynniki filtrów są właściwe\footnote{,,All the IP cores have been thoroughly tested and verified[...]&apos;&apos;, \url{https://www.altera.com/support/support-resources/download/megacore-ip.html}}.</text:p>
    <text:p text:style-name="P146">\<text:span text:style-name="T82">backmatter</text:span></text:p>
    <text:h text:style-name="P218" text:outline-level="1">Zakończenie</text:h>
-   <text:p text:style-name="P196">Projekt pokazał, że możliwe jest zaimplementowanie przykładowego algorytmu \gls{sdr} jakim jest niewątpliwie jego aplikacja prezentowana w pracy. Wydajność rozwiązania sprzętowego przewyższa rozwiązanie programowe chociażby ze względu na równoległe działanie wielu modułów, których zaimplementowanie w komupgnterze \gls{pc} wiązałoby się z potrzebą zastosowania komponentów o wys... bla bla bla usunac to </text:p>
-   <text:p text:style-name="P196">W dalszych pracach nad układem należałoby zoptymalizować algorytm Goertzla, dodac do płytki interface np lan ethernet oraz zaimplementowac interfejs pc do popularnego programu np gnu radio aby monza bylo zastosowac popularne oprogramowanie (wspomniane gnu radio) do obslugi sdra z szerokim pasmem (lan 100mbps/1gbps to przyjmowania danych i potem obrabiane na pc, potem implementacja konkretnych algorytmow na fpga - ulatowiona prototypowanie dzieki lan ethernet 1gbps niz symulator)</text:p>
+   <text:p text:style-name="P196">Projekt pokazał, że możliwe jest zaimplementowanie przykładowego algorytmu \gls{sdr} jakim jest niewątpliwie <text:span text:style-name="T98">algorytm Goertzla użyty w implementacji dekodowania czasu \gls{dcf77}</text:span>. Wydajność rozwiązania sprzętowego przewyższa rozwiązanie programowe chociażby ze względu na równoległe działanie wielu modułów, których zaimplementowanie w kom<text:span text:style-name="T98">put</text:span>erze \gls{pc} wiązałoby się z potrzebą zastosowania <text:span text:style-name="T98">większej ilości zasobów.</text:span></text:p>
+   <text:p text:style-name="P240">Prezentowane rozwiązanie nie jest z pewnością optymalnym; w<text:span text:style-name="T99"> dalszych pracach nad układem należałoby zoptymalizować algorytm Goertzla, doda</text:span>ć<text:span text:style-name="T99"> do płytki </text:span>dodatkowy interfejs<text:span text:style-name="T99"> np</text:span>.<text:span text:style-name="T99"> </text:span>Ethernet <text:span text:style-name="T99">oraz zaimplementowa</text:span>ć<text:span text:style-name="T99"> </text:span>interfejs <text:span text:style-name="T99">do popularnego programu</text:span> \gls{sdr}, na przykład GNU Radio aby można było zastosować<text:span text:style-name="T99"> popularne oprogramowanie (wspomniane gnu radio) do obslugi sdra z szerokim pasmem (lan 100mbps/1gbps to przyjmowania danych i potem obrabiane na pc, potem implementacja konkretnych algorytmow na fpga - ulatowiona prototypowanie dzieki lan ethernet 1gbps niz symulator)</text:span></text:p>
    <text:h text:style-name="P149" text:outline-level="1">Zawartość płyty</text:h>
    <text:p text:style-name="P215">Praca dyplomowa, wyniki symulacji, kody źródłowe, projekty i skompilowane pliki umieszczono na płycie w następującym porządku:</text:p>
    <text:p text:style-name="P202">\vspace{1em}</text:p>

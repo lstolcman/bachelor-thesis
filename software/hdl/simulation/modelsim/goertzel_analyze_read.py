@@ -44,9 +44,11 @@ start_of_minute = False
 decoded_bits = []
 ones=0
 zeros=0
+
 for num, val in enumerate(test):
 
 	if (start_of_minute):
+		decode_dcf77(decoded_bits)
 		decoded_bits = []
 
 	if (val == 1):

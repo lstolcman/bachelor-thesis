@@ -33,7 +33,7 @@ summer_time = '01'
 leap_second = '0'
 
 #today = datetime.datetime.now()
-today = datetime.datetime(2001, 9, 22, 3, 33)
+today = datetime.datetime(2016, 9, 21, 6, 54)
 
 print(today);print()
 
@@ -55,7 +55,7 @@ day_tens = bin(int(str(today.strftime('%d'))[-2]))[2:].zfill(2)[::-1]
 day_parity = parity(day_ones+day_tens)
 print('day');print(day_ones);print(day_tens);print(day_parity);print()
 
-weekday = bin(int(str(today.strftime('%w'))))[2:].zfill(2)[::-1]
+weekday = bin(int(str(today.strftime('%w'))))[2:].zfill(3)[::-1]
 print('weekday =', today.strftime('%w'));print(weekday);print()
 
 month_ones = bin(int(str(today.strftime('%m'))[-1]))[2:].zfill(4)[::-1]
@@ -127,6 +127,7 @@ dcf77 += date_parity
 
 
 print();print(dcf77)
+print(len(dcf77))
 
 
 

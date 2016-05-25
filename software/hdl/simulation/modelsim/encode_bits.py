@@ -33,8 +33,8 @@ summer_time = '01'
 #leap second: 0 - no leap second, 1 - additional leap second
 leap_second = '0'
 
-today = datetime.datetime.now()
-#today = datetime.datetime(2016, 9, 21, 6, 54)
+#today = datetime.datetime.now()
+today = datetime.datetime(2015, 8, 17, 0, 4)
 #today = datetime.datetime(random.randint(1970,2030), random.randint(1,12), random.randint(1,30), random.randint(1,23), random.randint(1,59))
 
 
@@ -52,34 +52,37 @@ print()
 minute_ones = bin(int(str(today.strftime('%M'))[-1]))[2:].zfill(4)[::-1]
 minute_tens = bin(int(str(today.strftime('%M'))[-2]))[2:].zfill(3)[::-1]
 minute_parity = parity(minute_ones+minute_tens)
-print('minute');print(minute_ones);print(minute_tens);print(minute_parity);print()
-
 
 hour_ones = bin(int(str(today.strftime('%H'))[-1]))[2:].zfill(4)[::-1]
 hour_tens = bin(int(str(today.strftime('%H'))[-2]))[2:].zfill(2)[::-1]
 hour_parity = parity(hour_ones+hour_tens)
-print('hour');print(hour_ones);print(hour_tens);print(hour_parity);print()
 
 day_ones = bin(int(str(today.strftime('%d'))[-1]))[2:].zfill(4)[::-1]
 day_tens = bin(int(str(today.strftime('%d'))[-2]))[2:].zfill(2)[::-1]
 day_parity = parity(day_ones+day_tens)
-print('day');print(day_ones);print(day_tens);print(day_parity);print()
 
 weekday = bin(int(str(today.strftime('%w'))))[2:].zfill(3)[::-1]
-print('weekday =', today.strftime('%w'));print(weekday);print()
 
 month_ones = bin(int(str(today.strftime('%m'))[-1]))[2:].zfill(4)[::-1]
 month_tens = bin(int(str(today.strftime('%m'))[-2]))[2:].zfill(1)[::-1]
 month_parity = parity(month_ones+month_tens)
-print('month');print(month_ones);print(month_tens);print()
 
 year_ones = bin(int(str(today.strftime('%y'))[-1]))[2:].zfill(4)[::-1]
 year_tens = bin(int(str(today.strftime('%y'))[-2]))[2:].zfill(4)[::-1]
 year_parity = parity(year_ones+year_tens)
-print('year');print(year_ones);print(year_tens);print()
 
 date_parity = parity(hour_parity+day_parity+weekday+month_parity+year_parity)
+
+'''
+print('minute');print(minute_ones);print(minute_tens);print(minute_parity);print()
+print('hour');print(hour_ones);print(hour_tens);print(hour_parity);print()
+print('day');print(day_ones);print(day_tens);print(day_parity);print()
+print('weekday =', today.strftime('%w'));print(weekday);print()
+print('month');print(month_ones);print(month_tens);print()
+print('year');print(year_ones);print(year_tens);print()
 print('date_parity');print(date_parity)
+print()
+'''
 
 #####
 
@@ -136,7 +139,7 @@ dcf77 += date_parity
 
 
 
-print();print('dcf77 message bits:');print(dcf77)
+print('dcf77 message bits:');print(dcf77)
 print()
 print('message length:', len(dcf77))
 

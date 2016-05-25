@@ -37,7 +37,7 @@ for step in range(0, len(vals)-250, 250):
 mpl.subplot(2,1,2)
 mpl.margins(0.05)
 mpl.grid()
-mpl.plot(test,'o-')
+mpl.plot(test)
 
 
 start_of_minute = False
@@ -48,7 +48,7 @@ zeros=0
 for num, val in enumerate(test):
 
 	if (start_of_minute):
-		decode_dcf77(decoded_bits)
+		#decode_dcf77(decoded_bits)
 		decoded_bits = []
 
 	if (val == 1):

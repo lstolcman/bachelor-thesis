@@ -1,6 +1,10 @@
 @echo off
 call env.bat
 
+cd tex
+call _clean_all
+cd ..
+
 :: inkscape needed for includesvg
 set PATH=%PATH%;C:\dev\software\inkscape
 

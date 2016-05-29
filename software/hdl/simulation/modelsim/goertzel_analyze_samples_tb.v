@@ -22,7 +22,7 @@ reg [15:0] memory [0:2999999];
 
 initial
 begin
-	$readmemh("sampl_wzn.txt", memory);
+	$readmemh("first_stage_out.txt", memory);
 	i = 0;
 	clock = 0;
 	clock_sample = 0;

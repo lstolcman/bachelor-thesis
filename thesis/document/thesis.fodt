@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2009-04-16T11:32:02.64</meta:creation-date><meta:editing-duration>P9DT10H44M3S</meta:editing-duration><meta:editing-cycles>1335</meta:editing-cycles><meta:generator>LibreOffice/5.1.1.3$Windows_x86 LibreOffice_project/89f508ef3ecebd2cfb8e1def0f0ba9a803b88a6d</meta:generator><dc:date>2016-05-29T18:00:12.180000000</dc:date><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="23" meta:paragraph-count="339" meta:word-count="3836" meta:character-count="35021" meta:non-whitespace-character-count="31156"/><meta:user-defined meta:name="Info 1"/><meta:user-defined meta:name="Info 2"/><meta:user-defined meta:name="Info 3"/><meta:user-defined meta:name="Info 4"/></office:meta>
+ <office:meta><meta:creation-date>2009-04-16T11:32:02.64</meta:creation-date><meta:editing-duration>P9DT10H44M34S</meta:editing-duration><meta:editing-cycles>1336</meta:editing-cycles><meta:generator>LibreOffice/5.1.1.3$Windows_x86 LibreOffice_project/89f508ef3ecebd2cfb8e1def0f0ba9a803b88a6d</meta:generator><dc:date>2016-05-30T21:42:29.543000000</dc:date><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="23" meta:paragraph-count="339" meta:word-count="3836" meta:character-count="35022" meta:non-whitespace-character-count="31157"/><meta:user-defined meta:name="Info 1"/><meta:user-defined meta:name="Info 2"/><meta:user-defined meta:name="Info 3"/><meta:user-defined meta:name="Info 4"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">642408</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">192969</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">33957</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">33958</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">17773</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">12278</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">647626</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">12645</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">199182</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">642408</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">33955</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">660180</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">192969</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">33957</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">210741</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -81,7 +81,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">4493647</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">4597688</config:config-item>
    <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">false</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -1193,147 +1193,139 @@
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="0042f2a5" officeooo:paragraph-rsid="0042f2a5"/>
   </style:style>
-  <style:style style:name="P265" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P266" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:paragraph-rsid="003421c3"/>
-  </style:style>
-  <style:style style:name="P267" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
-  </style:style>
-  <style:style style:name="P268" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-  </style:style>
-  <style:style style:name="P269" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
-  </style:style>
-  <style:style style:name="P270" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b"/>
-  </style:style>
-  <style:style style:name="P271" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
-  </style:style>
-  <style:style style:name="P272" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="003513c9"/>
-  </style:style>
-  <style:style style:name="P273" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
-  </style:style>
-  <style:style style:name="P274" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
-  </style:style>
-  <style:style style:name="P275" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="00346b24"/>
-  </style:style>
-  <style:style style:name="P276" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00381707" officeooo:paragraph-rsid="00381707"/>
-  </style:style>
-  <style:style style:name="P277" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="003afa55" officeooo:paragraph-rsid="00381707"/>
-  </style:style>
-  <style:style style:name="P278" style:family="paragraph" style:parent-style-name="Heading_20_4">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
-  </style:style>
-  <style:style style:name="P279" style:family="paragraph" style:parent-style-name="Text_20_body" style:master-page-name="">
-   <style:paragraph-properties fo:line-height="150%" style:page-number="auto" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="003286cc" officeooo:paragraph-rsid="003286cc"/>
-  </style:style>
-  <style:style style:name="P280" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="003e8d5c" officeooo:paragraph-rsid="0042d646"/>
-  </style:style>
-  <style:style style:name="P281" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P265" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="0044914f" officeooo:paragraph-rsid="0044914f"/>
   </style:style>
-  <style:style style:name="P282" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
-   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="0036b9e7" officeooo:paragraph-rsid="0042d646"/>
-  </style:style>
-  <style:style style:name="P283" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P266" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
-  <style:style style:name="P284" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P267" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:paragraph-rsid="003421c3"/>
   </style:style>
-  <style:style style:name="P285" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P268" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
-  <style:style style:name="P286" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
-  </style:style>
-  <style:style style:name="P287" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
-   <style:text-properties officeooo:paragraph-rsid="003afa55"/>
-  </style:style>
-  <style:style style:name="P288" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
-   <style:text-properties officeooo:rsid="0033a954" officeooo:paragraph-rsid="0033a954"/>
-  </style:style>
-  <style:style style:name="P289" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P269" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
   </style:style>
-  <style:style style:name="P290" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P270" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
   </style:style>
-  <style:style style:name="P291" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P271" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
   </style:style>
-  <style:style style:name="P292" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P272" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="0034658b"/>
   </style:style>
-  <style:style style:name="P293" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P273" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
   </style:style>
-  <style:style style:name="P294" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P274" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="003513c9"/>
   </style:style>
-  <style:style style:name="P295" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="003afa55" officeooo:paragraph-rsid="003afa55"/>
-  </style:style>
-  <style:style style:name="P296" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P275" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
   </style:style>
-  <style:style style:name="P297" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P276" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
   </style:style>
-  <style:style style:name="P298" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P277" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="00346b24"/>
   </style:style>
-  <style:style style:name="P299" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P278" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="00381707" officeooo:paragraph-rsid="00381707"/>
   </style:style>
-  <style:style style:name="P300" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P279" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="003afa55" officeooo:paragraph-rsid="00381707"/>
   </style:style>
-  <style:style style:name="P301" style:family="paragraph" style:parent-style-name="Heading_20_4">
+  <style:style style:name="P280" style:family="paragraph" style:parent-style-name="Heading_20_4">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
+  </style:style>
+  <style:style style:name="P281" style:family="paragraph" style:parent-style-name="Text_20_body" style:master-page-name="">
+   <style:paragraph-properties fo:line-height="150%" style:page-number="auto" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003286cc" officeooo:paragraph-rsid="003286cc"/>
+  </style:style>
+  <style:style style:name="P282" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P283" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:paragraph-rsid="003421c3"/>
+  </style:style>
+  <style:style style:name="P284" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
+  </style:style>
+  <style:style style:name="P285" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
+   <style:text-properties officeooo:paragraph-rsid="003afa55"/>
+  </style:style>
+  <style:style style:name="P286" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:line-height="150%" fo:break-before="page" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0033a954" officeooo:paragraph-rsid="0033a954"/>
+  </style:style>
+  <style:style style:name="P287" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties fo:language="pl" fo:country="PL" officeooo:rsid="001a80dd" officeooo:paragraph-rsid="001a80dd"/>
+  </style:style>
+  <style:style style:name="P288" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+  </style:style>
+  <style:style style:name="P289" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
+  </style:style>
+  <style:style style:name="P290" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b"/>
+  </style:style>
+  <style:style style:name="P291" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
+  </style:style>
+  <style:style style:name="P292" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003513c9" officeooo:paragraph-rsid="003513c9"/>
+  </style:style>
+  <style:style style:name="P293" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="003afa55" officeooo:paragraph-rsid="003afa55"/>
+  </style:style>
+  <style:style style:name="P294" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
+  </style:style>
+  <style:style style:name="P295" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="0034658b" officeooo:paragraph-rsid="0034658b"/>
+  </style:style>
+  <style:style style:name="P296" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00346b24" officeooo:paragraph-rsid="00346b24"/>
+  </style:style>
+  <style:style style:name="P297" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="00381707" officeooo:paragraph-rsid="00381707"/>
+  </style:style>
+  <style:style style:name="P298" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
+   <style:text-properties officeooo:rsid="003afa55" officeooo:paragraph-rsid="00381707"/>
+  </style:style>
+  <style:style style:name="P299" style:family="paragraph" style:parent-style-name="Heading_20_4">
    <style:paragraph-properties fo:line-height="150%" style:shadow="none"/>
    <style:text-properties officeooo:rsid="00341938" officeooo:paragraph-rsid="00341938"/>
   </style:style>
@@ -1700,6 +1692,9 @@
   <style:style style:name="T121" style:family="text">
    <style:text-properties officeooo:rsid="0042f2a5"/>
   </style:style>
+  <style:style style:name="T122" style:family="text">
+   <style:text-properties officeooo:rsid="004627b8"/>
+  </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:footnote-max-height="0cm">
     <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="none" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
@@ -1720,13 +1715,13 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
    </text:sequence-decls>
-   <text:p text:style-name="P279">\frontmatter</text:p>
+   <text:p text:style-name="P281">\frontmatter</text:p>
    <text:p text:style-name="P170">\setcounter{page}{<text:span text:style-name="T105">5</text:span>}</text:p>
-   <text:h text:style-name="P265" text:outline-level="1">Wstęp</text:h>
+   <text:h text:style-name="P266" text:outline-level="1">Wstęp</text:h>
    <text:p text:style-name="P171">Przez ostatnie lata można zaobserwować gwałtowny rozwój usług mobilnego dostępu do danych. Wciąż zwiększana przepustowość oraz jednoczesna ilość obsługiwanych użytkowników wymaga za<text:span text:style-name="T112">stosowania </text:span>odpowiednich metod technicznych w celu ich prawidłowej realizacji.</text:p>
    <text:p text:style-name="P172">Cegiełką, która jest podstawą w budowie tych systemów jest prezentowana w niniejszej pracy <text:span text:style-name="T68">technologia</text:span> programowalnego radia cyfrowego<text:span text:style-name="T112">, o</text:span>becna na rynku<text:span text:style-name="T98"> cywilnym</text:span> od początków lat 90. XX wieku (na przykład w formie telefonii \gls{gsm}), a przez wojsko używana już dwie dekady wcześniej. Jej zastosowanie znacząco upraszcza projektowanie systemów radiowych a także umożliwia znaczące obniżenie kosztów poprzez przeniesienie większości przetwarzania sygnału <text:span text:style-name="T96">z obszaru analogowego --- sprzętowego, do cyfrowego --- oprogramowania. </text:span>Rezultatem jest <text:span text:style-name="T96">znaczne przyspieszenie prac inżynierskich nad projektem, łatwość poprawianie błędów (nawet na wyprodukowanym już urządzeniu) a także</text:span> zmniejszenie rozmiarów wynikowego \gls{pcb}. Z drugiej strony <text:span text:style-name="T96">takie podejście do problemu</text:span> wymaga dużych nakładów obliczeniowych czyli szybkich procesorów, lecz wraz z rozwojem <text:span text:style-name="T111">coraz bardziej </text:span>zaawansowanych technik półprzewodnikowych stało się to możliwe. Przykładem były telefony firmy Nokia, np. model 5110<text:span text:style-name="T98"> </text:span>wydany w roku 1998<text:span text:style-name="T98"> --- z</text:span>awierał układ \gls{asic} (zintegrowany procesor \gls{arm} z układem \gls{dsp})<text:span text:style-name="T111">, odpowiadający za przetwarzanie danych.</text:span></text:p>
    <text:p text:style-name="P227"><text:span text:style-name="T38">Obecnie, za sprawą takich projektów jak np. </text:span><text:span text:style-name="T43">USRP</text:span><text:span text:style-name="T58">\cite{usrp}</text:span><text:span text:style-name="T38"> </text:span><text:span text:style-name="T39">czy HackRF</text:span><text:span text:style-name="T58">\cite{hackrf}</text:span><text:span text:style-name="T39"> znacznie zwiększyła się popularność </text:span><text:span text:style-name="T56">techniki \gls{sdr}</text:span><text:span text:style-name="T39"> i właściwie każdy może mieć</text:span><text:span text:style-name="T56"> do niej</text:span><text:span text:style-name="T39"> </text:span><text:span text:style-name="T38">łatwy dostęp. Mnogość projektów</text:span><text:span text:style-name="T58">\cite{sdrlist</text:span><text:span text:style-name="T38">} pozwala na</text:span><text:span text:style-name="T55"> wybraniu i </text:span><text:span text:style-name="T38">dostosowanie sprzętu do własnych potrzeb.</text:span></text:p>
-   <text:h text:style-name="P267" text:outline-level="2">Cel i zakres pracy</text:h>
+   <text:h text:style-name="P269" text:outline-level="2">Cel i zakres pracy</text:h>
    <text:p text:style-name="P222"><text:span text:style-name="T30">Tematem obejmującym niniejszą pracę dyplomową jest analiza zagadnienia radia programowalnego</text:span><text:span text:style-name="T44">, projekt sprzętu</text:span><text:span text:style-name="T30"> oraz symulacja prototypu cyfrowego systemu odbioru i dekodowania transmisji radiowej wzorca czasu \gls{dcf77}</text:span><text:span text:style-name="T24">. System odbiorczy powinien być zdolny do odebrania sygnału radiowego oraz takiego jego przetworzenia, aby możliwe było odczytanie nadawanego komunikatu.</text:span></text:p>
    <text:p text:style-name="P173">Zakres pracy obejmuje następujące podmoduły:</text:p>
    <text:p text:style-name="P228">\begin{addmargin}[.5em]{0em}</text:p>
@@ -1758,9 +1753,9 @@
    <text:p text:style-name="P175">\end{itemize}</text:p>
    <text:p text:style-name="P175">\end{addmargin}</text:p>
    <text:p text:style-name="P150">\mainmatter</text:p>
-   <text:h text:style-name="P266" text:outline-level="1">Software Defined Radio</text:h>
+   <text:h text:style-name="P267" text:outline-level="1">Software Defined Radio</text:h>
    <text:p text:style-name="P183">Rozwój technologii produkcji układów scalonych wielkiej skali integracji umożliwił rozpoczęcie innowacyjnych projektów. Jednym z nich z pewnością można nazwać ideę radia programowalnego. <text:span text:style-name="T69">Realizacja praktyczna rozpoczęła się w latach 80. XX wieku\cite{john85sdr}. Dziesięć lat później pojęcie to zostało opisane teoretycznie\cite{mitola92sr}. Realizacja praktyczna była możliwa dzięki wykorzystaniu procesora \gls{dsp} TMS320 firmy Texas Instruments. Dzisiaj każdy zainteresowany może korzystać z tej technologii.</text:span></text:p>
-   <text:h text:style-name="P268" text:outline-level="2">Teoria</text:h>
+   <text:h text:style-name="P270" text:outline-level="2">Teoria</text:h>
    <text:p text:style-name="P184"><text:span text:style-name="T69">Rysunek \ref{fig:sdrGeneral} przedstawia typowy sposób działania radia </text:span>programowalnego.</text:p>
    <text:p text:style-name="P189">\begin{figure}<text:span text:style-name="T84">[ht!]</text:span></text:p>
    <text:p text:style-name="P184"><text:s text:c="4"/>\centering</text:p>
@@ -1783,10 +1778,10 @@
    <text:p text:style-name="P198"><text:tab/>\caption<text:span text:style-name="T95">[Zasięg sygnału DCF77]</text:span>{<text:span text:style-name="T95">Zasięg sygnału DCF77 (źródło:\cite{bauch09dcf})</text:span>}</text:p>
    <text:p text:style-name="P224"><text:span text:style-name="T36"><text:tab/>\label{fig:dcf</text:span><text:span text:style-name="T37">Range</text:span><text:span text:style-name="T36">}</text:span></text:p>
    <text:p text:style-name="P197">\end{figure}</text:p>
-   <text:h text:style-name="P268" text:outline-level="2"><text:span text:style-name="T81">S</text:span>ygnał<text:span text:style-name="T117"> i jego właściwości</text:span></text:h>
+   <text:h text:style-name="P270" text:outline-level="2"><text:span text:style-name="T81">S</text:span>ygnał<text:span text:style-name="T117"> i jego właściwości</text:span></text:h>
    <text:p text:style-name="P200">Częstotliwość nośna sygnału wynosi 77,5<text:span text:style-name="T106"> </text:span>kHz jest modulowana amplitudowo z sekundowymi znacznikami. Z początkiem każdej sekundy amplituda jest redukowana na czas 0,1<text:span text:style-name="T112">~s</text:span> lub 0,2<text:span text:style-name="T112">~</text:span>s --- z wyjątkiem ostatniej sekundy każdej minuty, co jest identyfikatorem początku kolejnej minuty<text:span text:style-name="T106"> (rys. \ref{fig:dcf77minutemark})</text:span>.</text:p>
    <text:p text:style-name="P200">Z początkiem każdej sekundy amplituda sygnału jest zmniejszana do 15% na 0,1<text:span text:style-name="T112">~</text:span>s lub 0,2<text:span text:style-name="T112">~</text:span>s\cite{bauch09dcf}<text:span text:style-name="T107">.</text:span></text:p>
-   <text:h text:style-name="P268" text:outline-level="2">Kodowanie<text:span text:style-name="T118"> nadawanego komunikatu</text:span></text:h>
+   <text:h text:style-name="P270" text:outline-level="2">Kodowanie<text:span text:style-name="T118"> nadawanego komunikatu</text:span></text:h>
    <text:p text:style-name="P200">Każda zmiana amplitudy oznacza wartość w systemie binarnym, brany jest pod uwagę czas tej <text:soft-page-break/>zmiany. I tak --- zmiana na okres 0,1~s uważana jest za binarne zero a 0,2~<text:span text:style-name="T112">s</text:span> --- binarną jedynkę. Co każdą minutę transmitowane są sygnały minuty, godziny, dnia, miesiąca i roku w systemie \gls{bcd} --- czas jest nadawany dla nadchodzącej minuty. Całą zawartość komunikatu ilustruje rysunek \ref{fig:dcf77clk}, w którym przedstawiono nadawane bity w formie <text:span text:style-name="T98">tarczy zegarowej</text:span>. </text:p>
    <text:p text:style-name="P197">\begin{figure}</text:p>
    <text:p text:style-name="P197"><text:tab/>\centering</text:p>
@@ -1797,7 +1792,7 @@
    <text:p text:style-name="P201">Komunikat, tak jak wspomniano powyżej, jest podzielony na kilka <text:span text:style-name="T95">grup, co bardziej szczegółowo przedstawia tabela</text:span> \ref{tab:dcf77sig}. <text:span text:style-name="T95">Początek nowego komunikatu jest oznaczony przez brak modulacji (rys. \ref{fig:dcf77envelope}).</text:span></text:p>
    <text:p text:style-name="P202"><text:span text:style-name="T95">Ciekawą informacją dodatkową w sygnale jest komunikat </text:span><text:span text:style-name="T78">Meteotime</text:span><text:span text:style-name="T95">. Jest to informacja pogodowa dla ponad osiemdziesięciu obszarów Europy. Dla Polski wybrano 3 obszary, które jednak nie obejmują całości kraju. </text:span></text:p>
    <text:p text:style-name="P201">\begin{table}</text:p>
-   <text:p text:style-name="P203"><text:tab/>\input{../tab.dcf77}</text:p>
+   <text:p text:style-name="P203"><text:tab/>\input{<text:span text:style-name="T122">src/</text:span>tab.dcf77}</text:p>
    <text:p text:style-name="P201"><text:tab/>\caption{<text:span text:style-name="T95">Poszczególne bity sygnału DCF77</text:span>} </text:p>
    <text:p text:style-name="P201"><text:tab/>\label{tab:dcf77sig} </text:p>
    <text:p text:style-name="P201">\end{table}</text:p>
@@ -1822,8 +1817,8 @@
    <text:p text:style-name="P191"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T84">architectureHw</text:span>}</text:p>
    <text:p text:style-name="P211">\end{figure}</text:p>
    <text:p text:style-name="P259">Sekcja sprzętowa<text:span text:style-name="T120"> (rys. \ref{f</text:span><text:span text:style-name="T59">ig:</text:span><text:span text:style-name="T42">architectureHw</text:span><text:span text:style-name="T59">}</text:span><text:span text:style-name="T120">)</text:span> składa się z dwóch modułów:<text:span text:style-name="T120"> z </text:span>płytki drukowanej zaprojektowanej przez autora<text:span text:style-name="T120">, </text:span>będącej częścią wstępną pobierania danych (front-end) <text:span text:style-name="T120">oraz </text:span>z modułu prototypowego \gls{fpga} firmy Terasic <text:span text:style-name="T120">(po prawej)</text:span>.</text:p>
-   <text:h text:style-name="P269" text:outline-level="2">Moduły sprzętowe</text:h>
-   <text:h text:style-name="P273" text:outline-level="3">Płytka bazowa <text:span text:style-name="T116">FPGA</text:span></text:h>
+   <text:h text:style-name="P271" text:outline-level="2">Moduły sprzętowe</text:h>
+   <text:h text:style-name="P275" text:outline-level="3">Płytka bazowa <text:span text:style-name="T116">FPGA</text:span></text:h>
    <text:p text:style-name="P228">Projekt jest zbudowany na podstawie, i jako płytki bazowej używa zestaw startowy <text:span text:style-name="T76">Terasic DE0-Nano</text:span><text:span text:style-name="T117">\cite{terde0page}.</text:span></text:p>
    <text:p text:style-name="P184">\begin{figure}<text:span text:style-name="T84">[!htb]</text:span></text:p>
    <text:p text:style-name="P184"><text:s text:c="4"/>\centering</text:p>
@@ -1832,7 +1827,7 @@
    <text:p text:style-name="P184"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T98">de0-nano-overview</text:span>}</text:p>
    <text:p text:style-name="P204">\end{figure}</text:p>
    <text:p text:style-name="P229">Moduł zawiera ponad 22 tysiące programowalnych elementów logicznych, 500 kilobajtów wbudowanej pamięci, 66 układów mnożenia, 4 generatory częstotliwości PLL oraz 72 porty wejścia/wyjścia zgrupowane w dwa gniazda typu 2x40 pin (rys. \ref{fig:de0-nano-overview}). Dodatkowo (co nie jest używane w tym przypadku) posiada także 8 diod LED, 32 megabajty pamięci dynamicznej typu SDRAM, akcelerometr i przetwornik analogowo-cyfrowy o szybkości próbkowania 50<text:span text:style-name="T106"> </text:span>ksps\cite<text:span text:style-name="T105">{ter12de0man}.</text:span></text:p>
-   <text:h text:style-name="P273" text:outline-level="3"><text:soft-page-break/>Schemat ideowy</text:h>
+   <text:h text:style-name="P275" text:outline-level="3"><text:soft-page-break/>Schemat ideowy</text:h>
    <text:p text:style-name="P263">\begin{figure}</text:p>
    <text:p text:style-name="P263">\centering</text:p>
    <text:p text:style-name="P263">\subfloat[Zasilanie]{\includegraphics[keepaspectratio,width=1.0\textwidth]{<text:span text:style-name="T22">../</text:span><text:span text:style-name="T42">images/</text:span><text:span text:style-name="T22">s</text:span><text:span text:style-name="T60">ch</text:span><text:span text:style-name="T22">Psu</text:span>}}</text:p>
@@ -1845,9 +1840,9 @@
    <text:p text:style-name="P263">\label{fig:schematic}</text:p>
    <text:p text:style-name="P263">\end{figure}</text:p>
    <text:p text:style-name="P260">Schemat ideowy <text:span text:style-name="T120">autorskiego modułu (rys. \ref{fig:schematic}) </text:span>był projektowany w metodologii analizy zstępującej (od ogółu do szczegółu, top-down). Wpierw wyróżniono trzy główne elementy, tj. zasilanie, wejście sygnału radiowego oraz jego przetwarzanie<text:span text:style-name="T121"> (rys. \ref{fig:architectureHw})</text:span>. W następnym kroku uszczegóławiano je.<text:span text:style-name="T120"> </text:span>Wyróżnione moduły zostały opisane poniżej.</text:p>
-   <text:h text:style-name="P278" text:outline-level="4">Sekcja zasilania</text:h>
+   <text:h text:style-name="P280" text:outline-level="4">Sekcja zasilania</text:h>
    <text:p text:style-name="P264">Blok zasilający układy scalone przedwzmacniacza oraz przetwornika \gls{adc}. <text:span text:style-name="T98">Założeniem była uniwersalność zasilania. W tym celu zastosowano zasilanie dwustopniowe: w pierwszym stopniu wejściowe napięcie z zakresu od 6 do 20 V zostaje przetworzone przez liniowy regulator o niskim spadku napięcia do wartości 5 V. Następnie to napięcie zostaje skierowane do kolejnego liniowego regulatora o niskim spadku napięcia; tutaj napięcie wyjściowe to 3,3 V. Wszystkie układy są filtrowane kondensatorami odsprzęgającymi</text:span><text:span text:style-name="T35">\cite{</text:span><text:span text:style-name="T52">int11bypass</text:span><text:span text:style-name="T58">,</text:span><text:span text:style-name="T52">mur10noisesup}</text:span><text:span text:style-name="T53">,</text:span><text:span text:style-name="T98"> dodatkowo zielona dioda LED wskazuje na stan modułu.</text:span></text:p>
-   <text:h text:style-name="P278" text:outline-level="4">Sekcja formowania sygnału radiowego</text:h>
+   <text:h text:style-name="P280" text:outline-level="4">Sekcja formowania sygnału radiowego</text:h>
    <text:p text:style-name="P263">W tej sekcji znajdują się elementy pośredniczące pomiędzy anteną a \gls{adc}. W literaturze ten blok nazywany jest ,,Analog front-end&apos;&apos; (AFE) lub ,,RF front-end&apos;&apos;. Jest odpowiedzialny za wstępne <text:soft-page-break/>przygotowanie sygnału <text:span text:style-name="T121">i jest krytycznym elementem z tego względu, gdyż wszelkie dalsze przetwarzanie sygnału jest wykonywane na drodze cyfrowej.</text:span></text:p>
    <text:p text:style-name="P234">Sygnał radiowy jest wprowadzany do układu poprzez złącze \gls{bnc}. Następnie sygnał prowadzony jest poprzez układ chroniący przed przepięciem<text:span text:style-name="T105">\cite{sky08pin,sky11rfdiode}</text:span> (rys. \ref<text:span text:style-name="T22">{fig:</text:span><text:span text:style-name="T42">overvoltage</text:span><text:span text:style-name="T22">}</text:span>), do zaprojektowanego filtru <text:span text:style-name="T105">(rys. \ref{fig:filter}).</text:span></text:p>
    <text:p text:style-name="P192">\begin{figure}<text:span text:style-name="T84">[!htb]</text:span></text:p>
@@ -1876,9 +1871,9 @@
    <text:p text:style-name="P241"><text:s text:c="4"/>\label{fig:qucs-filter-curve}</text:p>
    <text:p text:style-name="P241">\end{figure}</text:p>
    <text:p text:style-name="P233">Po filtracji, sygnał jest kierowany do symetryzatora, który zamienia sygnał niesymetryczny na symetryczny a następnie do przedwzmacniacza LTC6405 zasilanego napięciem 5 V.<text:span text:style-name="T121">\FloatBarrier</text:span></text:p>
-   <text:h text:style-name="P278" text:outline-level="4">Sekcja cyfrowa</text:h>
+   <text:h text:style-name="P280" text:outline-level="4">Sekcja cyfrowa</text:h>
    <text:p text:style-name="P229">W tej części sygnał jest wstępnie przetworzony przez sekcję formowania sygnału radiowego i dopasowany do układu przetwornika analogowo-cyfrowego LTC2208. Następnie sygnał jest próbkowany przez przetwornik i z drugiej strony może być odebrany przez moduł prototypowy \gls{fpga}. Dodatkowo, w tej sekcji istnieją też dodatkowe elementy takie jak zworka wyboru trybu działania \gls{adc} oraz układ SY100EPT22 który odpowiada za przetwarzanie z poziomu napięć TTL na sygnał różnicowy, odpowiedni do taktowania przetwornika<text:span text:style-name="T105">\cite{vec14sigtypes}.</text:span> Ostatecznie, sygnał cyfrowy przesyłany jest <text:s/>szesnastoma liniami danych i poprzez złącze krawędziowe może być pobrane przez docelowy układ (tutaj -- moduł \gls{fpga}).</text:p>
-   <text:h text:style-name="P273" text:outline-level="3">Płytka drukowana</text:h>
+   <text:h text:style-name="P275" text:outline-level="3">Płytka drukowana</text:h>
    <text:p text:style-name="P235"><text:span text:style-name="T118">Jak wspomniano wcześniej, schemat ideowy został podzielony na logiczne części. Z tego wynikł schemat p</text:span>rojektu prototypu płytki drukowanej <text:span text:style-name="T118">oraz jego podział, również </text:span>na trzy części<text:span text:style-name="T112">. Na rys. \ref{fig:pcb-physical} zaznaczono je następująco</text:span>: sekcja zasilania<text:span text:style-name="T112"> -- niebieski</text:span>, sekcja wejścia sygnału radiowego<text:span text:style-name="T112"> -- żółty</text:span> o<text:span text:style-name="T112">raz</text:span> sekcja cyfrowa<text:span text:style-name="T112"> -- czerwony</text:span>.</text:p>
    <text:p text:style-name="P230">Schemat ideowy został zastosowany do zaprojektowania płytki drukowanej (rys. <text:span text:style-name="T110">\ref{</text:span><text:span text:style-name="T54">fig:</text:span><text:span text:style-name="T42">pcb</text:span><text:span text:style-name="T110">}) a następnie do jej fizycznego wykonania oraz zmontowania (rys. \ref{</text:span><text:span text:style-name="T54">fig:</text:span><text:span text:style-name="T42">pcb</text:span><text:span text:style-name="T54">-physical}</text:span>).</text:p>
    <text:p text:style-name="P185">\begin{figure}<text:span text:style-name="T84">[!htb]</text:span></text:p>
@@ -1903,7 +1898,7 @@
    <text:p text:style-name="P236">\end{addmargin}</text:p>
    <text:p text:style-name="P237"><text:span text:style-name="T107">P</text:span>rojekt został wykonany w zewnętrznej firmie<text:span text:style-name="T117">\cite{elecrow}.</text:span> Tak więc możliwe było <text:s/>uzyskanie wysokiej jakości oraz dokładności połączeń przez co montaż powierzchniowy był możliwy do zrealizowania.<text:span text:style-name="T107"> </text:span>Przylutowanie elementów o bardzo małym rastrze oraz takich, które wymagały zaawansowanych narzędzi, zlecono zewnętrznej firmie. Pozostałe elementy zostały zlutowane przez autora<text:span text:style-name="T107">. </text:span>Wynikowa wersja modułu została zaprojektowana z myślą o efektywnym oraz logicznym rozkładzie komponentów wraz z zasadami projektowania\cite{ott01pcb}<text:span text:style-name="T107">.</text:span></text:p>
    <text:h text:style-name="P152" text:outline-level="1">Oprogramowanie<text:span text:style-name="T98"> -- moduły, algorytmy</text:span></text:h>
-   <text:h text:style-name="P270" text:outline-level="2">Architektura<text:span text:style-name="T117"> programowa</text:span></text:h>
+   <text:h text:style-name="P272" text:outline-level="2">Architektura<text:span text:style-name="T117"> programowa</text:span></text:h>
    <text:p text:style-name="P213">\begin{figure}<text:span text:style-name="T84">[!htb]</text:span></text:p>
    <text:p text:style-name="P186"><text:s text:c="4"/>\centering</text:p>
    <text:p text:style-name="P189"><text:s text:c="4"/>\include<text:span text:style-name="T84">graphics</text:span>[<text:span text:style-name="T84">w</text:span>idth=<text:span text:style-name="T84">0.9</text:span>\textwidth<text:span text:style-name="T116">,keepaspectratio</text:span>]{../<text:span text:style-name="T84">images/swModules}</text:span></text:p>
@@ -1924,7 +1919,7 @@
    <text:p text:style-name="P236"><text:span text:style-name="T88">\item{</text:span><text:span text:style-name="T99">uart</text:span><text:span text:style-name="T88"> -- moduł </text:span><text:span text:style-name="T93">RS</text:span><text:span text:style-name="T88">232 -- część odpowiedzialna za przesyłanie obliczonych wyników do komputera \gls{pc}}</text:span></text:p>
    <text:p text:style-name="P229">\end{itemize}</text:p>
    <text:p text:style-name="P174">\end{addmargin}</text:p>
-   <text:h text:style-name="P271" text:outline-level="2">Moduły</text:h>
+   <text:h text:style-name="P273" text:outline-level="2">Moduły</text:h>
    <text:p text:style-name="P236">Przestawione w poprzedniej sekcji wybrane moduły zostaną teraz szczegółowiej opisane --- są to moduły zarządzania zegarem, filtrujące, moduł algorytmu Goertzela oraz moduł <text:span text:style-name="T117">RS232</text:span>. </text:p>
    <text:p text:style-name="P215">\begin{figure}<text:span text:style-name="T84">[!htb]</text:span></text:p>
    <text:p text:style-name="P186"><text:s text:c="4"/>\centering</text:p>
@@ -1932,11 +1927,11 @@
    <text:p text:style-name="P186"><text:s text:c="4"/>\caption<text:span text:style-name="T84">{Katalog bloków IP w programie Quartus}</text:span></text:p>
    <text:p text:style-name="P186"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T105">quartus-ip-catalog</text:span>}</text:p>
    <text:p text:style-name="P206">\end{figure}</text:p>
-   <text:h text:style-name="P274" text:outline-level="3">PLL</text:h>
+   <text:h text:style-name="P276" text:outline-level="3">PLL</text:h>
    <text:p text:style-name="P236">Moduł, który jest udostępniany przez firmę Altera do swoich produktów w postaci &quot;IP Core&apos;a&quot; --- fragmentu kodu, który został napisany przez firmę Altera i jest udostępniany innym programistom. W środowisku Quartus Prime moduły IP można znaleźć w zakładce &quot;IP Catalog&quot; (rys. \ref{fig:quartus-ip-catalog}).</text:p>
    <text:p text:style-name="P242">Konfiguracja modułu \gls{pll} rozpoczyna się od znalezienia pozycji &quot;ALTPLL&quot; w katalogu IP. Podstawowa konfiguracja zakłada wpisanie częstotliwości wejściowej zegara oraz zdefiniowanie częstotliwości wyjściowej. Kreator przy tym przekazuje nam odpowiedni komunikat dotyczący tego, czy zadane wartości są prawidłowe i moduł będzie mógł być prawidłowo zaimplementowany w strukturze \gls{fpga}. W podsumowaniu wybieramy pliki utworzone przez kreator, które będą użyte przy syntezie i ewentualnej symulacji\cite{alt14pllug<text:span text:style-name="T117">,</text:span>alt16int2ip}<text:span text:style-name="T107">.</text:span></text:p>
    <text:p text:style-name="P213">W pracy dyplomowej tej funkcji użyto w modułach &quot;pll_board&quot; oraz &quot;pll_uart&quot;. Pierwszy z nich służy do wygenerowania częstotliwości 130 MHz taktującej układ przetwornika analogowo-<text:soft-page-break/>cyfrowego, drugi --- do użycia przez moduł obsługi portu szeregowego&quot;uart&quot;.</text:p>
-   <text:h text:style-name="P274" text:outline-level="3">FIR</text:h>
+   <text:h text:style-name="P276" text:outline-level="3">FIR</text:h>
    <text:p text:style-name="P236">Moduł również udostępniany przez firmę Altera w postaci IP Core pod nazwą &quot;FIR II&quot;. Moduł daje dużo większe możliwości konfiguracyjne aniżeli &quot;PLL&quot;. Można skonfigurować wiele zmiennych, między innymi prędkość zegara, wielkość magistrali wejścia i wyjścia. Zakładka &quot;Coefficients&quot; pozwala na wprowadzenie współczynników filtra oraz wygenerowanie wykresu (rys. \ref{fig:quartus-fir-<text:span text:style-name="T22">coefficients}</text:span>).</text:p>
    <text:p text:style-name="P215">\begin{figure}<text:span text:style-name="T84">[!htb]</text:span></text:p>
    <text:p text:style-name="P186"><text:s text:c="4"/>\centering</text:p>
@@ -1974,7 +1969,7 @@
    <text:p text:style-name="P104"><text:s text:c="4"/>\label{fig:cic-schematic}</text:p>
    <text:p text:style-name="P105">\end{figure}</text:p>
    <text:p text:style-name="P108">\FloatBarrier</text:p>
-   <text:h text:style-name="P275" text:outline-level="3">Goertzel</text:h>
+   <text:h text:style-name="P277" text:outline-level="3">Goertzel</text:h>
    <text:p text:style-name="P245">Algorytm Goertzla pozwala na wykrywanie częstotliwości<text:span text:style-name="T117">,</text:span> podobnie jak transformata Fouriera. Jednak zbiór wartości funkcji ogranicza się do jednej, pojedynczej częstotliwości a nie jak w <text:s/>przypadku transformaty Fouriera, do widma. Z tego powodu, jest bardziej korzystne obliczeniowo korzystać z tego algorytmu podczas wykrywania pojedynczej częstotliwości<text:span text:style-name="T117">\cite{embgoertzel}</text:span>. Najczęściej stosowana aplikacja to dekodowanie \gls{dtmf}. </text:p>
    <text:p text:style-name="P243">Podstawowa wersja algorytmu zwraca część rzeczywistą i urojoną sygnału, tak jak transformata Fouriera. Możliwe jest więc obliczenie zarówno siły jak i fazy sygnału.<text:span text:style-name="T107"> Tutaj zastosowano jednak </text:span><text:soft-page-break/><text:span text:style-name="T107">uproszczone (zoptymalizowane) obliczanie siły sygnału. Tracimy przy tym informacje o fazie, lecz nie jest ona potrzebna w tym przypadku.</text:span></text:p>
    <text:p text:style-name="P243">Kod źródłowy algorytm<text:span text:style-name="T107">u</text:span> Goetzela w języku Python ma się następująco:</text:p>
@@ -1990,14 +1985,14 @@
    <text:p text:style-name="P248">Kod \ref{lst:loop} modeluje automat sekwencyjny i jest podzielony na dwa bloki. W pierwszym bloku (do linii nr 15) następuje inkrementacja licznika. Jeśli rozpoczęło się obliczanie nowego bloku (linia 10), to resetujemy zmienne <text:span text:style-name="T76">q0</text:span>, <text:span text:style-name="T76">q1</text:span>, <text:span text:style-name="T76">q2</text:span>. Drugi blok --- instrukcja <text:span text:style-name="T76">case</text:span> --- modeluje układ kombinacyjny, w którym ma miejsce reagowanie na zmiany wartości licznika. Działanie to ma na celu poprawne obliczenie wartości <text:span text:style-name="T76">q0</text:span>, gdyż zdecydowano się na realizowanie obliczeń zmiennoprzecinkowych i wykorzystanie do tego celu modułów IP Core firmy Altera, dla których czas wykonania obliczeń to w najgorszym przypadku 7 cykli zegara<text:span text:style-name="T117">\cite</text:span>{alt15fpug}.<text:span text:style-name="T116"> Wykres \ref{fig:sim-goertzel-loop} przedstawia wyniki symulacji modułu \ref{lst:loop}, wykres <text:s/>\ref{fig:sim-goertzel-result} --- modułu \ref{lst:result}.</text:span></text:p>
    <text:p text:style-name="P246">Kolejny kod z listingu \ref{lst:result} modeluje automat obliczający wartość wyniku i działa <text:soft-page-break/>analogicznie do kodu z listingu \ref{lst:loop}. </text:p>
    <text:p text:style-name="P244">\input{src/<text:span text:style-name="T107">result</text:span>}</text:p>
-   <text:h text:style-name="P276" text:outline-level="3">UART</text:h>
+   <text:h text:style-name="P278" text:outline-level="3">UART</text:h>
    <text:p text:style-name="P253">Moduł odpowiedzialny za przesyłanie danych z płytki \gls{fpga} do komputera protokołem RS232. Jest interfejsem pomiędzy płytką a komputerem. Ze względu na brak obecności jakiegokolwiek interfejsu w module prototypowym wybrano ten standard jako najprostszy w implementacji.</text:p>
    <text:p text:style-name="P253">Komunikacja w tym standardzie niesie ze sobą wiele niedogodności, jedną z których jest mała prędkość przesyłu. W tej aplikacji wynosi ona 115,2 kB/s i jest standardową dla RS232. Kolejną niedogodnością jest przestarzałość standardu; konieczne jest stosowanie przejściówek oraz dodatkowych układów pośredniczących. Obecnie, najlepszym interfejsem w pośredniczeniu pomiędzy komputerem a modułem \gls{fpga} jest zastosowanie Ethernetu. To rozwiązanie zapewnia wymaganą prędkość przesyłu danych oraz rozwiązuje problem dostępności elementów przez swoją wszechobecność oraz popularność.</text:p>
    <text:p text:style-name="P253">Zaprogramowany moduł jest prostą maszyną stanów reagującą na asynchroniczny sygnał obecności danych, który aktywuje synchroniczną maszynę stanów, działającą w takt zegara 115,2 kHz. Po przesłaniu wszystkich bitów danego bajtu maszyna stanów przechodzi w stan bezczynności, zwalnia sygnał zajętości i oczekuje na następne dane.</text:p>
-   <text:h text:style-name="P277" text:outline-level="3">Aplikacja PC</text:h>
+   <text:h text:style-name="P279" text:outline-level="3">Aplikacja PC</text:h>
    <text:p text:style-name="P250">Program napisany w języku Python odpowiada za przetworzenie danych przesłanych z modułu \gls{fpga} do komputera. Wynikiem są poszczególne bity sygnału oraz zdekodowany z nich czas.</text:p>
    <text:p text:style-name="P250">Algorytm działania polega na, po pierwsze, znalezieniu znacznika nowej minuty (co jest sygnalizowane długim impulsem w stanie wysokim) a następnie dekodowaniu bitów aż do następnego znacznika nowej minuty. Decyzja czy bit jest jedynką czy zerem jest ustalana na podstawie długości stanu niskiego, tak jak zostało to przedstawione teoretycznie w rozdziale \ref{sec:dcf77}.</text:p>
-   <text:h text:style-name="P272" text:outline-level="2">Symulacja</text:h>
+   <text:h text:style-name="P274" text:outline-level="2">Symulacja</text:h>
    <text:p text:style-name="P246">Dla sprawdzenia poprawności działania, wszystkie moduły zostały symulowane i testowane w symulatorze Modelsim Altera Edition, wersja 10.4d. Ta wersja symulatora jest ulepszona względem poprzednich i zawiera możliwość symulowania projektów mieszanych (Mixed-language, mixed-HDL simulation), tzn. zbudowanych jednocześnie z kodu Verilog i VHDL. Było to niezmiernie <text:soft-page-break/>użyteczne przy symulacji modułów filtra \gls{fir}, gdzie wytworzony przez kreator IP kod jest właśnie kodem mieszanym.</text:p>
    <text:p text:style-name="P247">Symulacja polegała na napisaniu skryptów (.do files) w języku TCL<text:span text:style-name="T109">, je</text:span>dnostek testowych (testebench) w języku Verilog<text:span text:style-name="T109"> oraz skryptu w języku Python</text:span>. Skrypty symulacyjne zostały rozdzielone<text:span text:style-name="T109"> na </text:span>moduły. Jest to podyktowane złożonością projektu oraz długim czasem symulacji w sytuacji symulacji całego projektu. Zamiast tego stosowano wspomniany podział na moduły --- każda jednostka testowa czyta plik wejściowy, przetwarza zawarte w nim dane oraz zapisuje te dane do pliku wyjściowego. Następnie plik wyjściowy trafia jako wejście do kolejnego modułu i algorytm się powtarza.</text:p>
    <text:p text:style-name="P262">Sama procedura <text:span text:style-name="T120">symulacji </text:span>rozpoczyna się od zapisu bitowego pełnej minuty na podstawie czasu. Konwersji zadanego czasu na komunikat w formie bitów dokonuje skrypt w języku Python<text:span text:style-name="T120"> (rys. \ref{fig:encode-bits})</text:span>. Dalszym krokiem jest wytworzenie zmodulowanej fali nośnej w formacie \gls{dcf77} (rys. <text:span text:style-name="T121">\ref{fig:sim-wave}</text:span>). Następnie następuje już właściwy proces przetwarzania sygnału -- stosowane są filtry decymujące oraz algorytm Goertzla (rys. <text:span text:style-name="T120">\ref{fig:sim-goertzel-loop}, rys. \ref{fig:sim-goertzel-result}</text:span><text:span text:style-name="T22">)</text:span><text:span text:style-name="T59">.</text:span><text:span text:style-name="T22"> Na końcu następuje zdekodowanie nadawanego komunikatu oraz interpretacja danych w aplikacji \gls{pc} w języku Python (rys. </text:span><text:span text:style-name="T62">\ref{fig:sim-find}, rys. </text:span><text:span text:style-name="T59">\ref</text:span><text:span text:style-name="T61">{fig:</text:span><text:span text:style-name="T59">decode-bits</text:span><text:span text:style-name="T61">}</text:span><text:span text:style-name="T22">).</text:span></text:p>
@@ -2039,9 +2034,9 @@
    <text:p text:style-name="P106"><text:s text:c="4"/>\caption<text:span text:style-name="T120">{Dekodowanie godziny z odebranego komunikatu bitowego DCF77</text:span>}</text:p>
    <text:p text:style-name="P106"><text:s text:c="4"/>\label{fig:<text:span text:style-name="T120">decode-bits</text:span>}</text:p>
    <text:p text:style-name="P255">\end{figure}</text:p>
-   <text:p text:style-name="P281">Rezultaty symulacji pokazują, że programowane modułu działają prawidłowo a <text:span text:style-name="T22">pierwotny cel pracy jakim było stworzenia dekodera \gls{dcf77} został osiągnięty.</text:span> Jak widać na rysunku \ref{<text:span text:style-name="T114">fig:sim-wave</text:span>}, wygenerowano sygnał wejściowy bez szumu. Dla zastosowania systemu w warunkach realistycznych należałoby przeprowadzić również symulacje z różnymi poziomami szumu w sygnale. Ta niedogodność nie umniejsza jednak doboru algorytmu; ulepszyć należałoby głównie aplikację dekodującą na \gls{pc}. W takim przypadku algorytm Goertzela podawałby jedynie bardziej rozmyte wartości, zaś zadaniem dekodera odpowiadającego za wyszukiwanie początku komunikatu oraz kwantyzację do wartości 0 lub 1 (rys. \ref{<text:span text:style-name="T114">fig:sim-find</text:span>}, \ref{<text:span text:style-name="T114">fig:decode-bits}</text:span>) byłoby ich prawidłowe rozróżnienie.</text:p>
+   <text:p text:style-name="P265">Rezultaty symulacji pokazują, że programowane modułu działają prawidłowo a <text:span text:style-name="T22">pierwotny cel pracy jakim było stworzenia dekodera \gls{dcf77} został osiągnięty.</text:span> Jak widać na rysunku \ref{<text:span text:style-name="T114">fig:sim-wave</text:span>}, wygenerowano sygnał wejściowy bez szumu. Dla zastosowania systemu w warunkach realistycznych należałoby przeprowadzić również symulacje z różnymi poziomami szumu w sygnale. Ta niedogodność nie umniejsza jednak doboru algorytmu; ulepszyć należałoby głównie aplikację dekodującą na \gls{pc}. W takim przypadku algorytm Goertzela podawałby jedynie bardziej rozmyte wartości, zaś zadaniem dekodera odpowiadającego za wyszukiwanie początku komunikatu oraz kwantyzację do wartości 0 lub 1 (rys. \ref{<text:span text:style-name="T114">fig:sim-find</text:span>}, \ref{<text:span text:style-name="T114">fig:decode-bits}</text:span>) byłoby ich prawidłowe rozróżnienie.</text:p>
    <text:p text:style-name="P151">\<text:span text:style-name="T97">backmatter</text:span></text:p>
-   <text:h text:style-name="P285" text:outline-level="1"><text:span text:style-name="T22">Zakończenie</text:span></text:h>
+   <text:h text:style-name="P266" text:outline-level="1">Zakończenie</text:h>
    <text:p text:style-name="P218"><text:span text:style-name="T120">Przedstawiono metody</text:span> zaimplementowani<text:span text:style-name="T120">a</text:span> przykładowego algorytmu \gls{sdr} jakim jest niewątpliwie <text:span text:style-name="T114">algorytm Goertzla, użyty w aplikacji dekodowania czasu \gls{dcf77}</text:span>.<text:span text:style-name="T120"> Zbudowano i symulowano model nadajnika (generator fali nośnej), odbiornika (filtry, algorytm Goertzla) oraz dekodera (aplikacja PC).</text:span></text:p>
    <text:p text:style-name="P218">Wydajność rozwiązania sprzętowego przewyższa rozwiązanie programowe chociażby ze względu na równoległe działanie wielu modułów, których zaimplementowanie w kom<text:span text:style-name="T114">put</text:span>erze \gls{pc} wiązałoby się z potrzebą zastosowania <text:span text:style-name="T114">większej ilości zasobów.</text:span></text:p>
    <text:p text:style-name="P219">Prezentowane rozwiązanie nie jest z pewnością optymalnym; w<text:span text:style-name="T115"> dalszych pracach nad układem należałoby zoptymalizować algorytm Goertzla, doda</text:span>ć<text:span text:style-name="T115"> do płytki wydajniejszy</text:span> interfejs<text:span text:style-name="T115"> np</text:span>.<text:span text:style-name="T115"> </text:span>Ethernet <text:span text:style-name="T115">oraz zaimplementowa</text:span>ć<text:span text:style-name="T115"> </text:span>interfejs <text:span text:style-name="T115">do popularnego programu</text:span> \gls{sdr}, na przykład GNU Radio<text:span text:style-name="T117">. Umożliwi to szersze wykorzystanie prezentowanego systemu, niż tylko w aplikacji ,,dekodowania sygnału wzorca czasu \gls{dcf77}&apos;&apos;.</text:span></text:p>

@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Cele pracy}{3}{0}{1}
+\beamer@sectionintoc {2}{Sprz\IeC {\k e}t}{5}{0}{2}
+\beamer@sectionintoc {3}{Modu\IeC {\l }y programowe}{7}{0}{3}
+\beamer@sectionintoc {4}{Symulacje}{9}{0}{4}
+\beamer@sectionintoc {5}{Rezultaty}{11}{0}{5}
+\beamer@endinputifotherversion {3.36pt}

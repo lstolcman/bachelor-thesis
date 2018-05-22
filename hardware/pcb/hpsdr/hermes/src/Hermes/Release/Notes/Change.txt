@@ -1,0 +1,14 @@
+Program: Hermes
+
+
+Version: 3.0
+Date: November 1, 2014
+
+
+
+
+Program: Hermes
+
+
+Version: 3.1
+Date: January 19, 2015 - added debounce to PTT input.
